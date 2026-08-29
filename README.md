@@ -15,3 +15,13 @@
 ## 授權與免責
 
 本資訊供醫病共同決策參考，不取代個別診療。資料來源查核至 2026-08，詳見圖表底部。
+
+## 重新產生 QR code
+
+若網址改變，重跑一次即可（需 `pip install segno`）：
+
+```bash
+python3 tools/add_qr.py af-ablation.svg af-ablation.svg "https://新網址/" "掃描看電子版"
+```
+
+腳本可重複執行，會自動覆蓋舊的 QR。
