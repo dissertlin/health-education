@@ -54,6 +54,17 @@
   .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
   .steps b{display:block;color:var(--teal);margin-bottom:.2em}
   .steps span{font-size:.9rem;color:var(--sub)}
+  .food{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:1.1em 0}
+  .food div{border-radius:12px;padding:13px 15px}
+  .food h4{margin:0 0 .45em;font-size:1rem}
+  .food ul{margin:0;padding-left:1.15em}
+  .food li{font-size:.9rem;margin:.22em 0}
+  .food .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .food .no h4{color:var(--red)}
+  .food .mid{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .food .mid h4{color:#a5722a}
+  .food .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .food .ok h4{color:var(--oktext)}
   .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
   .sheet img{display:block;width:100%;height:auto;border-radius:6px}
   .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
@@ -213,29 +224,36 @@
 台灣的痛風急診有明顯的季節性，冬天進補季節是一個高峰。要吃的話：<b>吃肉不喝湯、酒精要煮到揮發（或直接避開）、份量減半。</b></div>
 
 <h3>台灣常見食物分類</h3>
-<div class="tw"><table>
-<tr><th>盡量避免</th><th>控制份量</th><th>可以安心吃</th></tr>
-<tr>
-<td>動物內臟（豬肝、腰子、大腸、雞胗、雞心）<br>
-火鍋湯底、羹湯、大骨濃湯<br>
-啤酒、高粱、米酒、所有酒類<br>
-手搖飲、含糖飲料、果汁<br>
-小魚乾、柴魚、鯷魚、烏魚子<br>
-內臟類滷味與鹹酥雞</td>
-<td>紅肉（豬、牛、羊）<br>
-蛤蜊、蝦、蟹、小卷、生蠔<br>
-虱目魚肚、鮮蚵、沙丁魚<br>
-香腸、培根等加工肉<br>
-火鍋肉片（份量節制）</td>
-<td>白飯、麵、地瓜、饅頭<br>
-所有蔬菜（含香菇、金針菇、蘆筍）<br>
-豆腐、豆漿、豆干（適量）<br>
-蛋<br>
-<b>低脂乳品、無糖優格</b>（有助降尿酸）<br>
-無糖茶、黑咖啡、白開水<br>
-水果（<b>但不要打成果汁大量喝</b>）</td>
-</tr>
-</table></div>
+<div class="food">
+<div class="no"><h4>盡量避免</h4>
+<ul>
+<li>動物內臟：豬肝、腰子、大腸、雞胗、雞心</li>
+<li>火鍋湯底、羹湯、大骨濃湯</li>
+<li>啤酒、高粱、米酒、<b>所有酒類</b></li>
+<li>手搖飲、含糖飲料、果汁</li>
+<li>小魚乾、柴魚、鯷魚、烏魚子</li>
+<li>內臟類滷味與鹹酥雞</li>
+</ul></div>
+<div class="mid"><h4>控制份量</h4>
+<ul>
+<li>紅肉：豬、牛、羊</li>
+<li>蛤蜊、蝦、螃蟹、小卷、生蠔</li>
+<li>虱目魚肚、鮮蚵、沙丁魚</li>
+<li>香腸、培根等加工肉</li>
+<li>火鍋肉片（份量節制）</li>
+<li>避免暴飲暴食</li>
+</ul></div>
+<div class="ok"><h4>可以安心吃</h4>
+<ul>
+<li>白飯、麵、地瓜、饅頭</li>
+<li>所有蔬菜，<b>含香菇、金針菇、蘆筍</b></li>
+<li>豆腐、豆漿、豆干（適量）</li>
+<li>蛋</li>
+<li><b>低脂乳品、無糖優格</b>（有助降尿酸）</li>
+<li>無糖茶、黑咖啡、白開水</li>
+<li>水果 —— <b>但別打成果汁大量喝</b></li>
+</ul></div>
+</div>
 
 <h3>台灣常見的六個迷思</h3>
 <div class="tw"><table>
