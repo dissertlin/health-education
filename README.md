@@ -6,7 +6,7 @@
 
 | 單張 | 網址 | 檔案 |
 | --- | --- | --- |
-| 心房顫動｜心律不整電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` |
+| 心房顫動｜心律不整電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` · `af/index.html`（詳細版長文，含台灣健保與自費費用）|
 | 心率過慢｜安心觀察指南 | `/brady/` | `brady/bradycardia.svg` · `brady/bradycardia.pdf` |
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 

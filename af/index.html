@@ -3,43 +3,315 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>心房顫動｜心律不整電燒手術 病人衛教</title>
-<meta name="description" content="導管隔離肺靜脈異常電訊號，減少發作並維持正常竇性心律。">
+<title>心房顫動電燒手術｜詳細版</title>
+<meta name="description" content="心房顫動導管消融（電燒）怎麼做、成功率多少、哪些人適合、傳統熱能與脈衝場消融怎麼選、台灣健保給付與自費材料費用、風險與術後注意事項。">
 <style>
-  :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d}
-  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf}}
+  :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d;
+        --teal:#176d8e;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff8ec;--warnline:#efd094;--okbg:#eef7f8;--oktext:#0c6b62;
+        --moneybg:#eef4fb;--moneyline:#b9d3ea;--moneytext:#22599a}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf;
+        --teal:#7fc8e0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#2a2318;--warnline:#5e4c2c;--okbg:#16262a;--oktext:#7fd8cd;
+        --moneybg:#18222f;--moneyline:#31465e;--moneytext:#8fb9e6}}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
-       font:16px/1.7 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
-  .wrap{max-width:860px;margin:0 auto;padding:20px 16px 56px}
-  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:10px}
-  h1{font-size:1.35rem;margin:.2em 0 .1em}
-  p.lead{color:var(--sub);margin:.2em 0 1.2em;font-size:.95rem}
-  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;
-         padding:10px;box-shadow:0 2px 10px rgba(24,51,77,.08)}
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.02rem;margin:1.5em 0 .35em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .money{background:var(--moneybg);border:1.5px solid var(--moneyline)}
+  .money .t{color:var(--moneytext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:1.1em 0}
+  .stat div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-align:center}
+  .stat b{display:block;font-size:1.5rem;line-height:1.2;color:var(--teal)}
+  .stat span{font-size:.85rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
   .sheet img{display:block;width:100%;height:auto;border-radius:6px}
-  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 8px}
-  .btns a{flex:1 1 190px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
           background:var(--brand);color:#fff;font-weight:700}
   .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:20px}
-  .cards a{display:block;text-decoration:none;color:inherit;background:var(--card);
-           border:1px solid var(--line);border-radius:14px;padding:14px;
-           box-shadow:0 2px 10px rgba(24,51,77,.08)}
-  .cards img{display:block;width:100%;height:auto;border-radius:8px;margin-bottom:10px}
-  .cards h2{font-size:1.02rem;margin:0 0 4px}
-  .cards p{margin:0;color:var(--sub);font-size:.88rem}
-  footer{color:var(--sub);font-size:.82rem;margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
 </style>
 </head>
 <body>
 <div class="wrap">
+
 <a class="back" href="../">← 回衛教單列表</a>
 <h1>心房顫動｜心律不整電燒手術</h1>
-<p class="lead">導管隔離肺靜脈異常電訊號，減少發作並維持正常竇性心律。以下為 A5 病人衛教資訊圖表，可放大檢視或下載列印。</p>
-<div class="sheet"><img src="af-ablation.svg" alt="心房顫動｜心律不整電燒手術 A5 病人資訊圖表"></div>
-<div class="btns"><a href="af-ablation.pdf">下載 PDF（A5 可列印）</a><a class="ghost" href="af-ablation.svg">開啟原始向量圖 SVG</a></div>
-<footer>資料來源查核至 2026-08：2024 ESC AF Guideline；2023 ACC/AHA/ACCP/HRS Guideline；EAST-AFNET 4, NEJM 2020；18 RCTs meta-analysis (n=3725)；Europace 2023 併發症分析。<br>本衛教資訊供醫病共同決策參考，<strong>不取代個別診療</strong>；實際治療方式請與您的心臟科／電生理醫師討論。</footer>
+<p class="lead">這是 A5 衛教單張的詳細版。手術怎麼做、成功率多少、兩種技術怎麼選、<b>在台灣要花多少錢</b>、有什麼風險、術後要注意什麼 —— 單張上放不下的，這裡都說明。</p>
+
+<div class="box key"><span class="t">先記住三件事</span>
+<ol style="margin:0">
+<li>電燒的目的是<b>改善症狀、維持正常心律</b>，不是為了讓你停掉抗凝血藥。</li>
+<li>成功率不是 100%。<b>可能復發，也可能需要做第二次</b>。</li>
+<li>手術本身健保給付，但<b>導管材料多半要自費</b>，兩種技術差價很大。</li>
+</ol>
+</div>
+
+<nav class="toc">
+<h2>目錄</h2>
+<ol>
+<li><a href="#s1">電燒手術是什麼</a></li>
+<li><a href="#s2">為什麼要讓心律恢復正常</a></li>
+<li><a href="#s3">哪些人比較適合</a></li>
+<li><a href="#s4">成功率有多少</a></li>
+<li><a href="#s5">哪些因素讓復發增加</a></li>
+<li><a href="#s6">兩種技術怎麼選</a></li>
+<li><a href="#s7">在台灣要花多少錢</a></li>
+<li><a href="#s8">風險與併發症</a></li>
+<li><a href="#s9">手術前後注意事項</a></li>
+<li><a href="#s10">常見問題</a></li>
+</ol>
+</nav>
+
+<h2 id="s1"><span class="num">1</span>電燒手術是什麼</h2>
+
+<h3>問題出在肺靜脈</h3>
+<p>心房顫動的異常電訊號，<b>大多數來自肺靜脈開口附近</b> —— 肺靜脈是把含氧血從肺帶回左心房的四條血管，它們進入心房的地方有一些心肌組織，會不受控制地亂放電，把整個心房帶進顫動。</p>
+
+<h3>所以要做的事叫「肺靜脈隔離」</h3>
+<p>導管消融（俗稱電燒）的核心就是<b>肺靜脈隔離（PVI）</b>：在四條肺靜脈的入口周圍做一圈環狀的消融，把異常電訊號「關」在肺靜脈裡，讓它傳不進心房。不論用哪一種技術，這個目標都一樣。</p>
+
+<h3>手術怎麼進行</h3>
+<ol>
+<li>多在<b>鎮靜或全身麻醉</b>下進行。</li>
+<li>從<b>鼠蹊部的股靜脈</b>穿刺，把細長的導管沿著血管送到心臟，<b>不需要開胸</b>。</li>
+<li>導管要從右心房穿過<b>心房中膈</b>到左心房（肺靜脈在左心房）。</li>
+<li>用 <b>3D 立體定位系統</b>建構心房的地圖，找到肺靜脈開口。</li>
+<li>沿著開口周圍消融一圈，然後<b>測試訊號是否真的被隔離</b>。</li>
+<li>拔除導管、鼠蹊部加壓止血，通常<b>住院 1～3 天</b>。</li>
+</ol>
+<p class="lead">實際流程、麻醉方式與住院天數各醫院不同，請以你的手術團隊說明為準。</p>
+
+<h2 id="s2"><span class="num">2</span>為什麼要讓心律恢復正常</h2>
+
+<h3>減少症狀、改善生活品質</h3>
+<p>心悸、喘、疲倦、運動耐力下降這些症狀，來自心跳又快又亂。把心律拉回規律，<b>降低心房顫動的負荷</b>，多數有症狀的病人活動能力與生活品質會明顯改善。</p>
+
+<h3>部分病人可以保護心臟功能</h3>
+<p>長期心跳過快可能導致<b>心搏過速心肌病</b> —— 心臟被「累壞」而收縮功能變差。這種情況把心律控制好，心臟功能常常可以回復。合併心衰竭的病人也有證據支持積極的節律控制。</p>
+
+<div class="box key"><span class="t">EAST-AFNET 4：早期處理比較好</span>
+這項大型隨機試驗顯示，<b>在診斷早期就採取節律控制策略</b>（包含藥物、心律轉換與電燒），可以讓心血管死亡、中風、因心衰竭或急性冠心症住院的<b>複合事件風險降低約 21%</b>。<br><br>
+意思是：心房顫動不是「等到很不舒服再處理」的病。<b>病程越短，處理效果通常越好。</b></div>
+
+<h2 id="s3"><span class="num">3</span>哪些人比較適合</h2>
+<div class="tw"><table>
+<tr><th>情況</th><th>說明</th></tr>
+<tr><td>有症狀的<br>陣發性心房顫動</td><td>心悸、喘、疲倦明顯影響生活。目前指引已可作為<b>第一線選項</b>，不一定要先試過藥物。</td></tr>
+<tr><td>藥物效果差<br>或有副作用</td><td>吃了抗心律不整藥還是反覆發作，或無法忍受副作用，或不想長期服藥。</td></tr>
+<tr><td>心房顫動造成<br>心臟衰弱</td><td>合併心衰竭或心搏過速心肌病的病人，控制心律可能讓心臟功能回復。</td></tr>
+<tr><td>病程較短、<br>心房較小</td><td>診斷時間不久、左心房沒有明顯擴大的人，維持正常心律的成功率較高。</td></tr>
+</table></div>
+
+<h3>效果可能比較差的情況</h3>
+<ul>
+<li>已經是<b>長期持續性</b>心房顫動、病程很久</li>
+<li><b>左心房明顯擴大</b>或心房已有廣泛纖維化</li>
+<li>危險因子控制不良 —— 肥胖、未治療的睡眠呼吸中止、持續飲酒、血壓血糖沒控制</li>
+<li>完全沒有症狀的病人，能得到的好處相對有限（但仍需個別評估）</li>
+</ul>
+<p>這些不是「絕對不能做」，而是<b>成功率較低、復發機會較高</b>，需要與醫師仔細討論是否值得。</p>
+
+<h2 id="s4"><span class="num">4</span>成功率有多少</h2>
+<p>一份納入 <b>18 項隨機試驗、共 3,725 人</b>的統合分析（合併射頻與冷凍等各種導管消融，對照抗心律不整藥物，中位追蹤約 12 個月）：</p>
+<div class="stat">
+<div><b>約 79%</b><span>導管電燒<br>估計 1 年無復發</span></div>
+<div><b>約 59%</b><span>藥物治療<br>估計 1 年無復發</span></div>
+<div><b>↓ 49%</b><span>消融組的復發風險<br>RR 0.51（95% CI 0.42–0.63）</span></div>
+</div>
+<p>電燒明顯優於藥物，但請注意：<b>79% 是族群的平均值，不是對你個人的保證</b>。你的實際機會取決於心房顫動的型態、病程長短、心房大小與危險因子控制。</p>
+
+<div class="box warn"><span class="t">「急性成功率 99%」和「一年無復發 79%」不是同一件事</span>
+你可能看過新聞說某項技術「急性成功率 99.7%」。那指的是<b>手術當下有沒有成功把肺靜脈隔離起來</b>，幾乎所有現代技術都能做到。<br><br>
+但<b>長期會不會復發是另一回事</b> —— 被燒過的組織可能重新恢復傳導，或心房其他地方冒出新的異常放電點。看療效要看<b>一年以上的無復發率</b>，不是手術當天的數字。</div>
+
+<h3>什麼叫「復發」</h3>
+<p>術後<b>前三個月稱為「空白期」</b>。這段期間因為組織還在發炎、癒合，出現心悸或短暫的心房顫動<b>很常見，不代表手術失敗</b>，通常不會馬上判定無效。三個月之後再出現持續超過 30 秒的心房顫動，才算真正的復發。</p>
+<p>復發不等於沒救。<b>有一部分病人接受第二次手術後可以長期維持正常心律</b>，這在術前就應該納入心理準備與費用考量。</p>
+
+<h2 id="s5"><span class="num">5</span>哪些因素讓復發增加</h2>
+<p>以下數字來自統合分析，是「有該因子」相對於「沒有該因子」的大約倍數：</p>
+<div class="tw"><table>
+<tr><th>因素</th><th>復發風險</th><th>能不能改善</th></tr>
+<tr><td>腎臟病</td><td>約 2.3 倍</td><td>治療原發疾病</td></tr>
+<tr><td>吸菸</td><td>約 2.2 倍</td><td><b>可以 —— 戒菸</b></td></tr>
+<tr><td>糖尿病</td><td>約 2.0 倍</td><td><b>可以 —— 控制血糖</b></td></tr>
+<tr><td>持續性心房顫動</td><td>約 1.6 倍</td><td>不可改變（但越早處理越好）</td></tr>
+<tr><td>肥胖</td><td>BMI 每增加 5，<br>風險約增 15%</td><td><b>可以 —— 減重</b></td></tr>
+</table></div>
+<p>其他已知會增加復發的因素還有：<b>睡眠呼吸中止症、高血壓、飲酒、代謝症候群、左心房擴大、心臟收縮功能較差、病程較久、牙周病</b>等。</p>
+
+<div class="box key"><span class="t">這一段是你唯一能主動出手的地方</span>
+手術做得好不好取決於醫師，但<b>復發風險有一大半握在你自己手上</b>。戒菸、減重、控制血壓血糖、治療睡眠呼吸中止、減少飲酒 —— 這些在<b>手術前就開始做、手術後繼續維持</b>，能實質提高成功機會。指引把「照顧共病與危險因子」放在心房顫動治療的第一位，原因就在這裡。</div>
+<p class="lead">注意：各項風險來自不同研究，<b>不可以直接相加</b>。有兩個因子不等於風險乘以兩倍。</p>
+
+<h2 id="s6"><span class="num">6</span>兩種技術怎麼選</h2>
+<p>不論哪一種，<b>共同目標都是肺靜脈隔離</b>，差別在「用什麼方式把組織消融掉」。</p>
+
+<div class="tw"><table>
+<tr><th></th><th>傳統熱能（射頻／冷凍）</th><th>脈衝場消融（PFA）</th></tr>
+<tr><td>原理</td><td>用高溫加熱或低溫冷凍破壞組織</td><td>釋放高壓短脈衝電場，在細胞膜上打出微孔</td></tr>
+<tr><td>組織選擇性</td><td>沒有選擇性 —— 附近的食道、神經也可能被熱傷害</td><td>對心肌相對選擇性較高，較少傷到食道與膈神經</td></tr>
+<tr><td>手術時間</td><td>較長（逐點消融）</td><td>通常較短，一次放電可完成環形消融</td></tr>
+<tr><td>臨床資料</td><td>使用最久，<b>長期資料最完整</b>，可靈活處理複雜情況</td><td>較新，<b>長期追蹤資料相對較短</b></td></tr>
+<tr><td>費用</td><td>自費材料較低</td><td>自費材料明顯較高（見下一節）</td></tr>
+</table></div>
+
+<h3>該怎麼決定</h3>
+<p>沒有哪一種「一定比較好」。實際選擇要看你的心房顫動型態、心臟結構、有沒有做過手術、以及費用能否負擔。<b>兩種都有健保給付的手術本體，差別主要在材料與自費金額</b>。請與你的電生理醫師討論。</p>
+<p class="lead">補充：目前 PFA 缺乏與藥物直接對照的大型試驗，所以第 4 節那個 79% 的統合數字<b>並未納入 PFA</b>。</p>
+
+<h2 id="s7"><span class="num">7</span>在台灣要花多少錢</h2>
+
+<div class="box money"><span class="t">手術本身有健保給付</span>
+在台灣，<b>心房顫動的導管消融手術（電燒）本身是健保給付項目</b>。健保涵蓋的是手術費、住院費與基本的醫療處置。<br><br>
+需要自費的是<b>導管等特殊材料</b>。目前多數關鍵導管屬於健保「<b>自付差額</b>」類別 —— 健保付一部分，病人補差額。</div>
+
+<h3>長庚的收費標準</h3>
+<div class="tw"><table>
+<tr><th>技術</th><th>需要的材料</th><th>病人自費金額</th></tr>
+<tr><td>傳統熱能<br>（射頻）</td><td>壓力感應導管<br>（contact force ablation catheter）</td><td><b>約 6～7 萬元</b></td></tr>
+<tr><td>脈衝場消融<br>（PFA）</td><td>脈衝場消融導管</td><td><b>額外自費 16 萬多元</b></td></tr>
+</table></div>
+
+<p><b>壓力感應導管是什麼、為什麼要自費？</b>它能即時偵測導管貼在心臟壁上的力道。力道太輕燒不透、容易復發；太重則可能造成穿孔。有了壓力回饋，消融品質較穩定、安全性較好，因此是目前射頻消融的標準配備 —— 但它屬於自付差額材料。</p>
+
+<p><b>關於脈衝場消融：</b>PFA 導管已於 <b>2025 年 12 月 1 日起納入健保自付差額給付</b>。在此之前 PFA 需要全額自費，金額高出許多；納入差額給付後病人負擔已明顯下降，但仍是三種選擇中自費金額最高的。</p>
+
+<div class="box warn"><span class="t">關於這些數字，請務必注意</span>
+<ul>
+<li>以上是<b>長庚醫院的收費標準</b>，其他醫院不一定相同。</li>
+<li>自付差額的上限由健保署公告，<b>會隨政策調整</b>；醫院實際收費也可能變動。</li>
+<li>這些是<b>材料費</b>。實際總花費還要看住院天數、有沒有用到其他自費項目（例如心臟內超音波、額外的定位導管）、以及是否需要第二次手術。</li>
+<li><b>務必在手術前請醫院提供正式的自費項目同意書與金額明細</b>，不要只依據網路上的數字做決定。</li>
+</ul></div>
+
+<div class="box key"><span class="t">費用不該是唯一的考量</span>
+比較貴不等於比較適合你。選擇技術應該先看<b>臨床條件</b>（心房顫動型態、心臟結構、是否曾手術、有無食道或膈神經受傷的疑慮），再把費用納入一起討論。<b>如果費用有困難，一定要告訴醫師</b> —— 這是共同決策的一部分，不是不好意思講的事。</div>
+
+<h2 id="s8"><span class="num">8</span>風險與併發症</h2>
+<p>大型研究的平均數字：</p>
+<div class="tw"><table>
+<tr><th>項目</th><th>發生率</th></tr>
+<tr><td>整體併發症</td><td>約 4.5%</td></tr>
+<tr><td>嚴重併發症</td><td>約 2.4%</td></tr>
+<tr><td>血管併發症（鼠蹊部出血、假性動脈瘤）</td><td>約 1.3%</td></tr>
+<tr><td>心包積液／心包填塞</td><td>約 0.8%</td></tr>
+<tr><td>中風／暫時性腦缺血</td><td>約 0.2%</td></tr>
+</table></div>
+
+<h3>熱能消融特有的風險</h3>
+<ul>
+<li><b>食道傷害</b> —— 食道就緊貼在左心房後方，高溫可能傷到它</li>
+<li><b>膈神經麻痺</b> —— 多與冷凍消融有關，多數會自行恢復</li>
+<li><b>肺靜脈狹窄</b> —— 現代技術下已少見</li>
+</ul>
+<div class="box alert"><span class="t">心房食道廔管</span>
+心房與食道之間形成不正常的通道，是熱能消融<b>極為罕見但可能致命</b>的併發症，通常在術後 2～4 週才出現。<br><br>
+<b>術後一個月內如果出現發燒、吞嚥疼痛、胸痛，或任何神經學症狀（講話不清、單側無力、意識改變），請立刻回到手術醫院急診，並主動說明你剛做過心房顫動電燒。</b>這件事必須讓每個接受熱能消融的病人知道。</div>
+
+<h3>脈衝場消融的狀況</h3>
+<p>PFA 因為是非熱能、對組織有相對選擇性，<b>食道與膈神經的熱傷害明顯較少</b>。但它<b>仍然有導管手術的共同風險</b> —— 血管傷害、心包填塞、中風都一樣可能發生。而且因為問世較新，<b>非常長期的安全性資料還在累積中</b>。</p>
+
+<p class="lead">實際風險會因年齡、共病、心房顫動類型、手術方式與<b>醫院及術者的經驗量</b>而不同。</p>
+
+<h2 id="s9"><span class="num">9</span>手術前後注意事項</h2>
+
+<h3>手術前</h3>
+<ul>
+<li><b>抗凝血藥</b> —— 術前通常需要已經穩定服用一段時間。要不要暫停、什麼時候停，<b>完全由醫師決定，絕對不要自己停</b>。</li>
+<li><b>排除心房血栓</b> —— 術前多會安排經食道心臟超音波或電腦斷層，確認左心耳沒有血塊。</li>
+<li><b>危險因子</b> —— 戒菸、減重、控制血壓血糖、治療睡眠呼吸中止，從等待手術的期間就開始做。</li>
+<li><b>自費同意書</b> —— 確認材料費用明細並簽署。</li>
+</ul>
+
+<h3>手術後</h3>
+<ul>
+<li><b>鼠蹊部傷口</b> —— 需要加壓、平躺一段時間；回家後注意有無腫脹、疼痛加劇或搏動性腫塊。</li>
+<li><b>空白期三個月</b> —— 可能還會心悸或短暫發作，多數不代表失敗，但要記錄下來回診時報告。</li>
+<li><b>活動</b> —— 依醫囑逐步恢復，短期內避免劇烈運動與提重物。</li>
+<li><b>回診與監測</b> —— 會安排心電圖、24 小時或長程心律監測確認成效。</li>
+</ul>
+
+<div class="box alert"><span class="t">最重要的一件事：手術成功不等於可以停抗凝血藥</span>
+電燒處理的是<b>心律</b>，不是<b>中風風險</b>。目前的共識是術後<b>至少繼續服用抗凝血藥 2～3 個月</b>；之後能不能停，要看你的<b>中風風險分數（CHA₂DS₂-VA）</b>，由醫師評估決定。<br><br>
+換句話說：<b>就算你手術後心跳一直很正常，只要中風風險分數夠高，抗凝血藥還是要繼續吃。</b>絕對不可以因為「感覺好了」就自行停藥。</div>
+
+<h2 id="s10"><span class="num">10</span>常見問題</h2>
+
+<h3>電燒是開刀嗎？會不會開胸？</h3>
+<p>不會。導管從鼠蹊部的血管進去，不需要開胸、不需要在胸口留下傷口。</p>
+
+<h3>成功率 79%，那剩下的 21% 怎麼辦？</h3>
+<p>復發不代表失敗到底。可以再評估第二次手術，或改用藥物控制心跳，或加強危險因子控制。<b>第二次手術的成功率通常不差</b>，但要另外考量費用。</p>
+
+<h3>做完就可以停抗凝血藥了嗎？</h3>
+<p>不行。請看上一節，這是最常被誤會的地方 —— 停不停藥看的是中風風險分數，不是心律。</p>
+
+<h3>脈衝場消融比較貴，是不是一定比較好？</h3>
+<p>不一定。PFA 在減少食道與膈神經熱傷害上有優勢、手術時間較短，但長期資料較短，而且它<b>沒有</b>納入第 4 節那個與藥物對照的成功率統合分析。適不適合要看你的臨床條件，不是看價格。</p>
+
+<h3>可以只做健保給付、完全不自費嗎？</h3>
+<p>這要問你的醫院。不使用壓力感應導管在技術上可行，但目前壓力感應是射頻消融的標準配備，與消融品質和安全性有關。<b>請直接向手術團隊說明你的經濟考量</b>，讓他們一起評估可行的方案。</p>
+
+<h3>手術要住院幾天？</h3>
+<p>一般 1～3 天，實際依醫院流程與個人狀況而定。</p>
+
+<h2>單張下載</h2>
+<div class="sheet"><img src="af-ablation.svg" alt="心房顫動電燒手術 A5 病人資訊圖表" loading="lazy"></div>
+<div class="btns">
+<a href="af-ablation.pdf">下載 PDF（A5 可列印）</a>
+<a class="ghost" href="af-ablation.svg">開啟原始向量圖 SVG</a>
+</div>
+
+<footer>
+<p><b>資料來源（查核至 2026-09）</b></p>
+<ul>
+<li>2024 ESC Guidelines for the Management of Atrial Fibrillation</li>
+<li>2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation</li>
+<li>2024 EHRA/HRS/APHRS/LAHRS Expert Consensus Statement on Catheter and Surgical Ablation of Atrial Fibrillation（空白期、術後抗凝血藥）</li>
+<li>EAST-AFNET 4, NEJM 2020（早期節律控制）</li>
+<li>18 RCTs meta-analysis, n=3,725（一年無復發率、RR 0.51）</li>
+<li>Heart Rhythm 復發因子統合分析；糖尿病、腎臟病與 BMI 相關統合分析</li>
+<li>Europace 2023 導管消融併發症分析</li>
+<li>衛生福利部中央健康保險署自付差額特材相關公告（脈衝場消融導管自 2025-12-01 納入自付差額）</li>
+</ul>
+<p><b>費用資訊由本單張作者依長庚醫院收費標準提供，僅供參考。</b>各醫院收費不同，健保自付差額上限也會隨政策調整。實際金額<b>請以就診醫院提供的自費同意書為準</b>。</p>
+<p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方。</b>是否適合接受導管消融、選擇哪一種技術、術後用藥如何調整，都必須由您的心臟內科／心律不整專科醫師依個人狀況判斷。</p>
+</footer>
+
 </div>
 </body>
 </html>
