@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>心房顫動的用藥指南｜詳細版</title>
+<meta name="description" content="心房顫動為什麼要吃兩種藥、抗凝血藥怎麼吃、亞洲人為什麼優先用新型口服抗凝血劑、控制心跳與維持節律的藥有什麼不同。依 2024 ESC、2023 ACC/AHA 與 2021 APHRS 亞太共識整理。">
+<style>
+  :root{--bg:#f5f8fc;--card:#fff;--line:#dce5ee;--ink:#1e3047;--sub:#5b6e80;--brand:#15a99d;
+        --teal:#176d8e;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff8ec;--warnline:#efd094;--okbg:#eef7f8;--oktext:#0c6b62;
+        --bloodbg:#edf5ff;--bloodline:#b9d4ff;--bloodtext:#2459a6;
+        --rhythmbg:#e9faf7;--rhythmline:#a9eadf;--rhythmtext:#08766d}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf;
+        --teal:#7fc8e0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#2a2318;--warnline:#5e4c2c;--okbg:#16262a;--oktext:#7fd8cd;
+        --bloodbg:#18222f;--bloodline:#31465e;--bloodtext:#8fb9e6;
+        --rhythmbg:#16262a;--rhythmline:#2c4a45;--rhythmtext:#7fd8cd}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.02rem;margin:1.5em 0 .35em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blood{background:var(--bloodbg);border:1.5px solid var(--bloodline)}
+  .blood .t{color:var(--bloodtext)}
+  .rhythm{background:var(--rhythmbg);border:1.5px solid var(--rhythmline)}
+  .rhythm .t{color:var(--rhythmtext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:1.2em 0}
+  .two>div{border-radius:13px;padding:14px 16px}
+  .two h4{margin:.1em 0 .4em;font-size:1.02rem}
+  .two p{margin:.3em 0;font-size:.92rem}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="../">← 回衛教單列表</a>
+<h1>心房顫動的用藥指南</h1>
+<p class="lead">這是 A5 衛教單張的詳細版。為什麼要同時吃兩種藥、抗凝血藥為什麼不能自己減量、亞洲人跟西方人的用藥有什麼不同、控制心跳和維持節律差在哪裡 —— 單張上放不下的，這裡都說明。</p>
+
+<div class="box key"><span class="t">先記住三件事</span>
+<ol style="margin:0">
+<li>兩種藥處理<b>兩個完全不同的問題</b>，不能互相取代，也不能只吃一種就好。</li>
+<li>抗凝血藥<b>不能自己停、不能自己減量</b>；阿斯匹靈<b>不能拿來代替</b>。</li>
+<li>亞洲人的用藥考量<b>跟西方人不一樣</b> —— 這會影響醫師幫你選哪一種藥。</li>
+</ol>
+</div>
+
+<nav class="toc">
+<h2>目錄</h2>
+<ol>
+<li><a href="#s1">為什麼要吃兩種藥</a></li>
+<li><a href="#s2">抗凝血藥：防中風</a></li>
+<li><a href="#s3">亞洲人為什麼用新藥</a></li>
+<li><a href="#s4">不可自行減量</a></li>
+<li><a href="#s5">阿斯匹靈不能取代</a></li>
+<li><a href="#s6">出血與日常注意</a></li>
+<li><a href="#s7">控制心跳的藥</a></li>
+<li><a href="#s8">維持節律的藥</a></li>
+<li><a href="#s9">我適合哪一種</a></li>
+<li><a href="#s10">什麼時候該就醫</a></li>
+<li><a href="#s11">常見問題</a></li>
+</ol>
+</nav>
+
+<h2 id="s1"><span class="num">1</span>為什麼要吃兩種藥</h2>
+<p>心房顫動時，心房不再規律收縮，而是快速無效地顫動。這會同時造成<b>兩個獨立的問題</b>，各自需要不同的藥來處理。</p>
+
+<div class="two">
+<div class="blood">
+<h4 style="color:var(--bloodtext)">問題一：血栓與腦中風</h4>
+<p>心房只在抖、沒有把血擠乾淨，血液滯留在心房角落（主要是左心耳）慢慢結成血塊。血塊鬆脫後被沖到腦部，塞住血管就是中風。</p>
+<p><b>抗凝血藥負責「防堵塞」——保護的是大腦。</b></p>
+</div>
+<div class="rhythm">
+<h4 style="color:var(--rhythmtext)">問題二：心跳紊亂</h4>
+<p>雜亂的電流不規則傳到心室，心跳忽快忽慢。太快會心悸、喘、疲倦，長期讓心臟變弱。</p>
+<p><b>心跳／節律的藥負責「穩心跳」——保護的是心臟與生活品質。</b></p>
+</div>
+</div>
+
+<div class="box alert"><span class="t">最常見的誤解：「我心跳已經正常了，抗凝血藥可以停了吧？」</span>
+<b>不行。</b>這兩件事是分開的。心跳穩定只解決了問題二，<b>問題一的中風風險並沒有因此消失</b> —— 心房顫動可能無聲地再發作，而且中風風險是依年齡和身體狀況算出來的，不是依你現在心跳規不規律。<br><br>
+同樣地，只吃抗凝血藥不會讓你心跳變規律、心悸消失。<b>兩種藥各司其職，缺一不可。</b></div>
+
+<h2 id="s2"><span class="num">2</span>抗凝血藥：防中風</h2>
+<p>抗凝血藥不是「打通血管」的藥，也不是「讓心跳正常」的藥。它做的事只有一件：<b>降低血液凝結成血塊的能力</b>，這樣就算心房一直在抖，也比較不會生出血塊跑到腦部。</p>
+
+<h3>兩大類</h3>
+<div class="tw"><table>
+<tr><th></th><th>新型口服抗凝血劑（NOAC／DOAC）</th><th>傳統的可邁丁（warfarin）</th></tr>
+<tr><td>服用方式</td><td>固定劑量，一天一次或兩次</td><td>劑量因人而異，需要調整</td></tr>
+<tr><td>抽血監測</td><td>不需要常規監測凝血功能</td><td>要定期抽血驗 INR</td></tr>
+<tr><td>飲食影響</td><td>影響小</td><td>深綠色蔬菜、中藥、許多食物都會影響藥效</td></tr>
+<tr><td>藥物交互作用</td><td>相對較少，但仍然有</td><td>非常多</td></tr>
+<tr><td>亞洲人安全性</td><td>腦出血風險明顯較低</td><td>亞洲人腦出血風險偏高</td></tr>
+</table></div>
+<p class="lead">少數情況（例如機械性心臟瓣膜、中重度二尖瓣狹窄）<b>必須</b>使用 warfarin，不能用新型抗凝血劑。你屬於哪一種由醫師判斷。</p>
+
+<h2 id="s3"><span class="num">3</span>亞洲人為什麼優先用新藥</h2>
+<div class="box key"><span class="t">這是亞洲人跟西方人最不一樣的地方</span>
+亞太心律學會 2021 年的共識指出：<b>亞洲人服用 warfarin 發生腦出血的風險，是非亞洲人的 1.71 倍</b>。<br><br>
+而改用<b>標準劑量</b>的新型口服抗凝血劑，亞洲人降低出血性中風的效果比西方人更明顯，而且<b>沒有</b>出現西方人身上看到的腸胃道出血增加。<br><br>
+所以指引明確建議：<b>亞洲的心房顫動病人，優先使用新型口服抗凝血劑</b>，而不是 warfarin。這不是醫師想開貴的藥 —— 是因為對亞洲人來說確實比較安全。</div>
+<p>另外，亞太指引也提醒：<b>亞洲人發生中風的年齡比西方人早</b>。合併心衰竭 35 歲、高血壓或糖尿病 50 歲、血管疾病 55 歲，就要考慮開始抗凝血。<b>「我還年輕」不是可以不吃藥的理由。</b></p>
+
+<h2 id="s4"><span class="num">4</span>不可自行減量</h2>
+<div class="box alert"><span class="t">減量不會比較安全 —— 這是亞洲最嚴重的用藥問題</span>
+很多人怕出血，自己把一天兩顆改成一顆；也有人覺得「我年紀大、體型小，少吃一點比較保險」。<br><br>
+研究資料很明確：<b>不符合仿單的減量，會讓預防中風的效果明顯下降，但出血風險並沒有因此變低</b> —— 等於白白承擔中風風險，卻沒換到任何好處。統合分析也顯示，減量的新型抗凝血劑雖然降低大出血，但<b>預防缺血性中風的效果不如標準劑量</b>。<br><br>
+指引要求必須按照<b>仿單建議的劑量</b>使用。醫師會依你的<b>腎功能、體重、年齡</b>決定該不該減量 —— 這是有明確標準的，不是憑感覺。</div>
+<p><b>如果你對劑量有疑慮，或擔心出血，請直接告訴醫師</b>，讓他重新評估。不要自己減、不要自己隔天吃、不要「今天不舒服就先不吃」。</p>
+
+<h2 id="s5"><span class="num">5</span>阿斯匹靈不能取代</h2>
+<div class="box alert"><span class="t">單吃阿斯匹靈無法預防心房顫動造成的中風</span>
+這是最常見的誤解之一，很多人以為「我有在吃阿斯匹靈，應該也算有在保護」。<br><br>
+<b>機轉完全不同。</b>阿斯匹靈是<b>抗血小板藥</b>，對付的是動脈硬化破裂後形成的小血栓；心房顫動的血塊是<b>血流滯留</b>慢慢結成的，性質不一樣，阿斯匹靈擋不住。<br><br>
+亞太心律學會的指引寫得很直接：<b>不建議</b>單用抗血小板藥（阿斯匹靈，或阿斯匹靈加保栓通）預防心房顫動的中風。它有出血的副作用，卻沒有相對應的保護效果 —— <b>是兩頭落空</b>。</div>
+<p>如果你因為其他疾病（例如放過心臟支架、曾經心肌梗塞）本來就在吃阿斯匹靈，<b>要不要同時吃、吃多久，需要醫師仔細評估</b>。同時使用抗凝血藥與抗血小板藥會明顯增加出血風險，通常只在特定期間內使用。<b>不要自己加，也不要自己停。</b></p>
+
+<h2 id="s6"><span class="num">6</span>出血與日常注意</h2>
+
+<h3>出現這些出血警訊要就醫</h3>
+<ul>
+<li>吐血、咳血</li>
+<li>解<b>黑色柏油樣</b>大便，或血便</li>
+<li>血尿</li>
+<li>莫名其妙的大片瘀青、牙齦一直流血不止</li>
+<li>傷口壓迫 10 分鐘以上還止不住</li>
+<li>女性月經量突然變得很大</li>
+</ul>
+
+<div class="box alert"><span class="t">撞到頭一定要就醫</span>
+吃抗凝血藥的人<b>頭部外傷後，就算當下沒事也要就醫</b>。顱內出血可能延遲幾小時到幾天才出現。若出現劇烈頭痛、嘔吐、意識改變、單側無力，<b>立刻打 119</b>。</div>
+
+<h3>看牙、開刀、做檢查前要主動說</h3>
+<p>拔牙、洗牙、大腸鏡切息肉、白內障手術、任何開刀、施打疫苗 —— <b>都要主動告訴醫師你在吃抗凝血藥、藥名是什麼</b>。有些處置需要暫停幾天，有些完全不用停。<b>停或不停由醫師決定</b>：你自己停可能中風，不該停而停也是白白冒險。隨身帶一張<b>藥單</b>或藥袋照片是最有效的做法。</p>
+
+<h3>成藥、保健食品、中藥</h3>
+<p>會影響抗凝血藥的東西比想像中多：止痛藥（尤其非類固醇消炎止痛藥）、部分抗生素與抗黴菌藥、魚油、銀杏、大蒜精、薑黃、丹參、當歸等。<b>開始吃任何新的東西之前，先問醫師或藥師。</b>warfarin 使用者還要注意深綠色蔬菜的攝取量要維持穩定（不是不能吃，是不要忽多忽少）。</p>
+
+<h3>漏吃了怎麼辦</h3>
+<p>新型抗凝血劑的作用時間短，<b>漏一次就等於有一段時間沒有保護</b>，所以準時很重要。萬一漏吃，處理方式因藥物、因一天吃幾次而不同。<b>請事先問清楚你的醫師或藥師，把答案記下來。絕對不要自己補成雙倍。</b></p>
+
+<h3>什麼時候可以停</h3>
+<p>能不能停要看你的<b>中風風險分數</b>（2024 年歐洲指引使用 CHA₂DS₂-VA），由醫師評估。重點是：<b>心跳恢復正常、做完電燒、症狀消失，都不是停藥的理由</b>。而且風險分數會隨年齡與新增共病改變，需要<b>定期重新評估</b>，所以規律回診本身就是治療的一部分。</p>
+
+<h2 id="s7"><span class="num">7</span>控制心跳的藥</h2>
+<p>這一類藥的目標是<b>不讓心跳太快</b>。心房顫動可能還在，但至少不會跳到一百五、兩百下，人會舒服很多、心臟也不會被累壞。這是多數病人第一線使用的方式。</p>
+<div class="tw"><table>
+<tr><th>藥物類別</th><th>作用</th><th>要注意的</th></tr>
+<tr><td>乙型阻斷劑</td><td>減慢心跳、降低心臟耗氧</td><td>可能疲倦、頭暈、心跳過慢；<b>氣喘病人需特別評估</b></td></tr>
+<tr><td>鈣離子阻斷劑<br>（非二氫吡啶類）</td><td>減慢房室結傳導、降低心室速率</td><td>可能血壓下降、腳水腫；<b>心衰竭病人通常不適合</b></td></tr>
+<tr><td>毛地黃</td><td>減慢心室速率</td><td>治療範圍窄，腎功能不好或脫水時容易中毒</td></tr>
+</table></div>
+<div class="box warn"><span class="t">心跳太慢也是問題</span>
+這類藥的目的是「不要太快」，但如果<b>心跳變得太慢</b>（例如低於 50 下，合併頭暈、無力、快昏倒），就要回診請醫師調整。<b>不要自己加藥，也不要自己停藥</b>——突然停掉乙型阻斷劑可能讓心跳與血壓反彈。</div>
+
+<h2 id="s8"><span class="num">8</span>維持節律的藥</h2>
+<p>這一類是<b>抗心律不整藥</b>，目標不只是讓心跳慢下來，而是<b>把心律拉回規律的竇性心律並維持住</b>。適合症狀明顯、希望恢復正常心律的病人。</p>
+<ul>
+<li>藥物選擇<b>高度依賴你的心臟結構</b> —— 有沒有冠心病、心衰竭、心室肥厚，會決定哪些藥能用、哪些絕對不能用。</li>
+<li>部分藥物<b>開始使用時需要住院或密集心電圖監測</b>，因為可能影響心電圖的 QT 間期或誘發其他心律不整。</li>
+<li>需要定期追蹤，部分藥物長期使用要監測<b>甲狀腺、肝、肺功能</b>。</li>
+<li>藥物之外，維持節律還有<b>電氣整流</b>與<b>導管消融（電燒）</b>兩種方式。</li>
+</ul>
+<div class="box rhythm"><span class="t">關鍵觀念：維持節律不等於可以停抗凝血藥</span>
+不論是靠藥物、電擊還是電燒把心律拉回正常，<b>中風風險分數都不會因此改變</b>。抗凝血藥停不停，永遠是另外一個問題、另外一次評估。</div>
+
+<h2 id="s9"><span class="num">9</span>我適合哪一種</h2>
+<p>「控制心跳速度」和「維持節律」不是誰比較好，而是<b>看你的情況</b>。醫師會考量：</p>
+<ul>
+<li><b>症狀多不多</b> —— 症狀明顯的人比較適合積極維持節律</li>
+<li><b>病程多久</b> —— 診斷時間短的人，維持節律成功率較高</li>
+<li><b>心房大小與心臟功能</b></li>
+<li><b>年齡與共病</b></li>
+<li><b>你自己的意願</b> —— 這是共同決策，你的偏好本來就該納入考量</li>
+</ul>
+<p>近年的證據（例如 EAST-AFNET 4 試驗）支持<b>在診斷早期就採取節律控制策略</b>，可以降低心血管事件。所以如果你剛被診斷、又有症狀，值得主動跟醫師討論這個選項。</p>
+<p class="lead">想進一步了解電燒手術，可以看<a href="../af/">心房顫動電燒手術詳細版</a>；想了解疾病本身，看<a href="../af-intro/">認識心房顫動</a>。</p>
+
+<h2 id="s10"><span class="num">10</span>什麼時候該就醫</h2>
+<div class="box alert"><span class="t">立刻打 119</span>
+<ul>
+<li>臉歪、單側手腳無力、講話不清（中風警訊）</li>
+<li>出血不止</li>
+<li>胸痛、嚴重呼吸困難</li>
+<li>昏倒或快要昏倒</li>
+<li>撞到頭之後劇烈頭痛、嘔吐、意識改變</li>
+</ul></div>
+<div class="box warn"><span class="t">儘快聯絡心臟科</span>
+<ul>
+<li>黑便、血尿、莫名大片瘀青</li>
+<li>心跳持續過快，或變得很慢又合併頭暈無力</li>
+<li>喘的程度變嚴重、腳水腫、體重短期內增加</li>
+<li>要拔牙、開刀或做侵入性檢查之前</li>
+<li>醫師開了新藥，或你想開始吃保健食品、中藥</li>
+</ul></div>
+
+<h2 id="s11"><span class="num">11</span>常見問題</h2>
+
+<h3>兩種藥可以只吃一種嗎？</h3>
+<p>不行，它們處理的是兩個不同的問題。哪一種都不能省，除非醫師評估後認為你不需要其中一種。</p>
+
+<h3>我沒有任何不舒服，還要吃抗凝血藥嗎？</h3>
+<p>要。中風風險跟有沒有症狀無關，是依年齡和身體狀況算出來的。相當多的病人是中風之後才知道自己有心房顫動。</p>
+
+<h3>我吃的是可邁丁（warfarin），要換成新藥嗎？</h3>
+<p>可以跟醫師討論。亞太指引建議亞洲病人優先使用新型抗凝血劑，但<b>少數情況（機械瓣膜、中重度二尖瓣狹窄）必須繼續用 warfarin</b>。如果你目前 INR 控制得很穩定，醫師也可能建議維持現狀。<b>這要由醫師判斷，不要自己換藥或停藥。</b></p>
+
+<h3>怕出血，可以自己少吃一點嗎？</h3>
+<p>不可以。減量會讓保護力下降，但出血風險並沒有因此變低。有顧慮請跟醫師討論，由他依腎功能、體重、年齡判斷。</p>
+
+<h3>吃抗凝血藥會不會一撞就流血不止？</h3>
+<p>會比較容易瘀青、止血比較慢，這是真的。但比起中風造成的失能，對大多數人來說<b>利遠大於弊</b>。重點是知道哪些出血要就醫、撞到頭一定要說、不要自己亂調劑量。</p>
+
+<h3>心跳的藥讓我很累，怎麼辦？</h3>
+<p>疲倦、頭暈是這類藥常見的副作用，也可能代表心跳被壓得太慢。<b>回診跟醫師說</b>，通常可以調整劑量或換藥 —— 但不要自己停。</p>
+
+<h2>單張下載</h2>
+<div class="sheet"><img src="af-meds.svg" alt="心房顫動的用藥指南 A5 病人衛教單張" loading="lazy"></div>
+<div class="btns">
+<a href="af-meds.pdf">下載 PDF（A5 可列印）</a>
+<a class="ghost" href="af-meds.svg">開啟原始向量圖 SVG</a>
+</div>
+
+<footer>
+<p><b>資料來源（查核至 2026-09）</b></p>
+<ul>
+<li>2021 Focused Update of the APHRS Consensus Guidelines on Stroke Prevention in Atrial Fibrillation（亞洲族群優先使用 NOAC、warfarin 顱內出血風險、不符仿單減量的危害、年齡門檻、不建議單用抗血小板藥）</li>
+<li>2024 ESC Guidelines for the Management of Atrial Fibrillation（AF-CARE 架構、CHA₂DS₂-VA、定期重新評估）</li>
+<li>2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation</li>
+<li>Asian Pacific Society of Cardiology 針對亞洲病人使用直接口服抗凝血劑的共識建議</li>
+<li>EAST-AFNET 4, NEJM 2020（早期節律控制）</li>
+<li>2016 TSOC/THRS 心房顫動治療指引；台灣心律醫學會心律不整衛教網</li>
+</ul>
+<p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方。</b>本頁不提供任何藥物劑量建議。實際用哪一種藥、劑量多少、能不能停，都必須由您的心臟專科醫師依個人狀況判斷。症狀或病況改變時請儘速就醫。</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -9,6 +9,7 @@
 | 心房顫動｜心律不整電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` · `af/index.html`（詳細版長文，含台灣健保與自費費用）|
 | 心率過慢｜安心觀察指南 | `/brady/` | `brady/bradycardia.svg` · `brady/bradycardia.pdf` |
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
+| 心房顫動的用藥指南 | `/af-meds/` | `af-meds/af-meds.svg` · `af-meds/af-meds.pdf` · `af-meds/index.html`（詳細版長文）|
 
 每張單張右上角的 QR code 指向該張自己的頁面（不是首頁），病人掃描即可在手機上看電子版。
 
