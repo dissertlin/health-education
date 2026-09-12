@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>血壓控制｜詳細版</title>
+<meta name="description" content="血壓怎麼量才準、居家 722 怎麼做、血壓目標是多少、為什麼血壓正常還要吃藥、哪些成藥會推高血壓。依 2022 台灣高血壓指引、2025 AHA/ACC 與 2024 ESC 整理。">
+<style>
+  :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d;
+        --teal:#176d8e;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff8ec;--warnline:#efd094;--okbg:#eef7f8;--oktext:#0c6b62;
+        --bluebg:#eef4fb;--blueline:#b9d3ea;--bluetext:#22599a}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf;
+        --teal:#7fc8e0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#2a2318;--warnline:#5e4c2c;--okbg:#16262a;--oktext:#7fd8cd;
+        --bluebg:#18222f;--blueline:#31465e;--bluetext:#8fb9e6}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.02rem;margin:1.5em 0 .35em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="../">← 回衛教單列表</a>
+<h1>血壓控制｜生活大小事</h1>
+<p class="lead">這是 A5 衛教單張的詳細版。血壓要量幾次才準、「722」到底怎麼做、目標到底是多少、為什麼血壓正常了還要吃藥、哪些成藥會偷偷把血壓推高。</p>
+
+<div class="box key"><span class="t">先記住三件事</span>
+<ol style="margin:0">
+<li>高血壓<b>幾乎沒有症狀</b>。頭痛、脖子緊都不是可靠的指標，不能靠感覺判斷。</li>
+<li>看的是<b>多天的平均</b>，不是單次數字。一次量高不代表有高血壓，一次量正常也不代表沒事。</li>
+<li><b>血壓正常是藥在發揮作用</b>，不是病好了。自行停藥血壓會反彈。</li>
+</ol>
+</div>
+
+<nav class="toc">
+<h2>目錄</h2>
+<ol>
+<li><a href="#s1">什麼是高血壓</a></li>
+<li><a href="#s2">三件不一樣的事</a></li>
+<li><a href="#s3">居家「722」</a></li>
+<li><a href="#s4">量的細節</a></li>
+<li><a href="#s5">目標是多少</a></li>
+<li><a href="#s6">不是越低越好</a></li>
+<li><a href="#s7">生活型態怎麼做</a></li>
+<li><a href="#s8">藥物怎麼吃</a></li>
+<li><a href="#s9">會推高血壓的東西</a></li>
+<li><a href="#s10">血壓飆高怎麼辦</a></li>
+<li><a href="#s11">常見問題</a></li>
+</ol>
+</nav>
+
+<h2 id="s1"><span class="num">1</span>什麼是高血壓</h2>
+<p>血壓就是<b>血液推擠血管壁的力量</b>。量出來的兩個數字：上面那個（收縮壓）是心臟收縮把血打出去時的壓力，下面那個（舒張壓）是心臟放鬆時血管裡剩下的壓力。</p>
+<p>壓力長期太高，血管壁會慢慢受損、變硬變窄。受害的器官是：</p>
+<ul>
+<li><b>大腦</b> —— 腦中風（高血壓是最重要的可控危險因子）</li>
+<li><b>心臟</b> —— 心肌梗塞、心臟肥大、心臟衰竭</li>
+<li><b>腎臟</b> —— 腎功能衰退，嚴重需洗腎</li>
+<li><b>眼睛</b> —— 視網膜血管病變</li>
+</ul>
+<div class="box warn"><span class="t">最麻煩的地方：它不會痛</span>
+高血壓被叫做「沉默的殺手」，因為血管受損的那十幾年，你通常<b>完全沒有感覺</b>。等到有症狀，往往已經是中風或心臟出事。<br><br>
+所以「我最近覺得還好，應該不用量」「我沒有不舒服，藥可以先停」<b>都是很危險的判斷</b>。唯一可靠的方法就是量。</div>
+
+<h2 id="s2"><span class="num">2</span>三件不一樣的事</h2>
+<p>很多人把這三件事混在一起，所以聽醫師講會愈聽愈亂：</p>
+<div class="tw"><table>
+<tr><th>問題</th><th>看什麼</th></tr>
+<tr><td>算不算高血壓？<br>（診斷）</td><td>居家血壓<b>多天平均 ≥130/80</b> 就符合高血壓的門檻。要多次、多天測量才算數。</td></tr>
+<tr><td>要不要吃藥？<br>（治療門檻）</td><td>不是只看數字。還要看你有沒有糖尿病、腎病、心血管疾病，以及整體的心血管風險。<b>同樣 135/85，有人要吃藥，有人先改生活型態。</b></td></tr>
+<tr><td>吃藥後要降到多少？<br>（治療目標）</td><td>見第 5 節。這是<b>治療後要達到的數字</b>，跟診斷門檻不是同一回事。</td></tr>
+</table></div>
+
+<h2 id="s3"><span class="num">3</span>居家「722」</h2>
+<p>台灣高血壓治療指引推廣的居家量測口訣，比在診間量更能反映真實血壓（診間常有「白袍高血壓」）。</p>
+<div class="steps">
+<div><b>7 — 連續量 7 天</b><span>剛診斷、剛調藥、或要回診前，連續量一週。</span></div>
+<div><b>2 — 每天早晚各量</b><span>早上起床後 1 小時內、服藥前、上廁所後；晚上睡前。</span></div>
+<div><b>2 — 每次量 2 遍</b><span>間隔 1 分鐘再量一次，<b>兩次都要記錄</b>，不要只挑低的那次。</span></div>
+</div>
+<div class="box key"><span class="t">怎麼算你的血壓</span>
+把這 7 天的數值<b>全部平均</b>（第一天通常偏高，有些醫師會建議去掉第一天）。<b>拿平均值回診</b>，不要只講「我最高量到 160」或「我通常都 120」。<br><br>
+現在很多血壓計有記憶功能可以直接調出平均值，或用手機 App、紙本記錄都可以。</div>
+
+<h2 id="s4"><span class="num">4</span>量的細節</h2>
+<h3>量之前 30 分鐘</h3>
+<ul>
+<li>不抽菸、不喝咖啡或茶、不運動</li>
+<li><b>先上廁所</b>（膀胱脹會讓血壓升高）</li>
+<li>安靜坐著休息 <b>5 分鐘</b>再量 —— 這一步最常被省略，但影響很大</li>
+</ul>
+<h3>量的時候</h3>
+<ul>
+<li>用<b>上臂式</b>血壓計，不要用手腕式（手腕式容易受姿勢影響）</li>
+<li><b>袖帶大小要合適</b>，手臂太粗用標準袖帶會量出假性偏高</li>
+<li>袖帶<b>貼在裸露的皮膚上</b>，不要隔著毛衣或捲起來的袖子</li>
+<li><b>背靠椅背、雙腳平放地面不要翹腳</b></li>
+<li><b>手臂放在桌上，讓袖帶與心臟同高</b>（手垂著會偏高）</li>
+<li>過程中<b>不說話、不滑手機</b></li>
+</ul>
+<p class="lead">血壓計建議每 1～2 年校正一次；買的時候選有通過驗證的機型，可以帶去診間跟醫院的機器對照一次。</p>
+
+<h2 id="s5"><span class="num">5</span>目標是多少</h2>
+<div class="tw"><table>
+<tr><th>依據</th><th>目標</th></tr>
+<tr><td>台灣一般目標</td><td>居家血壓 <b>＜130/80 mmHg</b></td></tr>
+<tr><td>2024 ESC</td><td>已在治療、能耐受的人，可考慮降到 <b>120–129／70–79</b></td></tr>
+<tr><td>2025 AHA/ACC</td><td>維持 130/80 的診斷與治療門檻，並<b>鼓勵在能耐受的情況下把收縮壓降到 ＜120</b></td></tr>
+</table></div>
+<p>整體趨勢是<b>「能耐受的話，降得低一點更好」</b>。但關鍵詞是「<b>能耐受</b>」—— 這要由醫師依你的年齡、腎功能、有沒有頭暈跌倒來判斷。</p>
+<p class="lead">2025 AHA/ACC 也改用新的 PREVENT 風險計算來評估是否需要用藥，納入了腎功能等因素。你不需要會算，但可以理解：<b>醫師決定要不要開藥，看的不只是血壓數字。</b></p>
+
+<h2 id="s6"><span class="num">6</span>不是越低越好</h2>
+<div class="box alert"><span class="t">血壓太低也會出事</span>
+如果你出現<b>頭暈、眼前發黑、站起來不穩、疲倦、跌倒</b>，請記錄下當時的血壓並回診。這可能代表降得太低，或有<b>姿態性低血壓</b>（站起來時血壓掉下去）。<br><br>
+尤其<b>高齡、身體衰弱、腎功能差、有跌倒病史</b>的人，目標需要個別調整 —— 為了追一個漂亮的數字而跌倒骨折，並不划算。<br><br>
+延伸閱讀：<a href="../oh/">姿態性低血壓｜起身不暈指南</a></div>
+
+<h2 id="s7"><span class="num">7</span>生活型態怎麼做</h2>
+<div class="tw"><table>
+<tr><th>項目</th><th>怎麼做</th></tr>
+<tr><td>減鹽</td><td>每天鹽<b>不超過 1 茶匙</b>（約 6 公克，鈉 2400 毫克以下）。台灣人的鹽主要來自<b>湯、醬料、沾醬、加工食品</b>（香腸、火腿、罐頭、醃漬物、泡麵調味包），不是炒菜時那一點。<b>喝湯少喝、沾醬少沾</b>，效果比什麼都明顯。</td></tr>
+<tr><td>飲食型態</td><td>多蔬菜水果、全穀、低脂乳品、豆魚蛋肉；少精緻糖與含糖飲料。</td></tr>
+<tr><td>運動</td><td><b>每週至少 150 分鐘中等強度</b>（快走、游泳、騎車），分幾次做都可以。量力而為，有心臟病先問醫師。</td></tr>
+<tr><td>體重</td><td>過重者<b>每減 1 公斤，血壓大約可降 1 mmHg</b>。減重是效果最實在的一項。</td></tr>
+<tr><td>酒精</td><td>越少越好。長期飲酒是血壓控制不好的常見原因。</td></tr>
+<tr><td>戒菸</td><td>抽菸不只升血壓，還直接傷血管。戒菸對心血管的好處很快就開始。</td></tr>
+<tr><td>睡眠</td><td>睡眠不足會升血壓。<b>會大聲打呼、睡覺中間停止呼吸、白天很想睡</b>，要評估睡眠呼吸中止症 —— 這是頑固型高血壓的常見原因。</td></tr>
+</table></div>
+
+<h2 id="s8"><span class="num">8</span>藥物怎麼吃</h2>
+<div class="box alert"><span class="t">血壓正常不是停藥的理由</span>
+這是最常見也最危險的誤解。<b>血壓正常，正是因為藥在發揮作用。</b>停掉之後血壓會回升，而且有時會反彈得更高。<br><br>
+血壓藥是<b>長期管理</b>，不是把血壓「治好」就結束。如果生活型態改善很多、體重減下來，<b>醫師有可能減藥甚至停藥 —— 但那要由醫師評估後決定</b>。</div>
+<ul>
+<li><b>固定時間吃</b>，配合每天的固定動作（刷牙後、早餐後）比較不會忘。</li>
+<li><b>漏吃</b>：想起來時如果離下一次還久，就補吃；如果已經接近下一次，就跳過。<b>不要吃雙倍</b>。經常漏吃請告訴醫師，可能有更適合的處方。</li>
+<li><b>副作用</b>：乾咳（某些降壓藥常見）、腳踝水腫、頭暈、頻尿。<b>這些都可以換藥</b>，不要默默忍受，更不要自己停掉 —— 回診說出來就好。</li>
+<li><b>不要拿別人的藥來吃</b>，也不要因為「今天血壓比較高」就自己多吃一顆。</li>
+</ul>
+
+<h2 id="s9"><span class="num">9</span>會推高血壓的東西</h2>
+<p>很多人血壓突然控制不好，原因藏在這裡：</p>
+<ul>
+<li><b>止痛藥</b> —— 非類固醇消炎止痛藥（很多痠痛藥、感冒藥裡都有）會讓血壓上升、也影響腎臟</li>
+<li><b>感冒藥、鼻塞藥</b> —— 含有讓血管收縮的成分</li>
+<li><b>類固醇</b></li>
+<li><b>中藥與保健食品</b> —— 甘草、麻黃、部分減肥或提神產品</li>
+<li><b>過量咖啡因、能量飲料</b></li>
+</ul>
+<p><b>買成藥、開始吃保健品或中藥之前，先問醫師或藥師。</b>回診時把所有在吃的東西都講出來，包括別科開的藥。</p>
+
+<h2 id="s10"><span class="num">10</span>血壓飆高怎麼辦</h2>
+<div class="box alert"><span class="t">立刻打 119</span>
+血壓很高，<b>同時</b>出現這些：
+<ul>
+<li>胸痛、嚴重呼吸困難</li>
+<li>臉歪、單側手腳無力、講話不清（中風警訊）</li>
+<li>劇烈頭痛合併嘔吐、意識改變</li>
+<li>視力突然模糊或看不見</li>
+</ul>
+<b>不要自己加吃降壓藥</b>，也不要自己開車去醫院。</div>
+<div class="box warn"><span class="t">血壓高但沒有症狀</span>
+量到 180/110，但人沒有不舒服 —— 這種情況<b>不需要衝急診</b>，但也不能不管。<br><br>
+做法：<b>安靜坐著休息 5～10 分鐘再量一次</b>（很多高數值是姿勢或緊張造成的）。如果重測仍然很高但沒有症狀，<b>記錄下來，儘快回診或聯絡你的醫師</b>，讓他調整用藥。<b>不要自行加藥</b> —— 血壓降太快反而可能造成腦部或心臟缺血。</div>
+
+<h2 id="s11"><span class="num">11</span>常見問題</h2>
+<h3>吃血壓藥會不會傷腎？</h3>
+<p>恰恰相反。<b>控制不好的高血壓才是傷腎的主因之一</b>，有些降壓藥本身就有保護腎臟的作用。醫師會定期抽血追蹤腎功能。</p>
+
+<h3>血壓藥吃了就要吃一輩子嗎？</h3>
+<p>多數人是長期的，但不是絕對。如果減重、減鹽、戒酒做得很好，<b>醫師有機會減量甚至停藥</b>。關鍵是要由醫師評估，不是自己決定。</p>
+
+<h3>早上量比較高是正常的嗎？</h3>
+<p>血壓本來就有日夜變化，清晨偏高是常見的。但<b>如果早上明顯偏高</b>，可能需要調整吃藥的時間或劑型，把紀錄帶回診給醫師看。</p>
+
+<h3>兩隻手量出來不一樣，要看哪一隻？</h3>
+<p>第一次量測時兩手都量，<b>之後固定量數值較高的那一隻</b>。如果兩手差距持續超過 15～20 mmHg，要告訴醫師。</p>
+
+<h3>診間量很高、在家量正常，怎麼辦？</h3>
+<p>這叫「白袍高血壓」。<b>居家血壓通常更能反映真實情況</b>，這也是為什麼要推廣 722。把居家紀錄帶回診，醫師會一起判斷。</p>
+
+<h2>單張下載</h2>
+<div class="sheet"><img src="bp.svg" alt="血壓控制 A5 病人衛教單張" loading="lazy"></div>
+<div class="btns">
+<a href="bp.pdf">下載 PDF（A5 可列印）</a>
+<a class="ghost" href="bp.svg">開啟原始向量圖 SVG</a>
+</div>
+
+<footer>
+<p><b>資料來源（查核至 2026-09）</b></p>
+<ul>
+<li>2022 台灣高血壓治療指引（居家 722、≥130/80、目標 ＜130/80）</li>
+<li>2025 AHA/ACC 高血壓預防、偵測、評估與處置指引（PREVENT 風險計算、鼓勵收縮壓 ＜120）</li>
+<li>2024 ESC 高血壓指引（已治療且能耐受者 120–129／70–79）</li>
+<li>American Heart Association 居家血壓量測建議</li>
+</ul>
+<p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方，也不提供任何藥物劑量建議。</b>血壓目標、要不要用藥、用哪一種，都必須由您的醫師依個人狀況判斷。</p>
+</footer>
+
+
+</div>
+</body>
+</html>

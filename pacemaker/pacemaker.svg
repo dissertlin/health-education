@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<defs><style>
+.t{font:700 24px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#153b48}
+.st{font:600 12px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#3f6a76}
+.h{font:700 16px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#153b48}
+.b{font:700 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#26404d}
+.s{font:500 9.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#4e626e}
+.xs{font:500 7.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6a7a85}
+.src{font:500 6.6px 'Microsoft JhengHei',sans-serif;fill:#dfeaf0}
+.srh{font:700 7px 'Microsoft JhengHei',sans-serif;fill:#fff}
+.card{fill:#fff;stroke:#d5e6ea;stroke-width:1.4}
+.line{stroke-linecap:round;stroke-linejoin:round}
+</style><filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#153b48" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#f4fafb"/>
+<path d="M0 0h559v112H0z" fill="#dff3f5"/><circle cx="516" cy="18" r="56" fill="#bde7e8" opacity=".65"/>
+
+<!-- 心臟與節律器 -->
+<g transform="translate(24 16)">
+<path d="M45 22C31 6 6 17 10 41c3 18 35 34 35 34s32-16 35-34C84 17 59 6 45 22z" fill="#ef6b73" stroke="#c94555" stroke-width="2"/>
+<circle cx="33" cy="38" r="2.8" fill="#263746"/><circle cx="57" cy="38" r="2.8" fill="#263746"/>
+<path d="M37 49q8 7 16 0" fill="none" stroke="#263746" stroke-width="2" class="line"/>
+<rect x="62" y="52" width="21" height="26" rx="5" fill="#9fb4c0" stroke="#6c8593" stroke-width="2"/>
+<path d="M66 58h13M66 64h13" stroke="#fff" stroke-width="2"/>
+<path d="M62 62q-12 2-18 10" fill="none" stroke="#6c8593" stroke-width="2.4" class="line"/>
+</g>
+<text x="118" y="42" class="t">裝置心臟節律器｜生活注意事項</text>
+<text x="118" y="68" class="st">心跳太慢或停頓時，節律器送出微小電流，幫心臟規律跳動</text>
+<rect x="118" y="80" width="316" height="22" rx="11" fill="#fff"/>
+<text x="132" y="95" class="s">它是心臟的「備用小幫手」，只在需要時出手，不會取代心臟</text>
+
+<!-- A 為什麼要裝 -->
+<rect x="20" y="126" width="519" height="88" rx="14" class="card" filter="url(#sh)"/>
+<text x="37" y="150" class="h">為什麼需要裝節律器？</text>
+<g transform="translate(38 158)"><circle cx="15" cy="15" r="15" fill="#ffe0e2"/>
+<path d="M5 16h5l3-8 4 16 3-8h6" fill="none" stroke="#d9535f" stroke-width="2.2" class="line"/>
+<text x="40" y="12" class="b">心跳太慢或會停一下</text><text x="40" y="27" class="s">例如病竇症候群、房室傳導阻滯</text></g>
+<g transform="translate(290 158)"><circle cx="15" cy="15" r="15" fill="#fff2cf"/>
+<circle cx="15" cy="13" r="6" fill="none" stroke="#d29a24" stroke-width="2"/><path d="M15 19v5M9 25h12" stroke="#d29a24" stroke-width="2" class="line"/>
+<text x="40" y="12" class="b">改善心跳慢造成的不舒服</text><text x="40" y="27" class="s">頭暈、昏倒、喘、累、沒力氣</text></g>
+<rect x="37" y="192" width="485" height="16" rx="8" fill="#eaf6f7"/>
+<text x="279" y="204" text-anchor="middle" class="xs" style="font-weight:700;fill:#166273">目標是預防昏倒與意外、維持安全的心跳；是否需要裝由心臟科醫師評估。</text>
+
+<!-- B 傷口 -->
+<rect x="20" y="228" width="253" height="202" rx="14" class="card" filter="url(#sh)"/>
+<text x="37" y="252" class="h">傷口這樣照顧</text>
+<g transform="translate(38 262)"><circle cx="11" cy="11" r="11" fill="#e3f4ef"/><path d="M6 12h10M11 7v10" stroke="#3f9184" stroke-width="2.4" class="line"/>
+<text x="30" y="8" class="b">保持清潔乾燥</text><text x="30" y="22" class="s">換藥與洗澡方式依醫療團隊指示</text></g>
+<g transform="translate(38 304)"><circle cx="11" cy="11" r="11" fill="#eef1fa"/><path d="M6 6l10 10M16 6L6 16" stroke="#6b73a8" stroke-width="2.4" class="line"/>
+<text x="30" y="8" class="b">不要摳抓、不要自己塗藥</text><text x="30" y="22" class="s">傷口癒合前不泡澡、不游泳</text></g>
+<g transform="translate(38 346)"><circle cx="11" cy="11" r="11" fill="#fff2cf"/><circle cx="11" cy="11" r="4.5" fill="none" stroke="#d29a24" stroke-width="2"/>
+<text x="30" y="8" class="b">每天看一次傷口</text><text x="30" y="22" class="s">注意紅、腫、熱、痛、流湯或裂開</text></g>
+<rect x="36" y="384" width="221" height="38" rx="10" fill="#fff0ed"/>
+<text x="48" y="399" class="b" style="fill:#a5423d">這些要盡快聯絡醫療團隊</text>
+<text x="48" y="414" class="s" style="fill:#a5423d">發燒、傷口流膿或出血不止、腫脹變大</text>
+
+<!-- C 回家後 -->
+<rect x="287" y="228" width="252" height="202" rx="14" class="card" filter="url(#sh)"/>
+<text x="304" y="252" class="h">回家後注意事項</text>
+<g transform="translate(305 262)"><circle cx="11" cy="11" r="11" fill="#e3f4ef"/><path d="M11 17V7M7 11l4-4 4 4" fill="none" stroke="#3f9184" stroke-width="2.2" class="line"/>
+<text x="30" y="8" class="b">患側手臂適度活動</text><text x="30" y="22" class="s">別反覆高舉過肩、提重物或撞擊</text></g>
+<g transform="translate(305 304)"><circle cx="11" cy="11" r="11" fill="#e8f2ff"/><rect x="6" y="7" width="10" height="8" rx="1.5" fill="none" stroke="#3477c5" stroke-width="2"/>
+<text x="30" y="8" class="b">隨身帶節律器識別卡</text><text x="30" y="22" class="s">看病、看牙、做檢查前主動告知</text></g>
+<g transform="translate(305 346)"><circle cx="11" cy="11" r="11" fill="#f3edfb"/><path d="M11 11V6M11 11l4 3" stroke="#6d5ba7" stroke-width="2.2" class="line"/>
+<text x="30" y="8" class="b">按時回診檢查節律器</text><text x="30" y="22" class="s">術後約 1 個月、3 個月，之後定期</text></g>
+<rect x="303" y="384" width="220" height="38" rx="10" fill="#eef4fb"/>
+<text x="315" y="399" class="b" style="fill:#22599a">可能會安排遠距監測</text>
+<text x="315" y="414" class="s" style="fill:#22599a">部分裝置能在家把資料傳回醫院</text>
+
+<!-- D 電器與環境 -->
+<rect x="20" y="444" width="519" height="126" rx="14" class="card" filter="url(#sh)"/>
+<text x="37" y="468" class="h">生活中的電器與環境</text>
+<rect x="36" y="478" width="240" height="80" rx="11" fill="#eef8f2"/>
+<text x="50" y="496" class="b" style="fill:#2b7a53">這些可以正常使用</text>
+<text x="50" y="512" class="s">手機（別放同側胸前口袋，用對側耳朵接聽）</text>
+<text x="50" y="527" class="s">微波爐、家電、電腦；電磁爐保持約 60 公分</text>
+<text x="50" y="542" class="s">機場安檢：出示識別卡，請改人工檢查</text>
+<rect x="284" y="478" width="239" height="80" rx="11" fill="#fff3ee"/>
+<text x="298" y="496" class="b" style="fill:#a5533d">這些一定要先告知</text>
+<text x="298" y="512" class="s">核磁共振 MRI：多數新裝置可做，但須由</text>
+<text x="298" y="527" class="s">團隊事前設定；電燒、電療、碎石術也一樣</text>
+<text x="298" y="542" class="s">避開：電焊、強力磁鐵、大型工業馬達</text>
+
+<!-- E 電池與觀念 -->
+<rect x="20" y="584" width="519" height="84" rx="14" fill="#fff7e3" stroke="#edc86d" stroke-width="1.6"/>
+<text x="37" y="608" class="h">電池可以用多久？</text>
+<text x="37" y="628" class="s">電池一般可用 <tspan style="font-weight:700">約 8～12 年</tspan>，每次回診都會檢查電量；快沒電時會提早幾個月通知，不會突然停掉。</text>
+<text x="37" y="645" class="s">更換時通常<tspan style="font-weight:700">只換上面的機器、導線保留</tspan>，手術比第一次裝簡單。</text>
+<text x="37" y="661" class="s" style="fill:#8a6414">提醒：節律器負責「不要太慢」，<tspan style="font-weight:700">不能預防心肌梗塞或中風</tspan>，原本的藥還是要照吃。</text>
+
+<!-- 緊急 -->
+<rect x="20" y="682" width="519" height="26" rx="10" fill="#fff0ed"/>
+<text x="279" y="699" text-anchor="middle" class="b" style="fill:#bd354a">昏倒、胸痛、呼吸困難、持續心悸，或傷口大量出血：立即打 119</text>
+
+<!-- 來源 -->
+<rect x="20" y="720" width="519" height="52" rx="9" fill="#244e67"/>
+<text x="31" y="736" class="srh">資料來源（查核至 2026-09）：</text>
+<text x="31" y="748" class="src">2021 ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy（遠距監測、MRI、追蹤間隔）；</text>
+<text x="31" y="759" class="src">2018 ACC/AHA/HRS Bradycardia Guideline；2025 ACC/AHA/HRS Appropriate Use Criteria for ICD, CRT and Pacing。</text>
+<text x="31" y="768" class="src">本單張提供一般衛教，不取代個別診療；實際限制與回診安排請依您的醫療團隊指示。</text>
+<text x="535" y="787" text-anchor="end" class="xs">A5 直式｜裝置心臟節律器病人衛教</text>
+<!--QR--><g id="qr"><text x="500" y="102" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#3f6a76">掃描看電子版</text><rect x="463" y="18" width="74" height="74" rx="10" fill="#fff" stroke="#bde7e8"/><g transform="translate(469 24) scale(1.878788)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM9 0h1v1h-1zM12 0h1v1h-1zM14 0h2v1h-2zM17 0h1v1h-1zM19 0h1v1h-1zM21 0h1v1h-1zM23 0h1v1h-1zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h2v1h-2zM15 1h1v1h-1zM20 1h1v1h-1zM23 1h2v1h-2zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM9 2h1v1h-1zM12 2h1v1h-1zM14 2h2v1h-2zM17 2h1v1h-1zM22 2h2v1h-2zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM10 3h1v1h-1zM12 3h2v1h-2zM18 3h1v1h-1zM23 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM9 4h1v1h-1zM12 4h1v1h-1zM16 4h1v1h-1zM18 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM10 5h1v1h-1zM12 5h3v1h-3zM18 5h2v1h-2zM24 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM9 7h1v1h-1zM11 7h1v1h-1zM17 7h1v1h-1zM21 7h2v1h-2zM24 7h1v1h-1zM0 8h1v1h-1zM3 8h1v1h-1zM5 8h2v1h-2zM8 8h2v1h-2zM11 8h6v1h-6zM21 8h1v1h-1zM24 8h2v1h-2zM27 8h1v1h-1zM1 9h2v1h-2zM4 9h2v1h-2zM8 9h4v1h-4zM17 9h1v1h-1zM20 9h1v1h-1zM22 9h1v1h-1zM24 9h4v1h-4zM32 9h1v1h-1zM0 10h1v1h-1zM4 10h1v1h-1zM6 10h2v1h-2zM9 10h2v1h-2zM12 10h1v1h-1zM16 10h1v1h-1zM19 10h1v1h-1zM21 10h2v1h-2zM26 10h3v1h-3zM30 10h1v1h-1zM32 10h1v1h-1zM1 11h1v1h-1zM4 11h2v1h-2zM9 11h1v1h-1zM12 11h1v1h-1zM14 11h1v1h-1zM16 11h1v1h-1zM18 11h1v1h-1zM21 11h3v1h-3zM26 11h1v1h-1zM28 11h2v1h-2zM31 11h2v1h-2zM1 12h1v1h-1zM3 12h2v1h-2zM6 12h1v1h-1zM8 12h5v1h-5zM15 12h1v1h-1zM17 12h1v1h-1zM20 12h2v1h-2zM24 12h4v1h-4zM29 12h1v1h-1zM31 12h1v1h-1zM2 13h1v1h-1zM4 13h1v1h-1zM8 13h1v1h-1zM10 13h1v1h-1zM15 13h2v1h-2zM18 13h4v1h-4zM24 13h1v1h-1zM26 13h1v1h-1zM28 13h1v1h-1zM31 13h2v1h-2zM1 14h1v1h-1zM4 14h1v1h-1zM6 14h1v1h-1zM10 14h3v1h-3zM14 14h1v1h-1zM17 14h2v1h-2zM20 14h1v1h-1zM23 14h1v1h-1zM25 14h2v1h-2zM28 14h4v1h-4zM0 15h2v1h-2zM7 15h2v1h-2zM13 15h1v1h-1zM15 15h1v1h-1zM17 15h1v1h-1zM19 15h3v1h-3zM23 15h1v1h-1zM26 15h1v1h-1zM31 15h1v1h-1zM0 16h1v1h-1zM3 16h1v1h-1zM6 16h2v1h-2zM9 16h1v1h-1zM11 16h1v1h-1zM17 16h1v1h-1zM20 16h4v1h-4zM26 16h1v1h-1zM28 16h1v1h-1zM31 16h1v1h-1zM0 17h1v1h-1zM3 17h1v1h-1zM7 17h1v1h-1zM9 17h2v1h-2zM12 17h1v1h-1zM14 17h1v1h-1zM16 17h1v1h-1zM18 17h1v1h-1zM21 17h1v1h-1zM23 17h3v1h-3zM27 17h1v1h-1zM29 17h1v1h-1zM31 17h1v1h-1zM1 18h3v1h-3zM6 18h1v1h-1zM10 18h1v1h-1zM12 18h1v1h-1zM14 18h1v1h-1zM17 18h2v1h-2zM20 18h1v1h-1zM22 18h1v1h-1zM26 18h1v1h-1zM30 18h3v1h-3zM3 19h1v1h-1zM5 19h1v1h-1zM7 19h4v1h-4zM15 19h3v1h-3zM19 19h4v1h-4zM25 19h3v1h-3zM31 19h1v1h-1zM0 20h2v1h-2zM5 20h5v1h-5zM11 20h1v1h-1zM13 20h1v1h-1zM15 20h2v1h-2zM18 20h2v1h-2zM21 20h1v1h-1zM23 20h3v1h-3zM1 21h2v1h-2zM5 21h1v1h-1zM8 21h1v1h-1zM11 21h3v1h-3zM15 21h3v1h-3zM20 21h1v1h-1zM24 21h3v1h-3zM29 21h4v1h-4zM0 22h2v1h-2zM5 22h2v1h-2zM10 22h1v1h-1zM13 22h3v1h-3zM19 22h1v1h-1zM22 22h1v1h-1zM24 22h1v1h-1zM26 22h2v1h-2zM30 22h1v1h-1zM32 22h1v1h-1zM1 23h5v1h-5zM8 23h4v1h-4zM16 23h1v1h-1zM18 23h2v1h-2zM21 23h1v1h-1zM24 23h3v1h-3zM31 23h2v1h-2zM0 24h1v1h-1zM2 24h2v1h-2zM5 24h2v1h-2zM9 24h3v1h-3zM15 24h3v1h-3zM20 24h2v1h-2zM24 24h5v1h-5zM8 25h1v1h-1zM10 25h1v1h-1zM12 25h3v1h-3zM19 25h1v1h-1zM21 25h2v1h-2zM24 25h1v1h-1zM28 25h2v1h-2zM32 25h1v1h-1zM0 26h7v1h-7zM10 26h1v1h-1zM13 26h2v1h-2zM16 26h1v1h-1zM22 26h1v1h-1zM24 26h1v1h-1zM26 26h1v1h-1zM28 26h4v1h-4zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h2v1h-2zM14 27h1v1h-1zM16 27h3v1h-3zM20 27h3v1h-3zM24 27h1v1h-1zM28 27h1v1h-1zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM11 28h5v1h-5zM18 28h1v1h-1zM20 28h3v1h-3zM24 28h6v1h-6zM32 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h4v1h-4zM15 29h1v1h-1zM23 29h1v1h-1zM26 29h1v1h-1zM28 29h3v1h-3zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM9 30h2v1h-2zM16 30h3v1h-3zM22 30h1v1h-1zM28 30h3v1h-3zM32 30h1v1h-1zM0 31h1v1h-1zM6 31h1v1h-1zM9 31h2v1h-2zM13 31h5v1h-5zM19 31h1v1h-1zM21 31h1v1h-1zM24 31h1v1h-1zM0 32h7v1h-7zM8 32h4v1h-4zM14 32h1v1h-1zM16 32h1v1h-1zM18 32h1v1h-1zM21 32h1v1h-1zM24 32h2v1h-2zM28 32h2v1h-2zM31 32h1v1h-1z" fill="#10283a"/></g></g><!--/QR--></svg>

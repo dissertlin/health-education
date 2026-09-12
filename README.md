@@ -10,6 +10,10 @@
 | 心率過慢｜安心觀察指南 | `/brady/` | `brady/bradycardia.svg` · `brady/bradycardia.pdf` |
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 | 心房顫動的用藥指南 | `/af-meds/` | `af-meds/af-meds.svg` · `af-meds/af-meds.pdf` · `af-meds/index.html`（詳細版長文）|
+| 血壓控制 | `/bp/` | `bp/bp.svg` · `bp/bp.pdf` · `bp/index.html`（詳細版長文）|
+| 姿態性低血壓 | `/oh/` | `oh/oh.svg` · `oh/oh.pdf` · `oh/index.html`（詳細版長文）|
+| 痛風控制 | `/gout/` | `gout/gout.svg` · `gout/gout.pdf` · `gout/index.html`（詳細版長文）|
+| 裝置心臟節律器 | `/pacemaker/` | `pacemaker/pacemaker.svg` · `pacemaker/pacemaker.pdf` · `pacemaker/index.html`（詳細版長文）|
 
 每張單張右上角的 QR code 指向該張自己的頁面（不是首頁），病人掃描即可在手機上看電子版。
 

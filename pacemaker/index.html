@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>裝置心臟節律器｜詳細版</title>
+<meta name="description" content="心臟節律器怎麼運作、手術流程、傷口照顧、手臂能不能舉、手機與家電能不能用、過安檢怎麼辦、可不可以做核磁共振、電池多久要換、遠距監測是什麼。">
+<style>
+  :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d;
+        --teal:#176d8e;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff8ec;--warnline:#efd094;--okbg:#eef7f8;--oktext:#0c6b62;
+        --bluebg:#eef4fb;--blueline:#b9d3ea;--bluetext:#22599a}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf;
+        --teal:#7fc8e0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#2a2318;--warnline:#5e4c2c;--okbg:#16262a;--oktext:#7fd8cd;
+        --bluebg:#18222f;--blueline:#31465e;--bluetext:#8fb9e6}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.02rem;margin:1.5em 0 .35em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="../">← 回衛教單列表</a>
+<h1>裝置心臟節律器｜生活注意事項</h1>
+<p class="lead">這是 A5 衛教單張的詳細版。節律器到底在做什麼、手術怎麼進行、傷口怎麼顧、手臂能不能舉、手機微波爐能不能用、過安檢怎麼辦、可不可以做核磁共振、電池多久要換。</p>
+
+<div class="box key"><span class="t">先記住三件事</span>
+<ol style="margin:0">
+<li>節律器是<b>備用小幫手</b> —— 只在心跳太慢時才出手，不會取代你自己的心跳。</li>
+<li>它負責「<b>不要太慢</b>」，<b>不能預防心肌梗塞或中風</b>。原本的藥還是要照吃。</li>
+<li><b>識別卡隨身帶</b>。看病、看牙、做檢查、過安檢都要主動出示。</li>
+</ol>
+</div>
+
+<nav class="toc">
+<h2>目錄</h2>
+<ol>
+<li><a href="#s1">節律器在做什麼</a></li>
+<li><a href="#s2">為什麼需要裝</a></li>
+<li><a href="#s3">手術怎麼進行</a></li>
+<li><a href="#s4">傷口照顧</a></li>
+<li><a href="#s5">手臂活動與生活</a></li>
+<li><a href="#s6">電器與環境</a></li>
+<li><a href="#s7">核磁共振與醫療處置</a></li>
+<li><a href="#s8">回診與遠距監測</a></li>
+<li><a href="#s9">電池與更換</a></li>
+<li><a href="#s10">常見誤解</a></li>
+<li><a href="#s11">什麼時候該就醫</a></li>
+<li><a href="#s12">常見問題</a></li>
+</ol>
+</nav>
+
+<h2 id="s1"><span class="num">1</span>節律器在做什麼</h2>
+<p>心臟本來有自己的「指揮」<b>竇房結</b>，規律發出電流讓心臟跳動。如果這個指揮壞掉，或電流往下傳的路徑（房室結）塞住，心跳就會變慢或停頓，腦部供血不足就會頭暈、昏倒。</p>
+<p>節律器由兩部分組成：</p>
+<ul>
+<li><b>脈衝產生器</b> —— 埋在鎖骨下方皮下的小盒子，裡面有電池和電路</li>
+<li><b>導線</b> —— 從鎖骨下的靜脈進入心臟，接觸心肌</li>
+</ul>
+<div class="box key"><span class="t">它平常在「待命」，不是一直在放電</span>
+節律器會隨時監看你的心跳。<b>只有在心跳慢到低於設定值時，才送出一個微小的電流</b>，讓心臟跳一下。你自己的心跳夠快時，它就安靜待命。<br><br>
+所以它不會「搶走」你的心跳，也不會讓心臟變得依賴。那個電流非常微小，<b>絕大多數人完全感覺不到</b>。</div>
+
+<h2 id="s2"><span class="num">2</span>為什麼需要裝</h2>
+<ul>
+<li><b>心跳太慢或會停一下</b> —— 例如病竇症候群、房室傳導阻滯</li>
+<li><b>改善心跳慢造成的不舒服</b> —— 頭暈、昏倒、喘、疲倦、沒力氣</li>
+<li><b>預防昏倒與意外</b> —— 這是最重要的目的。心跳停頓造成的昏倒常常沒有預兆，跌倒、車禍的風險很高</li>
+</ul>
+<p>特別注意：<b>第二度 II 型或完全性房室傳導阻滯，即使沒有症狀，通常也建議植入</b>，因為隨時可能發生危險的停頓。</p>
+<p class="lead">延伸閱讀：<a href="../brady/">心率過慢｜安心觀察指南</a>（還沒裝節律器時的自我照顧）</p>
+
+<h2 id="s3"><span class="num">3</span>手術怎麼進行</h2>
+<ol>
+<li><b>局部麻醉</b>為主，多數人是清醒的，通常不會痛。</li>
+<li>在<b>鎖骨下方</b>劃一道約 4～6 公分的傷口，做出一個放裝置的皮下囊袋。</li>
+<li>從鎖骨下的靜脈把<b>導線</b>送進心臟，用 X 光定位、測試訊號。</li>
+<li>接上脈衝產生器、放進囊袋、縫合。</li>
+<li>整個過程大約 1～2 小時，<b>通常住院 1～3 天</b>。</li>
+</ol>
+<p>術後可能出現的狀況：傷口瘀青、局部腫脹、輕微疼痛，多半會慢慢消退。少數人會有血腫、氣胸或導線移位，醫療團隊會在住院期間監測。</p>
+
+<h2 id="s4"><span class="num">4</span>傷口照顧</h2>
+<ul>
+<li><b>保持清潔乾燥</b>。換藥方式與可以開始碰水的時間，<b>依你的醫療團隊指示</b>（各家做法不同）。</li>
+<li><b>不要摳抓、不要自己塗藥膏或草藥</b>。</li>
+<li>傷口<b>癒合前不要泡澡、不要游泳、不要泡溫泉</b>。</li>
+<li><b>每天看一次傷口</b>，注意有沒有紅、腫、熱、痛、流湯或裂開。</li>
+<li>穿衣服避免背包帶或內衣肩帶一直摩擦到傷口位置。</li>
+</ul>
+<div class="box alert"><span class="t">這些要盡快聯絡醫療團隊</span>
+<ul>
+<li><b>發燒</b></li>
+<li>傷口<b>流膿、有異味</b>，或出血不止</li>
+<li>傷口附近<b>腫脹明顯變大</b>（可能是血腫）</li>
+<li>傷口<b>裂開</b>，或皮膚變薄、發亮到快要露出裝置</li>
+</ul>
+裝置感染是需要及早處理的併發症，拖越久越麻煩。<b>不要自己觀察等下次回診。</b></div>
+
+<h2 id="s5"><span class="num">5</span>手臂活動與生活</h2>
+<h3>患側手臂</h3>
+<p>導線剛放進去還沒被組織固定住，過度的動作可能讓它移位。所以術後一段時間要：</p>
+<ul>
+<li>避免<b>反覆把患側手臂高舉過肩</b>（曬衣服、拿高處的東西）</li>
+<li>避免<b>提重物</b></li>
+<li>避免<b>撞擊</b>該側肩膀</li>
+</ul>
+<div class="box warn"><span class="t">但也不要完全不動</span>
+很多人因為怕，把手臂整天吊著不敢動，結果<b>肩關節沾黏（五十肩）</b>，比導線移位還常見也更難處理。<br><br>
+正確做法是<b>「適度活動、避免極端動作」</b>：日常吃飯、刷牙、穿衣都可以正常用。<b>限制多久、可以做到什麼程度，請依你的醫師指示</b> —— 各家醫院與各種裝置的建議不同。</div>
+
+<h3>其他生活事項</h3>
+<ul>
+<li><b>開車</b> —— 術後短期內通常建議暫停，恢復時間依醫師評估與你原本的病況（曾昏倒者可能需要更久）。</li>
+<li><b>運動</b> —— 恢復後多數人可以正常運動。避免容易撞到裝置的接觸性運動（柔道、拳擊），射擊類運動的後座力也要注意。</li>
+<li><b>睡姿</b> —— 沒有限制，趴睡或側睡都可以，怎麼舒服怎麼睡。</li>
+<li><b>性生活</b> —— 傷口癒合後即可恢復。</li>
+<li><b>出國</b> —— 可以，記得帶識別卡與藥，並事先問清楚當地有沒有可支援的醫院。</li>
+</ul>
+
+<h2 id="s6"><span class="num">6</span>電器與環境</h2>
+<div class="box key"><span class="t">可以正常使用的（絕大多數家電都可以）</span>
+<ul>
+<li><b>手機</b> —— 可以用。但<b>不要放在同側的胸前口袋</b>，講電話用<b>對側</b>的耳朵接聽。</li>
+<li><b>微波爐、冰箱、洗衣機、吹風機、電視、電腦、Wi-Fi</b> —— 都沒問題。</li>
+<li><b>電磁爐／感應爐</b> —— 可以用，但<b>身體與爐面保持約 60 公分</b>，不要長時間貼著站。</li>
+<li><b>捷運、電扶梯、電動車</b> —— 沒問題。</li>
+<li><b>無線耳機、平板、智慧手錶</b> —— 沒問題，但同樣不要長時間貼在裝置正上方。</li>
+</ul></div>
+<div class="box warn"><span class="t">機場與賣場安檢</span>
+<ul>
+<li><b>主動出示節律器識別卡</b>，說明你有心臟節律器。</li>
+<li>可以<b>要求改用人工檢查</b>（Pat-down）。</li>
+<li>如果要走門型偵測器，<b>正常速度走過去就好，不要停在裡面</b>。</li>
+<li><b>手持式金屬探測棒不要在裝置上方停留</b>，請檢查人員避開或快速通過。</li>
+<li>賣場出入口的防盜門也是一樣：<b>正常走過，不要停留或倚靠</b>。</li>
+</ul></div>
+<div class="box alert"><span class="t">要避開的</span>
+<ul>
+<li><b>電焊作業</b>（尤其電弧焊）</li>
+<li><b>強力磁鐵</b>、大型喇叭的磁鐵、磁療產品</li>
+<li><b>大型工業馬達、發電機、變電所</b></li>
+<li>高壓電塔下方長時間停留</li>
+</ul>
+如果靠近某個設備時<b>感到頭暈、心悸或不舒服，就離開那個地方</b>，症狀通常會立刻改善，並記得回診時告訴醫師。</div>
+
+<h2 id="s7"><span class="num">7</span>核磁共振與醫療處置</h2>
+<div class="box key"><span class="t">MRI：現在多數新裝置可以做</span>
+以前裝了節律器就不能做核磁共振，<b>但現在大多數新植入的裝置是「MRI 相容」的</b>，在符合條件下可以檢查。<br><br>
+<b>但一定要事前告知並安排</b>：需要由心臟科團隊在檢查前後調整裝置設定、在特定條件的機器上進行、檢查中監測。<b>不能臨時走進去就做。</b><br><br>
+所以：<b>任何醫師要幫你安排 MRI 時，第一句話就要說「我有裝心臟節律器」</b>，並提供識別卡上的型號資訊。</div>
+<h3>其他要事先告知的醫療處置</h3>
+<ul>
+<li><b>電燒手術</b>（包含一般外科手術用的電燒刀）—— 需要調整設定或改用雙極電燒</li>
+<li><b>放射治療（電療）</b> —— 輻射可能損壞裝置，需要事先規劃與屏蔽</li>
+<li><b>體外震波碎石術</b></li>
+<li><b>電氣整流、電擊去顫</b></li>
+<li><b>經皮神經電刺激（TENS）、復健用電療儀</b></li>
+<li>牙科的<b>超音波洗牙機</b>、電燒止血</li>
+</ul>
+<p><b>看任何科、做任何檢查與處置之前，都主動說一句「我有裝心臟節律器」。</b>這一句話就能避免絕大多數問題。</p>
+
+<h2 id="s8"><span class="num">8</span>回診與遠距監測</h2>
+<p>節律器需要定期檢查 —— 確認電量、導線狀況、設定是否合適，以及裝置記錄到的心律事件。</p>
+<ul>
+<li>術後約 <b>1 個月</b>、<b>3 個月</b>回診</li>
+<li>穩定後大約<b>每 6～12 個月</b>檢查一次</li>
+<li>接近電池末期時，回診會變密集</li>
+</ul>
+<div class="box key"><span class="t">遠距監測 —— 目前指引建議的做法</span>
+現在許多裝置可以<b>從家裡把資料自動傳回醫院</b>（透過床頭的傳輸盒或手機 App）。2021 年歐洲心臟學會的節律器指引<b>建議常規使用遠距監測</b>，理由是：<br><br>
+<ul>
+<li><b>更早發現問題</b> —— 導線故障、電池提前耗損、無症狀的心房顫動</li>
+<li><b>減少不必要的回診</b>，對行動不便或住得遠的人幫助很大</li>
+</ul>
+如果你的裝置支援，醫療團隊會協助設定。<b>要注意：遠距監測不是急救系統</b>，資料通常不是即時被看到的 —— <b>有緊急狀況還是要打 119。</b></div>
+
+<h2 id="s9"><span class="num">9</span>電池與更換</h2>
+<ul>
+<li>電池一般可以用 <b>約 8～12 年</b>，實際長短看你用到節律器的頻率與設定。</li>
+<li><b>每次回診都會檢查電量</b>。</li>
+<li>電池快沒電時，裝置會進入「更換指示」狀態，<b>會提早幾個月通知</b> —— <b>不會突然停掉</b>，這點可以放心。</li>
+<li>更換手術通常<b>只換上面的脈衝產生器，原本的導線保留</b>（如果導線功能正常）。手術比第一次裝簡單、時間更短。</li>
+</ul>
+
+<h2 id="s10"><span class="num">10</span>常見誤解</h2>
+<div class="box alert"><span class="t">節律器不能取代你的藥</span>
+節律器只做一件事：<b>不讓心跳太慢</b>。它<b>不能</b>：
+<ul>
+<li>預防心肌梗塞</li>
+<li>預防中風 —— 如果你有心房顫動，<b>抗凝血藥還是要繼續吃</b></li>
+<li>治療高血壓、心臟衰竭</li>
+<li>在心臟停止時電擊救命（那是去顫器 ICD 的功能，和節律器不同）</li>
+</ul>
+所以<b>裝了節律器之後，原本的藥不可以自己停</b>。</div>
+<p>其他常見誤解：</p>
+<ul>
+<li>「裝了就不能用手機」—— <b>錯</b>，可以用，只要不放同側胸前口袋。</li>
+<li>「裝了就不能運動」—— <b>錯</b>，恢復後多數運動都可以。</li>
+<li>「裝了就不能過安檢」—— <b>錯</b>，出示識別卡、正常通過即可。</li>
+<li>「會被電到」—— <b>錯</b>，那個電流非常微小，絕大多數人感覺不到。</li>
+</ul>
+
+<h2 id="s11"><span class="num">11</span>什麼時候該就醫</h2>
+<div class="box alert"><span class="t">立刻打 119</span>
+<ul>
+<li>昏倒或快要昏倒</li>
+<li>胸痛、嚴重呼吸困難</li>
+<li>持續心悸、心跳很不規則</li>
+<li>傷口大量出血</li>
+</ul></div>
+<div class="box warn"><span class="t">儘快聯絡醫療團隊</span>
+<ul>
+<li>傷口有感染跡象（見第 4 節）或發燒</li>
+<li>裝置位置附近持續疼痛、腫脹，或皮膚快要破</li>
+<li>覺得<b>胸口或上腹部有規律的抽動</b>（可能是導線刺激到橫膈或胸肌）</li>
+<li>又開始出現裝之前的症狀 —— 頭暈、無力、喘</li>
+<li>接近某些電器時反覆感到不適</li>
+<li>要安排 MRI、手術、電療或任何侵入性處置之前</li>
+</ul></div>
+
+<h2 id="s12"><span class="num">12</span>常見問題</h2>
+<h3>裝了之後還會頭暈嗎？</h3>
+<p>如果頭暈本來就是心跳太慢造成的，裝完通常會明顯改善。<b>如果還是暈，要回診檢查</b> —— 可能是設定需要調整，也可能頭暈另有原因（例如姿態性低血壓、貧血）。</p>
+
+<h3>可以搭飛機嗎？</h3>
+<p>可以。機艙壓力不影響節律器。記得帶識別卡，過安檢時主動出示。</p>
+
+<h3>節律器會被偷走或被駭嗎？</h3>
+<p>不用擔心。現代裝置有安全機制，實務上不是需要顧慮的風險。</p>
+
+<h3>以後可以拔掉嗎？</h3>
+<p>導線長期在體內會被組織包覆，<b>拔除是相對複雜的手術</b>，通常只在感染或導線故障時才做。多數人是終身使用、定期更換電池。</p>
+
+<h3>裝置會不會在我身上看得出來？</h3>
+<p>鎖骨下方會有一個小小的隆起，體型較瘦的人比較明顯。這是正常的。如果<b>皮膚變得很薄、發亮、快要破</b>，要盡快就醫。</p>
+
+<h3>需要告訴家人什麼？</h3>
+<p>告訴家人：你有裝節律器、識別卡放在哪裡、以及<b>看到你昏倒、胸痛、呼吸困難時要打 119</b>。</p>
+
+<h2>單張下載</h2>
+<div class="sheet"><img src="pacemaker.svg" alt="裝置心臟節律器 A5 病人衛教單張" loading="lazy"></div>
+<div class="btns">
+<a href="pacemaker.pdf">下載 PDF（A5 可列印）</a>
+<a class="ghost" href="pacemaker.svg">開啟原始向量圖 SVG</a>
+</div>
+
+<footer>
+<p><b>資料來源（查核至 2026-09）</b></p>
+<ul>
+<li>2021 ESC Guidelines on Cardiac Pacing and Cardiac Resynchronization Therapy（遠距監測建議、MRI、追蹤間隔）</li>
+<li>2018 ACC/AHA/HRS Guideline on the Evaluation and Management of Patients With Bradycardia and Cardiac Conduction Delay</li>
+<li>2025 ACC/AHA/HRS 等學會 Appropriate Use Criteria for ICD, CRT and Pacing</li>
+</ul>
+<p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方。</b>手臂活動限制的時間與程度、回診安排、可否接受特定檢查，各家醫院與各型裝置的建議不同，<b>請以您的醫療團隊指示為準</b>。</p>
+</footer>
+
+
+</div>
+</body>
+</html>
