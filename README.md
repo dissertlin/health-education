@@ -8,8 +8,13 @@
 | --- | --- | --- |
 | 心房顫動｜心律不整電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` |
 | 心率過慢｜安心觀察指南 | `/brady/` | `brady/bradycardia.svg` · `brady/bradycardia.pdf` |
+| 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 
 每張單張右上角的 QR code 指向該張自己的頁面（不是首頁），病人掃描即可在手機上看電子版。
+
+> 注意命名：`/af/` 是**電燒手術**那張，`/af-intro/` 是**認識心房顫動**那張。`/af/` 的網址已燒進單張的 QR，不要更名。
+
+`/af-intro/` 除了單張本身，另有一份依單張各重點展開的**網路詳細版長文**（12 個章節，含 CHA₂DS₂-VA、亞洲人 NOAC 建議、自我測脈搏、常見問題）。
 
 ## 新增一張衛教單
 

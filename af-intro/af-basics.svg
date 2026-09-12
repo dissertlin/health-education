@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+  <defs>
+    <style>
+      .title{font:700 28px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#16324f}.sub{font:700 13px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#46637f}
+      .h{font:700 17px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#16324f}.b{font:500 13px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#263746}
+      .s{font:500 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#44515c}.tb{font:700 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#16324f}
+      .ts{font:500 8.7px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#4f6270}.tn{font:700 8.5px sans-serif;fill:#fff}
+      .src{font:500 6.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#dfe9f2}.srh{font:700 7px 'Microsoft JhengHei',sans-serif;fill:#fff}
+      .cb{font:700 9.6px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#263746}.cs{font:500 8.3px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#5a6b7a}
+      .def{font:500 9.3px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#44515c}.fn{font:500 7.6px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6b7a88}.card{fill:#fff;stroke:#d8e5ec;stroke-width:1.5}.round{stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#18364a" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="559" height="794" fill="#f3f9fb"/>
+  <path d="M0 0h559v116H0z" fill="#dff3f5"/><circle cx="511" cy="25" r="58" fill="#bde7e8" opacity=".72"/>
+
+  <!-- friendly heart with irregular rhythm -->
+  <path d="M66 29C48 9 18 22 23 50c4 22 43 42 43 42s39-20 43-42c5-28-25-41-43-21z" fill="#ef6b73" stroke="#c94555" stroke-width="2"/>
+  <circle cx="51" cy="47" r="3" fill="#263746"/><circle cx="79" cy="47" r="3" fill="#263746"/><path d="M56 59q10 8 20 0" fill="none" stroke="#263746" stroke-width="2" class="round"/>
+  <path d="M30 70l-15 10M100 70l15 10" stroke="#c94555" stroke-width="4" class="round"/>
+  <path d="M12 103h22l6-11 8 20 8-25 9 16h11l8-9 8 9h24" fill="none" stroke="#368696" stroke-width="3" class="round"/>
+  <text x="129" y="46" class="title">認識心房顫動</text>
+  <text x="129" y="73" class="sub">了解原因・看懂症狀・預防中風・安心治療</text>
+
+  <!-- what is AF -->
+  <rect x="20" y="128" width="519" height="68" rx="14" class="card" filter="url(#shadow)"/><text x="37" y="147" class="h">什麼是心房顫動？</text><text x="37" y="169" class="fn">心房＝心臟上面的兩個房間</text><text x="37" y="181" class="fn">正常心跳一分鐘 60～100 下</text><text x="182" y="145" class="cb">心臟上面兩個房間不聽指揮，只會抖</text><text x="182" y="158" class="cs">血打不出去，一分鐘亂抖 300 下以上</text><text x="182" y="175" class="cs"><tspan style="fill:#c0504a;font-weight:700">①</tspan> 血積在角落結成血塊 → 跑到腦部塞住就是中風</text><text x="182" y="188" class="cs"><tspan style="fill:#c0504a;font-weight:700">②</tspan> 下面兩個房間跟著亂跳 → 心跳怪怪的、會喘</text><text x="400" y="163" class="cb" style="fill:#368696">正常</text><path d="M442 160h8l2-7 3 13 3-7h11l2-7 3 13 3-7h11l2-7 3 13 3-7h11l2-7 3 13 3-7h6" fill="none" stroke="#368696" stroke-width="1.8" class="round"/><text x="400" y="187" class="cb" style="fill:#c0504a">顫動</text><path d="M442 184q2-2 4 0t4 0l2-6 3 12 3-6q2-2 4 0t4 0t4 0t4 0l2-6 3 12 3-6q2-2 4 0l2-6 3 12 3-6q2-2 4 0t4 0t4 0t4 0l2-6 3 12 3-6" fill="none" stroke="#c0504a" stroke-width="1.8" class="round"/>
+
+  <!-- stroke emergency -->
+  <rect x="20" y="208" width="519" height="110" rx="14" fill="#fff4f2" stroke="#f2aaa3" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="55" cy="240" r="24" fill="#e74c3c"/><text x="47" y="249" style="font:700 29px sans-serif;fill:white">!</text>
+  <text x="90" y="236" class="h" style="fill:#a72f25">中風警訊：立即撥打 119</text>
+  <text x="90" y="257" class="s">記下發作時間，不要等待症狀改善，也不要自行開車</text>
+  <g transform="translate(34 272)"><circle cx="22" cy="20" r="18" fill="#ffd7b5"/><path d="M12 14q10-9 20 0M14 24q8 7 16-1" fill="none" stroke="#263746" stroke-width="2" class="round"/><path d="M11 27q-7 6-4 12" fill="none" stroke="#e74c3c" stroke-width="3"/><text x="48" y="17" class="b">臉歪、單側無力</text><text x="48" y="36" class="s">嘴角歪斜，一側手腳無力</text></g>
+  <g transform="translate(285 272)"><circle cx="20" cy="20" r="18" fill="#dff3f5"/><path d="M11 11h18M11 19h13M11 27h9" stroke="#368696" stroke-width="3" class="round"/><path d="M32 8q9 12 0 24" fill="none" stroke="#e74c3c" stroke-width="3"/><text x="50" y="17" class="b">說話不清、聽不懂</text><text x="50" y="36" class="s">答非所問或突然無法表達</text></g>
+
+  <!-- symptom card -->
+  <rect x="20" y="330" width="245" height="266" rx="14" class="card" filter="url(#shadow)"/>
+  <text x="37" y="359" class="h">可能症狀與危險因子</text>
+  <g transform="translate(37 375)"><path d="M21 7C15-2 2 1 2 13c0 12 19 25 19 25s19-13 19-25C40 1 27-2 21 7z" fill="#ef6b73"/><path d="M-2 22h10l4-8 6 15 6-13 4 6h16" fill="none" stroke="#fff" stroke-width="2"/><text x="55" y="15" class="cb">心悸、心跳很亂</text><text x="55" y="32" class="cs">忽快忽慢或像漏拍</text></g>
+  <g transform="translate(37 418)"><circle cx="21" cy="20" r="19" fill="#dff3f5"/><path d="M16 7v15M26 7v15M16 22q-9 4-9 12M26 22q9 4 9 12" fill="none" stroke="#368696" stroke-width="3" class="round"/><path d="M41 12q10 8 0 16" fill="none" stroke="#f4b63e" stroke-width="3"/><text x="55" y="15" class="cb">胸悶、喘</text><text x="55" y="32" class="cs">活動時呼吸困難</text></g>
+  <g transform="translate(37 461)"><circle cx="21" cy="20" r="18" fill="#ffd7b5"/><path d="M12 13q9-8 18 0M13 27q8-6 16 0" fill="none" stroke="#263746" stroke-width="2" class="round"/><path d="M7 2l-7-7M35 2l7-7" stroke="#f4b63e" stroke-width="2"/><text x="55" y="15" class="cb">頭暈、疲倦、無力</text><text x="55" y="32" class="cs">嚴重時可能昏倒</text></g>
+  <g transform="translate(37 504)"><circle cx="21" cy="20" r="19" fill="#eaf4d8"/><path d="M12 20l6 6 13-15" fill="none" stroke="#5a9340" stroke-width="3" class="round"/><text x="55" y="15" class="cb">也可能完全沒症狀</text><text x="55" y="32" class="cs">仍需評估中風風險</text></g>
+  <rect x="35" y="548" width="215" height="38" rx="9" fill="#eef7f8"/><text x="46" y="560" class="cb">較容易發生</text><text x="46" y="571" class="cs">年齡、高血壓、糖尿病、心衰竭</text><text x="46" y="581" class="cs">肥胖、睡眠呼吸中止、菸酒</text>
+
+  <!-- medication and care card -->
+  <rect x="279" y="330" width="260" height="266" rx="14" class="card" filter="url(#shadow)"/>
+  <text x="296" y="359" class="h">抗凝血藥與日常照護</text>
+  <g transform="translate(298 373)"><rect width="32" height="32" rx="7" fill="#dff3f5"/><circle cx="16" cy="16" r="9" fill="#fff"/><path d="M16 9v8l6 3" fill="none" stroke="#368696" stroke-width="2.5" class="round"/><text x="43" y="12" class="cb">每天準時服藥</text><text x="43" y="29" class="cs">不可自行停藥、減量或加倍；減量不會更安全</text></g>
+  <g transform="translate(298 411)"><circle cx="16" cy="16" r="16" fill="#ffe2df"/><path d="M8 18h16M16 10v16" stroke="#cf554b" stroke-width="3"/><text x="43" y="12" class="cb">出血警訊要就醫</text><text x="43" y="29" class="cs">吐血、黑便、血尿或撞到頭</text></g>
+  <g transform="translate(298 449)"><rect width="32" height="32" rx="7" fill="#e8e2fa"/><path d="M8 9h16M8 16h16M8 23h10" stroke="#6d5ba7" stroke-width="2"/><text x="43" y="12" class="cb">主動告知用藥</text><text x="43" y="29" class="cs">拔牙、手術、成藥與保健品</text></g>
+  <g transform="translate(298 487)"><circle cx="16" cy="16" r="16" fill="#ffe2df"/><g transform="rotate(-30 16 16)"><rect x="8" y="12.5" width="16" height="7" rx="3.5" fill="#d9a29d"/><path d="M16 12.5v7" stroke="#fff" stroke-width="1.4"/></g><circle cx="16" cy="16" r="11" fill="none" stroke="#cf554b" stroke-width="2.4"/><path d="M8.2 23.8 23.8 8.2" stroke="#cf554b" stroke-width="2.4" class="round"/><text x="43" y="12" class="cb">阿斯匹靈不能取代</text><text x="43" y="29" class="cs">單吃阿斯匹靈無法預防中風</text></g>
+  <g transform="translate(298 525)"><rect width="32" height="32" rx="7" fill="#fde7cf"/><path d="M8 11h16v14H8zM12 8h8v4" fill="none" stroke="#d08a3c" stroke-width="2"/><text x="43" y="12" class="cb">規律回診與記錄</text><text x="43" y="29" class="cs">帶紀錄回診；中風風險需定期重評</text></g>
+  <text x="296" y="568" class="fn">抗凝血藥可降低中風風險，也可能增加出血；</text><text x="296" y="578" class="fn">是否使用及劑量需由醫師依個人風險評估。</text>
+
+  <!-- treatment row -->
+  <rect x="20" y="608" width="519" height="128" rx="13" fill="#eaf6f4" stroke="#a9d5cd"/>
+  <text x="37" y="631" class="h">治療的四個方向</text>
+  <circle cx="43" cy="651" r="9" fill="#368696"/><text x="43" y="654" text-anchor="middle" class="tn">1</text><text x="58" y="655" class="tb">照顧共病</text><text x="58" y="672" class="ts">控制血壓、血糖、體重</text><text x="58" y="685" class="ts">與睡眠呼吸中止症</text>
+  <circle cx="169" cy="651" r="9" fill="#368696"/><text x="169" y="654" text-anchor="middle" class="tn">2</text><text x="184" y="655" class="tb">預防中風</text><text x="184" y="672" class="ts">依風險使用抗凝血藥</text><text x="184" y="685" class="ts">亞洲人首選新型口服藥</text>
+  <circle cx="291" cy="651" r="9" fill="#368696"/><text x="291" y="654" text-anchor="middle" class="tn">3</text><text x="306" y="655" class="tb">控制心跳</text><text x="306" y="672" class="ts">避免過快或過慢</text><text x="306" y="685" class="ts">減少不舒服</text>
+  <circle cx="407" cy="651" r="9" fill="#368696"/><text x="407" y="654" text-anchor="middle" class="tn">4</text><text x="422" y="655" class="tb">控制心律</text><text x="422" y="672" class="ts">藥物、電氣整流或</text><text x="422" y="685" class="ts">導管消融</text>  <path d="M45 700h454" stroke="#b7d9d5" stroke-width="1"/>
+  <text x="37" y="714" class="fn">導管消融適合部分有症狀、藥效不佳或無法耐受的病人；可能復發或需再次治療。</text>
+  <text x="37" y="727" class="fn">重要：消融後是否長期服用抗凝血藥，仍依個人中風風險決定，不可自行停藥。</text>
+
+  <!-- sources -->
+  <rect x="20" y="746" width="519" height="42" rx="8" fill="#244d6b"/>
+  <text x="31" y="756" class="srh">資料來源（查核至 2026-09）：</text>
+  <text x="31" y="766" class="src">2024 ESC Guidelines for the Management of Atrial Fibrillation；2023 ACC/AHA/ACCP/HRS Guideline for the</text>
+  <text x="31" y="776" class="src">Diagnosis and Management of Atrial Fibrillation；2021 APHRS Consensus on Stroke Prevention in AF（亞洲族群）。</text>
+  <text x="31" y="786" class="src">本單張提供一般衛教，不取代個別診斷與處方；請依心臟專科醫師指示用藥與追蹤，病況改變時請儘速就醫。</text>
+<!--QR--><g id="qr"><text x="501" y="100" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#46637f">掃描看電子版</text><rect x="463" y="14" width="76" height="76" rx="10" fill="#fff" stroke="#bcdfe3"/><g transform="translate(469 20) scale(1.939394)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM12 0h2v1h-2zM16 0h1v1h-1zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h3v1h-3zM13 1h6v1h-6zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h2v1h-2zM11 2h3v1h-3zM16 2h1v1h-1zM18 2h1v1h-1zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h2v1h-2zM11 3h1v1h-1zM14 3h1v1h-1zM16 3h2v1h-2zM19 3h2v1h-2zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h2v1h-2zM11 4h3v1h-3zM15 4h1v1h-1zM18 4h4v1h-4zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM11 5h1v1h-1zM15 5h2v1h-2zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h1v1h-1zM10 7h3v1h-3zM15 7h1v1h-1zM18 7h1v1h-1zM20 7h2v1h-2zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM9 8h2v1h-2zM13 8h3v1h-3zM17 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM0 9h3v1h-3zM5 9h1v1h-1zM9 9h1v1h-1zM12 9h1v1h-1zM17 9h4v1h-4zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM1 10h10v1h-10zM12 10h1v1h-1zM15 10h3v1h-3zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM1 11h2v1h-2zM7 11h3v1h-3zM14 11h1v1h-1zM16 11h1v1h-1zM19 11h7v1h-7zM28 11h3v1h-3zM0 12h1v1h-1zM4 12h4v1h-4zM17 12h2v1h-2zM20 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM0 13h3v1h-3zM4 13h1v1h-1zM8 13h1v1h-1zM11 13h1v1h-1zM13 13h9v1h-9zM23 13h1v1h-1zM26 13h1v1h-1zM29 13h4v1h-4zM2 14h1v1h-1zM5 14h4v1h-4zM12 14h2v1h-2zM18 14h1v1h-1zM21 14h2v1h-2zM25 14h3v1h-3zM30 14h2v1h-2zM1 15h1v1h-1zM3 15h3v1h-3zM9 15h1v1h-1zM13 15h2v1h-2zM16 15h1v1h-1zM18 15h4v1h-4zM24 15h3v1h-3zM29 15h2v1h-2zM4 16h1v1h-1zM6 16h1v1h-1zM8 16h2v1h-2zM11 16h2v1h-2zM14 16h1v1h-1zM17 16h1v1h-1zM19 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM3 17h1v1h-1zM5 17h1v1h-1zM9 17h3v1h-3zM13 17h1v1h-1zM16 17h2v1h-2zM19 17h3v1h-3zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM3 18h1v1h-1zM5 18h4v1h-4zM10 18h4v1h-4zM15 18h3v1h-3zM21 18h1v1h-1zM27 18h2v1h-2zM30 18h2v1h-2zM0 19h1v1h-1zM2 19h1v1h-1zM7 19h3v1h-3zM14 19h2v1h-2zM19 19h13v1h-13zM3 20h2v1h-2zM6 20h1v1h-1zM8 20h1v1h-1zM12 20h2v1h-2zM16 20h1v1h-1zM18 20h2v1h-2zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h4v1h-4zM5 21h1v1h-1zM7 21h1v1h-1zM9 21h2v1h-2zM12 21h1v1h-1zM15 21h1v1h-1zM18 21h3v1h-3zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM2 22h1v1h-1zM6 22h2v1h-2zM11 22h6v1h-6zM20 22h3v1h-3zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM7 23h1v1h-1zM9 23h1v1h-1zM11 23h1v1h-1zM13 23h1v1h-1zM15 23h1v1h-1zM21 23h1v1h-1zM30 23h3v1h-3zM0 24h1v1h-1zM2 24h3v1h-3zM6 24h1v1h-1zM8 24h3v1h-3zM13 24h1v1h-1zM15 24h1v1h-1zM17 24h1v1h-1zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM31 24h1v1h-1zM8 25h1v1h-1zM11 25h1v1h-1zM13 25h1v1h-1zM16 25h1v1h-1zM18 25h2v1h-2zM21 25h1v1h-1zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM13 26h3v1h-3zM18 26h1v1h-1zM22 26h3v1h-3zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM11 27h1v1h-1zM14 27h1v1h-1zM16 27h1v1h-1zM18 27h4v1h-4zM23 27h2v1h-2zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h1v1h-1zM11 28h1v1h-1zM18 28h2v1h-2zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h2v1h-2zM14 29h3v1h-3zM18 29h3v1h-3zM23 29h3v1h-3zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h1v1h-1zM10 30h2v1h-2zM13 30h1v1h-1zM17 30h2v1h-2zM20 30h2v1h-2zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM12 31h3v1h-3zM16 31h1v1h-1zM18 31h1v1h-1zM20 31h4v1h-4zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h3v1h-3zM13 32h1v1h-1zM17 32h3v1h-3zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g></g><!--/QR--></svg>
