@@ -20,14 +20,18 @@ ap.add_argument("--x", type=float, default=459.0)
 ap.add_argument("--y", type=float, default=18.0)
 ap.add_argument("--size", type=float, default=64.0)
 ap.add_argument("--pad", type=float, default=6.0)
-ap.add_argument("--caption-pos", default="below", choices=["below", "left"])
+ap.add_argument("--caption-pos", default="below", choices=["below", "left", "inside"])
 ap.add_argument("--caption-fill", default="#176d8e")
 ap.add_argument("--panel-stroke", default="none")
 ap.add_argument("--page-mm", type=float, default=148.0)
 ap.add_argument("--viewbox-w", type=float, default=559.0)
 a = ap.parse_args()
 
-pw = ph = a.size + a.pad * 2
+pw = a.size + a.pad * 2
+if a.caption_pos == "inside" and a.caption:
+    ph = a.pad + a.size + 3 + 9 + 4      # 上留白 + QR + 間距 + 一行字 + 下留白
+else:
+    ph = a.size + a.pad * 2
 qx, qy = a.x + a.pad, a.y + a.pad
 
 qr = segno.make(a.url, error='m')
@@ -52,19 +56,23 @@ cap = u''
 if a.caption:
     style = (u"font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:%s"
              % a.caption_fill)
-    if a.caption_pos == "below":
+    if a.caption_pos == "inside":
+        cap = (u'<text x="%g" y="%g" text-anchor="middle" style="%s">%s</text>'
+               % (a.x + pw / 2, a.y + a.pad + a.size + 3 + 8, style, a.caption))
+    elif a.caption_pos == "below":
         cap = (u'<text x="%g" y="%g" text-anchor="middle" style="%s">%s</text>'
                % (a.x + pw / 2, a.y + ph + 10, style, a.caption))
     else:
         cap = (u'<text x="%g" y="%g" text-anchor="end" style="%s">%s</text>'
                % (a.x - 9, a.y + ph / 2 + 3, style, a.caption))
 
+# 說明文字要畫在白底面板「之後」，否則 inside 模式會被面板蓋住
 block = (
-    u'<!--QR--><g id="qr">%s'
+    u'<!--QR--><g id="qr">'
     u'<rect x="%g" y="%g" width="%g" height="%g" rx="10" fill="#fff" stroke="%s"/>'
     u'<g transform="translate(%g %g) scale(%.6f)" shape-rendering="crispEdges">'
-    u'<path d="%s" fill="#10283a"/></g></g><!--/QR-->'
-) % (cap, a.x, a.y, pw, ph, a.panel_stroke, qx, qy, scale, "".join(d))
+    u'<path d="%s" fill="#10283a"/></g>%s</g><!--/QR-->'
+) % (a.x, a.y, pw, ph, a.panel_stroke, qx, qy, scale, "".join(d), cap)
 
 s = io.open(a.src, encoding="utf-8").read()
 s = re.sub(r'<!--QR-->.*?<!--/QR-->', '', s, flags=re.S)
