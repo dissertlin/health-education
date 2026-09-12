@@ -54,6 +54,11 @@
   .stat div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-align:center}
   .stat b{display:block;font-size:1.5rem;line-height:1.2;color:var(--teal)}
   .stat span{font-size:.85rem;color:var(--sub)}
+  .price{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .price div{background:var(--moneybg);border:1.5px solid var(--moneyline);border-radius:12px;padding:14px 16px}
+  .price .who{display:block;font-weight:700;font-size:.92rem;color:var(--moneytext)}
+  .price b{display:block;font-size:1.75rem;line-height:1.25;margin:.12em 0 .18em}
+  .price .what{display:block;font-size:.82rem;color:var(--sub);line-height:1.5}
   .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
   .sheet img{display:block;width:100%;height:auto;border-radius:6px}
   .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
@@ -200,11 +205,10 @@
 需要自費的是<b>導管等特殊材料</b>。目前多數關鍵導管屬於健保「<b>自付差額</b>」類別 —— 健保付一部分，病人補差額。</div>
 
 <h3>長庚的收費標準</h3>
-<div class="tw"><table>
-<tr><th>技術</th><th>需要的材料</th><th>病人自費金額</th></tr>
-<tr><td>傳統熱能<br>（射頻）</td><td>壓力感應導管<br>（contact force ablation catheter）</td><td><b>約 6～7 萬元</b></td></tr>
-<tr><td>脈衝場消融<br>（PFA）</td><td>脈衝場消融導管</td><td><b>額外自費 16 萬多元</b></td></tr>
-</table></div>
+<div class="price">
+<div><span class="who">傳統熱能（射頻）</span><b>約 6～7 萬</b><span class="what">壓力感應導管<br>contact force ablation catheter</span></div>
+<div><span class="who">脈衝場消融（PFA）</span><b>16 萬多</b><span class="what">脈衝場消融導管<br>額外自費</span></div>
+</div>
 
 <p><b>壓力感應導管是什麼、為什麼要自費？</b>它能即時偵測導管貼在心臟壁上的力道。力道太輕燒不透、容易復發；太重則可能造成穿孔。有了壓力回饋，消融品質較穩定、安全性較好，因此是目前射頻消融的標準配備 —— 但它屬於自付差額材料。</p>
 
