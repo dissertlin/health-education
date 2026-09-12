@@ -41,7 +41,9 @@
   .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   .key{background:var(--okbg);border:1.5px solid var(--brand)}
   .key .t{color:var(--oktext)}
-  table{width:100%;border-collapse:collapse;margin:1em 0;font-size:.9rem;display:block;overflow-x:auto}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
   th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
   th{background:var(--okbg);font-weight:700;white-space:nowrap}
   .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
@@ -108,12 +110,12 @@
 抗凝血藥不是「讓心跳變正常」的藥，也不是「打通血管」的藥。它的工作只有一個：<b>讓血不要那麼容易結成血塊</b>，這樣就算心房一直在抖，也比較不會生出血塊跑到腦部。</div>
 
 <h3>心房顫動的三種型態</h3>
-<table>
+<div class="tw"><table>
 <tr><th>型態</th><th>說明</th></tr>
 <tr><td>陣發性</td><td>會自己停下來，通常在 7 天內恢復正常心律。可能一個月發作一次，也可能一天好幾次。</td></tr>
 <tr><td>持續性</td><td>超過 7 天還沒停，需要藥物或電擊幫忙才會恢復。</td></tr>
 <tr><td>長期持續性／永久性</td><td>長期處於心房顫動狀態，或醫病雙方決定不再嘗試恢復正常心律，改以控制心跳速度為主。</td></tr>
-</table>
+</table></div>
 <p class="lead">要注意：<b>不論哪一種型態，中風風險都存在</b>。陣發性的人常以為「我大部分時間都是正常的，應該沒關係」，這是錯的 —— 發作期間一樣會生血塊。</p>
 
 <h2 id="s2"><span class="num">2</span>台灣有多少人</h2>
@@ -153,26 +155,26 @@
 沒症狀<b>不等於</b>風險低。中風風險是看年齡和身體狀況算出來的，跟你「有沒有感覺」完全無關。所以就算你完全沒有不舒服，該不該吃抗凝血藥還是要評估。</div>
 
 <h2 id="s5"><span class="num">5</span>危險因子</h2>
-<table>
+<div class="tw"><table>
 <tr><th>不能改變的</th><th>可以改善的</th></tr>
 <tr>
 <td>年齡增長<br>男性<br>家族史<br>先天或瓣膜性心臟病</td>
 <td>高血壓<br>糖尿病<br>肥胖<br>睡眠呼吸中止症<br>喝酒<br>抽菸<br>甲狀腺亢進<br>缺乏運動<br>慢性腎病</td>
 </tr>
-</table>
+</table></div>
 <p>右邊那一欄之所以重要，是因為它們不只讓你比較容易得到心房顫動，還會讓<b>治療效果變差、電燒之後比較容易復發</b>。控制好這些，等於同時在治療心房顫動。</p>
 
 <div class="box key"><span class="t">睡眠呼吸中止症特別容易被忽略</span>
 如果你會打呼很大聲、睡覺中間會停止呼吸、白天很想睡，請主動跟醫師提。台灣心臟學會 2023 年的共識特別把它列為心房顫動病人應該評估的項目 —— 治療睡眠呼吸中止對心律控制有明顯幫助。</div>
 
 <h2 id="s6"><span class="num">6</span>怎麼檢查出來</h2>
-<table>
+<div class="tw"><table>
 <tr><th>方式</th><th>說明</th></tr>
 <tr><td>12 導程心電圖</td><td>最標準的診斷工具。缺點是只能記錄當下幾秒鐘，發作時沒去醫院就抓不到。</td></tr>
 <tr><td>24 小時心電圖<br>（Holter）</td><td>身上帶一台小機器記錄一整天，適合症狀常出現的人。</td></tr>
 <tr><td>長天期貼片<br>／事件記錄器</td><td>可以記錄數天到數週，抓到發作機率高很多。</td></tr>
 <tr><td>植入式心律記錄器</td><td>皮下植入，可記錄數年。用於高度懷疑但一直抓不到的情況，例如不明原因中風。</td></tr>
-</table>
+</table></div>
 
 <h3>自己在家摸脈搏</h3>
 <p>亞太心律學會（APHRS）鼓勵民眾自我檢查脈搏，尤其 65 歲以上。方法很簡單：</p>
@@ -190,7 +192,7 @@
 
 <h2 id="s7"><span class="num">7</span>中風風險怎麼算</h2>
 <p>醫師會用一個計分表評估你的中風風險，分數越高代表越需要抗凝血藥。2024 年歐洲心臟學會把原本的 CHA₂DS₂-VASc 簡化為 <b>CHA₂DS₂-VA</b>（拿掉性別這一項）。</p>
-<table>
+<div class="tw"><table>
 <tr><th>項目</th><th>分數</th></tr>
 <tr><td>C 鬱血性心衰竭</td><td>1</td></tr>
 <tr><td>H 高血壓</td><td>1</td></tr>
@@ -199,7 +201,7 @@
 <tr><td>S₂ 曾經中風或短暫性腦缺血</td><td>2</td></tr>
 <tr><td>V 血管疾病（心肌梗塞、周邊動脈疾病等）</td><td>1</td></tr>
 <tr><td>A 年齡 65～74 歲</td><td>1</td></tr>
-</table>
+</table></div>
 <p>一般而言分數 <b>2 分以上建議使用</b>抗凝血藥，<b>1 分可以考慮</b>。但實際怎麼決定要看你的整體狀況，由醫師判斷。</p>
 
 <div class="box key"><span class="t">亞洲人的風險出現得比較早</span>
@@ -212,12 +214,12 @@
 <h2 id="s8"><span class="num">8</span>抗凝血藥完整說明</h2>
 
 <h3>兩大類藥</h3>
-<table>
+<div class="tw"><table>
 <tr><th></th><th>新型口服抗凝血劑（NOAC／DOAC）</th><th>傳統的可邁丁（warfarin）</th></tr>
 <tr><td>使用方式</td><td>固定劑量，不需要常抽血調整</td><td>要定期抽血驗 INR 調整劑量</td></tr>
 <tr><td>飲食影響</td><td>影響小</td><td>深綠色蔬菜、中藥、很多食物都會影響</td></tr>
 <tr><td>亞洲人的安全性</td><td>腦出血風險明顯較低</td><td>亞洲人腦出血風險較高</td></tr>
-</table>
+</table></div>
 
 <div class="box key"><span class="t">為什麼醫師多半建議你吃比較貴的新藥</span>
 亞太心律學會 2021 年的共識指出：<b>亞洲人服用 warfarin 發生腦出血的風險，是非亞洲人的 1.71 倍</b>。而改用標準劑量的新型抗凝血劑，亞洲人降低出血性中風的效果更明顯，而且<b>沒有</b>出現西方人身上看到的腸胃道出血增加。<br><br>
@@ -287,7 +289,7 @@
 <p>AF-CARE 的最後一個 E。心房顫動是慢性病，狀況會變 —— 型態可能從陣發變持續、腎功能可能下降（影響藥量）、可能新增高血壓或糖尿病。<b>規律回診不是形式，是讓治療跟著你的身體一起調整。</b></p>
 
 <h2 id="s10"><span class="num">10</span>日常生活怎麼過</h2>
-<table>
+<div class="tw"><table>
 <tr><th>項目</th><th>建議</th></tr>
 <tr><td>量脈搏</td><td>養成習慣，記錄時間、快慢、規不規則，回診時帶給醫師看</td></tr>
 <tr><td>運動</td><td><b>可以而且應該運動</b>。規律中等強度運動有幫助；強度請與醫師討論，避免突然的高強度激烈運動</td></tr>
@@ -297,7 +299,7 @@
 <tr><td>睡眠</td><td>會打呼、白天嗜睡要評估睡眠呼吸中止</td></tr>
 <tr><td>外出</td><td>隨身帶藥單與緊急聯絡人資料；出國記得帶足藥量</td></tr>
 <tr><td>告知家人</td><td>讓家人認得中風警訊、知道要打 119、知道你在吃抗凝血藥</td></tr>
-</table>
+</table></div>
 
 <h2 id="s11"><span class="num">11</span>什麼時候該就醫</h2>
 <div class="box alert"><span class="t">立刻打 119</span>
