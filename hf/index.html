@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>認識心臟衰竭｜詳細版</title>
+<meta name="description" content="心臟衰竭是什麼、為什麼會喘會腫會累、原因有哪些、四大支柱藥物與心臟復健、鹽與水分怎麼控制、每天要量體重血壓血糖、什麼時候要提早回醫院。依台灣心臟學會 2023 共識與 2024 HFpEF 指引整理。">
+<style>
+  :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d;
+        --teal:#176d8e;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff8ec;--warnline:#efd094;--okbg:#eef7f8;--oktext:#0c6b62;
+        --bluebg:#eef4fb;--blueline:#b9d3ea;--bluetext:#22599a}
+  @media (prefers-color-scheme:dark){:root{--bg:#0f1720;--card:#161f2a;--line:#27333f;--ink:#e8f1f5;--sub:#9fb1bf;
+        --teal:#7fc8e0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#2a2318;--warnline:#5e4c2c;--okbg:#16262a;--oktext:#7fd8cd;
+        --bluebg:#18222f;--blueline:#31465e;--bluetext:#8fb9e6}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.02rem;margin:1.5em 0 .35em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
+  .tocnote b{color:var(--teal)}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.6em;font-size:.85rem;color:var(--sub);text-align:center}
+  .pill4{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:1.1em 0}
+  .pill4 div{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
+             border-radius:10px;padding:11px 13px}
+  .pill4 b{display:block;font-size:.95rem}
+  .pill4 span{font-size:.86rem;color:var(--sub)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<a class="back" href="../">← 回衛教單列表</a>
+<h1>認識心臟衰竭</h1>
+<p class="lead">這是 A5 衛教單張的詳細版。心臟衰竭到底是什麼、為什麼會喘會腫、現在有哪些治療、每天要量什麼、什麼時候要提早回醫院 —— 圖文一起說明。</p>
+
+<div class="box key"><span class="t">先記住三件事</span>
+<ol style="margin:0">
+<li>心臟衰竭是<b>可以控制的慢性病</b>，不是「心臟快停了」。現在的藥物治療效果很好。</li>
+<li><b>每天量體重</b>是你最重要的工作 —— <b>三天內增加 2 公斤</b>就要回診，那是積水的最早警訊。</li>
+<li>症狀好轉<b>不代表可以停藥</b>。是藥在讓你好轉，停掉會再惡化。</li>
+</ol>
+</div>
+
+<nav class="toc">
+<h2>目錄</h2>
+<ol>
+<li><a href="#s1">什麼是心臟衰竭</a></li>
+<li><a href="#s2">為什麼會發生</a></li>
+<li><a href="#s3">有哪些症狀</a></li>
+<li><a href="#s4">分成哪幾種</a></li>
+<li><a href="#s5">有哪些治療</a></li>
+<li><a href="#s6">藥物要注意什麼</a></li>
+<li><a href="#s7">飲食：鹽與水分</a></li>
+<li><a href="#s8">運動與心臟復健</a></li>
+<li><a href="#s9">每天要量什麼</a></li>
+<li><a href="#s10">什麼時候提早回院</a></li>
+<li><a href="#s11">常見問題</a></li>
+</ol>
+<p class="tocnote"><b>↔</b> 內容有包含表格，請左右滑動才能看到全部表格內容</p>
+</nav>
+
+<h2 id="s1"><span class="num">1</span>什麼是心臟衰竭</h2>
+<p>心臟的工作很單純：<b>像一台幫浦，把血打到全身</b>。心臟衰竭就是這台幫浦<b>力氣變差</b>（打不出去），或是<b>變硬了</b>（裝不進來），導致身體需要的血液供應不夠。</p>
+
+<figure class="fig">
+<svg viewBox="0 0 560 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="正常心臟與心臟衰竭的幫浦比喻">
+<rect x="2" y="2" width="272" height="186" rx="12" fill="#eef6ef" stroke="#a9d5b4"/>
+<text x="138" y="26" text-anchor="middle" style="font:700 14px sans-serif;fill:#2b6b46">正常</text>
+<path d="M110 62C96 44 66 54 70 80c3 20 40 40 40 40s37-20 40-40c4-26-26-36-40-18z" fill="#ef6b78" stroke="#c94a57" stroke-width="2"/>
+<circle cx="97" cy="78" r="3" fill="#2b3f57"/><circle cx="123" cy="78" r="3" fill="#2b3f57"/>
+<path d="M101 92q9 6 18 0" fill="none" stroke="#2b3f57" stroke-width="2" stroke-linecap="round"/>
+<path d="M160 80h60M160 100h60" stroke="#2b6b46" stroke-width="5" stroke-linecap="round"/>
+<path d="M212 72l12 8-12 8M212 92l12 8-12 8" fill="none" stroke="#2b6b46" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="138" y="160" text-anchor="middle" style="font:600 12px sans-serif;fill:#2b6b46">用力打出去，血流順暢</text>
+<rect x="286" y="2" width="272" height="186" rx="12" fill="#fdf0ee" stroke="#e8ada4"/>
+<text x="422" y="26" text-anchor="middle" style="font:700 14px sans-serif;fill:#a5423d">心臟衰竭</text>
+<path d="M394 62c-14-18-44-8-40 18 3 20 40 40 40 40s37-20 40-40c4-26-26-36-40-18z" fill="#e59aa0" stroke="#c98a90" stroke-width="2"/>
+<circle cx="381" cy="78" r="3" fill="#2b3f57"/><circle cx="407" cy="78" r="3" fill="#2b3f57"/>
+<path d="M385 96q9-6 18 0" fill="none" stroke="#2b3f57" stroke-width="2" stroke-linecap="round"/>
+<path d="M444 80h34M444 100h34" stroke="#c98a90" stroke-width="5" stroke-linecap="round"/>
+<path d="M492 74q10 6 0 12M492 94q10 6 0 12" fill="none" stroke="#a5423d" stroke-width="3" stroke-linecap="round"/>
+<path d="M340 128q-8 10 0 16t8-16z" fill="#8fb4e2"/><path d="M470 128q-8 10 0 16t8-16z" fill="#8fb4e2"/>
+<text x="422" y="160" text-anchor="middle" style="font:600 12px sans-serif;fill:#a5423d">打不出去，血積在肺與腳</text>
+</svg>
+<figcaption>血打不出去，就會往回積 —— 積在肺部造成「喘」，積在雙腳造成「腫」。</figcaption>
+</figure>
+
+<div class="box key"><span class="t">為什麼會喘、會腫、會累</span>
+<ul>
+<li><b>喘</b> —— 血積在肺部，肺泡周圍都是水，氧氣換不進來</li>
+<li><b>腫</b> —— 血積在下半身，水分滲到組織裡</li>
+<li><b>累</b> —— 打到肌肉與器官的血不夠，做一點事就沒力氣</li>
+</ul>
+這三件事是同一個原因造成的，不是三個不同的毛病。</div>
+
+<h2 id="s2"><span class="num">2</span>為什麼會發生</h2>
+<div class="tw"><table>
+<tr><th>原因</th><th>怎麼造成心臟衰竭</th></tr>
+<tr><td><b>心肌梗塞、冠心病</b></td><td>心肌缺血壞死，能收縮的肌肉變少</td></tr>
+<tr><td><b>高血壓</b></td><td>心臟長期對抗高壓，慢慢變厚變硬，最後裝不進血也打不出去</td></tr>
+<tr><td><b>心律不整</b></td><td>心房顫動等讓心跳太快太亂，久了心臟被累壞</td></tr>
+<tr><td><b>心臟瓣膜疾病</b></td><td>瓣膜狹窄或閉鎖不全，血流效率變差</td></tr>
+<tr><td><b>糖尿病</b></td><td>長期高血糖傷害心肌與血管</td></tr>
+<tr><td><b>心肌病變</b></td><td>包含遺傳性、病毒性心肌炎、產後心肌病變</td></tr>
+<tr><td><b>酒精、化療藥物</b></td><td>長期大量飲酒、部分抗癌藥物會直接傷害心肌</td></tr>
+<tr><td><b>其他</b></td><td>甲狀腺疾病、嚴重貧血、睡眠呼吸中止症</td></tr>
+</table></div>
+<p class="lead">很多病人不只一個原因。<b>把可以控制的原因控制好</b>（血壓、血糖、心律、戒酒），心臟衰竭才不會繼續惡化。</p>
+
+<h2 id="s3"><span class="num">3</span>有哪些症狀</h2>
+<p>記住三個字：<b>喘、腫、累</b>。</p>
+<div class="tw"><table>
+<tr><th>症狀</th><th>實際上會怎樣</th></tr>
+<tr><td><b>走路就喘</b></td><td>以前爬三樓沒事，現在爬一層就要停。<b>活動量下降是很重要的線索。</b></td></tr>
+<tr><td><b>躺不平</b></td><td>平躺就喘，要墊高枕頭或坐著才睡得著。<b>半夜被喘醒</b>坐起來才緩解，是典型的表現。</td></tr>
+<tr><td><b>腳踝水腫</b></td><td>傍晚特別明顯，<b>用手指按下去會留下凹陷</b>，鞋子變緊。</td></tr>
+<tr><td><b>體重快速上升</b></td><td><b>最早出現的警訊</b>，往往在你覺得喘之前就發生了。</td></tr>
+<tr><td><b>疲倦、沒力氣</b></td><td>常被當成年紀大或睡不好。</td></tr>
+<tr><td><b>夜咳、肚子脹</b></td><td>躺下咳嗽、食慾變差、肚子脹、噁心 —— 這是<b>腸胃也積水</b>的表現。</td></tr>
+</table></div>
+<div class="box warn"><span class="t">為什麼體重是最早的警訊</span>
+身體開始積水的時候，<b>要累積好幾公斤的水，才會腫到你看得出來、喘到你感覺得到</b>。<br><br>
+但體重計看得到。<b>三天內增加 2 公斤</b>，幾乎一定是水而不是脂肪 —— 這時候處理，常常吃幾天利尿劑就能解決；等到喘不過氣才來，可能就要住院了。</div>
+
+<h2 id="s4"><span class="num">4</span>分成哪幾種</h2>
+<p>醫師會用心臟超音波測量<b>左心室射出分率（EF）</b> —— 也就是心臟每次收縮能把多少比例的血打出去。這個數字決定用哪些藥。</p>
+<div class="tw"><table>
+<tr><th>類型</th><th>EF</th><th>意思</th></tr>
+<tr><td><b>收縮功能下降</b><br>（HFrEF）</td><td><b>≤ 40%</b></td><td>幫浦<b>力氣</b>不夠。四大支柱藥物對這一型證據最強</td></tr>
+<tr><td><b>輕度下降</b><br>（HFmrEF）</td><td>41～49%</td><td>介於兩者之間</td></tr>
+<tr><td><b>射出分率保留</b><br>（HFpEF）</td><td><b>≥ 50%</b></td><td>幫浦力氣還可以，但心臟<b>變硬、裝不進血</b>。常見於高齡、高血壓、糖尿病、肥胖的病人</td></tr>
+</table></div>
+<p>台灣心臟學會在 2023 年的共識與 2024 年的 HFpEF 指引，都採用這個分類。<b>不同分類的用藥策略不同</b>，這就是為什麼「別人的藥不能拿來吃」。</p>
+
+<h2 id="s5"><span class="num">5</span>有哪些治療</h2>
+<h3>藥物：四大支柱</h3>
+<p>這是近年心臟衰竭治療最大的進展。四類藥<b>一起使用</b>，能明顯減少住院與死亡。</p>
+
+<figure class="fig">
+<svg viewBox="0 0 560 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="心臟衰竭治療的四大支柱">
+<rect x="40" y="10" width="480" height="30" rx="8" fill="#3d6fb5"/>
+<text x="280" y="31" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">保護心臟、減少住院與死亡</text>
+<g>
+<rect x="56" y="52" width="104" height="86" rx="8" fill="#e5eefb" stroke="#8fb4e2"/>
+<rect x="88" y="64" width="40" height="17" rx="8.5" fill="#5b8fd4"/>
+<text x="108" y="104" text-anchor="middle" style="font:700 12px sans-serif;fill:#2f5fa3">ARNI</text>
+<text x="108" y="122" text-anchor="middle" style="font:500 10px sans-serif;fill:#5b7189">或 ACEI／ARB</text>
+</g>
+<g>
+<rect x="172" y="52" width="104" height="86" rx="8" fill="#e6f3f7" stroke="#8fc6da"/>
+<rect x="204" y="64" width="40" height="17" rx="8.5" fill="#5b9cc4"/>
+<text x="224" y="104" text-anchor="middle" style="font:700 12px sans-serif;fill:#276f8c">乙型阻斷劑</text>
+<text x="224" y="122" text-anchor="middle" style="font:500 10px sans-serif;fill:#5b7189">讓心跳慢下來</text>
+</g>
+<g>
+<rect x="288" y="52" width="104" height="86" rx="8" fill="#eeeafa" stroke="#b0a4de"/>
+<rect x="320" y="64" width="40" height="17" rx="8.5" fill="#7f76c4"/>
+<text x="340" y="104" text-anchor="middle" style="font:700 12px sans-serif;fill:#5b4fa8">MRA</text>
+<text x="340" y="122" text-anchor="middle" style="font:500 10px sans-serif;fill:#5b7189">醛固酮受體拮抗劑</text>
+</g>
+<g>
+<rect x="404" y="52" width="104" height="86" rx="8" fill="#e6f6f0" stroke="#8fcdb8"/>
+<rect x="436" y="64" width="40" height="17" rx="8.5" fill="#5bb39c"/>
+<text x="456" y="104" text-anchor="middle" style="font:700 12px sans-serif;fill:#127a60">SGLT2 抑制劑</text>
+<text x="456" y="122" text-anchor="middle" style="font:500 10px sans-serif;fill:#5b7189">不是糖尿病也能用</text>
+</g>
+<rect x="40" y="148" width="480" height="14" rx="4" fill="#cfdcec"/>
+</svg>
+<figcaption>四根柱子少一根，屋頂就撐不穩 —— 這也是為什麼醫師會希望四類都用上。</figcaption>
+</figure>
+
+<div class="box key"><span class="t">關於 SGLT2 抑制劑</span>
+這類藥原本是糖尿病用藥，後來發現<b>對心臟衰竭有明確好處，沒有糖尿病的病人一樣可以用</b>，而且是少數對 <b>HFpEF</b>（射出分率保留型）也有效的藥。<br><br>
+如果你沒有糖尿病卻被開了這個藥，<b>不是醫師開錯</b> —— 它在這裡是心臟藥。</div>
+
+<h3>其他常用藥</h3>
+<ul>
+<li><b>利尿劑</b> —— 排掉多餘的水，改善喘與水腫。它讓你<b>比較舒服</b>，但不改變長期預後，所以不能取代四大支柱。</li>
+<li>視情況加上其他藥物，由醫師依你的狀況決定。</li>
+</ul>
+
+<h3>藥物以外</h3>
+<div class="pill4">
+<div><b>裝置治療</b><span>心臟去顫器（ICD）預防猝死；心臟再同步治療（CRT）改善收縮協調。適合條件由醫師評估。</span></div>
+<div><b>心臟復健</b><span>在專業監督下的運動訓練，能改善體能、症狀與生活品質，是<b>有實證的治療</b>，不是「有空再說」。</span></div>
+<div><b>治療共病</b><span>血壓、血糖、心房顫動、貧血、缺鐵、睡眠呼吸中止症 —— 這些沒處理好，心臟衰竭很難穩定。</span></div>
+<div><b>疫苗</b><span>每年流感疫苗、依建議接種肺炎鏈球菌疫苗 —— 感染是心臟衰竭惡化住院的常見誘因。</span></div>
+</div>
+
+<h2 id="s6"><span class="num">6</span>藥物要注意什麼</h2>
+<div class="box alert"><span class="t">症狀好轉不是停藥的理由</span>
+這是最常見、也最危險的誤解。<b>你覺得好多了，正是因為藥在發揮作用。</b>自行停藥之後，症狀往往在幾週內回來，而且可能比之前更嚴重、需要住院。<br><br>
+四大支柱的好處是<b>長期累積</b>的 —— 它們保護的是心臟未來幾年的功能，不只是今天的舒服。</div>
+<ul>
+<li><b>劑量要慢慢往上調</b> —— 醫師會從低劑量開始，每隔一段時間加一點，同時抽血追蹤腎功能與血鉀。<b>回診抽血很重要，不要跳過。</b></li>
+<li><b>剛開始可能會有點頭暈或疲倦</b> —— 身體適應的過程，多數會改善。<b>回診說出來讓醫師調整，不要自己停。</b></li>
+<li><b>漏吃</b>就在想起來時補吃；如果已接近下一次，就跳過。<b>不要吃雙倍。</b></li>
+<li><b>利尿劑</b>吃了會頻尿，很多人因此自己減量或不吃 —— 這會直接導致積水。<b>可以跟醫師討論調整服藥時間</b>（例如避開外出或睡前）。</li>
+<li><b>止痛藥要小心</b> —— 非類固醇消炎止痛藥（很多痠痛藥、感冒藥含有）會讓身體留住水分、傷腎，<b>心臟衰竭病人應盡量避免</b>。買成藥前先問藥師。</li>
+<li><b>中藥與保健食品</b>（甘草、麻黃等）可能影響血壓與水分平衡，<b>開始吃之前先問醫師</b>。</li>
+</ul>
+
+<h2 id="s7"><span class="num">7</span>飲食：鹽與水分</h2>
+<h3>鹽：要控制</h3>
+<p>鹽會讓身體留住水分，是心臟衰竭病人最需要注意的一項。國際指引建議<b>避免過量鈉攝取</b>（大致每天鈉不超過 2000～2300 毫克，約 1 茶匙鹽）。</p>
+<div class="tw"><table>
+<tr><th>台灣人的鹽從哪裡來</th><th>怎麼做</th></tr>
+<tr><td><b>湯</b>：麵湯、火鍋湯、羹湯、味噌湯</td><td><b>吃麵不喝湯</b>，這一招省下的鈉最多</td></tr>
+<tr><td><b>醬料沾醬</b>：醬油、沙茶、豆瓣、甜辣醬</td><td>沾一點就好，便當的<b>滷汁少淋</b></td></tr>
+<tr><td><b>加工品</b>：香腸、火腿、貢丸、罐頭、<b>泡麵調味包</b>、醃漬物、豆腐乳</td><td>泡麵調味包<b>只加一半</b>或不加</td></tr>
+<tr><td><b>小吃</b>：滷味、鹹酥雞、關東煮</td><td>頻率減少，滷汁不要拌飯</td></tr>
+</table></div>
+<div class="box alert"><span class="t">低鈉鹽不可以自己用</span>
+低鈉鹽是把鈉換成<b>鉀</b>。心臟衰竭病人常在吃 MRA、ACEI／ARB／ARNI 這些<b>會讓血鉀上升</b>的藥，再加上低鈉鹽可能造成<b>高血鉀</b> —— 嚴重會引起致命的心律不整。<b>要不要用一定要先問醫師。</b></div>
+
+<h3>水分：不是每個人都要嚴格限制</h3>
+<div class="box warn"><span class="t">這一點很多病人做過頭了</span>
+以前常聽到「心臟衰竭就是要少喝水」，但<b>現在的指引已經修正了這個做法</b>。<br><br>
+歐洲心臟學會 2024 年關於鈉與水分攝取的共識指出：<b>常規對所有病人嚴格限水並沒有足夠證據支持</b>。限水主要用在<b>嚴重／末期心臟衰竭，或合併低血鈉</b>的病人，通常是每天 1.5～2 公升。<br><br>
+<b>過度限水反而有害</b> —— 可能造成脫水、腎功能惡化、血壓過低。<br><br>
+<b>你到底要不要限水、限多少，請直接問你的醫師</b>，並把答案記下來。天氣熱、流汗多、發燒或腹瀉時，需要的量也會不一樣。</div>
+
+<h3>其他</h3>
+<ul>
+<li><b>酒精</b> —— 越少越好。如果心臟衰竭是酒精造成的，<b>必須完全戒除</b>。</li>
+<li><b>戒菸</b> —— 對心臟的好處很快就開始。</li>
+<li><b>體重</b> —— 過重者減重有幫助；但如果<b>不是刻意減重卻一直掉體重、肌肉變少</b>，要告訴醫師，那可能是心臟衰竭惡化的表現。</li>
+</ul>
+
+<h2 id="s8"><span class="num">8</span>運動與心臟復健</h2>
+<div class="box key"><span class="t">心臟衰竭不是「要多休息」</span>
+以前認為心臟不好就要靜養，<b>現在完全相反</b>。規律運動能改善體能、減少症狀、提升生活品質，指引也建議在可以參與的病人身上進行運動訓練。<br><br>
+長期不動反而會讓肌肉流失、體能更差、更喘 —— 形成惡性循環。</div>
+<ul>
+<li><b>從散步開始</b>，一次 10～15 分鐘也可以，慢慢增加到<b>每週累積 150 分鐘中等強度</b>。</li>
+<li><b>強度抓法</b>：運動時<b>還可以講話但不能唱歌</b>，大致就是中等強度。</li>
+<li><b>心臟復健</b> —— 在醫院由專業團隊評估後設計的運動處方，最安全也最有效。<b>可以主動問你的醫師有沒有這個資源。</b></li>
+<li><b>要停下來的訊號</b>：胸痛、頭暈、冒冷汗、喘到說不出話、心跳非常不規則。</li>
+<li>症狀不穩定、剛住院出院、體重快速上升的期間，<b>先不要增加運動量</b>，回診請醫師評估。</li>
+</ul>
+
+<h2 id="s9"><span class="num">9</span>每天要量什麼</h2>
+<div class="tw"><table>
+<tr><th>項目</th><th>怎麼量</th><th>注意什麼</th></tr>
+<tr><td><b>體重</b><br>（最重要）</td><td><b>每天</b>，起床上完廁所、早餐前；同一台秤、穿類似的衣服</td><td><b>三天內增加 2 公斤</b>，或一週增加 2～3 公斤 → <b>回診</b></td></tr>
+<tr><td><b>血壓</b></td><td>安靜坐 5 分鐘後量，手臂與心臟同高</td><td>太低（頭暈、站不穩）或太高都要記錄回報</td></tr>
+<tr><td><b>脈搏</b></td><td>量血壓時順便看；或自己摸手腕數 60 秒</td><td>太快、太慢、<b>不規則</b>都要告訴醫師</td></tr>
+<tr><td><b>血糖</b></td><td>有糖尿病者依醫囑量測</td><td>血糖控制不好會讓心臟衰竭更難穩定</td></tr>
+<tr><td><b>水腫</b></td><td>每天看腳踝、小腿，<b>按下去有沒有凹陷</b></td><td>鞋子變緊、襪子勒痕變深也是線索</td></tr>
+</table></div>
+<div class="box key"><span class="t">記錄比記憶可靠</span>
+把這些數字<b>寫下來</b>（紙本、手機備忘錄、App 都可以），回診時帶給醫師看。<br><br>
+「我覺得還好」沒辦法幫醫師調藥，但「上週三開始三天胖了 2.5 公斤、血壓從 120 掉到 95、走路變喘」可以 —— <b>這些數字往往決定要不要調整利尿劑</b>。</div>
+
+<h2 id="s10"><span class="num">10</span>什麼時候提早回院</h2>
+<div class="box warn"><span class="t">這些情況要提早回診，不要等下次門診</span>
+<ul>
+<li><b>三天內體重增加 2 公斤以上</b>（或一週 2～3 公斤）</li>
+<li><b>喘變嚴重</b> —— 以前能走的距離現在走不到</li>
+<li><b>躺不平</b>，要墊更高的枕頭才睡得著，或半夜被喘醒</li>
+<li><b>腳腫變厲害</b>、肚子脹、鞋子明顯變緊</li>
+<li><b>頭暈、站起來不穩、快昏倒</b>（可能是血壓太低或藥物需要調整）</li>
+<li><b>心跳持續很快、很慢或很不規則</b></li>
+<li>食慾明顯變差、噁心想吐</li>
+<li>發燒或感染（感染常誘發心臟衰竭惡化）</li>
+</ul></div>
+<div class="box alert"><span class="t">立刻打 119</span>
+<ul>
+<li><b>胸痛</b></li>
+<li><b>休息也喘不過氣</b>、必須坐著才能呼吸</li>
+<li><b>昏倒</b>或意識不清</li>
+<li><b>咳出粉紅色泡沫痰</b>（急性肺水腫的表現）</li>
+<li>嘴唇發紫、冒冷汗、臉色發白</li>
+</ul>
+<b>不要自己開車，請旁人陪同或叫救護車。</b></div>
+
+<h2 id="s11"><span class="num">11</span>常見問題</h2>
+<h3>心臟衰竭是不是快要死了？</h3>
+<p><b>不是。</b>「衰竭」這兩個字聽起來很嚇人，但它指的是<b>幫浦效率不夠</b>，不是心臟快停了。現在的藥物治療進步很多，好好配合的病人可以維持很好的生活品質。</p>
+
+<h3>心臟功能還會恢復嗎？</h3>
+<p><b>有機會。</b>如果原因是可以處理的（心律不整、瓣膜問題、酒精、甲狀腺、缺血），處理後心臟功能常常可以改善，部分病人的 EF 甚至能回到正常範圍。<b>但即使恢復了，藥通常還是要繼續吃</b> —— 停掉可能再度惡化。</p>
+
+<h3>我覺得好多了，可以停藥嗎？</h3>
+<p>不行。你會好轉正是因為藥在作用。停不停、什麼時候減量，<b>必須由醫師評估</b>。</p>
+
+<h3>一定要完全不喝水嗎？</h3>
+<p>不是。<b>常規嚴格限水並沒有足夠證據支持</b>，主要用在嚴重心衰竭或低血鈉的病人。你的限制是多少，請直接問醫師，不要自己決定。</p>
+
+<h3>可以運動嗎？會不會太危險？</h3>
+<p>可以，而且應該。規律運動是<b>有實證的治療</b>。強度與方式請與醫師討論，最好能參加心臟復健。</p>
+
+<h3>需要告訴家人什麼？</h3>
+<p>告訴家人：你的診斷、在吃哪些藥、<b>每天要量體重</b>、以及看到你胸痛、喘不過氣、昏倒時要<b>打 119</b>。也讓家人知道體重快速增加是警訊。</p>
+
+<h2>單張下載</h2>
+<div class="sheet"><img src="hf.svg" alt="認識心臟衰竭 A5 病人衛教單張" loading="lazy"></div>
+<div class="btns">
+<a href="hf.pdf">下載 PDF（A5 可列印）</a>
+<a class="ghost" href="hf.svg">開啟原始向量圖 SVG</a>
+</div>
+
+<footer>
+<p><b>資料來源（查核至 2026-09）</b></p>
+<ul>
+<li><b>2023 Consensus of the Taiwan Society of Cardiology</b> on the Pharmacological Treatment of Heart Failure with Reduced Ejection Fraction（HFrEF 定義與四大支柱）</li>
+<li><b>2024 Guidelines of the Taiwan Society of Cardiology</b> for the Diagnosis and Treatment of Heart Failure with Preserved Ejection Fraction（HFpEF 兩步驟診斷與治療）</li>
+<li>2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure（心衰竭新定義、四階段與 EF 四分類）</li>
+<li>2021 ESC Guidelines for the Diagnosis and Treatment of Acute and Chronic Heart Failure 與 2023 Focused Update</li>
+<li>2024 Heart Failure Association of the ESC 臨床共識：心臟衰竭病人的鈉與水分攝取</li>
+</ul>
+<p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方，也不提供任何藥物劑量建議。</b>用哪些藥、劑量多少、要不要限水限鹽、運動強度如何，都必須由您的心臟科醫師依個人狀況判斷。症狀或病況改變時請儘速就醫。</p>
+</footer>
+
+
+</div>
+</body>
+</html>

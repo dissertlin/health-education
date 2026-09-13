@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<defs><style>
+.t{font:700 23px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#e8f2ff}
+.h{font:700 15px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1d3557}
+.b{font:700 10.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#2b3f57}
+.s{font:500 8.8px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#51637a}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6a7b8e}
+.cap{font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#2b3f57}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#dfe9f4}
+.srh{font:700 6.8px 'Microsoft JhengHei',sans-serif;fill:#fff}
+.card{fill:#fff;stroke:#d9e3ee;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+</style>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#3d6fb5"/><stop offset="1" stop-color="#5b4fa8"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#1d3557" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#f5f8fc"/>
+
+<!-- 標題 -->
+<rect x="18" y="15" width="523" height="92" rx="16" fill="url(#g)"/>
+<g transform="translate(34 28)">
+<path d="M33 16C23 4 4 12 7 30c2 13 26 25 26 25s24-12 26-25c3-18-16-26-26-14z" fill="#ef6b78" stroke="#c94a57" stroke-width="2"/>
+<circle cx="24" cy="27" r="2.4" fill="#2b3f57"/><circle cx="42" cy="27" r="2.4" fill="#2b3f57"/>
+<path d="M27 38q6 4 12 0" fill="none" stroke="#2b3f57" stroke-width="1.8" class="line"/>
+<path d="M52 8q5 4 0 9" fill="none" stroke="#9fd6ef" stroke-width="2.6" class="line"/>
+<path d="M57 18q4 3 0 7" fill="none" stroke="#9fd6ef" stroke-width="2.2" class="line"/>
+</g>
+<text x="110" y="48" class="t">認識心臟衰竭</text>
+<text x="110" y="71" class="st">心臟打血的力氣變差，身體會積水、會喘、會累</text>
+<rect x="110" y="82" width="330" height="19" rx="9.5" fill="#fff"/>
+<text x="122" y="95" class="s">它是<tspan style="font-weight:700;fill:#3d6fb5">可以控制的慢性病</tspan>，不是「心臟快停了」</text>
+
+<!-- 1 什麼是心臟衰竭 + 原因 -->
+<rect x="20" y="120" width="253" height="130" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="142" class="h">① 什麼是心臟衰竭？</text>
+<g transform="translate(38 150)">
+<rect x="0" y="6" width="34" height="26" rx="6" fill="#dce9fb" stroke="#8fb4e2" stroke-width="1.6"/>
+<path d="M9 19h7l3-6 4 12 3-6h5" fill="none" stroke="#d9535f" stroke-width="2" class="line"/>
+<path d="M36 14h12M36 24h12" stroke="#8fb4e2" stroke-width="2.4" class="line"/>
+<path d="M45 10l5 4-5 4M45 20l5 4-5 4" fill="none" stroke="#8fb4e2" stroke-width="2" class="line"/>
+</g>
+<text x="98" y="164" class="b">心臟像一台幫浦</text>
+<text x="98" y="178" class="s">負責把血打到全身</text>
+<text x="38" y="200" class="b">心臟衰竭＝幫浦力氣變差或變硬</text>
+<text x="38" y="215" class="s">血打不出去，就<tspan style="font-weight:700;fill:#c4453f">積在肺部與雙腳</tspan></text>
+<rect x="36" y="223" width="221" height="20" rx="10" fill="#eef4fd"/>
+<text x="146" y="237" text-anchor="middle" class="xs" style="font-weight:700;fill:#3157a0">所以會喘、會腫、會累、體重上升</text>
+
+<rect x="287" y="120" width="252" height="130" rx="13" class="card" filter="url(#sh)"/>
+<text x="304" y="142" class="h">原因有哪些？</text>
+<g transform="translate(304 150)">
+<circle cx="13" cy="13" r="13" fill="#ffe3e0"/><path d="M6 14h5l2-5 3 10 2-5h4" fill="none" stroke="#cf554b" stroke-width="2" class="line"/>
+<text x="32" y="11" class="b">心肌梗塞、冠心病</text><text x="32" y="24" class="s">心肌受損，力氣變差</text></g>
+<g transform="translate(304 190)">
+<circle cx="13" cy="13" r="13" fill="#e2eefb"/><rect x="4" y="9.5" width="10" height="7.5" rx="2" fill="#3157a0"/><path d="M14 13h2.5" stroke="#3157a0" stroke-width="1.6" class="line"/><circle cx="20" cy="13" r="3.8" fill="none" stroke="#3157a0" stroke-width="1.8"/><path d="M20 13v-2.4" stroke="#3157a0" stroke-width="1.5" class="line"/>
+<text x="32" y="11" class="b">高血壓（最常見之一）</text><text x="32" y="24" class="s">長期讓心臟變厚變硬</text></g>
+<text x="304" y="234" class="s">其他：心律不整（心房顫動）、心臟瓣膜</text>
+<text x="304" y="245" class="s">疾病、糖尿病、心肌病變、酒精、化療藥</text>
+
+<!-- 2 症狀 -->
+<rect x="20" y="262" width="519" height="128" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="284" class="h">② 有哪些症狀？</text>
+<text x="150" y="284" class="xs">記住三個字：<tspan style="font-weight:700;fill:#c4453f">喘、腫、累</tspan></text>
+<g transform="translate(36 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><circle cx="30" cy="17" r="9" fill="#ffd9bd"/><path d="M22 15q8-10 16 0" fill="#57718f"/><path d="M30 26v13" stroke="#6fa8c9" stroke-width="6" class="line"/><path d="M43 21q6 4 0 8" fill="none" stroke="#cf554b" stroke-width="2.2" class="line"/><path d="M49 18q9 7 0 14" fill="none" stroke="#cf554b" stroke-width="1.8" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">走路就喘</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">爬樓梯特別明顯</text></g>
+<g transform="translate(118 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><rect x="12" y="31" width="52" height="8" rx="4" fill="#cfe0f2"/><path d="M14 31l11-9h13" fill="none" stroke="#8fb4e2" stroke-width="3" class="line"/><circle cx="27" cy="20" r="7" fill="#ffd9bd"/><path d="M21 19q6-8 12 0" fill="#57718f"/><path d="M36 25h22" stroke="#8fb4e2" stroke-width="3.5" class="line"/><path d="M46 12q6 4 0 8" fill="none" stroke="#cf554b" stroke-width="2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">躺不平</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">要墊高枕頭</text></g>
+<g transform="translate(200 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><path d="M33 6h10v21l9 11q3 5-3 7H30q-6-2-3-7l6-11z" fill="#ffd9bd" stroke="#c99872" stroke-width="1.6"/><path d="M26 34q14 6 28 0" fill="none" stroke="#6fa8c9" stroke-width="2.6" class="line"/><circle cx="40" cy="40" r="2.6" fill="#6fa8c9"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">腳踝水腫</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">按下去有凹陷</text></g>
+<g transform="translate(282 294)"><rect width="76" height="88" rx="10" fill="#fff3f1"/><circle cx="33" cy="27" r="15" fill="#fff" stroke="#cf554b" stroke-width="2.2"/><path d="M33 27l7-8" stroke="#cf554b" stroke-width="2.4" class="line"/><circle cx="33" cy="27" r="2" fill="#cf554b"/><path d="M26 10h14" stroke="#cf554b" stroke-width="2.6" class="line"/><path d="M53 24V12M49 16l4-4 4 4" fill="none" stroke="#cf554b" stroke-width="2.2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#a5423d">體重快速上升</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#a5423d">最早的警訊</text></g>
+<g transform="translate(364 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><circle cx="38" cy="25" r="13" fill="#ffd9bd"/><path d="M27 22q11-12 22 0" fill="#57718f"/><path d="M31 27q3 3 6 0M41 27q3 3 6 0" fill="none" stroke="#57718f" stroke-width="1.8" class="line"/><path d="M33 34q5 4 10 0" fill="none" stroke="#57718f" stroke-width="1.8" class="line"/><path d="M22 13l-5-4M54 13l5-4" stroke="#8fb4e2" stroke-width="2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">疲倦沒力氣</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">做一點事就累</text></g>
+<g transform="translate(446 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><path d="M45 9a12.5 12.5 0 109 16 10.5 10.5 0 01-9-16z" fill="#5b6fa8"/><path d="M15 23q5-4 10 0M13 31q6-4 12 0M17 39q4-3 8 0" fill="none" stroke="#8fb4e2" stroke-width="2.2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">夜咳、肚子脹</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">食慾也變差</text></g>
+<!-- 3 治療 -->
+<rect x="20" y="402" width="519" height="106" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="424" class="h">③ 有哪些治療？</text>
+<text x="150" y="424" class="xs">現在的心臟衰竭<tspan style="font-weight:700;fill:#3157a0">治療效果很好</tspan>，關鍵是規律用藥</text>
+<rect x="36" y="432" width="240" height="66" rx="10" fill="#eef4fd"/>
+<text x="49" y="449" class="b" style="fill:#3157a0">藥物「四大支柱」</text>
+<g transform="translate(49 455)">
+<rect x="0" y="0" width="17" height="9" rx="4.5" fill="#5b8fd4"/><rect x="24" y="0" width="17" height="9" rx="4.5" fill="#6fa8c9"/>
+<rect x="48" y="0" width="17" height="9" rx="4.5" fill="#7f76c4"/><rect x="72" y="0" width="17" height="9" rx="4.5" fill="#5bb39c"/></g>
+<text x="49" y="480" class="s">四類藥一起用，能減少住院與死亡</text>
+<text x="49" y="492" class="s">要慢慢調整到適合劑量，<tspan style="font-weight:700;fill:#c4453f">不可自行停藥</tspan></text>
+<rect x="284" y="432" width="239" height="66" rx="10" fill="#eefaf6"/>
+<text x="297" y="449" class="b" style="fill:#0d7a68">藥物以外</text>
+<text x="297" y="464" class="s">裝置治療：去顫器、心臟再同步治療</text>
+<text x="297" y="477" class="s">心臟復健與運動訓練（很重要）</text>
+<text x="297" y="490" class="s">治療共病：血壓、血糖、心房顫動、貧血</text>
+
+<!-- 4 你要配合的事 -->
+<rect x="20" y="520" width="519" height="146" rx="13" fill="#fffaef" stroke="#eccf86" stroke-width="1.6" filter="url(#sh)"/>
+<text x="37" y="542" class="h">④ 你要配合的事</text>
+<g transform="translate(36 550)"><rect width="118" height="50" rx="10" fill="#fff"/>
+<g transform="translate(11 9)"><circle cx="11" cy="11" r="11" fill="#fde3e0"/><path d="M11 11V5M11 11l4 3" stroke="#cf554b" stroke-width="2" class="line"/><path d="M5 1h12" stroke="#cf554b" stroke-width="2.2" class="line"/></g>
+<text x="40" y="21" class="b">每天量體重</text><text x="14" y="38" class="s">起床上完廁所、空腹</text><text x="14" y="47" class="xs">同一台秤、穿類似衣服</text></g>
+<g transform="translate(162 550)"><rect width="118" height="50" rx="10" fill="#fff"/>
+<g transform="translate(11 9)"><circle cx="11" cy="11" r="11" fill="#e2eefb"/><rect x="5" y="7" width="12" height="8" rx="4" fill="#3157a0"/><path d="M11 7v8" stroke="#fff" stroke-width="1.4"/></g>
+<text x="40" y="21" class="b">按時吃藥</text><text x="14" y="38" class="s">症狀好轉也不能停</text><text x="14" y="47" class="xs">漏吃別補雙倍，回診問</text></g>
+<g transform="translate(288 550)"><rect width="118" height="50" rx="10" fill="#fff"/>
+<g transform="translate(11 9)"><circle cx="11" cy="11" r="11" fill="#eefaf6"/><path d="M7 9h8l1.3 9h-10.6z" fill="#0d7a68"/><path d="M8 9V6.8a3 3 0 016 0V9" fill="none" stroke="#0d7a68" stroke-width="1.5" class="line"/><circle cx="9.6" cy="12.5" r=".85" fill="#fff"/><circle cx="12.4" cy="12.5" r=".85" fill="#fff"/><circle cx="11" cy="15.3" r=".85" fill="#fff"/></g>
+<text x="40" y="21" class="b">少鹽、飲食清淡</text><text x="14" y="38" class="s">湯、醬料、加工品最鹹</text><text x="14" y="47" class="xs">水分依醫師指示，別自己限</text></g>
+<g transform="translate(414 550)"><rect width="109" height="50" rx="10" fill="#fff"/>
+<g transform="translate(11 9)"><circle cx="11" cy="11" r="11" fill="#f1ecfb"/><circle cx="11.5" cy="5" r="2.3" fill="#6a5aa8"/><path d="M11.5 7.5v5.5M11.5 13l-3 4.5M11.5 13l3 4M11.5 9.5l-3-1M11.5 9.5l3 1.8" fill="none" stroke="#6a5aa8" stroke-width="1.8" class="line"/></g>
+<text x="40" y="21" class="b">規律運動</text><text x="14" y="38" class="s">從散步開始、量力而為</text><text x="14" y="47" class="xs">可詢問心臟復健</text></g>
+<rect x="36" y="608" width="487" height="48" rx="10" fill="#fff"/>
+<text x="49" y="625" class="b" style="fill:#3157a0">每天／每次都要記錄：體重・血壓・脈搏・血糖</text>
+<text x="49" y="640" class="s">固定時間量、寫下來，回診時帶給醫師看 —— 這些數字比「我覺得還好」更能幫醫師調藥。</text>
+<text x="49" y="652" class="xs">有糖尿病者血糖控制同樣重要；抽菸要戒、酒越少越好；每年打流感疫苗。</text>
+
+<!-- 5 提早回院 -->
+<rect x="20" y="678" width="519" height="60" rx="13" fill="#fff2f0" stroke="#eda79f" stroke-width="1.7"/>
+<circle cx="45" cy="700" r="12" fill="#d9453f"/><text x="45" y="705" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="697" class="b" style="fill:#a5322d">⑤ 這些情況要提早回醫院，不要等下次回診</text>
+<text x="66" y="712" class="s" style="fill:#a5322d">三天內體重增加 2 公斤以上｜喘變嚴重、躺不平｜腳腫變厲害｜頭暈、快昏倒</text>
+<text x="66" y="727" class="s" style="fill:#a5322d"><tspan style="font-weight:700">立即打 119：</tspan>胸痛、休息也喘不過氣、昏倒、咳出粉紅色泡沫痰</text>
+
+<!-- 來源 -->
+<rect x="20" y="748" width="519" height="42" rx="9" fill="#26405f"/>
+<text x="31" y="762" class="srh">資料來源（查核至 2026-09）：</text>
+<text x="31" y="773" class="src">2023 Consensus of Taiwan Society of Cardiology on HFrEF；2024 TSOC Guidelines for HFpEF；2022 AHA/ACC/HFSA HF Guideline；</text>
+<text x="31" y="783" class="src">2021 ESC HF Guideline 與 2023 Focused Update；2024 HFA/ESC 鈉與水分攝取共識。本單張供衛教，不取代個別診療。</text>
+<!--QR--><g id="qr"><rect x="463" y="18" width="72" height="82" rx="10" fill="#fff" stroke="none"/><g transform="translate(469 24) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM11 0h3v1h-3zM16 0h2v1h-2zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h1v1h-1zM13 1h5v1h-5zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h1v1h-1zM11 2h3v1h-3zM16 2h3v1h-3zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h2v1h-2zM11 3h2v1h-2zM14 3h1v1h-1zM16 3h1v1h-1zM19 3h2v1h-2zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h2v1h-2zM11 4h3v1h-3zM15 4h1v1h-1zM18 4h1v1h-1zM21 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM10 5h2v1h-2zM15 5h2v1h-2zM20 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h3v1h-3zM15 7h1v1h-1zM18 7h1v1h-1zM21 7h1v1h-1zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM12 8h4v1h-4zM17 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM2 9h1v1h-1zM5 9h1v1h-1zM8 9h1v1h-1zM12 9h1v1h-1zM18 9h3v1h-3zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM2 10h2v1h-2zM5 10h3v1h-3zM9 10h2v1h-2zM12 10h1v1h-1zM15 10h2v1h-2zM18 10h1v1h-1zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM1 11h1v1h-1zM4 11h1v1h-1zM9 11h3v1h-3zM14 11h1v1h-1zM16 11h1v1h-1zM19 11h7v1h-7zM28 11h3v1h-3zM2 12h2v1h-2zM6 12h1v1h-1zM9 12h4v1h-4zM18 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM8 13h10v1h-10zM20 13h2v1h-2zM23 13h1v1h-1zM26 13h1v1h-1zM29 13h4v1h-4zM3 14h5v1h-5zM9 14h1v1h-1zM11 14h1v1h-1zM14 14h1v1h-1zM18 14h2v1h-2zM21 14h2v1h-2zM25 14h3v1h-3zM30 14h2v1h-2zM1 15h1v1h-1zM3 15h3v1h-3zM7 15h4v1h-4zM12 15h3v1h-3zM16 15h1v1h-1zM18 15h4v1h-4zM24 15h3v1h-3zM29 15h2v1h-2zM1 16h1v1h-1zM4 16h3v1h-3zM10 16h3v1h-3zM17 16h1v1h-1zM19 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM9 17h4v1h-4zM16 17h2v1h-2zM19 17h2v1h-2zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM4 18h7v1h-7zM13 18h5v1h-5zM21 18h1v1h-1zM27 18h2v1h-2zM30 18h2v1h-2zM0 19h2v1h-2zM7 19h2v1h-2zM14 19h2v1h-2zM17 19h5v1h-5zM23 19h9v1h-9zM1 20h1v1h-1zM3 20h1v1h-1zM6 20h1v1h-1zM8 20h1v1h-1zM10 20h2v1h-2zM16 20h1v1h-1zM19 20h1v1h-1zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h1v1h-1zM3 21h2v1h-2zM7 21h2v1h-2zM10 21h1v1h-1zM12 21h1v1h-1zM14 21h2v1h-2zM18 21h1v1h-1zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM2 22h2v1h-2zM6 22h1v1h-1zM8 22h1v1h-1zM12 22h1v1h-1zM14 22h3v1h-3zM21 22h2v1h-2zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM2 23h1v1h-1zM7 23h1v1h-1zM9 23h2v1h-2zM13 23h3v1h-3zM21 23h1v1h-1zM30 23h2v1h-2zM0 24h1v1h-1zM3 24h2v1h-2zM6 24h3v1h-3zM12 24h1v1h-1zM14 24h2v1h-2zM17 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM8 25h1v1h-1zM10 25h2v1h-2zM16 25h1v1h-1zM18 25h2v1h-2zM21 25h1v1h-1zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM9 26h3v1h-3zM13 26h3v1h-3zM18 26h1v1h-1zM22 26h3v1h-3zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h3v1h-3zM12 27h3v1h-3zM16 27h1v1h-1zM19 27h3v1h-3zM23 27h2v1h-2zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h1v1h-1zM11 28h1v1h-1zM18 28h2v1h-2zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h2v1h-2zM11 29h1v1h-1zM13 29h4v1h-4zM23 29h3v1h-3zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h7v1h-7zM17 30h2v1h-2zM20 30h2v1h-2zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM9 31h1v1h-1zM12 31h1v1h-1zM14 31h1v1h-1zM16 31h1v1h-1zM18 31h6v1h-6zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h2v1h-2zM14 32h1v1h-1zM17 32h3v1h-3zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="95" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#3157a0">掃描看電子版</text></g><!--/QR--></svg>
