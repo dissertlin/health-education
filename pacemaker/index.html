@@ -40,6 +40,9 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -119,6 +122,38 @@
 <li><b>導線</b> —— 從鎖骨下的靜脈進入心臟，接觸心肌</li>
 </ul>
 <p class="lead">以上是<b>傳統節律器</b>的構造。另一種<b>無導線節律器</b>把這兩部分合成一顆膠囊，直接放在心臟裡，沒有另外的導線 —— 詳見<a href="#s3">第 3 節</a>。</p>
+<figure class="fig">
+<svg viewBox="0 0 560 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="傳統節律器的構造，以及它只在心跳太慢時才放電">
+<rect x="2" y="2" width="272" height="206" rx="12" fill="#eef5f8" stroke="#b6d4e2"/>
+<text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#1d5570">構造</text>
+<path d="M70 48q68-18 136 0v118q-68 20-136 0z" fill="#fdeee4" stroke="#d9b79c" stroke-width="1.6"/>
+<path d="M118 96c-9-12-27-4-24 12 2 13 24 26 24 26s22-13 24-26c3-16-15-24-24-12z" fill="#ef6b78" stroke="#c94a57" stroke-width="1.6"/>
+<rect x="78" y="62" width="26" height="18" rx="5" fill="#9fb4c0" stroke="#5f7b8a" stroke-width="1.6"/>
+<path d="M82 68h18M82 74h18" stroke="#fff" stroke-width="1.6"/>
+<path d="M104 74q18 8 12 26" fill="none" stroke="#5f7b8a" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="116" cy="102" r="3" fill="#5f7b8a"/>
+<path d="M104 66h52" stroke="#5f7b8a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="160" y="69" style="font:600 11px sans-serif;fill:#1d5570">脈衝產生器</text>
+<path d="M136 88h20" stroke="#5f7b8a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="160" y="91" style="font:600 11px sans-serif;fill:#1d5570">導線</text>
+<path d="M140 120h16" stroke="#5f7b8a" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="160" y="123" style="font:600 11px sans-serif;fill:#1d5570">心臟</text>
+<text x="138" y="192" text-anchor="middle" style="font:500 11px sans-serif;fill:#4e6b7a">機器在鎖骨下方皮下，導線經血管進心臟</text>
+<rect x="286" y="2" width="272" height="206" rx="12" fill="#eef6ef" stroke="#a9d5b4"/>
+<text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#2b6b46">它什麼時候才出手</text>
+<path d="M306 84h14l5-16 6 32 5-16h16l5-16 6 32 5-16h14" fill="none" stroke="#2b6b46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="422" y="60" text-anchor="middle" style="font:600 11px sans-serif;fill:#2b6b46">心跳夠快時：安靜待命</text>
+<path d="M382 84h70" stroke="#2b6b46" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M452 84h14l5-16 6 32 5-16h12" fill="none" stroke="#2b6b46" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="422" y="128" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">心跳停頓時：補上一下</text>
+<path d="M306 156h16l5-14 6 28 5-14h20" fill="none" stroke="#4e6b7a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M358 140v32" stroke="#d9453f" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M358 156h8l5-14 6 28 5-14h30" fill="none" stroke="#4e6b7a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="358" y="188" text-anchor="middle" style="font:600 10px sans-serif;fill:#a5423d">↑ 節律器的電流</text>
+</svg>
+<figcaption>節律器隨時在監看。心跳夠快時它完全不動作；只有慢到低於設定值，才送出一個微小電流補上一下 —— 絕大多數人感覺不到。</figcaption>
+</figure>
+
 <div class="box key"><span class="t">它平常在「待命」，不是一直在放電</span>
 節律器會隨時監看你的心跳。<b>只有在心跳慢到低於設定值時，才送出一個微小的電流</b>，讓心臟跳一下。你自己的心跳夠快時，它就安靜待命。<br><br>
 所以它不會「搶走」你的心跳，也不會讓心臟變得依賴。那個電流非常微小，<b>絕大多數人完全感覺不到</b>。</div>
@@ -152,6 +187,30 @@
 
 <div class="box key"><span class="t">目前有兩種廠牌的無導線節律器</span>
 台灣目前可以使用的無導線節律器，有<b>兩家廠牌</b>的系統：<b>美敦力（Medtronic）的 Micra</b> 與 <b>雅培（Abbott）的 Aveir</b>。<br><br>它們的<b>基本原理一樣</b> —— 都是一顆膠囊、經鼠蹊部血管放進心臟、沒有導線；但在<b>尺寸、固定方式（小鉤子或螺旋）、能不能回收取出、有沒有雙腔功能</b>等細節上並不相同。<br><br>所以下面談到的優缺點是<b>共通的原則</b>。<b>你實際會裝哪一種、那一種的具體規格與費用，請直接問你的醫療團隊</b> —— 這也會影響日後電池用完時的處理方式。</div>
+
+<figure class="fig">
+<svg viewBox="0 0 560 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="傳統節律器與無導線節律器的位置與傷口對照">
+<rect x="2" y="2" width="272" height="226" rx="12" fill="#eef4fb" stroke="#b9d3ea"/>
+<text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#22599a">傳統節律器（有導線）</text>
+<path d="M76 46q62-16 124 0v150q-62 18-124 0z" fill="#fdeee4" stroke="#d9b79c" stroke-width="1.6"/>
+<path d="M124 104c-9-12-27-4-24 12 2 13 24 26 24 26s22-13 24-26c3-16-15-24-24-12z" fill="#ef6b78" stroke="#c94a57" stroke-width="1.6"/>
+<rect x="86" y="62" width="28" height="19" rx="5" fill="#7aa7d4" stroke="#3f6fa8" stroke-width="1.8"/>
+<path d="M90 68h20M90 75h20" stroke="#fff" stroke-width="1.6"/>
+<path d="M114 76q20 8 14 28" fill="none" stroke="#3f6fa8" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="100" cy="60" r="9" fill="none" stroke="#c9453f" stroke-width="2"/>
+<text x="138" y="212" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">胸前有傷口與小凸起</text>
+<rect x="286" y="2" width="272" height="226" rx="12" fill="#eef8f2" stroke="#a9d5cd"/>
+<text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#08766d">無導線節律器（膠囊型）</text>
+<path d="M360 46q62-16 124 0v150q-62 18-124 0z" fill="#fdeee4" stroke="#d9b79c" stroke-width="1.6"/>
+<path d="M408 104c-9-12-27-4-24 12 2 13 24 26 24 26s22-13 24-26c3-16-15-24-24-12z" fill="#ef6b78" stroke="#c94a57" stroke-width="1.6"/>
+<rect x="404" y="116" width="9" height="16" rx="4.5" fill="#0d7a68" stroke="#095c4e" stroke-width="1.4"/>
+<path d="M404 186q-12-22 2-46" fill="none" stroke="#0d7a68" stroke-width="2.2" stroke-dasharray="4 3" stroke-linecap="round"/>
+<path d="M400 182l4 6 6-3" fill="none" stroke="#0d7a68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="422" y="190" text-anchor="middle" style="font:600 10px sans-serif;fill:#0d7a68">從鼠蹊部血管送上去</text>
+<text x="422" y="212" text-anchor="middle" style="font:600 11px sans-serif;fill:#08766d">胸前沒有傷口與導線</text>
+</svg>
+<figcaption>左：機器放在鎖骨下方、導線經血管進心臟，胸前留下傷口與小凸起。右：整台就是一顆膠囊，從鼠蹊部血管送進心臟固定，體外看不到任何東西。</figcaption>
+</figure>
 
 <h3>無導線節律器的優點</h3>
 <p>它的好處幾乎都來自同一件事：<b>沒有囊袋、也沒有導線</b>。</p>
@@ -323,6 +382,36 @@
 <li>穩定後大約<b>每 6～12 個月</b>檢查一次</li>
 <li>接近電池末期時，回診會變密集</li>
 </ul>
+<figure class="fig">
+<svg viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="遠距監測：裝置資料從家裡傳回醫院">
+<rect x="2" y="2" width="556" height="146" rx="12" fill="#f3f7fb" stroke="#c9d9e8"/>
+<g transform="translate(46 40)">
+<circle cx="30" cy="16" r="14" fill="#ffd9bd"/><path d="M18 14q12-14 24 0" fill="#57718f"/>
+<path d="M30 31v26" stroke="#6fa8c9" stroke-width="8" stroke-linecap="round"/>
+<rect x="4" y="14" width="13" height="10" rx="3" fill="#7aa7d4"/>
+<text x="30" y="80" text-anchor="middle" style="font:600 11px sans-serif;fill:#3f6fa8">你身上的節律器</text>
+</g>
+<g transform="translate(210 48)">
+<rect x="0" y="16" width="46" height="30" rx="6" fill="#cfe0f2" stroke="#7aa7d4" stroke-width="1.6"/>
+<circle cx="23" cy="31" r="6" fill="none" stroke="#3f6fa8" stroke-width="2"/>
+<path d="M13 10q10-8 20 0M17 4q6-5 12 0" fill="none" stroke="#3f6fa8" stroke-width="2" stroke-linecap="round"/>
+<text x="23" y="72" text-anchor="middle" style="font:600 11px sans-serif;fill:#3f6fa8">家裡的傳輸器</text>
+</g>
+<g transform="translate(400 44)">
+<rect x="0" y="8" width="56" height="44" rx="5" fill="#dff0e8" stroke="#5bb39c" stroke-width="1.6"/>
+<path d="M22 22h12M28 16v12" stroke="#0d7a68" stroke-width="3" stroke-linecap="round"/>
+<text x="28" y="76" text-anchor="middle" style="font:600 11px sans-serif;fill:#0d7a68">醫院醫療團隊</text>
+</g>
+<path d="M112 78h78" stroke="#9fb4c6" stroke-width="2.4" stroke-dasharray="6 4" stroke-linecap="round"/>
+<path d="M182 72l10 6-10 6" fill="none" stroke="#9fb4c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 78h110" stroke="#9fb4c6" stroke-width="2.4" stroke-dasharray="6 4" stroke-linecap="round"/>
+<path d="M372 72l10 6-10 6" fill="none" stroke="#9fb4c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="151" y="66" text-anchor="middle" style="font:500 10px sans-serif;fill:#6a7b8e">自動讀取</text>
+<text x="325" y="66" text-anchor="middle" style="font:500 10px sans-serif;fill:#6a7b8e">定期上傳</text>
+</svg>
+<figcaption>資料是<b>定期自動上傳</b>，不是即時被人盯著看 —— 所以有緊急狀況還是要打 119。</figcaption>
+</figure>
+
 <div class="box key"><span class="t">遠距監測 —— 目前指引建議的做法</span>
 現在許多裝置可以<b>從家裡把資料自動傳回醫院</b>（透過床頭的傳輸盒或手機 App）。2021 年歐洲心臟學會的節律器指引<b>建議常規使用遠距監測</b>，理由是：<br><br>
 <ul>
