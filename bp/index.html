@@ -34,6 +34,10 @@
   .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
   .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
   .toc a{text-decoration:none}
+  .totop{margin:1.4em 0 .2em;text-align:right;line-height:1}
+  .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
+  .totop a:hover{color:var(--teal);border-color:var(--teal)}
+  .totop span{font-size:.95rem;line-height:1}
   .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
   .tocnote b{color:var(--teal)}
   .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
@@ -81,7 +85,7 @@
 </ol>
 </div>
 
-<nav class="toc">
+<nav class="toc" id="toc">
 <h2>目錄</h2>
 <ol>
 <li><a href="#s1">什麼是高血壓</a></li>
@@ -112,6 +116,8 @@
 高血壓被叫做「沉默的殺手」，因為血管受損的那十幾年，你通常<b>完全沒有感覺</b>。等到有症狀，往往已經是中風或心臟出事。<br><br>
 所以「我最近覺得還好，應該不用量」「我沒有不舒服，藥可以先停」<b>都是很危險的判斷</b>。唯一可靠的方法就是量。</div>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s2"><span class="num">2</span>三件不一樣的事</h2>
 <p>很多人把這三件事混在一起，所以聽醫師講會愈聽愈亂：</p>
 <div class="tw"><table>
@@ -120,6 +126,8 @@
 <tr><td>要不要吃藥？<br>（治療門檻）</td><td>不是只看數字。還要看你有沒有糖尿病、腎病、心血管疾病，以及整體的心血管風險。<b>同樣 135/85，有人要吃藥，有人先改生活型態。</b></td></tr>
 <tr><td>吃藥後要降到多少？<br>（治療目標）</td><td>見第 5 節。這是<b>治療後要達到的數字</b>，跟診斷門檻不是同一回事。</td></tr>
 </table></div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s3"><span class="num">3</span>居家「722」</h2>
 <p>台灣高血壓治療指引推廣的居家量測口訣，比在診間量更能反映真實血壓（診間常有「白袍高血壓」）。</p>
@@ -131,6 +139,8 @@
 <div class="box key"><span class="t">怎麼算你的血壓</span>
 把這 7 天的數值<b>全部平均</b>（第一天通常偏高，有些醫師會建議去掉第一天）。<b>拿平均值回診</b>，不要只講「我最高量到 160」或「我通常都 120」。<br><br>
 現在很多血壓計有記憶功能可以直接調出平均值，或用手機 App、紙本記錄都可以。</div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s4"><span class="num">4</span>量的細節</h2>
 <h3>量之前 30 分鐘</h3>
@@ -150,6 +160,8 @@
 </ul>
 <p class="lead">血壓計建議每 1～2 年校正一次；買的時候選有通過驗證的機型，可以帶去診間跟醫院的機器對照一次。</p>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s5"><span class="num">5</span>目標是多少</h2>
 <div class="tw"><table>
 <tr><th>依據</th><th>目標</th></tr>
@@ -160,11 +172,15 @@
 <p>整體趨勢是<b>「能耐受的話，降得低一點更好」</b>。但關鍵詞是「<b>能耐受</b>」—— 這要由醫師依你的年齡、腎功能、有沒有頭暈跌倒來判斷。</p>
 <p class="lead">2025 AHA/ACC 也改用新的 PREVENT 風險計算來評估是否需要用藥，納入了腎功能等因素。你不需要會算，但可以理解：<b>醫師決定要不要開藥，看的不只是血壓數字。</b></p>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s6"><span class="num">6</span>不是越低越好</h2>
 <div class="box alert"><span class="t">血壓太低也會出事</span>
 如果你出現<b>頭暈、眼前發黑、站起來不穩、疲倦、跌倒</b>，請記錄下當時的血壓並回診。這可能代表降得太低，或有<b>姿態性低血壓</b>（站起來時血壓掉下去）。<br><br>
 尤其<b>高齡、身體衰弱、腎功能差、有跌倒病史</b>的人，目標需要個別調整 —— 為了追一個漂亮的數字而跌倒骨折，並不划算。<br><br>
 延伸閱讀：<a href="../oh/">姿態性低血壓｜起身不暈指南</a></div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s7"><span class="num">7</span>生活型態怎麼做</h2>
 <div class="tw"><table>
@@ -200,6 +216,8 @@
 </ul>
 要不要用<b>先問醫師或藥師</b>，不要看到「低鈉」就以為一定比較健康。</div>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s8"><span class="num">8</span>藥物怎麼吃</h2>
 <div class="box alert"><span class="t">血壓正常不是停藥的理由</span>
 這是最常見也最危險的誤解。<b>血壓正常，正是因為藥在發揮作用。</b>停掉之後血壓會回升，而且有時會反彈得更高。<br><br>
@@ -211,6 +229,8 @@
 <li><b>不要拿別人的藥來吃</b>，也不要因為「今天血壓比較高」就自己多吃一顆。</li>
 </ul>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s9"><span class="num">9</span>會推高血壓的東西</h2>
 <p>很多人血壓突然控制不好，原因藏在這裡：</p>
 <ul>
@@ -221,6 +241,8 @@
 <li><b>過量咖啡因、能量飲料</b></li>
 </ul>
 <p><b>買成藥、開始吃保健品或中藥之前，先問醫師或藥師。</b>回診時把所有在吃的東西都講出來，包括別科開的藥。</p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s10"><span class="num">10</span>血壓飆高怎麼辦</h2>
 <div class="box alert"><span class="t">立刻打 119</span>
@@ -235,6 +257,8 @@
 <div class="box warn"><span class="t">血壓高但沒有症狀</span>
 量到 180/110，但人沒有不舒服 —— 這種情況<b>不需要衝急診</b>，但也不能不管。<br><br>
 做法：<b>安靜坐著休息 5～10 分鐘再量一次</b>（很多高數值是姿勢或緊張造成的）。如果重測仍然很高但沒有症狀，<b>記錄下來，儘快回診或聯絡你的醫師</b>，讓他調整用藥。<b>不要自行加藥</b> —— 血壓降太快反而可能造成腦部或心臟缺血。</div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s11"><span class="num">11</span>常見問題</h2>
 <h3>吃血壓藥會不會傷腎？</h3>
@@ -251,6 +275,8 @@
 
 <h3>診間量很高、在家量正常，怎麼辦？</h3>
 <p>這叫「白袍高血壓」。<b>居家血壓通常更能反映真實情況</b>，這也是為什麼要推廣 722。把居家紀錄帶回診，醫師會一起判斷。</p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2>單張下載</h2>
 <div class="sheet"><img src="bp.svg" alt="血壓控制 A5 病人衛教單張" loading="lazy"></div>

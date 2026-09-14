@@ -36,6 +36,10 @@
   .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
   .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
   .toc a{text-decoration:none}
+  .totop{margin:1.4em 0 .2em;text-align:right;line-height:1}
+  .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
+  .totop a:hover{color:var(--teal);border-color:var(--teal)}
+  .totop span{font-size:.95rem;line-height:1}
   .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
   .tocnote b{color:var(--teal)}
   .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
@@ -85,7 +89,7 @@
 </ol>
 </div>
 
-<nav class="toc">
+<nav class="toc" id="toc">
 <h2>目錄</h2>
 <ol>
 <li><a href="#s1">為什麼要吃兩種藥</a></li>
@@ -123,6 +127,8 @@
 <b>不行。</b>這兩件事是分開的。心跳穩定只解決了問題二，<b>問題一的中風風險並沒有因此消失</b> —— 心房顫動可能無聲地再發作，而且中風風險是依年齡和身體狀況算出來的，不是依你現在心跳規不規律。<br><br>
 同樣地，只吃抗凝血藥不會讓你心跳變規律、心悸消失。<b>兩種藥各司其職，缺一不可。</b></div>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s2"><span class="num">2</span>抗凝血藥：防中風</h2>
 <p>抗凝血藥不是「打通血管」的藥，也不是「讓心跳正常」的藥。它做的事只有一件：<b>降低血液凝結成血塊的能力</b>，這樣就算心房一直在抖，也比較不會生出血塊跑到腦部。</p>
 
@@ -137,12 +143,16 @@
 </table></div>
 <p class="lead">少數情況（例如機械性心臟瓣膜、中重度二尖瓣狹窄）<b>必須</b>使用 warfarin，不能用新型抗凝血劑。你屬於哪一種由醫師判斷。</p>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s3"><span class="num">3</span>亞洲人為什麼優先用新藥</h2>
 <div class="box key"><span class="t">這是亞洲人跟西方人最不一樣的地方</span>
 亞太心律學會 2021 年的共識指出：<b>亞洲人服用 warfarin 發生腦出血的風險，是非亞洲人的 1.71 倍</b>。<br><br>
 而改用<b>標準劑量</b>的新型口服抗凝血劑，亞洲人降低出血性中風的效果比西方人更明顯，而且<b>沒有</b>出現西方人身上看到的腸胃道出血增加。<br><br>
 所以指引明確建議：<b>亞洲的心房顫動病人，優先使用新型口服抗凝血劑</b>，而不是 warfarin。這不是醫師想開貴的藥 —— 是因為對亞洲人來說確實比較安全。</div>
 <p>另外，亞太指引也提醒：<b>亞洲人發生中風的年齡比西方人早</b>。合併心衰竭 35 歲、高血壓或糖尿病 50 歲、血管疾病 55 歲，就要考慮開始抗凝血。<b>「我還年輕」不是可以不吃藥的理由。</b></p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s4"><span class="num">4</span>不可自行減量</h2>
 <div class="box alert"><span class="t">減量不會比較安全 —— 這是亞洲最嚴重的用藥問題</span>
@@ -151,12 +161,16 @@
 指引要求必須按照<b>仿單建議的劑量</b>使用。醫師會依你的<b>腎功能、體重、年齡</b>決定該不該減量 —— 這是有明確標準的，不是憑感覺。</div>
 <p><b>如果你對劑量有疑慮，或擔心出血，請直接告訴醫師</b>，讓他重新評估。不要自己減、不要自己隔天吃、不要「今天不舒服就先不吃」。</p>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s5"><span class="num">5</span>阿斯匹靈不能取代</h2>
 <div class="box alert"><span class="t">單吃阿斯匹靈無法預防心房顫動造成的中風</span>
 這是最常見的誤解之一，很多人以為「我有在吃阿斯匹靈，應該也算有在保護」。<br><br>
 <b>機轉完全不同。</b>阿斯匹靈是<b>抗血小板藥</b>，對付的是動脈硬化破裂後形成的小血栓；心房顫動的血塊是<b>血流滯留</b>慢慢結成的，性質不一樣，阿斯匹靈擋不住。<br><br>
 亞太心律學會的指引寫得很直接：<b>不建議</b>單用抗血小板藥（阿斯匹靈，或阿斯匹靈加保栓通）預防心房顫動的中風。它有出血的副作用，卻沒有相對應的保護效果 —— <b>是兩頭落空</b>。</div>
 <p>如果你因為其他疾病（例如放過心臟支架、曾經心肌梗塞）本來就在吃阿斯匹靈，<b>要不要同時吃、吃多久，需要醫師仔細評估</b>。同時使用抗凝血藥與抗血小板藥會明顯增加出血風險，通常只在特定期間內使用。<b>不要自己加，也不要自己停。</b></p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s6"><span class="num">6</span>出血與日常注意</h2>
 
@@ -203,6 +217,8 @@
 <b>把所有在吃的東西一起帶去</b> —— 西藥藥袋、中藥藥單、保健食品的罐子（或拍照）。<br><br>
 很多病人覺得「中藥、保健品不是藥，不用講」，但<b>出血意外常常就是這樣來的</b>。醫師需要知道全部，才能判斷風險。</div>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s7"><span class="num">7</span>控制心跳的藥</h2>
 <p>這一類藥的目標是<b>不讓心跳太快</b>。心房顫動可能還在，但至少不會跳到一百五、兩百下，人會舒服很多、心臟也不會被累壞。這是多數病人第一線使用的方式。</p>
 <div class="tw"><table>
@@ -213,6 +229,8 @@
 </table></div>
 <div class="box warn"><span class="t">心跳太慢也是問題</span>
 這類藥的目的是「不要太快」，但如果<b>心跳變得太慢</b>（例如低於 50 下，合併頭暈、無力、快昏倒），就要回診請醫師調整。<b>不要自己加藥，也不要自己停藥</b>——突然停掉乙型阻斷劑可能讓心跳與血壓反彈。</div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s8"><span class="num">8</span>維持節律的藥</h2>
 <p>這一類是<b>抗心律不整藥</b>，目標不只是讓心跳慢下來，而是<b>把心律拉回規律的竇性心律並維持住</b>。適合症狀明顯、希望恢復正常心律的病人。</p>
@@ -225,6 +243,8 @@
 <div class="box rhythm"><span class="t">關鍵觀念：維持節律不等於可以停抗凝血藥</span>
 不論是靠藥物、電擊還是電燒把心律拉回正常，<b>中風風險分數都不會因此改變</b>。抗凝血藥停不停，永遠是另外一個問題、另外一次評估。</div>
 
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
+
 <h2 id="s9"><span class="num">9</span>我適合哪一種</h2>
 <p>「控制心跳速度」和「維持節律」不是誰比較好，而是<b>看你的情況</b>。醫師會考量：</p>
 <ul>
@@ -236,6 +256,8 @@
 </ul>
 <p>近年的證據（例如 EAST-AFNET 4 試驗）支持<b>在診斷早期就採取節律控制策略</b>，可以降低心血管事件。所以如果你剛被診斷、又有症狀，值得主動跟醫師討論這個選項。</p>
 <p class="lead">想進一步了解電燒手術，可以看<a href="../af/">心房顫動電燒手術詳細版</a>；想了解疾病本身，看<a href="../af-intro/">認識心房顫動</a>。</p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s10"><span class="num">10</span>什麼時候該就醫</h2>
 <div class="box alert"><span class="t">立刻打 119</span>
@@ -254,6 +276,8 @@
 <li>要拔牙、開刀或做侵入性檢查之前</li>
 <li>醫師開了新藥，或你想開始吃保健食品、中藥</li>
 </ul></div>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s11"><span class="num">11</span>常見問題</h2>
 
@@ -274,6 +298,8 @@
 
 <h3>心跳的藥讓我很累，怎麼辦？</h3>
 <p>疲倦、頭暈是這類藥常見的副作用，也可能代表心跳被壓得太慢。<b>回診跟醫師說</b>，通常可以調整劑量或換藥 —— 但不要自己停。</p>
+
+<p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2>單張下載</h2>
 <div class="sheet"><img src="af-meds.svg" alt="心房顫動的用藥指南 A5 病人衛教單張" loading="lazy"></div>
