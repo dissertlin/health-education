@@ -40,6 +40,18 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -120,6 +132,13 @@
 
 <h3>所以要做的事叫「肺靜脈隔離」</h3>
 <p>導管消融（俗稱電燒）的核心就是<b>肺靜脈隔離（PVI）</b>：在四條肺靜脈的入口周圍做一圈環狀的消融，把異常電訊號「關」在肺靜脈裡，讓它傳不進心房。不論用哪一種技術，這個目標都一樣。</p>
+
+<figure class="fig">
+<svg viewBox="0 0 560 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="肺靜脈是異常電訊號來源，電燒沿開口消融一圈加以隔離">
+<rect x="2" y="2" width="272" height="206" rx="12" fill="#f4f8fd" stroke="#b9d3ea"/><text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#22599a">問題在肺靜脈開口</text><path d="M138 66c-14-18-40-6-36 18 3 20 36 39 36 39s33-19 36-39c4-24-22-36-36-18z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="2"/><path d="M112 70q-16-10-26-4M164 70q16-10 26-4M118 86q-18-4-28 2M158 86q18-4 28 2" fill="none" stroke="#c98a90" stroke-width="4" stroke-linecap="round"/><circle cx="90" cy="64" r="4.5" fill="#d9453f"/><circle cx="186" cy="64" r="4.5" fill="#d9453f"/><circle cx="92" cy="87" r="4.5" fill="#d9453f"/><circle cx="184" cy="87" r="4.5" fill="#d9453f"/><text x="138" y="152" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">異常電訊號多半來自這四個開口</text><text x="138" y="176" text-anchor="middle" style="font:500 10.5px sans-serif;fill:#5b7189">四條肺靜脈進入左心房的位置</text><rect x="286" y="2" width="272" height="206" rx="12" fill="#eef8f2" stroke="#a9d5cd"/><text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#08766d">做法：肺靜脈隔離</text><path d="M422 66c-14-18-40-6-36 18 3 20 36 39 36 39s33-19 36-39c4-24-22-36-36-18z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="2"/><path d="M396 70q-16-10-26-4M448 70q16-10 26-4M402 86q-18-4-28 2M442 86q18-4 28 2" fill="none" stroke="#c98a90" stroke-width="4" stroke-linecap="round"/><ellipse cx="380" cy="75" rx="22" ry="17" fill="none" stroke="#0d7a68" stroke-width="3" stroke-dasharray="5 3"/><ellipse cx="464" cy="75" rx="22" ry="17" fill="none" stroke="#0d7a68" stroke-width="3" stroke-dasharray="5 3"/><text x="422" y="152" text-anchor="middle" style="font:600 11px sans-serif;fill:#08766d">沿開口周圍消融一圈，把訊號關在裡面</text><text x="422" y="176" text-anchor="middle" style="font:500 10.5px sans-serif;fill:#5b7189">不論哪一種技術，目標都一樣</text>
+</svg>
+<figcaption>心房顫動的異常電訊號大多來自四條肺靜脈的開口。電燒就是沿著開口周圍消融一圈，把訊號「關」在肺靜脈裡，傳不進心房。</figcaption>
+</figure>
 
 <h3>手術怎麼進行</h3>
 <ol>
@@ -291,6 +310,14 @@
 </ul>
 
 <h3>手術後</h3>
+<div class="icons">
+<div class="nt"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 24l6-6M21 12l6-6" stroke="#3157a0" stroke-width="2.4" stroke-linecap="round"/><rect x="12" y="9" width="12" height="18" rx="4" transform="rotate(45 18 18)" fill="none" stroke="#3157a0" stroke-width="2.2"/></svg><b>鼠蹊部傷口</b><span>注意腫脹、搏動性腫塊</span></div>
+<div class="nt"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="18" r="13" fill="none" stroke="#6a5aa8" stroke-width="2.4"/><path d="M18 18V9M18 18l6 4" stroke="#6a5aa8" stroke-width="2.4" stroke-linecap="round"/></svg><b>空白期三個月</b><span>心悸不代表失敗</span></div>
+<div class="nt"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="19" cy="6" r="3.6" fill="#0d7a68"/><path d="M19 10v8M19 18l-5 8M19 18l5 7M19 13l-6-2M19 13l6 3" fill="none" stroke="#0d7a68" stroke-width="2.4" stroke-linecap="round"/></svg><b>活動</b><span>至少一週不提重物</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="rotate(-30 18 18)"><rect x="6" y="13" width="24" height="10" rx="5" fill="#c0504a"/><path d="M18 13v10" stroke="#fff" stroke-width="1.8"/></g></svg><b>抗凝血藥</b><span>不可自行停</span></div>
+</div>
+
+
 <ul>
 <li><b>鼠蹊部傷口</b> —— 需要加壓、平躺一段時間；回家後注意有無腫脹、疼痛加劇或搏動性腫塊。</li>
 <li><b>空白期三個月</b> —— 可能還會心悸或短暫發作，多數不代表失敗，但要記錄下來回診時報告。</li>

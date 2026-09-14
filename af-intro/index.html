@@ -38,6 +38,18 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -115,12 +127,26 @@
 <p>心房裡出現很多不正常的放電點，同時亂發電，指揮失效。心房不再好好收縮，而是<b>一分鐘抖 300 下以上</b>的無效顫動 —— 只是在抖，沒有真正把血擠出去。</p>
 <p>這些雜亂的電流不規則地往下傳到心室，所以心室跳得<b>忽快忽慢</b>，摸脈搏會覺得亂七八糟、有時還像漏拍。</p>
 
+<figure class="fig">
+<svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="正常心律與心房顫動的對照">
+<rect x="2" y="2" width="272" height="196" rx="12" fill="#eef6ef" stroke="#a9d5b4"/><text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#2b6b46">正常</text><path d="M138 56c-13-17-38-6-34 17 3 19 34 37 34 37s31-18 34-37c4-23-21-34-34-17z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="2"/><circle cx="120" cy="70" r="7" fill="#f4b63e"/><text x="120" y="73.5" text-anchor="middle" style="font:700 9px sans-serif;fill:#fff">1</text><path d="M120 78q5 9 10 14" fill="none" stroke="#5f8a6f" stroke-width="2" stroke-dasharray="3 3"/><path d="M134 96l-8 13M134 96l9 12" fill="none" stroke="#5f8a6f" stroke-width="2" stroke-dasharray="3 3"/><text x="138" y="150" text-anchor="middle" style="font:600 11px sans-serif;fill:#2b6b46">一個指揮，規律發電</text><path d="M40 176h14l4-12 5 24 4-12h16l4-12 5 24 4-12h16l4-12 5 24 4-12h12" fill="none" stroke="#2b6b46" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><rect x="286" y="2" width="272" height="196" rx="12" fill="#fdf0ee" stroke="#e8ada4"/><text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#a5423d">心房顫動</text><path d="M422 56c-13-17-38-6-34 17 3 19 34 37 34 37s31-18 34-37c4-23-21-34-34-17z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="2"/><circle cx="402" cy="66" r="4" fill="#d9453f"/><circle cx="420" cy="60" r="4" fill="#d9453f"/><circle cx="437" cy="70" r="4" fill="#d9453f"/><circle cx="410" cy="78" r="4" fill="#d9453f"/><circle cx="430" cy="84" r="4" fill="#d9453f"/><circle cx="416" cy="92" r="4" fill="#d9453f"/><text x="422" y="150" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">多處亂放電，心房只會抖</text><path d="M324 176q3-3 6 0t6 0l3-9 4 18 4-9q3-3 6 0t6 0t6 0l3-9 4 18 4-9q3-3 6 0l3-9 4 18 4-9q3-3 6 0t6 0t6 0l3-9 4 18 4-9h10" fill="none" stroke="#c0504a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+<figcaption>左：竇房結一個指揮規律發電，心電圖間隔一致。右：心房內多處同時亂放電，心房只是抖動，心電圖基線抖動、間隔忽長忽短。</figcaption>
+</figure>
+
 <h3>為什麼會中風</h3>
 <p>這是整件事最重要的部分。心房只是在抖、沒有把血擠乾淨，血就會<b>滯留在心房的角落</b>（主要是左心房一個叫<b>左心耳</b>的死角）。血停著不動就容易慢慢結成<b>血塊</b>。</p>
 <p>血塊一旦鬆脫，會被血流沖出心臟、順著大動脈往上跑，<b>卡在腦部的血管就是腦中風</b>。因為血塊通常比較大，心房顫動造成的中風往往比一般中風更嚴重、更容易留下後遺症。</p>
 
 <div class="box key"><span class="t">為什麼要吃抗凝血藥，理由就在這裡</span>
 抗凝血藥不是「讓心跳變正常」的藥，也不是「打通血管」的藥。它的工作只有一個：<b>讓血不要那麼容易結成血塊</b>，這樣就算心房一直在抖，也比較不會生出血塊跑到腦部。</div>
+
+<figure class="fig">
+<svg viewBox="0 0 560 175" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="左心耳血塊形成並造成腦中風的過程">
+<rect x="2" y="2" width="556" height="171" rx="12" fill="#f6f9fc" stroke="#cdd9e6"/><path d="M92 46c-14-18-40-6-36 18 3 20 36 39 36 39s33-19 36-39c4-24-22-36-36-18z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="2"/><circle cx="72" cy="66" r="9" fill="#c96a6a" opacity=".55"/><circle cx="72" cy="66" r="4" fill="#8d2f2f"/><text x="92" y="126" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">① 血滯留在左心耳</text><text x="92" y="142" text-anchor="middle" style="font:500 10px sans-serif;fill:#6a7b8e">慢慢結成血塊</text><path d="M170 78h96" stroke="#9fb4c6" stroke-width="2.6" stroke-dasharray="7 5" stroke-linecap="round"/><path d="M258 71l10 7-10 7" fill="none" stroke="#9fb4c6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="218" cy="78" r="6" fill="#8d2f2f"/><text x="218" y="112" text-anchor="middle" style="font:600 11px sans-serif;fill:#4e6b7a">② 被血流沖走</text><path d="M340 62q0-26 26-26t26 26q0 10-6 16v16h-40V78q-6-6-6-16z" fill="#fdeee4" stroke="#d9b79c" stroke-width="2"/><path d="M352 52q8-8 16 0M360 66q8-6 14 2" fill="none" stroke="#b9a08d" stroke-width="2" stroke-linecap="round"/><circle cx="366" cy="58" r="5.5" fill="#8d2f2f"/><text x="366" y="126" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">③ 卡在腦血管</text><text x="366" y="142" text-anchor="middle" style="font:500 10px sans-serif;fill:#6a7b8e">就是腦中風</text><rect x="424" y="44" width="122" height="70" rx="10" fill="#fdecea" stroke="#e8ada4"/><text x="485" y="70" text-anchor="middle" style="font:700 12px sans-serif;fill:#a5423d">抗凝血藥</text><text x="485" y="88" text-anchor="middle" style="font:500 10px sans-serif;fill:#8a4a45">擋的就是</text><text x="485" y="103" text-anchor="middle" style="font:500 10px sans-serif;fill:#8a4a45">①這一步</text>
+</svg>
+<figcaption>心房只是抖、沒把血擠乾淨，血就滯留在左心耳結成血塊；血塊鬆脫後被沖到腦部卡住，就是中風。抗凝血藥要阻斷的正是第一步。</figcaption>
+</figure>
 
 <h3>心房顫動的三種型態</h3>
 <div class="tw"><table>
@@ -147,6 +173,13 @@
 <h2 id="s3"><span class="num">3</span>中風警訊 FAST</h2>
 <div class="box alert"><span class="t">出現以下任何一項，立刻打 119</span>
 不要等症狀改善、不要先吃藥觀察、<b>不要自己開車去醫院</b>。</div>
+
+<div class="icons">
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="15" r="11" fill="#fdeee4" stroke="#c0504a" stroke-width="2"/><path d="M12 12q6-6 12 0" fill="none" stroke="#c0504a" stroke-width="2"/><path d="M12 21q4 4 8-2" fill="none" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round"/></svg><b>F 臉歪</b><span>叫他笑一個</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="7" r="3.4" fill="#c0504a"/><path d="M18 11v9M18 14l-9 3M18 14l9 8M18 20l-4 10M18 20l4 10" fill="none" stroke="#c0504a" stroke-width="2.2" stroke-linecap="round"/></svg><b>A 手垂</b><span>兩手平舉</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 8h26v16H18l-7 6v-6H5z" fill="none" stroke="#c0504a" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 16h12" stroke="#c0504a" stroke-width="2.2" stroke-linecap="round"/></svg><b>S 說話怪</b><span>含糊、答非所問</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M8 6h7l3 7-4 3a16 16 0 009 9l3-4 7 3v7c0 1-1 2-2 2C16 33 3 20 3 8c0-1 1-2 2-2z" fill="#c0504a"/></svg><b>T 記時間</b><span>記下最後正常，打 119</span></div>
+</div>
 
 <div class="fast">
 <div><b>F 臉歪</b><span>叫他笑一個，看嘴角是不是一邊垂下來</span></div>

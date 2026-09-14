@@ -40,6 +40,15 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -325,6 +334,14 @@
 <div class="box key"><span class="t">記錄比記憶可靠</span>
 把這些數字<b>寫下來</b>（紙本、手機備忘錄、App 都可以），回診時帶給醫師看。<br><br>
 「我覺得還好」沒辦法幫醫師調藥，但「上週三開始三天胖了 2.5 公斤、血壓從 120 掉到 95、走路變喘」可以 —— <b>這些數字往往決定要不要調整利尿劑</b>。</div>
+
+<div class="icons">
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="20" r="12" fill="none" stroke="#c0504a" stroke-width="2.2"/><path d="M18 20l6-7" stroke="#c0504a" stroke-width="2.2" stroke-linecap="round"/><circle cx="18" cy="20" r="1.8" fill="#c0504a"/><path d="M12 6h12" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round"/></svg><b>每天量體重</b><span>三天增 2 公斤就回診</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="rotate(-30 18 18)"><rect x="6" y="13" width="24" height="10" rx="5" fill="#0d7a68"/><path d="M18 13v10" stroke="#fff" stroke-width="1.8"/></g></svg><b>按時吃藥</b><span>好轉也不能停</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="4" y="13" width="14" height="10" rx="2.5" fill="#3157a0"/><path d="M18 18h3" stroke="#3157a0" stroke-width="2" stroke-linecap="round"/><circle cx="26" cy="18" r="5.5" fill="none" stroke="#3157a0" stroke-width="2.2"/><path d="M26 18v-3.4" stroke="#3157a0" stroke-width="1.8" stroke-linecap="round"/></svg><b>量血壓與脈搏</b><span>寫下來回診帶去</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M11 13h14l2 16H9z" fill="#0d7a68"/><path d="M13 13v-4a5 5 0 0110 0v4" fill="none" stroke="#0d7a68" stroke-width="2"/><circle cx="15.5" cy="19" r="1.3" fill="#fff"/><circle cx="20.5" cy="19" r="1.3" fill="#fff"/><circle cx="18" cy="24" r="1.3" fill="#fff"/></svg><b>少鹽</b><span>湯、醬料、加工品最鹹</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="19" cy="6" r="3.6" fill="#6a5aa8"/><path d="M19 10v8M19 18l-5 8M19 18l5 7M19 13l-6-2M19 13l6 3" fill="none" stroke="#6a5aa8" stroke-width="2.4" stroke-linecap="round"/></svg><b>規律運動</b><span>從散步開始</span></div>
+</div>
 
 <p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 

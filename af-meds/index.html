@@ -42,6 +42,18 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -129,6 +141,13 @@
 </div>
 </div>
 
+<figure class="fig">
+<svg viewBox="0 0 560 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="抗凝血藥防血栓中風，心跳與節律藥穩定心跳">
+<rect x="2" y="2" width="272" height="186" rx="12" fill="#eef4fb" stroke="#b9d3ea"/><text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#22599a">問題一：血栓</text><path d="M110 56c-11-14-32-5-29 14 2 16 29 31 29 31s26-15 29-31c3-19-18-28-29-14z" fill="#ffe6e6" stroke="#e6a9a9" stroke-width="1.8"/><circle cx="94" cy="71" r="7" fill="#c96a6a" opacity=".55"/><circle cx="94" cy="71" r="3.2" fill="#8d2f2f"/><path d="M152 76h44" stroke="#9fb4c6" stroke-width="2.4" stroke-dasharray="6 4" stroke-linecap="round"/><path d="M188 70l9 6-9 6" fill="none" stroke="#9fb4c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M204 60q0-18 18-18t18 18q0 7-4 11v11h-28V71q-4-4-4-11z" fill="#fdeee4" stroke="#d9b79c" stroke-width="1.8"/><circle cx="220" cy="58" r="4.5" fill="#8d2f2f"/><rect x="26" y="132" width="224" height="40" rx="9" fill="#dfeaf8"/><text x="138" y="150" text-anchor="middle" style="font:700 12px sans-serif;fill:#22599a">抗凝血藥擋這一條</text><text x="138" y="165" text-anchor="middle" style="font:500 10.5px sans-serif;fill:#3f6fa8">保護的是大腦</text><rect x="286" y="2" width="272" height="186" rx="12" fill="#eef8f2" stroke="#a9d5cd"/><text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#08766d">問題二：心跳紊亂</text><path d="M306 76q3-3 6 0t6 0l3-9 4 18 4-9q3-3 6 0t6 0t6 0l3-9 4 18 4-9q3-3 6 0l3-9 4 18 4-9h8" fill="none" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M420 76h20" stroke="#9fb4c6" stroke-width="2.4" stroke-dasharray="6 4" stroke-linecap="round"/><path d="M434 70l9 6-9 6" fill="none" stroke="#9fb4c6" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M450 76h10l4-11 5 22 4-11h14" fill="none" stroke="#0d7a68" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="310" y="132" width="224" height="40" rx="9" fill="#ddf0e9"/><text x="422" y="150" text-anchor="middle" style="font:700 12px sans-serif;fill:#08766d">心跳／節律藥管這一條</text><text x="422" y="165" text-anchor="middle" style="font:500 10.5px sans-serif;fill:#0d7a68">保護的是心臟與生活品質</text>
+</svg>
+<figcaption>兩種藥處理兩個完全不同的問題，彼此不能取代 —— 這就是為什麼多數病人兩種都要吃。</figcaption>
+</figure>
+
 <div class="box alert"><span class="t">最常見的誤解：「我心跳已經正常了，抗凝血藥可以停了吧？」</span>
 <b>不行。</b>這兩件事是分開的。心跳穩定只解決了問題二，<b>問題一的中風風險並沒有因此消失</b> —— 心房顫動可能無聲地再發作，而且中風風險是依年齡和身體狀況算出來的，不是依你現在心跳規不規律。<br><br>
 同樣地，只吃抗凝血藥不會讓你心跳變規律、心悸消失。<b>兩種藥各司其職，缺一不可。</b></div>
@@ -181,6 +200,15 @@
 <h2 id="s6"><span class="num">6</span>出血與日常注意</h2>
 
 <h3>出現這些出血警訊要就醫</h3>
+<div class="icons">
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18 5c5 7 8 11 8 15a8 8 0 01-16 0c0-4 3-8 8-15z" fill="none" stroke="#c0504a" stroke-width="2.2"/><path d="M14 20h8M18 16v8" stroke="#c0504a" stroke-width="2" stroke-linecap="round"/></svg><b>吐血、咳血</b></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18 5c5 7 8 11 8 15a8 8 0 01-16 0c0-4 3-8 8-15z" fill="#4a3b33"/></svg><b>黑色柏油便</b></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18 5c5 7 8 11 8 15a8 8 0 01-16 0c0-4 3-8 8-15z" fill="#c9a227"/><circle cx="18" cy="20" r="3" fill="#c0504a"/></svg><b>血尿</b></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="18" r="11" fill="#8f7fb5" opacity=".6"/><circle cx="18" cy="18" r="6" fill="#6a5aa8" opacity=".6"/></svg><b>莫名大片瘀青</b></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 26q6-20 12-20t6 8q0 6-5 6" fill="none" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round"/><path d="M4 30h28" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round"/><path d="M26 8l6 6M32 8l-6 6" stroke="#c0504a" stroke-width="2.4" stroke-linecap="round"/></svg><b>撞到頭</b><span>當下沒事也要就醫</span></div>
+</div>
+
+
 <ul>
 <li>吐血、咳血</li>
 <li>解<b>黑色柏油樣</b>大便，或血便</li>

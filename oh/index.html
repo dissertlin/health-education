@@ -40,6 +40,18 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -193,6 +205,13 @@
 <h2 id="s6"><span class="num">6</span>起身不暈的小動作</h2>
 <p>這些動作叫做「對抗動作」，原理是<b>用肌肉把下半身的血擠回心臟</b>。不用花錢、隨時可做，而且有研究支持有效。</p>
 
+<figure class="fig">
+<svg viewBox="0 0 560 215" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="站起時血液往下半身移動，以及起身不暈的三個對抗動作">
+<rect x="2" y="2" width="272" height="211" rx="12" fill="#f5f9fc" stroke="#cdd9e6"/><text x="138" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#22599a">站起來的瞬間發生什麼事</text><circle cx="100" cy="62" r="15" fill="#ffd9bd"/><path d="M87 58q13-15 26 0" fill="#57718f"/><path d="M100 77v44M100 121l-11 34M100 121l12 33M100 88l-16 16M100 88l16 14" fill="none" stroke="#6fa8c9" stroke-width="9" stroke-linecap="round"/><path d="M156 74q14 30 0 62" fill="none" stroke="#c0504a" stroke-width="3" stroke-dasharray="6 4" stroke-linecap="round"/><path d="M150 128l6 10 7-9" fill="none" stroke="#c0504a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="176" y="96" style="font:600 11px sans-serif;fill:#a5423d">500～1000</text><text x="176" y="112" style="font:600 11px sans-serif;fill:#a5423d">毫升的血</text><text x="176" y="128" style="font:600 11px sans-serif;fill:#a5423d">往下半身跑</text><circle cx="100" cy="62" r="26" fill="none" stroke="#c0504a" stroke-width="2" stroke-dasharray="4 3"/><text x="138" y="190" text-anchor="middle" style="font:600 11px sans-serif;fill:#a5423d">腦部一時供血不足 → 頭暈、眼前發黑</text><rect x="286" y="2" width="272" height="211" rx="12" fill="#eef8f2" stroke="#a9d5cd"/><text x="422" y="26" text-anchor="middle" style="font:700 13px sans-serif;fill:#08766d">起身不暈的三個動作</text><circle cx="330" cy="56" r="11" fill="#0d7a68"/><text x="330" y="60" text-anchor="middle" style="font:700 12px sans-serif;fill:#fff">1</text><text x="350" y="54" style="font:700 12px sans-serif;fill:#08766d">起身前先熱身</text><text x="350" y="70" style="font:500 10.5px sans-serif;fill:#4e6b7a">動腳踝、握拳、繃緊大腿各 10 下</text><circle cx="330" cy="106" r="11" fill="#0d7a68"/><text x="330" y="110" text-anchor="middle" style="font:700 12px sans-serif;fill:#fff">2</text><text x="350" y="104" style="font:700 12px sans-serif;fill:#08766d">分段慢慢起來</text><text x="350" y="120" style="font:500 10.5px sans-serif;fill:#4e6b7a">躺 → 坐 1～2 分鐘 → 扶著站</text><circle cx="330" cy="156" r="11" fill="#0d7a68"/><text x="330" y="160" text-anchor="middle" style="font:700 12px sans-serif;fill:#fff">3</text><text x="350" y="154" style="font:700 12px sans-serif;fill:#08766d">覺得暈就夾緊</text><text x="350" y="170" style="font:500 10.5px sans-serif;fill:#4e6b7a">雙腿交叉用力夾，或蹲下坐下</text><rect x="310" y="182" width="224" height="22" rx="9" fill="#ddf0e9"/><text x="422" y="197" text-anchor="middle" style="font:600 10.5px sans-serif;fill:#0d7a68">來不及就直接坐下，不要硬撐</text>
+</svg>
+<figcaption>站起來時大量血液往下半身跑，身體若來不及把血壓撐住，腦部就會短暫缺血。這三個動作是用肌肉把血擠回心臟，隨時可做、不用花錢。</figcaption>
+</figure>
+
 <h3>起身前：先熱身</h3>
 <p>還躺著或坐著的時候，先做這些各 <b>10 下</b>：</p>
 <ul>
@@ -228,6 +247,15 @@
 上面「多喝水、加點鹽」的建議<b>不適用於每一個人</b>。如果你有心臟衰竭、腎臟病、肝硬化，或醫師交代過要限制水分或鹽分，<b>請務必先問過醫師再調整</b>，自行增加可能造成水腫、喘、甚至住院。</div>
 
 <h3>台灣生活中特別要小心的情境</h3>
+<div class="icons">
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 19h28v4a7 7 0 01-7 7H11a7 7 0 01-7-7z" fill="none" stroke="#c0504a" stroke-width="2.2" stroke-linejoin="round"/><path d="M9 19V9a3 3 0 016 0" fill="none" stroke="#c0504a" stroke-width="2"/><path d="M20 6q3 3 0 6M26 6q3 3 0 6" fill="none" stroke="#c0504a" stroke-width="1.8" stroke-linecap="round"/></svg><b>泡溫泉、三溫暖</b><span>不要單獨去</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="18" r="7" fill="#b5791f"/><path d="M18 3v4M18 29v4M3 18h4M29 18h4M7.5 7.5l3 3M25.5 25.5l3 3M28.5 7.5l-3 3M10.5 25.5l-3 3" stroke="#b5791f" stroke-width="2.2" stroke-linecap="round"/></svg><b>夏天高溫</b><span>還沒口渴就補水</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 30h8v-7h8v-7h8V9h4" fill="none" stroke="#b5791f" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg><b>爬公寓樓梯</b><span>到門口先動動腳踝</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="7" r="3.6" fill="#b5791f"/><path d="M18 11v11M18 22l-4 9M18 22l4 9M12 15h12" fill="none" stroke="#b5791f" stroke-width="2.4" stroke-linecap="round"/></svg><b>廟會、排隊久站</b><span>腳不要一直不動</span></div>
+<div class="no"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22 5a13 13 0 109 17 11 11 0 01-9-17z" fill="#c0504a"/></svg><b>半夜上廁所</b><span>最容易跌倒，先坐 1～2 分鐘</span></div>
+</div>
+
+
 <div class="tw"><table>
 <tr><th>情境</th><th>為什麼危險</th><th>怎麼做</th></tr>
 <tr><td><b>泡溫泉、泡湯<br>三溫暖</b></td><td>熱會讓血管大幅擴張，血壓下降；起身時又要對抗重力，是最容易暈倒的場合之一</td><td><b>不要單獨去</b>；縮短時間、水溫別太高；<b>起身要非常慢</b>，先坐在池邊再站。喝酒後絕對不要泡</td></tr>

@@ -40,6 +40,18 @@
   .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
   .totop a:hover{color:var(--teal);border-color:var(--teal)}
   .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  .icons .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
   body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.05}
   @media (prefers-color-scheme:dark){body::before{opacity:.075}}
   .wrap{position:relative;z-index:1}
@@ -149,6 +161,13 @@
 <p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
 <h2 id="s4"><span class="num">4</span>量的細節</h2>
+<figure class="fig">
+<svg viewBox="0 0 560 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="量血壓的正確姿勢示意">
+<rect x="2" y="2" width="556" height="206" rx="12" fill="#f5f9fc" stroke="#cdd9e6"/><text x="280" y="28" text-anchor="middle" style="font:700 13px sans-serif;fill:#22599a">量血壓的正確姿勢</text><path d="M150 186h150" stroke="#8a9aa8" stroke-width="3" stroke-linecap="round"/><path d="M196 186v-52h44v52" fill="none" stroke="#8a9aa8" stroke-width="3" stroke-linejoin="round"/><path d="M236 134v-52" stroke="#8a9aa8" stroke-width="3" stroke-linecap="round"/><circle cx="206" cy="72" r="16" fill="#ffd9bd"/><path d="M192 68q14-16 28 0" fill="#57718f"/><path d="M206 88v46" stroke="#6fa8c9" stroke-width="12" stroke-linecap="round"/><path d="M206 134l-14 22M206 134l16 20" stroke="#6fa8c9" stroke-width="11" stroke-linecap="round"/><path d="M192 156h-18M222 154h16" stroke="#6fa8c9" stroke-width="9" stroke-linecap="round"/><path d="M206 104h56" stroke="#6fa8c9" stroke-width="10" stroke-linecap="round"/><rect x="238" y="96" width="34" height="17" rx="5" fill="#7aa7d4"/><path d="M272 104h26" stroke="#5f7b8a" stroke-width="3"/><rect x="298" y="90" width="40" height="28" rx="5" fill="#dfeaf8" stroke="#7aa7d4" stroke-width="2"/><path d="M306 104h6l2-5 3 10 2-5h6" fill="none" stroke="#3157a0" stroke-width="2"/><path d="M100 104h92" stroke="#c9453f" stroke-width="1.6" stroke-dasharray="4 3"/><text x="96" y="100" text-anchor="end" style="font:600 11px sans-serif;fill:#a5423d">手臂與心臟同高</text><path d="M100 156h72" stroke="#c9453f" stroke-width="1.6" stroke-dasharray="4 3"/><text x="96" y="152" text-anchor="end" style="font:600 11px sans-serif;fill:#a5423d">腳平放、不交叉</text><path d="M400 76h-64" stroke="#c9453f" stroke-width="1.6" stroke-dasharray="4 3"/><text x="404" y="80" style="font:600 11px sans-serif;fill:#a5423d">背靠椅背</text><path d="M400 130h-140" stroke="#c9453f" stroke-width="1.6" stroke-dasharray="4 3"/><text x="404" y="134" style="font:600 11px sans-serif;fill:#a5423d">袖帶貼裸露皮膚</text><text x="404" y="162" style="font:600 11px sans-serif;fill:#a5423d">不說話、不滑手機</text>
+</svg>
+<figcaption>姿勢不對，量出來的數字就不對。最常被忽略的是「安靜坐 5 分鐘再量」與「手臂與心臟同高」。</figcaption>
+</figure>
+
 <h3>量之前 30 分鐘</h3>
 <ul>
 <li>不抽菸、不喝咖啡或茶、不運動</li>
@@ -221,6 +240,14 @@
 <li>正在吃<b>某些降血壓藥</b>（ACEI／ARB 類）或<b>保鉀利尿劑</b>的人</li>
 </ul>
 要不要用<b>先問醫師或藥師</b>，不要看到「低鈉」就以為一定比較健康。</div>
+
+<div class="icons">
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M11 13h14l2 16H9z" fill="#0d7a68"/><path d="M13 13v-4a5 5 0 0110 0v4" fill="none" stroke="#0d7a68" stroke-width="2"/><circle cx="15.5" cy="19" r="1.3" fill="#fff"/><circle cx="20.5" cy="19" r="1.3" fill="#fff"/><circle cx="18" cy="24" r="1.3" fill="#fff"/></svg><b>減鹽</b><span>每天不超過 1 茶匙</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="19" cy="6" r="3.6" fill="#0d7a68"/><path d="M19 10v8M19 18l-5 8M19 18l5 7M19 13l-6-2M19 13l6 3" fill="none" stroke="#0d7a68" stroke-width="2.4" stroke-linecap="round"/></svg><b>運動</b><span>每週 150 分鐘</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="18" cy="20" r="12" fill="none" stroke="#0d7a68" stroke-width="2.2"/><path d="M18 20l6-7" stroke="#0d7a68" stroke-width="2.2" stroke-linecap="round"/><circle cx="18" cy="20" r="1.8" fill="#0d7a68"/><path d="M12 6h12" stroke="#0d7a68" stroke-width="2.4" stroke-linecap="round"/></svg><b>體重</b><span>減 1 公斤降 1 mmHg</span></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="5" y="20" width="20" height="6" rx="2" fill="#0d7a68"/><rect x="26" y="20" width="5" height="6" rx="2" fill="#0d7a68" opacity=".5"/><path d="M22 14c4-3 0-6 3-9" fill="none" stroke="#0d7a68" stroke-width="2" stroke-linecap="round"/><path d="M6 30L30 8" stroke="#0d7a68" stroke-width="2.6" stroke-linecap="round"/></svg><b>戒菸、少酒</b></div>
+<div class="ok"><svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="20" width="30" height="9" rx="3" fill="#0d7a68" opacity=".35"/><path d="M5 20v-5h11v5" fill="none" stroke="#0d7a68" stroke-width="2" stroke-linejoin="round"/><circle cx="24" cy="15" r="4" fill="#0d7a68"/></svg><b>睡眠</b><span>打呼要評估呼吸中止</span></div>
+</div>
 
 <p class="totop"><a href="#toc" aria-label="回到目錄"><span>↑</span> 回目錄</a></p>
 
