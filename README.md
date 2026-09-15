@@ -15,6 +15,7 @@
 | 痛風控制 | `/gout/` | `gout/gout.svg` · `gout/gout.pdf` · `gout/index.html`（詳細版長文）|
 | 裝置心臟節律器 | `/pacemaker/` | `pacemaker/pacemaker.svg` · `pacemaker/pacemaker.pdf` · `pacemaker/index.html`（詳細版長文）|
 | 認識心臟衰竭 | `/hf/` | `hf/hf.svg` · `hf/hf.pdf` · `hf/index.html`（詳細版長文）|
+| 認識上心室頻脈 | `/svt/` | `svt/svt.svg` · `svt/svt.pdf` · `svt/index.html`（詳細版長文）|
 
 每張單張右上角的 QR code 指向該張自己的頁面（不是首頁），病人掃描即可在手機上看電子版。
 

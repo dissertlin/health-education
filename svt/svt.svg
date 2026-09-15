@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>認識上心室頻脈｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/svt/</dc:source></rdf:Description></rdf:RDF></metadata>
+<defs><style>
+.t{font:700 23px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#ffeaf0}
+.h{font:700 15px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#3a1d47}
+.b{font:700 10.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#43304f}
+.s{font:500 8.8px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#5e5068}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#75677f}
+.cap{font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#43304f}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#e9dff0}
+.srh{font:700 6.8px 'Microsoft JhengHei',sans-serif;fill:#fff}
+.card{fill:#fff;stroke:#e2d9ea;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+</style>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#a13b6e"/><stop offset="1" stop-color="#6b3f9e"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#3a1d47" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#faf7fc"/>
+
+<!-- 標題 -->
+<rect x="18" y="14" width="523" height="93" rx="16" fill="url(#g)"/>
+<g transform="translate(34 28)">
+<path d="M33 16C23 4 4 12 7 30c2 13 26 25 26 25s24-12 26-25c3-18-16-26-26-14z" fill="#ef6b88" stroke="#c94a6a" stroke-width="2"/>
+<circle cx="24" cy="27" r="2.4" fill="#3a1d47"/><circle cx="42" cy="27" r="2.4" fill="#3a1d47"/>
+<path d="M26 38q7 5 14 0" fill="none" stroke="#3a1d47" stroke-width="1.8" class="line"/>
+<path d="M-2 22h6l2-7 3 15 3-9 2 4h5" fill="none" stroke="#ffd0dd" stroke-width="2.4" class="line"/>
+</g>
+<text x="110" y="47" class="t">認識上心室頻脈</text>
+<text x="110" y="70" class="st">心跳突然變快、又突然停止 —— 問題出在心室「上面」的電路</text>
+<rect x="110" y="81" width="332" height="19" rx="9.5" fill="#fff"/>
+<text x="122" y="94" class="s">多數<tspan style="font-weight:700;fill:#8c3a6a">不會立即危及生命</tspan>，而且<tspan style="font-weight:700;fill:#8c3a6a">電燒常可根治</tspan></text>
+
+<!-- ① 什麼是 + 四型 -->
+<rect x="20" y="118" width="253" height="134" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="140" class="h">① 什麼是上心室頻脈？</text>
+<g transform="translate(38 148)">
+<path d="M3 26h9l3-9 4 20 4-13 3 6h6" fill="none" stroke="#9a9aa8" stroke-width="2.2" class="line"/>
+<path d="M36 26h4l2-8 2 18 2-12 2 5h3l2-8 2 18 2-12 2 5h3l2-8 2 18 2-12 2 5h4" fill="none" stroke="#c9365f" stroke-width="2.2" class="line"/>
+<text x="4" y="44" class="xs">平常</text><text x="60" y="44" class="xs">發作時</text>
+</g>
+<text x="38" y="212" class="b">心跳可以衝到 150～250 下／分</text>
+<text x="38" y="226" class="s">常常<tspan style="font-weight:700;fill:#c9365f">突然開始、突然結束</tspan>，可能幾秒到</text>
+<text x="38" y="239" class="s">幾小時，也可能自己停下來。</text>
+
+<rect x="287" y="118" width="252" height="134" rx="13" class="card" filter="url(#sh)"/>
+<text x="304" y="140" class="h">常見的四種型態</text>
+<text x="304" y="158" class="b">AVNRT　房室結迴旋</text><text x="304" y="170" class="s">訊號在房室結附近繞圈（最常見）</text>
+<text x="304" y="188" class="b">AVRT　房室迴旋</text><text x="304" y="200" class="s">多一條「旁路」連接心房與心室</text>
+<text x="304" y="218" class="b">AT　心房性心搏過速</text><text x="304" y="230" class="s">心房某一處異常快速放電</text>
+<text x="304" y="246" class="s">另有<tspan style="font-weight:700">AFL 心房撲動</tspan>：心房內大迴圈電路</text>
+
+<!-- ② 症狀 -->
+<rect x="20" y="262" width="519" height="130" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="284" class="h">② 常見症狀</text>
+<text x="132" y="284" class="xs">每個人不一定相同；有些人只覺得「心臟在跳」</text>
+<g transform="translate(36 294)"><rect width="76" height="88" rx="10" fill="#fdf2f6"/>
+<circle cx="38" cy="22" r="13" fill="#ffd9bd"/><path d="M27 19q11-12 22 0" fill="#57718f"/>
+<path d="M33 24q2 2 4 0M41 24q2 2 4 0" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M34 31q4 3 8 0" fill="none" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M10 44h5l2-8 3 16 2-9 2 4h6" fill="none" stroke="#c9365f" stroke-width="2.2" class="line"/>
+<path d="M50 44h5l2-8 3 16 2-9 2 4h4" fill="none" stroke="#c9365f" stroke-width="2.2" class="line"/>
+<text x="38" y="68" text-anchor="middle" class="cap">心悸</text><text x="38" y="80" text-anchor="middle" class="xs">感覺心臟在跳</text></g>
+<g transform="translate(118 294)"><rect width="76" height="88" rx="10" fill="#fdf2f6"/>
+<circle cx="34" cy="20" r="12" fill="#ffd9bd"/><path d="M24 17q10-11 20 0" fill="#57718f"/>
+<path d="M30 30q4-3 8 0" fill="none" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M34 32v10" stroke="#6fa8c9" stroke-width="7" class="line"/>
+<circle cx="45" cy="38" r="5" fill="#ffd9bd"/>
+<path d="M52 30l6-4M54 38h7M52 46l6 4" stroke="#c9365f" stroke-width="2.2" class="line"/>
+<text x="38" y="68" text-anchor="middle" class="cap">胸悶、胸痛</text><text x="38" y="80" text-anchor="middle" class="xs">壓迫或悶悶的</text></g>
+<g transform="translate(200 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/>
+<circle cx="32" cy="20" r="12" fill="#ffd9bd"/><path d="M22 17q10-11 20 0" fill="#57718f"/>
+<path d="M27 30q5 4 10 0" fill="none" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M32 32v11" stroke="#6fa8c9" stroke-width="7" class="line"/>
+<path d="M48 26q7 4 0 9" fill="none" stroke="#5b9cc4" stroke-width="2.2" class="line"/>
+<path d="M55 22q10 8 0 17" fill="none" stroke="#5b9cc4" stroke-width="1.8" class="line"/>
+<text x="38" y="68" text-anchor="middle" class="cap">喘</text><text x="38" y="80" text-anchor="middle" class="xs">呼吸不順</text></g>
+<g transform="translate(282 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/>
+<circle cx="36" cy="24" r="13" fill="#ffd9bd"/><path d="M25 21q11-12 22 0" fill="#57718f"/>
+<path d="M29 25l5 5M34 25l-5 5M39 25l5 5M44 25l-5 5" stroke="#57718f" stroke-width="1.5" class="line"/>
+<path d="M31 34q5 3 10 0" fill="none" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M17 12q10-7 20 0M20 6q8-5 16 0" fill="none" stroke="#e0a72a" stroke-width="2" class="line"/>
+<path d="M54 10l2 4 4-1-3 4 3 4-4-1-2 4-2-4-4 1 3-4-3-4 4 1z" fill="#e0a72a"/>
+<text x="38" y="68" text-anchor="middle" class="cap">頭暈</text><text x="38" y="80" text-anchor="middle" class="xs">天旋地轉</text></g>
+<g transform="translate(364 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/>
+<circle cx="34" cy="20" r="12" fill="#ffd9bd"/><path d="M24 17q10-11 20 0" fill="#57718f"/>
+<path d="M28 22q2 3 5 0M37 22q2 3 5 0" fill="none" stroke="#57718f" stroke-width="1.5" class="line"/>
+<path d="M29 30q5 3 10 0" fill="none" stroke="#57718f" stroke-width="1.6" class="line"/>
+<path d="M34 32q-8 4-8 12h18q0-8-8-12z" fill="#6fa8c9"/>
+<path d="M20 40h28" stroke="#9aa8b4" stroke-width="2.4" class="line"/>
+<text x="38" y="68" text-anchor="middle" class="cap">無力、疲倦</text><text x="38" y="80" text-anchor="middle" class="xs">做一點事就累</text></g>
+<g transform="translate(446 294)"><rect width="76" height="88" rx="10" fill="#fdf2f6"/>
+<circle cx="28" cy="24" r="12" fill="#ffd9bd" transform="rotate(-20 28 24)"/>
+<path d="M18 20q10-11 20 0" fill="#57718f" transform="rotate(-20 28 24)"/>
+<path d="M23 25h5M32 25h4" stroke="#57718f" stroke-width="1.6" class="line" transform="rotate(-20 28 24)"/>
+<path d="M28 36q-6 3-6 10h16q0-7-6-10z" fill="#6fa8c9" transform="rotate(-12 28 42)"/>
+<circle cx="56" cy="20" r="9" fill="#ffd9bd"/><path d="M48 18q8-9 16 0" fill="#8a6f9e"/>
+<path d="M56 29v10" stroke="#e8b93a" stroke-width="6" class="line"/>
+<path d="M48 34q-8 3-8 10" fill="none" stroke="#e8b93a" stroke-width="5" class="line"/>
+<text x="38" y="68" text-anchor="middle" class="cap" style="fill:#a5346a">快昏倒、昏倒</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#a5346a">要立刻處理</text></g>
+
+<!-- ③ 誘因 -->
+<rect x="20" y="402" width="519" height="76" rx="13" fill="#fff8f3" stroke="#eccdb5" stroke-width="1.5" filter="url(#sh)"/>
+<text x="37" y="424" class="h">③ 常見誘發因素</text>
+<text x="150" y="424" class="xs">任何年齡都可能發生；<tspan style="font-weight:700;fill:#a5533d">也可能完全找不到誘因</tspan></text>
+<g transform="translate(40 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M8 18q6-8 12 0" fill="none" stroke="#b56b2a" stroke-width="2" class="line"/><path d="M14 7v4" stroke="#b56b2a" stroke-width="2" class="line"/>
+<text x="14" y="42" text-anchor="middle" class="xs">壓力、焦慮</text></g>
+<g transform="translate(120 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M8 9h11v9a5.5 5.5 0 01-11 0z" fill="#b56b2a"/><path d="M19 11h3a3 3 0 010 6h-3" fill="none" stroke="#b56b2a" stroke-width="1.8"/>
+<text x="14" y="42" text-anchor="middle" class="xs">咖啡因、能量飲</text></g>
+<g transform="translate(212 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M8 7h12l-4 8v6h-4v-6z" fill="#b56b2a"/><path d="M11 23h6" stroke="#b56b2a" stroke-width="1.8" class="line"/>
+<text x="14" y="42" text-anchor="middle" class="xs">酒精</text></g>
+<g transform="translate(272 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><rect x="6" y="15" width="13" height="4" rx="2" fill="#b56b2a"/><rect x="20" y="15" width="3" height="4" rx="1" fill="#b56b2a" opacity=".6"/><path d="M17 11c3-2 0-4 2-6" fill="none" stroke="#b56b2a" stroke-width="1.6" class="line"/>
+<text x="14" y="42" text-anchor="middle" class="xs">尼古丁</text></g>
+<g transform="translate(332 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M18 6a9 9 0 106 11 7.5 7.5 0 01-6-11z" fill="#b56b2a"/>
+<text x="14" y="42" text-anchor="middle" class="xs">睡不夠、疲勞</text></g>
+<g transform="translate(414 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M14 5c4 5 6 8 6 10a6 6 0 01-12 0c0-2 2-5 6-10z" fill="#b56b2a"/>
+<text x="14" y="42" text-anchor="middle" class="xs">發燒、脫水</text></g>
+<g transform="translate(486 432)">
+<circle cx="14" cy="14" r="13" fill="#fceee2"/><g transform="rotate(-30 14 14)"><rect x="6" y="11" width="16" height="7" rx="3.5" fill="#b56b2a"/><path d="M14 11v7" stroke="#fff" stroke-width="1.4"/></g>
+<text x="14" y="42" text-anchor="middle" class="xs">部分感冒、氣喘藥</text></g>
+
+<!-- ④ 治療 -->
+<rect x="20" y="488" width="519" height="136" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="510" class="h">④ 有哪些治療？</text>
+<text x="150" y="510" class="xs">依心律型態、症狀與個人風險，由醫病共同決定</text>
+<rect x="36" y="518" width="240" height="92" rx="10" fill="#fdf2f6"/>
+<text x="49" y="535" class="b" style="fill:#a5346a">藥物治療</text>
+<text x="49" y="549" class="s">發作當下：先做迷走神經刺激法，</text>
+<text x="49" y="561" class="s">無效時由醫護給腺苷等靜脈藥物</text>
+<text x="49" y="573" class="s">長期：乙型阻斷劑、鈣離子阻斷劑</text>
+<text x="49" y="585" class="s">等；可減少發作但不能根治</text>
+<text x="49" y="599" class="s" style="font-weight:700;fill:#a5346a">低血壓、休克、持續胸痛 → 立即電復律</text>
+<rect x="284" y="518" width="239" height="92" rx="10" fill="#f2f0fb"/>
+<text x="297" y="535" class="b" style="fill:#5b3f9e">電燒治療（導管電燒）</text>
+<text x="297" y="549" class="s">反覆且有症狀的 AVNRT、AVRT：</text>
+<text x="297" y="561" class="s" style="font-weight:700;fill:#5b3f9e">是指引建議的根治選項</text>
+<text x="297" y="573" class="s">成功率高，多數人術後不需吃心律藥</text>
+<text x="297" y="585" class="s">風險：出血／血腫、心包積液；少數</text>
+<text x="297" y="599" class="s">可能房室傳導阻滯而需裝節律器</text>
+
+<!-- ⑤ 立即就醫 -->
+<rect x="20" y="638" width="519" height="62" rx="13" fill="#fff0f4" stroke="#eda8bf" stroke-width="1.7"/>
+<circle cx="45" cy="660" r="12" fill="#c9365f"/><text x="45" y="665" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="657" class="b" style="fill:#a5346a">⑤ 出現這些情況，就近醫療院所就醫或立即撥打 119</text>
+<text x="66" y="672" class="s" style="fill:#a5346a">持續胸痛｜嚴重呼吸困難｜昏倒｜冒冷汗或意識改變</text>
+<text x="66" y="688" class="s" style="fill:#a5346a">術後：穿刺處持續出血或快速腫大｜單側無力、口齒不清</text>
+
+<!-- 來源 -->
+<rect x="20" y="714" width="519" height="74" rx="10" fill="#3a2a4a"/>
+<text x="31" y="732" class="srh">提醒：不要自行停藥；抗凝血藥、心律藥與禁食時間，請依醫療團隊指示。</text>
+<text x="31" y="749" class="srh">資料來源（查核至 2026-09）：</text>
+<text x="31" y="761" class="src">2019 ESC Guidelines for the Management of Patients with Supraventricular Tachycardia；</text>
+<text x="31" y="772" class="src">2015 ACC/AHA/HRS Guideline for the Management of Adult Patients with Supraventricular Tachycardia。本單張供衛教，不取代個別診療。</text>
+<text x="31" y="783" class="src" style="font-weight:700;fill:#c9b5d8">© 2026 林祐賸醫師 編製　本單張僅供臨床衛教使用，未經同意請勿重製、改作或作商業用途。</text>
+<!--QR--><g id="qr"><rect x="463" y="17" width="72" height="82" rx="10" fill="#fff" stroke="none"/><g transform="translate(469 23) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM10 0h2v1h-2zM16 0h1v1h-1zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM10 1h1v1h-1zM15 1h2v1h-2zM18 1h1v1h-1zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h1v1h-1zM10 2h3v1h-3zM14 2h1v1h-1zM16 2h1v1h-1zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h1v1h-1zM11 3h2v1h-2zM18 3h2v1h-2zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h3v1h-3zM13 4h4v1h-4zM20 4h2v1h-2zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h4v1h-4zM19 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h2v1h-2zM11 7h1v1h-1zM16 7h1v1h-1zM18 7h4v1h-4zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM9 8h2v1h-2zM12 8h3v1h-3zM17 8h1v1h-1zM19 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM0 9h1v1h-1zM3 9h3v1h-3zM7 9h2v1h-2zM10 9h2v1h-2zM13 9h1v1h-1zM17 9h4v1h-4zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM0 10h1v1h-1zM6 10h1v1h-1zM8 10h1v1h-1zM11 10h1v1h-1zM13 10h5v1h-5zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM0 11h1v1h-1zM3 11h2v1h-2zM7 11h2v1h-2zM11 11h3v1h-3zM16 11h10v1h-10zM28 11h3v1h-3zM1 12h1v1h-1zM3 12h1v1h-1zM6 12h1v1h-1zM8 12h1v1h-1zM14 12h1v1h-1zM16 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM3 13h2v1h-2zM7 13h1v1h-1zM9 13h1v1h-1zM13 13h1v1h-1zM15 13h1v1h-1zM17 13h2v1h-2zM21 13h3v1h-3zM26 13h1v1h-1zM29 13h4v1h-4zM1 14h1v1h-1zM3 14h2v1h-2zM6 14h11v1h-11zM18 14h1v1h-1zM21 14h2v1h-2zM25 14h3v1h-3zM30 14h2v1h-2zM1 15h1v1h-1zM7 15h1v1h-1zM11 15h1v1h-1zM13 15h1v1h-1zM15 15h1v1h-1zM18 15h1v1h-1zM21 15h1v1h-1zM24 15h3v1h-3zM29 15h2v1h-2zM0 16h2v1h-2zM4 16h1v1h-1zM6 16h1v1h-1zM9 16h5v1h-5zM15 16h1v1h-1zM17 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM2 17h1v1h-1zM7 17h2v1h-2zM16 17h1v1h-1zM19 17h3v1h-3zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM2 18h2v1h-2zM6 18h1v1h-1zM8 18h2v1h-2zM11 18h1v1h-1zM13 18h4v1h-4zM18 18h1v1h-1zM27 18h2v1h-2zM30 18h2v1h-2zM0 19h2v1h-2zM5 19h1v1h-1zM7 19h3v1h-3zM12 19h1v1h-1zM14 19h2v1h-2zM19 19h13v1h-13zM0 20h1v1h-1zM3 20h5v1h-5zM9 20h3v1h-3zM14 20h1v1h-1zM18 20h2v1h-2zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h3v1h-3zM4 21h1v1h-1zM7 21h3v1h-3zM11 21h2v1h-2zM15 21h2v1h-2zM22 21h2v1h-2zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM2 22h2v1h-2zM5 22h2v1h-2zM10 22h3v1h-3zM14 22h1v1h-1zM20 22h3v1h-3zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM2 23h1v1h-1zM8 23h5v1h-5zM16 23h1v1h-1zM19 23h3v1h-3zM30 23h1v1h-1zM32 23h1v1h-1zM0 24h1v1h-1zM3 24h2v1h-2zM6 24h3v1h-3zM10 24h1v1h-1zM12 24h3v1h-3zM17 24h1v1h-1zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM8 25h1v1h-1zM13 25h2v1h-2zM16 25h4v1h-4zM21 25h1v1h-1zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM12 26h4v1h-4zM17 26h1v1h-1zM22 26h3v1h-3zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h5v1h-5zM16 27h6v1h-6zM23 27h2v1h-2zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h2v1h-2zM12 28h1v1h-1zM14 28h1v1h-1zM16 28h1v1h-1zM19 28h1v1h-1zM22 28h1v1h-1zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h2v1h-2zM11 29h1v1h-1zM13 29h1v1h-1zM15 29h1v1h-1zM18 29h2v1h-2zM22 29h4v1h-4zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h3v1h-3zM15 30h4v1h-4zM21 30h1v1h-1zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM9 31h2v1h-2zM12 31h1v1h-1zM14 31h2v1h-2zM18 31h1v1h-1zM20 31h4v1h-4zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h1v1h-1zM10 32h4v1h-4zM15 32h1v1h-1zM17 32h2v1h-2zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="94" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#8c3a6a">掃描看電子版</text></g><!--/QR--></svg>
