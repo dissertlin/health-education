@@ -33,11 +33,19 @@
 <!-- ① 什麼是 + 四型 -->
 <rect x="20" y="118" width="253" height="134" rx="13" class="card" filter="url(#sh)"/>
 <text x="37" y="140" class="h">① 什麼是上心室頻脈？</text>
-<g transform="translate(38 148)">
-<path d="M3 26h9l3-9 4 20 4-13 3 6h6" fill="none" stroke="#9a9aa8" stroke-width="2.2" class="line"/>
-<path d="M36 26h4l2-8 2 18 2-12 2 5h3l2-8 2 18 2-12 2 5h3l2-8 2 18 2-12 2 5h4" fill="none" stroke="#c9365f" stroke-width="2.2" class="line"/>
-<text x="4" y="44" class="xs">平常</text><text x="60" y="44" class="xs">發作時</text>
+<g transform="translate(38 146) scale(0.55)" class="line">
+<path d="M50 96 C22 74 8 54 8 36 C8 20 19 10 31 10 C39 10 46 14 50 21 C54 14 61 10 69 10 C81 10 92 20 92 36 C92 54 78 74 50 96 Z" fill="#fdf2f6" stroke="#a5346a" stroke-width="4"/>
+<path d="M27 17 L18 33 H25 L21 47 L34 29 H27 Z" fill="#e8a33d"/>
+<path d="M75 17 L66 33 H73 L69 47 L82 29 H75 Z" fill="#e8a33d"/>
+<path d="M14 23 L8 20 M15 39 L9 41 M86 23 L92 20 M85 39 L91 41" stroke="#e8a33d" stroke-width="3" fill="none"/>
+<path d="M62 44 A12 12 0 1 1 54 33" fill="none" stroke="#c9365f" stroke-width="4"/>
+<path d="M48 29 L56 33 L52 41" fill="none" stroke="#c9365f" stroke-width="4"/>
+<circle cx="40" cy="65" r="2.8" fill="#6b3f9e"/><circle cx="60" cy="65" r="2.8" fill="#6b3f9e"/>
+<path d="M41 77 q4.5 -5 9 0 q4.5 5 9 0" fill="none" stroke="#6b3f9e" stroke-width="3"/>
 </g>
+<text x="104" y="166" class="b" style="fill:#a5346a">心房電流亂放電、繞圈</text>
+<text x="104" y="181" class="s">電流每繞一圈，心臟就被逼著</text>
+<text x="104" y="194" class="s">跳一下，因此停不下來</text>
 <text x="38" y="212" class="b">心跳可以衝到 150～250 下／分</text>
 <text x="38" y="226" class="s">常常<tspan style="font-weight:700;fill:#c9365f">突然開始、突然結束</tspan>，可能幾秒到</text>
 <text x="38" y="239" class="s">幾小時，也可能自己停下來。</text>
