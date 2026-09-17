@@ -1,1 +1,5 @@
 .DS_Store
+# wrangler 本機快取與狀態，請勿提交
+.wrangler/
+**/.wrangler/
+node_modules/
