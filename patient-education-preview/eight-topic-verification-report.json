@@ -1,0 +1,588 @@
+{
+  "pdf_sources": [
+    {
+      "slug": "af-intro",
+      "filename": "認識心房顫動_A5單張版_圖卡.pdf",
+      "sha256": "aae9837cbf47a4b2b6f8f5a3fdb7b317057fab079ff03fa8a801a395e8802944",
+      "unchanged": true
+    },
+    {
+      "slug": "bp",
+      "filename": "血壓控制_A5病人衛教_修改後完整版.pdf",
+      "sha256": "b289ec241a779b8d7b6298ccfd90ef88c211236ca81dca77fd2632cb6bbf7ded",
+      "unchanged": true
+    },
+    {
+      "slug": "gout",
+      "filename": "痛風控制_A5病人衛教_完整版.pdf",
+      "sha256": "872e5b6df1f9706255f0eee43e01f0b1f731403531544ca2488612543686b551",
+      "unchanged": true
+    },
+    {
+      "slug": "hf",
+      "filename": "認識心臟衰竭_A5病人衛教.pdf",
+      "sha256": "5a5f04d8a5b5a01150fc76fd369dc32dc3c6900fdcbf11ab1442c7ff8d3524c0",
+      "unchanged": true
+    },
+    {
+      "slug": "oh",
+      "filename": "姿態性低血壓_A5病人衛教_完整版.pdf",
+      "sha256": "b7451cf119eb3017d444c2f03f3e607b4e517427d4a405957366f478db1208c2",
+      "unchanged": true
+    },
+    {
+      "slug": "pacemaker",
+      "filename": "裝置心臟節律器_A5病人衛教_生活注意事項版.pdf",
+      "sha256": "8100170ae3d61f70a30dd9f4dba533604019ce1662a382dfa736020219fc25f5",
+      "unchanged": true
+    },
+    {
+      "slug": "svt",
+      "filename": "認識上心室頻脈_A5病人衛教.pdf",
+      "sha256": "482f59f67c624f41efc9720fa9ebcb83c4dde94f9afc77e3744c80327bc30ae5",
+      "unchanged": true
+    },
+    {
+      "slug": "af",
+      "filename": "心房顫動電燒手術_A5病人資訊圖表_完整最終版_含QR.pdf",
+      "sha256": "ec4fcbdcf995efd4d41b971c7db0822e734d465174ea417662dc572f4b7d72c0",
+      "unchanged": true
+    }
+  ],
+  "content_coverage": [
+    {
+      "slug": "af-intro",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "bp",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "gout",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "hf",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "oh",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "pacemaker",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "svt",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    },
+    {
+      "slug": "af",
+      "intro": true,
+      "sections": 6,
+      "source_footer": true
+    }
+  ],
+  "html_pages": 57,
+  "mp3_files": 56,
+  "total_audio_seconds": 2429.9,
+  "broken_local_links": [],
+  "browser_layouts": [
+    {
+      "width": 320,
+      "slug": "af-intro",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "bp",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "gout",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "hf",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "oh",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "pacemaker",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "svt",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "slug": "af",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "af-intro",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "bp",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "gout",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "hf",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "oh",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "pacemaker",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "svt",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 390,
+      "slug": "af",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "af-intro",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "bp",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "gout",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "hf",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "oh",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "pacemaker",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "svt",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "slug": "af",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "af-intro",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "bp",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "gout",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "hf",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "oh",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "pacemaker",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "svt",
+      "pages": 7,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "slug": "af",
+      "pages": 7,
+      "passed": true
+    }
+  ],
+  "browser_audio_decoded": 56,
+  "player_controls_tested_topics": 8,
+  "subtitle_coverage": [
+    {
+      "slug": "af",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "af-intro",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "bp",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "gout",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "hf",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "oh",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "pacemaker",
+      "id": "topic-6",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "summary",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-1",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-2",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-3",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-4",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-5",
+      "service_text_complete": true
+    },
+    {
+      "slug": "svt",
+      "id": "topic-6",
+      "service_text_complete": true
+    }
+  ],
+  "limitations": [
+    "Audio metadata, browser decoding, playback controls and service-returned transcript coverage were checked; no claim of human listening to every recording.",
+    "Original D sample selection is documented in prior conversation; exact original synthesis parameters were not available. This build uses zh-TW-HsiaoChenNeural at -25%."
+  ]
+}

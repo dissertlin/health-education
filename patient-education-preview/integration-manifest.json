@@ -1,0 +1,47 @@
+{
+  "topics": [
+    {
+      "slug": "af-intro",
+      "title": "認識心房顫動"
+    },
+    {
+      "slug": "bp",
+      "title": "血壓控制"
+    },
+    {
+      "slug": "brady",
+      "title": "心率過慢"
+    },
+    {
+      "slug": "gout",
+      "title": "痛風控制"
+    },
+    {
+      "slug": "hf",
+      "title": "心臟衰竭"
+    },
+    {
+      "slug": "oh",
+      "title": "姿態性低血壓"
+    },
+    {
+      "slug": "pacemaker",
+      "title": "心臟節律器"
+    },
+    {
+      "slug": "svt",
+      "title": "上心室頻脈"
+    },
+    {
+      "slug": "af",
+      "title": "心房顫動電燒"
+    },
+    {
+      "slug": "af-meds",
+      "title": "心房顫動用藥指南"
+    }
+  ],
+  "brady_source_commit": "9c1a8e87794fa40d0290b41d9525058cef96b700",
+  "af_meds_source": "AF_Medication_Guide_Full_Content_Simplified_Demo (2).zip",
+  "changes": "Only local package navigation and medication PDF link adjusted; source audio and medical content retained."
+}

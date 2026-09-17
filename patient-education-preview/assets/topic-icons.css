@@ -1,0 +1,13 @@
+.tile .topic-art{display:block;width:132px;height:132px;flex:0 0 auto;border-radius:50%;margin:8px 0 12px;background-image:url("topic-illustrations.png");background-repeat:no-repeat;background-size:591.333333% 295.666667%;background-color:#fff}
+.grid .tile{padding-top:26px;min-height:268px}
+@media(max-width:420px){.tile .topic-art{width:108px;height:108px}.grid .tile{min-height:238px}}
+.topic-art-1{background-position:2.78154681% 18.22827939%}
+.topic-art-2{background-position:26.45861601% 18.22827939%}
+.topic-art-3{background-position:50.47489824% 18.22827939%}
+.topic-art-4{background-position:74.21981004% 18.22827939%}
+.topic-art-5{background-position:97.96472185% 18.22827939%}
+.topic-art-6{background-position:2.78154681% 81.26064736%}
+.topic-art-7{background-position:26.45861601% 81.26064736%}
+.topic-art-8{background-position:50.47489824% 81.26064736%}
+.topic-art-9{background-position:74.21981004% 81.26064736%}
+.topic-art-10{background-position:97.96472185% 81.26064736%}
