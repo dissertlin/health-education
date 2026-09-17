@@ -52,6 +52,26 @@ Cloudflare 後台的選單名稱偶爾會調整，若字樣略有不同請找相
 python3 tools/counter/add_counter.py https://he-counter.你的帳號.workers.dev
 ```
 
+## 從哪裡看數字
+
+用瀏覽器直接開（純讀取，**不會**增加計數，可加書籤）：
+
+- `https://he-counter.dissertlin.workers.dev/stats` —— 十份一覽表，依次數排序，含合計
+- `https://he-counter.dissertlin.workers.dev/stats.json` —— 同樣內容的 JSON
+
+也可以在 Cloudflare 後台 `Storage & Databases` → `KV` → namespace 直接看 `views:*` 十筆。
+注意：**自己去看衛教頁面本身會讓數字 +1**，日常查看請用上面的 /stats。
+
+## 歸零
+
+```bash
+npx wrangler login                                   # 您自己授權一次
+bash tools/counter/reset.sh <KV_NAMESPACE_ID>        # 十份全部歸零
+bash tools/counter/reset.sh <KV_NAMESPACE_ID> svt bp # 或只歸零指定幾份
+```
+
+或在後台 KV 頁面把 `views:xxx` 的值直接改成 `0`。
+
 ## 拿掉
 
 ```bash
