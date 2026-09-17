@@ -29,6 +29,17 @@
   .cards img{display:block;width:100%;height:auto;border-radius:8px;margin-bottom:10px}
   .cards h2{font-size:1.02rem;margin:0 0 4px}
   .cards p{margin:0;color:var(--sub);font-size:.88rem}
+  /* 語音版入口 begin */
+  a.voice{display:flex;align-items:center;gap:14px;margin-top:18px;padding:14px 16px;
+          text-decoration:none;color:inherit;background:var(--card);
+          border:1.5px solid var(--brand);border-radius:14px;
+          box-shadow:0 2px 10px rgba(24,51,77,.08)}
+  a.voice .ico{font-size:1.7rem;line-height:1;flex:0 0 auto}
+  a.voice b{display:block;font-size:1rem;color:var(--brand)}
+  a.voice em{display:block;font-style:normal;font-size:.86rem;color:var(--sub);margin-top:2px;line-height:1.5}
+  a.voice .go{margin-left:auto;white-space:nowrap;font-weight:700;color:var(--brand);font-size:.9rem}
+  @media (max-width:520px){a.voice .go{display:none}}
+  /* 語音版入口 end */
   footer{color:var(--sub);font-size:.82rem;margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
 </style>
 </head>
@@ -36,6 +47,16 @@
 <div class="wrap">
 <h1>病人衛教資訊圖表</h1>
 <p class="lead">心臟科與代謝相關的 A5 衛教單張，可放大檢視或下載列印。每一張都有展開說明的詳細版。每張單張右上角的 QR code 會連到這裡的對應頁面。</p>
+<!-- 語音版入口 begin -->
+<a class="voice" href="patient-education-preview/">
+  <span class="ico" aria-hidden="true">🔊</span>
+  <span>
+    <b>語音版｜十大主題有聲衛教</b>
+    <em>十個主題都有語音朗讀，可逐段播放、暫停與重播，字體較大，適合長輩與視力不便者。</em>
+  </span>
+  <span class="go">前往 →</span>
+</a>
+<!-- 語音版入口 end -->
 <div class="cards">
 <a href="af-intro/"><img src="af-intro/af-basics.svg" alt="認識心房顫動衛教單縮圖"><h2>認識心房顫動</h2><p>什麼是心房顫動、為什麼會中風、抗凝血藥怎麼吃（附詳細版）</p></a>
 <a href="af-meds/"><img src="af-meds/af-meds.svg" alt="心房顫動用藥指南衛教單縮圖"><h2>心房顫動的用藥指南</h2><p>為什麼要吃兩種藥、抗凝血藥怎麼吃、亞洲人的用藥考量（附詳細版）</p></a>
