@@ -87,6 +87,10 @@
   .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
   footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
   footer li{font-size:.8rem}
+  /* 瀏覽次數 begin */
+  .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
+  .views b{color:var(--brand);font-weight:700}
+  /* 瀏覽次數 end */
 </style>
 </head>
 <body>
@@ -553,6 +557,25 @@
 <p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
 <p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>
 <p>內容依前述臨床指引編寫，供衛教參考，不取代個別診療。</p>
+<!-- 瀏覽次數 begin -->
+<p class="views" id="pv" hidden>本頁已被瀏覽 <b id="pvn">—</b> 次</p>
+<script>
+(function(){
+  var API="https://he-counter.dissertlin.workers.dev", P="svt";
+  var box=document.getElementById("pv"), num=document.getElementById("pvn");
+  if(!box||!num||!window.fetch) return;
+  fetch(API+"/hit?p="+P,{method:"POST",cache:"no-store",mode:"cors"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if(d && typeof d.n==="number"){
+        num.textContent=d.n.toLocaleString("zh-TW");
+        box.hidden=false;            /* 只有成功拿到數字才顯示 */
+      }
+    })
+    .catch(function(){});            /* 失敗就靜靜不顯示，不影響閱讀 */
+})();
+</script>
+<!-- 瀏覽次數 end -->
 </footer>
 
 </div>

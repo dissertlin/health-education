@@ -82,6 +82,10 @@
   .fast span{font-size:.88rem;color:var(--sub)}
   footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
   footer li{font-size:.8rem}
+  /* 瀏覽次數 begin */
+  .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
+  .views b{color:var(--brand);font-weight:700}
+  /* 瀏覽次數 end */
 </style>
 </head>
 <body>
@@ -438,6 +442,25 @@
 </ul>
 <p><b>© 2026 林祐賸醫師 編製</b>　本頁與所附單張（SVG／PDF）僅供臨床衛教使用。歡迎醫療人員列印提供給自己的病人，但<b>未經同意請勿重製、改作、再散布或作任何商業用途</b>；引用時請註明出處。</p>
 <p><b>本頁提供一般衛教資訊，不能取代醫師的個別診斷與處方。</b>藥物種類、劑量、是否需要抗凝血藥、是否適合電燒，都必須由您的心臟專科醫師依個人狀況判斷。症狀或病況改變時請儘速就醫。</p>
+<!-- 瀏覽次數 begin -->
+<p class="views" id="pv" hidden>本頁已被瀏覽 <b id="pvn">—</b> 次</p>
+<script>
+(function(){
+  var API="https://he-counter.dissertlin.workers.dev", P="af-intro";
+  var box=document.getElementById("pv"), num=document.getElementById("pvn");
+  if(!box||!num||!window.fetch) return;
+  fetch(API+"/hit?p="+P,{method:"POST",cache:"no-store",mode:"cors"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if(d && typeof d.n==="number"){
+        num.textContent=d.n.toLocaleString("zh-TW");
+        box.hidden=false;            /* 只有成功拿到數字才顯示 */
+      }
+    })
+    .catch(function(){});            /* 失敗就靜靜不顯示，不影響閱讀 */
+})();
+</script>
+<!-- 瀏覽次數 end -->
 </footer>
 
 </div>

@@ -1,0 +1,10 @@
+# 用指令部署時使用；在 tools/counter/ 目錄下執行 npx wrangler deploy
+name = "he-counter"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+# 執行 npx wrangler kv namespace create COUNTER 之後，
+# 把它印出來的 id 填到下面這行
+[[kv_namespaces]]
+binding = "COUNTER"
+# id = "（用後台建立，未使用 wrangler）"
