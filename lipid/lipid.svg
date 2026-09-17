@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>認識膽固醇｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/lipid/</dc:source></rdf:Description></rdf:RDF></metadata>
+<defs><style>
+.t{font:700 23px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#eaf6ef}
+.h{font:700 15px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1f3a30}
+.b{font:700 10.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#2c453a}
+.s{font:500 8.8px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#51665b}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6d8176}
+.cap{font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#2c453a}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#e2ece6}
+.srh{font:700 6.8px 'Microsoft JhengHei',sans-serif;fill:#fff}
+.card{fill:#fff;stroke:#dbe7e0;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+.th{font:700 8.6px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1f3a30}
+</style>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#c2872a"/><stop offset="1" stop-color="#2f7a63"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#1f3a30" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#f7faf8"/>
+
+<!-- 標題 -->
+<rect x="18" y="14" width="523" height="93" rx="16" fill="url(#g)"/>
+<g transform="translate(36 30)">
+<circle cx="30" cy="30" r="27" fill="#fde8c8" stroke="#a9701f" stroke-width="3"/>
+<circle cx="30" cy="30" r="19" fill="#d94f4f"/>
+<path d="M11 30 a19 19 0 0 0 31 14 q-17 -2 -31 -14 z" fill="#f2c14e" stroke="#c99a2e" stroke-width="1.4"/>
+<circle cx="24" cy="38" r="2.6" fill="#f7d98a"/><circle cx="33" cy="41" r="2" fill="#f7d98a"/>
+</g>
+<text x="112" y="47" class="t">認識膽固醇</text>
+<text x="112" y="70" class="st">看懂 LDL 目標、飲食、藥物與追蹤</text>
+<rect x="112" y="81" width="330" height="19" rx="9.5" fill="#fff"/>
+<text x="124" y="94" class="s"><tspan style="font-weight:700;fill:#2f7a63">LDL 是主要治療目標</tspan>；風險越高，目標訂得越低</text>
+
+<!-- ① 什麼是高血脂 -->
+<rect x="20" y="118" width="253" height="104" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="140" class="h">① 什麼是高血脂？</text>
+<text x="37" y="158" class="s">LDL（壞膽固醇）過高、三酸甘</text>
+<text x="37" y="170" class="s">油脂過高，或 HDL（好的）過低。</text>
+<text x="37" y="186" class="s"><tspan style="font-weight:700;fill:#c0632a">通常完全沒有症狀</tspan>，卻會讓脂肪</text>
+<text x="37" y="198" class="s">一點一點沉積在血管壁。</text>
+<text x="37" y="214" class="b" style="fill:#b23b3b">→ 心肌梗塞、腦中風、周邊動脈疾病</text>
+
+<!-- ③ 怎麼治療 -->
+<rect x="287" y="118" width="252" height="104" rx="13" class="card" filter="url(#sh)"/>
+<text x="304" y="140" class="h">③ 怎麼治療？</text>
+<rect x="298" y="148" width="230" height="32" rx="8" fill="#eef6f2"/>
+<text x="309" y="161" class="b" style="fill:#2f7a63">生活調整（基礎，人人都要做）</text>
+<text x="309" y="174" class="s">飲食、運動、體重、戒菸 → 降 LDL 約 5～15%</text>
+<rect x="298" y="184" width="230" height="30" rx="8" fill="#fdf5e8"/>
+<text x="309" y="197" class="b" style="fill:#b5762a">藥物治療</text>
+<text x="309" y="209" class="s">Statin 第一線，可降 30% 到 50% 以上</text>
+
+<!-- ② LDL 目標 -->
+<rect x="20" y="230" width="519" height="170" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="252" class="h">② 我的 LDL 目標是多少？</text>
+<text x="223" y="252" class="xs">依 2025 台灣血脂管理臨床路徑簡化整理，實際分層請由醫師判定</text>
+<rect x="36" y="260" width="487" height="20" rx="5" fill="#eef6f2"/>
+<text x="46" y="274" class="th">風險分層</text><text x="130" y="274" class="th">常見情況</text><text x="452" y="274" class="th">LDL 目標 (mg/dL)</text>
+<line x1="36" y1="300" x2="523" y2="300" stroke="#e6efea"/>
+<line x1="36" y1="320" x2="523" y2="320" stroke="#e6efea"/>
+<line x1="36" y1="340" x2="523" y2="340" stroke="#e6efea"/>
+<line x1="36" y1="360" x2="523" y2="360" stroke="#e6efea"/>
+<text x="46" y="294" class="s" style="font-weight:700">低風險</text><text x="130" y="294" class="s">1 項危險因子，且不屬於高風險族群</text><text x="452" y="294" class="b">&lt; 130</text>
+<text x="46" y="314" class="s" style="font-weight:700">中風險</text><text x="130" y="314" class="s">至少 2 項危險因子</text><text x="452" y="314" class="b">&lt; 115</text>
+<text x="46" y="334" class="s" style="font-weight:700">高風險</text><text x="130" y="334" class="s">糖尿病、未洗腎的慢性腎病、LDL ≥ 190，或冠狀動脈鈣化分數 ≥ 400</text><text x="452" y="334" class="b" style="fill:#b5762a">&lt; 100</text>
+<text x="46" y="354" class="s" style="font-weight:700">非常高風險</text><text x="130" y="354" class="s">已確診動脈粥樣硬化心血管疾病（ASCVD）</text><text x="452" y="354" class="b" style="fill:#b23b3b">&lt; 70</text>
+<text x="46" y="374" class="s" style="font-weight:700">極高風險</text><text x="130" y="374" class="s">嚴重或反覆發生的 ASCVD 等，由醫師進一步判定</text><text x="452" y="374" class="b" style="fill:#b23b3b">&lt; 55</text>
+<text x="36" y="392" class="xs">危險因子常包括：高血壓、抽菸、年齡、早發性冠心病家族史、HDL 偏低、代謝症候群。</text>
+
+<!-- ④ 副作用與機率 -->
+<rect x="20" y="408" width="519" height="156" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="430" class="h">④ 用藥常見副作用與機率</text>
+<text x="215" y="430" class="xs">數字取自隨機對照試驗的統合分析，為大略估計值</text>
+<rect x="36" y="438" width="240" height="90" rx="9" fill="#fdf5e8"/>
+<text x="49" y="454" class="b" style="fill:#b5762a">Statin（史他汀，第一線）</text>
+<text x="49" y="469" class="s">肌肉痠痛　第 1 年每 1,000 人多約 11 人</text>
+<text x="49" y="482" class="s">肝指數上升　約 1%，多為輕度可回復</text>
+<text x="49" y="495" class="s">新發糖尿病　每 255 人吃 4 年多 1 人</text>
+<text x="49" y="508" class="s">橫紋肌溶解　每 10 萬人年 1～3 人</text>
+<text x="49" y="521" class="s" style="fill:#2f7a63">記憶力變差：試驗中未發現增加</text>
+<rect x="283" y="438" width="240" height="90" rx="9" fill="#eef6f2"/>
+<text x="296" y="454" class="b" style="fill:#2f7a63">其他降膽固醇藥</text>
+<text x="296" y="469" class="s">Ezetimibe　整體與安慰劑相近</text>
+<text x="296" y="482" class="s">PCSK9 針劑　注射部位反應 2～5%</text>
+<text x="296" y="495" class="s">Bempedoic acid　痛風約 3%</text>
+<text x="296" y="508" class="s">（安慰劑約 2%）、膽結石略增</text>
+<text x="296" y="521" class="s">魚油高劑量　心房顫動、出血略增</text>
+<rect x="36" y="534" width="487" height="22" rx="8" fill="#fff2e4"/>
+<text x="49" y="549" class="s" style="fill:#b5510f"><tspan style="font-weight:700">重要：</tspan>試驗顯示大多數「statin 引起的肌肉痛」其實不是藥造成的。不舒服請回診討論，<tspan style="font-weight:700">不要自行停藥</tspan>。</text>
+
+<!-- ⑤ 追蹤 -->
+<rect x="20" y="572" width="253" height="90" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="594" class="h">⑤ 多久追蹤一次？</text>
+<text x="37" y="612" class="s"><tspan style="font-weight:700">先做生活調整</tspan>　3～6 個月後驗血脂</text>
+<text x="37" y="626" class="s"><tspan style="font-weight:700">開始 statin</tspan>　6～8 週後驗血脂</text>
+<text x="37" y="640" class="s"><tspan style="font-weight:700">開始或加量</tspan>　3 個月內驗肝功能</text>
+<text x="37" y="654" class="s"><tspan style="font-weight:700">已達標</tspan>　每 6～12 個月追蹤</text>
+
+<!-- ⑥ 飲食 -->
+<rect x="287" y="572" width="252" height="90" rx="13" class="card" filter="url(#sh)"/>
+<text x="304" y="594" class="h">⑥ 飲食怎麼選？</text>
+<text x="304" y="612" class="b" style="fill:#2f7a63">多選</text>
+<text x="334" y="612" class="s">蔬菜水果、全穀、燕麥、大麥</text>
+<text x="304" y="625" class="s">豆類與豆製品、魚、無調味堅果、橄欖油</text>
+<text x="304" y="642" class="b" style="fill:#b23b3b">少吃</text>
+<text x="334" y="642" class="s">肥肉、加工肉、奶油、全脂乳</text>
+<text x="304" y="655" class="s">油炸與酥皮、反式脂肪、椰子／棕櫚油、含糖飲</text>
+
+<!-- ⑦ 提早聯絡 -->
+<rect x="20" y="670" width="519" height="42" rx="13" fill="#fff0ef" stroke="#eda8a4" stroke-width="1.7"/>
+<circle cx="45" cy="691" r="12" fill="#c04a45"/><text x="45" y="696" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="687" class="b" style="fill:#b23b3b">⑦ 出現這些情況，請提早聯絡醫療團隊</text>
+<text x="66" y="702" class="s" style="fill:#b23b3b">明顯肌肉痠痛或無力｜深色尿｜皮膚或眼白變黃｜懷孕或準備懷孕</text>
+
+<!-- 來源 -->
+<rect x="20" y="718" width="519" height="72" rx="10" fill="#22352c"/>
+<text x="31" y="735" class="srh">提醒：血脂達標不代表可以停藥；是否調整或停用，一律由醫師依追蹤結果決定。</text>
+<text x="31" y="750" class="srh">資料來源（查核至 2026-09）：</text>
+<text x="31" y="762" class="src">2025 台灣血脂管理臨床路徑共識；2024 台灣心臟學會 ASCVD 初級預防指引；</text>
+<text x="31" y="773" class="src">2026 ACC/AHA 血脂異常指引；Cholesterol Treatment Trialists 統合分析。本單張供衛教使用，不取代個別診療。</text>
+<text x="31" y="784" class="src">© 2026 林祐賸醫師 編製　本單張僅供臨床衛教使用，未經同意請勿重製、改作或作商業用途。</text>
+<!--QR--><g id="qr"><rect x="463" y="18" width="72" height="82" rx="10" fill="#fff" stroke="#cfe3d8"/><g transform="translate(469 24) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM9 0h2v1h-2zM16 0h1v1h-1zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM10 1h2v1h-2zM15 1h2v1h-2zM18 1h1v1h-1zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h2v1h-2zM11 2h2v1h-2zM14 2h1v1h-1zM16 2h1v1h-1zM18 2h1v1h-1zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h4v1h-4zM18 3h2v1h-2zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h3v1h-3zM13 4h4v1h-4zM18 4h1v1h-1zM21 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM12 5h1v1h-1zM20 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h1v1h-1zM11 7h1v1h-1zM16 7h1v1h-1zM18 7h4v1h-4zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM11 8h1v1h-1zM13 8h2v1h-2zM17 8h1v1h-1zM19 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM0 9h2v1h-2zM3 9h1v1h-1zM5 9h1v1h-1zM7 9h1v1h-1zM9 9h3v1h-3zM13 9h1v1h-1zM17 9h4v1h-4zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM0 10h1v1h-1zM4 10h1v1h-1zM6 10h1v1h-1zM11 10h1v1h-1zM13 10h5v1h-5zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM1 11h3v1h-3zM9 11h2v1h-2zM12 11h2v1h-2zM16 11h10v1h-10zM28 11h3v1h-3zM0 12h4v1h-4zM6 12h2v1h-2zM9 12h1v1h-1zM11 12h2v1h-2zM14 12h1v1h-1zM16 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM0 13h1v1h-1zM2 13h2v1h-2zM5 13h1v1h-1zM7 13h2v1h-2zM10 13h2v1h-2zM13 13h1v1h-1zM15 13h1v1h-1zM17 13h3v1h-3zM21 13h1v1h-1zM23 13h1v1h-1zM26 13h1v1h-1zM29 13h4v1h-4zM1 14h1v1h-1zM6 14h1v1h-1zM8 14h1v1h-1zM10 14h1v1h-1zM12 14h1v1h-1zM15 14h2v1h-2zM18 14h1v1h-1zM21 14h2v1h-2zM25 14h3v1h-3zM30 14h2v1h-2zM1 15h3v1h-3zM10 15h2v1h-2zM13 15h1v1h-1zM15 15h1v1h-1zM18 15h1v1h-1zM20 15h2v1h-2zM24 15h3v1h-3zM29 15h2v1h-2zM0 16h1v1h-1zM4 16h5v1h-5zM12 16h4v1h-4zM17 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM0 17h1v1h-1zM2 17h4v1h-4zM7 17h2v1h-2zM12 17h1v1h-1zM16 17h1v1h-1zM19 17h2v1h-2zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM0 18h3v1h-3zM4 18h1v1h-1zM6 18h1v1h-1zM8 18h1v1h-1zM12 18h1v1h-1zM15 18h2v1h-2zM18 18h1v1h-1zM21 18h2v1h-2zM27 18h2v1h-2zM30 18h2v1h-2zM0 19h1v1h-1zM2 19h1v1h-1zM5 19h1v1h-1zM7 19h2v1h-2zM12 19h1v1h-1zM15 19h1v1h-1zM19 19h3v1h-3zM23 19h9v1h-9zM0 20h1v1h-1zM4 20h5v1h-5zM14 20h1v1h-1zM18 20h2v1h-2zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h1v1h-1zM2 21h2v1h-2zM8 21h1v1h-1zM10 21h1v1h-1zM12 21h1v1h-1zM15 21h2v1h-2zM19 21h2v1h-2zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM5 22h4v1h-4zM10 22h5v1h-5zM20 22h3v1h-3zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM2 23h2v1h-2zM7 23h3v1h-3zM11 23h2v1h-2zM14 23h1v1h-1zM16 23h1v1h-1zM21 23h1v1h-1zM30 23h1v1h-1zM0 24h1v1h-1zM3 24h2v1h-2zM6 24h4v1h-4zM11 24h1v1h-1zM17 24h1v1h-1zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM31 24h1v1h-1zM8 25h1v1h-1zM10 25h1v1h-1zM13 25h2v1h-2zM16 25h4v1h-4zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM10 26h6v1h-6zM17 26h1v1h-1zM21 26h1v1h-1zM23 26h2v1h-2zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h1v1h-1zM16 27h9v1h-9zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h3v1h-3zM13 28h1v1h-1zM16 28h1v1h-1zM19 28h1v1h-1zM22 28h1v1h-1zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h2v1h-2zM12 29h1v1h-1zM14 29h2v1h-2zM18 29h3v1h-3zM22 29h4v1h-4zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h1v1h-1zM10 30h1v1h-1zM14 30h5v1h-5zM21 30h1v1h-1zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM10 31h6v1h-6zM18 31h1v1h-1zM21 31h3v1h-3zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h1v1h-1zM12 32h1v1h-1zM14 32h2v1h-2zM17 32h2v1h-2zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="95" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#2f7a63">掃描看電子版</text></g><!--/QR--></svg>

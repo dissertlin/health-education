@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>認識膽固醇｜病人衛教詳細版</title>
+<meta name="description" content="高血脂是什麼、看懂血脂報告、依台灣指引的 LDL 目標、飲食與生活能降多少、藥物怎麼選，以及各類降膽固醇藥的常見副作用與發生機率。寫給台灣一般民眾。">
+<meta name="author" content="林祐賸醫師">
+<meta name="copyright" content="© 2026 林祐賸醫師 編製">
+<style>
+  :root{--bg:#f7faf8;--card:#fff;--line:#dbe7e0;--ink:#1f3a30;--sub:#5b6e6a;--brand:#2f7a63;
+        --teal:#1f6b56;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fdf5e8;--warnline:#e7c489;--okbg:#eef6f2;--oktext:#20614f;
+        --bluebg:#fdf3ea;--blueline:#e6c9a8;--bluetext:#a3641c}
+  @media (prefers-color-scheme:dark){:root{--bg:#101814;--card:#18211c;--line:#2a3830;--ink:#e9f2ec;--sub:#a2b3a9;--brand:#6fc9a8;
+        --teal:#8fdcc0;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#272015;--warnline:#5c4a29;--okbg:#15251f;--oktext:#7fd8b8;
+        --bluebg:#251d14;--blueline:#4d3c28;--bluetext:#e0b071}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.06rem;margin:1.6em 0 .4em;color:var(--brand)}
+  h4{font-size:.98rem;margin:1.25em 0 .3em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .totop{margin:1.4em 0 .2em;text-align:right;line-height:1}
+  .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
+  .totop a:hover{color:var(--teal);border-color:var(--teal)}
+  .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  @media (prefers-color-scheme:dark){body::before{opacity:.20}}
+  .wrap{position:relative;z-index:1}
+  @media print{body::before{opacity:.16}}
+  .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
+  .tocnote b{color:var(--teal)}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  .tw table.nw td:first-child,.tw table.nw th:first-child{white-space:normal}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps div>b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+  /* 瀏覽次數 begin */
+  .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
+  .views b{color:var(--brand);font-weight:700}
+  /* 瀏覽次數 end */
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+
+<a class="back" href="../">← 回衛教專欄</a>
+
+<h1>認識膽固醇</h1>
+<p class="lead">抽血報告上的 LDL 到底該多低？飲食真的有用嗎？吃藥會不會傷肝、會不會全身痠痛？<br>
+這一頁用白話說明血脂怎麼看、怎麼治，並且把<b>每一種藥的副作用機率用數字列出來</b>。</p>
+
+<div class="toc">
+  <h2>本頁內容</h2>
+  <ol>
+    <li><a href="#s1">高血脂是什麼？為什麼重要？</a></li>
+    <li><a href="#s2">看懂報告上的四個數字</a></li>
+    <li><a href="#s3">我的 LDL 目標是多少？</a></li>
+    <li><a href="#s4">飲食和生活能降多少？</a></li>
+    <li><a href="#s5">藥物怎麼選？</a></li>
+    <li><a href="#s6">用藥常見副作用與機率</a></li>
+    <li><a href="#s7">關於「吃藥全身痠痛」的真相</a></li>
+    <li><a href="#s8">多久追蹤一次？</a></li>
+    <li><a href="#s9">什麼時候要提早聯絡醫療團隊</a></li>
+    <li><a href="#s10">常見問題</a></li>
+    <li><a href="#s11">資料來源與使用說明</a></li>
+  </ol>
+  <p class="tocnote">本頁有<b>表格</b>，在手機上若看不到完整欄位，請用手指在表格區域<b>左右滑動</b>即可看到全部內容。</p>
+</div>
+
+<h2 id="s1"><span class="num">1</span>高血脂是什麼？為什麼重要？</h2>
+
+<p>膽固醇本身<b>不是壞東西</b>。它是身體用來做細胞膜、荷爾蒙和膽汁的原料，我們的肝臟每天都會自己製造。問題出在<b>血液裡的量太多、而且是「壞的那一種」太多</b>。</p>
+
+<p>血脂異常包括三種情況：<b>LDL（壞膽固醇）太高</b>、<b>三酸甘油脂太高</b>、或是 <b>HDL（好膽固醇）太低</b>。其中 <b>LDL 是最主要的治療目標</b>，因為它會鑽進動脈的血管壁裡，一點一點堆積成「粥狀斑塊」。</p>
+
+<figure class="fig">
+<svg viewBox="0 0 700 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="正常血管與堆積斑塊的血管比較示意圖">
+  <rect x="8" y="8" width="332" height="234" rx="14" fill="var(--okbg)" stroke="var(--line)"/>
+  <rect x="360" y="8" width="332" height="234" rx="14" fill="var(--warnbg)" stroke="var(--warnline)"/>
+  <text x="174" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="var(--oktext)">健康的血管</text>
+  <text x="526" y="36" text-anchor="middle" font-size="17" font-weight="700" fill="#b5510f">堆了斑塊的血管</text>
+  <!-- 左：暢通 -->
+  <rect x="40" y="76" width="268" height="86" rx="43" fill="var(--card)" stroke="var(--sub)" stroke-width="3"/>
+  <rect x="52" y="90" width="244" height="58" rx="29" fill="#e8746e" opacity=".85"/>
+  <circle cx="100" cy="119" r="9" fill="#fff" opacity=".55"/>
+  <circle cx="170" cy="119" r="9" fill="#fff" opacity=".55"/>
+  <circle cx="240" cy="119" r="9" fill="#fff" opacity=".55"/>
+  <path d="M60 190h230" stroke="var(--brand)" stroke-width="3" stroke-linecap="round" marker-end="url(#ag)"/>
+  <defs><marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--brand)"/></marker>
+  <marker id="ay" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b5510f"/></marker></defs>
+  <text x="174" y="215" text-anchor="middle" font-size="13" fill="var(--ink)">血流順暢，管腔寬</text>
+  <!-- 右：狹窄 -->
+  <rect x="392" y="76" width="268" height="86" rx="43" fill="var(--card)" stroke="var(--sub)" stroke-width="3"/>
+  <path d="M404 96h244a29 29 0 0 1 0 46H404a29 29 0 0 1 0-46z" fill="#e8746e" opacity=".85"/>
+  <path d="M470 90q40-4 62 16-30 16-62 12z" fill="#f0c44e" stroke="#c99a2e" stroke-width="2"/>
+  <path d="M556 148q-42 4-64-16 32-16 64-12z" fill="#f0c44e" stroke="#c99a2e" stroke-width="2"/>
+  <text x="520" y="70" text-anchor="middle" font-size="12" font-weight="700" fill="#b5510f">脂肪斑塊</text>
+  <path d="M412 190h150" stroke="#b5510f" stroke-width="3" stroke-linecap="round" marker-end="url(#ay)"/>
+  <text x="526" y="215" text-anchor="middle" font-size="13" fill="var(--ink)">管腔變窄，血流變少</text>
+</svg>
+<figcaption>LDL 鑽進血管壁堆積成斑塊，血管慢慢變窄；斑塊若破裂還會瞬間形成血栓，把血管整個堵住。</figcaption>
+</figure>
+
+<div class="box warn">
+<span class="t">最麻煩的一點：它不會痛</span>
+<p>高血脂<b>幾乎完全沒有症狀</b>。血管在裡面慢慢變窄的那十幾二十年，你完全感覺不到，直到某一天斑塊破裂、血塊瞬間把血管堵死——那就是<b>心肌梗塞</b>或<b>腦中風</b>。也因為這樣，很多人會覺得「我又沒有不舒服，幹嘛吃藥」，這正是最危險的想法。</p>
+</div>
+
+<p>堵在不同的地方，就是不同的病：堵在心臟的血管是<b>心肌梗塞</b>，堵在腦部是<b>缺血性腦中風</b>，堵在腳的血管則是<b>周邊動脈疾病</b>（走一段路小腿就痠痛到得停下來）。</p>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s2"><span class="num">2</span>看懂報告上的四個數字</h2>
+
+<p>抽血報告上的血脂通常有四項。先看懂它們各代表什麼，再看第 3 節的目標值。</p>
+
+<div class="tw">
+<table>
+<tr><th>項目</th><th>白話說</th><th>越高越好還是越低越好</th></tr>
+<tr><td><b>LDL-C</b><br>低密度脂蛋白膽固醇</td><td><b>壞膽固醇</b>。把膽固醇從肝臟運出去、塞進血管壁的那一個。</td><td><b>越低越好</b>，這是最主要的治療目標</td></tr>
+<tr><td><b>HDL-C</b><br>高密度脂蛋白膽固醇</td><td><b>好膽固醇</b>。負責把血管壁裡多餘的膽固醇搬回肝臟處理掉。</td><td>越高越好；男性 &lt; 40、女性 &lt; 50 算偏低。<b>但目前沒有藥物靠拉高 HDL 就能減少心血管事件</b></td></tr>
+<tr><td><b>TG</b><br>三酸甘油脂</td><td>血中的中性脂肪，受<b>飲食、酒精、糖分</b>影響很大。</td><td>越低越好。一般 &lt; 150；<b>≥ 500 時有急性胰臟炎風險</b>，要優先處理</td></tr>
+<tr><td><b>總膽固醇</b><br>TC</td><td>上面幾項加起來的總量。</td><td>參考用。醫師主要看 LDL，不會只看總膽固醇</td></tr>
+</table>
+</div>
+
+<div class="box key">
+<span class="t">抽血前要空腹嗎？</span>
+<p><b>大多數情況不用。</b>現在的指引認為非空腹的血脂就足以評估風險與追蹤治療。不過如果<b>三酸甘油脂特別高</b>，或醫師要精算某些數值，可能會請你空腹 8～12 小時再抽一次。依照您院所的通知為準。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s3"><span class="num">3</span>我的 LDL 目標是多少？</h2>
+
+<p>這是整件事最重要的一句話：<b>沒有一個人人適用的標準值</b>。同樣 LDL 130，對一個沒有任何慢性病的年輕人可能可以先觀察，對一個心肌梗塞剛放過支架的人卻是嚴重超標。</p>
+
+<p>原則很簡單：<b>心血管風險越高，LDL 目標就訂得越低。</b></p>
+
+<div class="tw">
+<table>
+<tr><th>風險分層</th><th>常見情況</th><th>LDL 目標<br>(mg/dL)</th></tr>
+<tr><td><b>低風險</b></td><td>只有 1 項危險因子，且不屬於高風險族群</td><td><b>&lt; 130</b></td></tr>
+<tr><td><b>中風險</b></td><td>至少 2 項危險因子</td><td><b>&lt; 115</b></td></tr>
+<tr><td><b>高風險</b></td><td>糖尿病、還沒洗腎的慢性腎臟病、LDL 本身就 ≥ 190，或冠狀動脈鈣化分數 ≥ 400</td><td><b>&lt; 100</b></td></tr>
+<tr><td><b>非常高風險</b></td><td>已經確診動脈粥樣硬化心血管疾病（ASCVD）——例如心肌梗塞、放過心臟支架或做過繞道、缺血性腦中風、周邊動脈疾病</td><td><b>&lt; 70</b></td></tr>
+<tr><td><b>極高風險</b></td><td>嚴重或反覆發生的 ASCVD 等，由醫師進一步判定</td><td><b>&lt; 55</b></td></tr>
+</table>
+</div>
+
+<p><b>危險因子</b>常包括：高血壓、抽菸、年齡（男性 ≥ 45 歲、女性 ≥ 55 歲）、早發性冠心病家族史、HDL 偏低、代謝症候群。</p>
+
+<div class="box blue">
+<span class="t">「我的數字在正常範圍，為什麼還要吃藥？」</span>
+<p>因為報告單上印的「參考值」是<b>一般人口的統計範圍，不是你的治療目標</b>。如果你已經放過支架，報告上寫 LDL 100 是「正常」，但你的目標可能是 70 甚至 55——那就還差得遠。<b>請以醫師告訴你的個人目標為準，不是報告單上的參考值。</b></p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s4"><span class="num">4</span>飲食和生活能降多少？</h2>
+
+<p>先說實話，這樣您才不會有不切實際的期待，也不會因為「做了卻沒降下來」而放棄：</p>
+
+<div class="box key">
+<span class="t">一般人認真做生活調整，LDL 大約可以降 5～15%</span>
+<p>如果是高度遵從的組合式飲食（國外研究稱為 Portfolio 飲食：燕麥等可溶性纖維＋黃豆蛋白＋堅果＋植物固醇），平均<b>約可降 17%</b>。這已經是飲食能做到的上限了。</p>
+<p>換算成實際數字：LDL 原本 160 的人，做得很好可能降到 135～140 左右。<b>如果你的目標是 70，光靠飲食一定不夠</b>——這不是你不夠努力，是生理上做不到。</p>
+</div>
+
+<h3>多選這些</h3>
+<div class="icons">
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 42c-9 0-16-7-16-16 0-7 5-13 11-15 2-1 4 0 5 2 1-2 3-3 5-2 6 2 11 8 11 15 0 9-7 16-16 16z" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 11c0-4 3-7 7-7 0 4-3 7-7 7z" fill="var(--brand)"/><path d="M16 26c2 6 6 9 8 10" stroke="var(--brand)" stroke-width="2" stroke-linecap="round"/></svg><b>蔬菜與水果</b><span>每餐一半以上放蔬菜，水果每天 2 份</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6c5 6 5 12 0 18-5-6-5-12 0-18z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 20c5 6 5 12 0 18-5-6-5-12 0-18z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 24v18" stroke="var(--sub)" stroke-width="2" stroke-linecap="round"/><path d="M10 40h28" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>全穀、燕麥、大麥</b><span>可溶性纖維能把膽固醇帶走，是降 LDL 最有效的食物</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><ellipse cx="18" cy="24" rx="8" ry="11" stroke="var(--brand)" stroke-width="2.4"/><ellipse cx="31" cy="30" rx="7" ry="9" stroke="var(--brand)" stroke-width="2.4"/><path d="M18 14v-4M31 22v-4" stroke="var(--sub)" stroke-width="2" stroke-linecap="round"/></svg><b>豆類與豆製品</b><span>黃豆、豆腐、豆漿；可取代部分紅肉</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M6 26c8-10 22-12 32-4 2 2 4 3 4 4s-2 2-4 4c-10 8-24 6-32-4z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="16" cy="24" r="2.4" fill="var(--brand)"/><path d="M38 20l6-6v20l-6-6" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/></svg><b>魚類</b><span>每週 2 次以上，尤其鯖魚、秋刀魚等富含 omega-3 的魚</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 8c8 0 14 6 14 14 0 10-6 18-14 18s-14-8-14-18c0-8 6-14 14-14z" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 8v32M15 20c4 3 14 3 18 0M15 30c4 3 14 3 18 0" stroke="var(--sub)" stroke-width="1.8"/></svg><b>無調味堅果</b><span>每天約一小把（30 公克）；選原味、不加糖不加鹽</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M18 14h12l3 26a4 4 0 0 1-4 4h-10a4 4 0 0 1-4-4z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><path d="M20 14V8h8v6" stroke="var(--brand)" stroke-width="2.4"/><path d="M16 26h16" stroke="var(--sub)" stroke-width="2"/><path d="M36 10c4 2 6 6 4 10-4-1-6-5-4-10z" fill="var(--brand)" opacity=".7"/></svg><b>橄欖油、芥花油</b><span>取代豬油與奶油；用量仍要節制</span></div>
+</div>
+
+<h3>少吃或替換掉</h3>
+<div class="icons">
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M10 30c0-8 6-14 14-14s14 6 14 14z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M6 30h36v4a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 22c3-2 9-2 12 0" stroke="var(--red)" stroke-width="2"/></svg><b>肥肉、加工肉</b><span>香腸、培根、火腿、絞肉製品</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="10" y="16" width="28" height="18" rx="3" stroke="var(--red)" stroke-width="2.4"/><path d="M10 22h28" stroke="var(--red)" stroke-width="2"/><path d="M16 16l4-6h8l4 6" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M8 40h32" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>奶油、全脂乳品</b><span>可換成低脂或脫脂</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M8 20h32l-3 18a4 4 0 0 1-4 4H15a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M14 20c0-6 4-10 10-10s10 4 10 10" stroke="var(--red)" stroke-width="2.4"/><path d="M18 28l12 10M30 28l-12 10" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/></svg><b>油炸與酥皮</b><span>炸雞、鹹酥雞、蛋塔、可頌、酥皮濃湯</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M14 10h20l-3 30a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M16 22h16" stroke="var(--red)" stroke-width="2"/><path d="M22 4h4v6h-4z" stroke="var(--red)" stroke-width="2"/><path d="M8 42l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>含糖飲料</b><span>手搖飲、含糖咖啡；<b>對三酸甘油脂影響特別大</b></span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="var(--red)" stroke-width="2.4"/><path d="M24 14v10l7 4" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/><text x="24" y="44" font-size="9" text-anchor="middle" fill="var(--red)">trans</text></svg><b>反式脂肪</b><span>成分表看到「氫化」「植物奶油」「酥油」就避開</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6c6 6 10 12 10 18a10 10 0 0 1-20 0c0-6 4-12 10-18z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M10 42h28" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><path d="M12 38l24-24" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>椰子油、棕櫚油</b><span>雖然是植物油，但飽和脂肪含量很高</span></div>
+</div>
+
+<h3>飲食以外同樣重要的三件事</h3>
+<div class="steps">
+<div><b>運動</b><span>每週累積 <b>150 分鐘</b>中等強度有氧（快走、游泳、騎車）。對降 LDL 幫助有限，但能明顯改善三酸甘油脂與 HDL。</span></div>
+<div><b>體重</b><span>體重減少 <b>5～10%</b>，三酸甘油脂通常就有明顯改善。</span></div>
+<div><b>戒菸</b><span>抽菸會讓 HDL 下降、讓斑塊更容易破裂。<b>戒菸的心血管好處，大過任何一種降血脂藥。</b></span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s5"><span class="num">5</span>藥物怎麼選？</h2>
+
+<p>用藥的順序是有階梯的，不是一次全上。醫師會先用第一線，追蹤看有沒有達標，不夠再往上加。</p>
+
+<figure class="fig">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="降膽固醇藥物的階梯式使用順序">
+  <rect x="8" y="8" width="684" height="244" rx="14" fill="var(--card)" stroke="var(--line)"/>
+  <rect x="36" y="186" width="180" height="48" rx="10" fill="var(--okbg)" stroke="var(--brand)" stroke-width="2"/>
+  <text x="126" y="206" text-anchor="middle" font-size="14" font-weight="700" fill="var(--oktext)">第一步　Statin</text>
+  <text x="126" y="224" text-anchor="middle" font-size="12" fill="var(--sub)">可降 LDL 30～50% 以上</text>
+  <rect x="236" y="130" width="180" height="48" rx="10" fill="var(--bluebg)" stroke="var(--blueline)" stroke-width="2"/>
+  <text x="326" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="var(--bluetext)">第二步　加 Ezetimibe</text>
+  <text x="326" y="168" text-anchor="middle" font-size="12" fill="var(--sub)">再多降約 15～20%</text>
+  <rect x="436" y="74" width="230" height="48" rx="10" fill="var(--warnbg)" stroke="var(--warnline)" stroke-width="2"/>
+  <text x="551" y="94" text-anchor="middle" font-size="14" font-weight="700" fill="#b5510f">第三步　PCSK9 抑制劑等</text>
+  <text x="551" y="112" text-anchor="middle" font-size="12" fill="var(--sub)">針劑，可再降 50～60%</text>
+  <path d="M216 200 L236 178" stroke="var(--sub)" stroke-width="2.4" marker-end="url(#as)"/>
+  <path d="M416 144 L436 122" stroke="var(--sub)" stroke-width="2.4" marker-end="url(#as)"/>
+  <defs><marker id="as" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--sub)"/></marker></defs>
+  <text x="226" y="40" font-size="12.5" fill="var(--sub)">每一步之間都會先追蹤血脂，</text>
+  <text x="226" y="58" font-size="12.5" fill="var(--sub)">確認沒達標才往上加藥。</text>
+</svg>
+<figcaption>不是一開始就用最強的藥；先用第一線、追蹤、沒達標再往上加。無法耐受 statin 的人，順序會由醫師個別調整。</figcaption>
+</figure>
+
+<div class="tw">
+<table class="nw">
+<tr><th>藥物</th><th>怎麼作用</th><th>大約能降多少 LDL</th><th>形式</th></tr>
+<tr><td><b>Statin</b><br>史他汀類</td><td>抑制肝臟製造膽固醇，同時讓肝臟更會把血中的 LDL 抓回去</td><td><b>30～50% 以上</b>（依種類與劑量）</td><td>口服，每天一次</td></tr>
+<tr><td><b>Ezetimibe</b></td><td>減少腸道吸收膽固醇</td><td>單用約 15～20%；<b>加在 statin 上再降約 20%</b></td><td>口服，每天一次</td></tr>
+<tr><td><b>PCSK9 抑制劑</b><br>evolocumab、alirocumab</td><td>讓肝臟表面清除 LDL 的「接收器」不被分解掉</td><td><b>再降 50～60%</b></td><td>皮下針劑，每 2～4 週一次</td></tr>
+<tr><td><b>Bempedoic acid</b></td><td>作用機轉與 statin 類似，但只在肝臟活化，<b>不進入肌肉</b></td><td>約 15～25%</td><td>口服，每天一次</td></tr>
+<tr><td><b>Fibrate</b>、<b>高劑量魚油</b></td><td>主要針對<b>三酸甘油脂</b>，不是降 LDL 的主力</td><td>三酸甘油脂可降 30～50%</td><td>口服</td></tr>
+</table>
+</div>
+
+<div class="box blue">
+<span class="t">健保給付與自費</span>
+<p>Statin、ezetimibe 等口服藥，符合健保血脂給付規定者由健保給付。<b>PCSK9 抑制劑針劑的健保給付條件相當嚴格</b>（通常限於家族性高膽固醇血症或已發生心血管事件且用足口服藥仍未達標者），不符合條件時需自費，費用不低。實際是否符合、以及自費金額，請在門診由醫療團隊為您確認。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s6"><span class="num">6</span>用藥常見副作用與機率</h2>
+
+<div class="box key">
+<span class="t">先看懂這些數字怎麼來的</span>
+<p>下面的機率主要來自<b>隨機對照試驗</b>——也就是一半的人吃真藥、一半吃外觀一模一樣的安慰劑，雙方都不知道自己拿到哪一種。這種設計才分得出「吃藥後發生的事」和「因為藥而發生的事」，兩者差很多。</p>
+<p>看的時候請注意<b>「安慰劑組也有多少人發生」</b>。例如某個副作用真藥組 3%、安慰劑組 2%，那真正因為藥而多出來的是 <b>1%</b>，不是 3%。</p>
+<p>另外，這些是<b>族群的平均值，不是您個人的機率</b>。年齡、腎肝功能、其他用藥都會影響，實際請與醫師討論。</p>
+</div>
+
+<h3>一、Statin（史他汀，第一線用藥）</h3>
+
+<div class="tw">
+<table class="nw">
+<tr><th>副作用</th><th>大約機率</th><th>需要知道的事</th></tr>
+<tr><td><b>肌肉痠痛、無力</b></td><td>統合分析顯示，<b>服藥第 1 年每 1,000 人約多 11 人</b>（約 1%）出現肌肉症狀；<b>第 2 年以後就沒有再觀察到增加</b></td><td>臨床上有 1～2 成的人自述肌肉不適，但對照試驗顯示<b>其中超過 9 成並不是藥造成的</b>。詳見<a href="#s7">第 7 節</a></td></tr>
+<tr><td><b>肝指數（ALT）上升</b></td><td>超過正常值 3 倍者約 <b>0.5～2%</b></td><td>多為<b>輕度且可回復</b>，減量或停藥後就改善。嚴重肝損傷極罕見，約每 10 萬人 1 例</td></tr>
+<tr><td><b>新診斷糖尿病</b></td><td>約<b>每 255 人服用 4 年，多 1 人</b>被診斷出糖尿病</td><td>幾乎都發生在<b>本來就在糖尿病邊緣</b>的人身上，等於把診斷時間提早。血糖上升幅度很小，<b>而預防心肌梗塞與中風的好處明顯大於這個風險</b></td></tr>
+<tr><td><b>橫紋肌溶解</b></td><td>約<b>每 10 萬人年 1～3 人</b>（極罕見）</td><td>這是唯一真正危險的一項：<b>嚴重肌肉疼痛無力＋尿液變成深褐色</b>，要<b>立刻停藥並就醫</b></td></tr>
+<tr><td><b>記憶力變差、失智</b></td><td><b>隨機試驗中沒有發現增加</b></td><td>早年有觀察性報告引起疑慮，後續的對照試驗並未證實</td></tr>
+<tr><td><b>出血性腦中風</b></td><td>絕對風險極小</td><td>部分分析顯示極輕微增加，但整體<b>減少的缺血性中風與心肌梗塞遠多於此</b></td></tr>
+</table>
+</div>
+
+<div class="box warn">
+<span class="t">哪些情況會讓 statin 的副作用風險變高？</span>
+<ul>
+<li><b>年紀大、體型瘦小、女性</b>、甲狀腺功能低下、腎功能或肝功能不好</li>
+<li><b>同時服用會互相作用的藥</b>：某些抗生素（如 clarithromycin）、抗黴菌藥、部分心律藥（如 amiodarone）、免疫抑制劑等</li>
+<li><b>大量喝葡萄柚汁</b>（會影響部分 statin 的代謝）</li>
+<li><b>大量飲酒</b></li>
+</ul>
+<p>所以每次看診、每次拿新藥，都要讓醫師與藥師知道您在吃 statin。</p>
+</div>
+
+<h3>二、Ezetimibe</h3>
+<p>這是耐受性最好的一種。在一項收納約 1.8 萬人的大型試驗中，<b>整體副作用發生率與安慰劑相當</b>，包括腹瀉、肌肉痠痛都沒有明顯增加。與 statin 併用時，肝指數上升的比例略高一些（約 1%）。</p>
+
+<h3>三、PCSK9 抑制劑（皮下針劑）</h3>
+<div class="tw">
+<table>
+<tr><th>副作用</th><th>大約機率</th></tr>
+<tr><td><b>注射部位反應</b>（紅、癢、腫）</td><td>約 <b>2～6%</b>（安慰劑組約 2～4%），多為輕微、幾天內消退</td></tr>
+<tr><td>類流感症狀、鼻咽炎</td><td>與安慰劑相近</td></tr>
+<tr><td>新發糖尿病、認知功能變差</td><td><b>試驗中未觀察到增加</b>，即使把 LDL 降到很低也一樣</td></tr>
+</table>
+</div>
+
+<h3>四、Bempedoic acid</h3>
+<p>它只在肝臟活化、不會進入肌肉，所以<b>肌肉症狀比 statin 少</b>，常用在真的無法耐受 statin 的人身上。但它有自己的副作用：</p>
+<div class="tw">
+<table>
+<tr><th>副作用</th><th>真藥組</th><th>安慰劑組</th></tr>
+<tr><td><b>痛風發作</b>（會使尿酸上升）</td><td>約 3%</td><td>約 2%</td></tr>
+<tr><td><b>膽結石</b></td><td>約 2%</td><td>約 1%</td></tr>
+<tr><td>肌腱相關問題（含肌腱斷裂）</td><td>約 1%</td><td>約 0.9%</td></tr>
+</table>
+</div>
+<p>本來就有痛風的人要特別留意，用藥後如果關節突然紅腫熱痛，請回診告訴醫師。</p>
+
+<h3>五、Fibrate 與高劑量魚油（主要用於三酸甘油脂）</h3>
+<ul>
+<li><b>Fibrate</b>：與 statin 併用時，<b>肌肉症狀的風險會增加</b>；其中 gemfibrozil 一般不建議與 statin 併用，臨床多選 fenofibrate。另可能使<b>肌酸酐輕微上升</b>（通常可回復）與<b>膽結石</b>。</li>
+<li><b>高劑量魚油</b>（處方等級的高純度 EPA）：試驗中<b>心房顫動</b>（約 3% vs 2%）與<b>出血事件</b>（約 3% vs 2%）略有增加。市售保健食品的劑量與純度差異很大，<b>不等同於處方藥</b>，服用前請先問過醫師。</li>
+</ul>
+
+<div class="box alert">
+<span class="t">出現這些情況，請立刻停藥並就醫</span>
+<p><b>嚴重的肌肉疼痛或無力，合併尿液顏色變得像可樂或濃茶</b>——這是橫紋肌溶解的典型表現。雖然極罕見，但不能拖。</p>
+<p>另外，<b>皮膚或眼白變黃、嚴重右上腹痛</b>也要立即就醫。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s7"><span class="num">7</span>關於「吃藥全身痠痛」的真相</h2>
+
+<p>這是臨床上最常見、也最容易讓人自行停藥的問題。值得單獨講清楚。</p>
+
+<p>在一般門診中，大約<b>每 5～10 個吃 statin 的人就有 1 個</b>會說自己肌肉痠痛。但前面的對照試驗卻顯示，真正因為藥而多出來的只有約 1%。這中間的落差是怎麼回事？</p>
+
+<div class="box key">
+<span class="t">一個設計得很巧妙的研究</span>
+<p>研究者找來 60 位<b>曾經因為肌肉症狀而停掉 statin</b> 的人，請他們輪流服用三種瓶子各 4 個月：真的 statin、外觀完全一樣的安慰劑、以及空瓶（什麼都不吃）。受試者全程不知道自己拿到哪一種，每天用手機記錄不適程度。</p>
+<p>結果：<b>吃安慰劑那幾個月的不適分數，達到吃真 statin 時的 9 成。</b>換句話說，這些不適<b>絕大部分不是藥造成的</b>——而是身體本來就會有的痠痛，加上「我在吃藥」的預期心理放大了感受。另一項獨立研究也得到相近結論。</p>
+<p>更值得注意的結局：研究結束、把真相告訴受試者之後，<b>有一半以上的人成功重新開始吃 statin。</b></p>
+</div>
+
+<p><b>這絕對不是在說「你的痛是假的」。</b>痛是真的，感受也是真的。這個研究告訴我們的是：<b>那個痛，多半不是這顆藥引起的</b>；所以自己默默停藥，痛往往不會好，卻白白失去了保護血管的效果。</p>
+
+<h3>覺得痠痛時，正確的做法</h3>
+<div class="steps">
+<div><b>① 先回診，不要自己停</b><span>把痠痛的位置、時間、程度告訴醫師。如果是嚴重無力加上深色尿，則屬例外——立刻停藥就醫。</span></div>
+<div><b>② 排除其他原因</b><span>甲狀腺功能低下、維生素 D 不足、運動過度、其他藥物交互作用，都會造成一樣的症狀。抽血就能排除大半。</span></div>
+<div><b>③ 暫停 2～4 週觀察</b><span>由醫師安排。如果停了症狀照舊，那就不是藥的問題，可以放心吃回去。</span></div>
+<div><b>④ 換一種或改劑量</b><span>不同 statin 的性質不同，換一種常常就沒事；也可以降低劑量、或改成隔天吃。</span></div>
+<div><b>⑤ 真的都不行，還有別的路</b><span>ezetimibe、bempedoic acid、PCSK9 抑制劑都不經過同一個機轉。<b>「不能吃 statin」不等於「只能放棄治療」。</b></span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s8"><span class="num">8</span>多久追蹤一次？</h2>
+
+<div class="tw">
+<table class="nw">
+<tr><th>目前情況</th><th>建議複檢時間</th></tr>
+<tr><td>低或中風險，<b>先做生活調整</b></td><td><b>3～6 個月後</b>驗血脂</td></tr>
+<tr><td><b>剛開始吃 statin</b></td><td><b>6～8 週後</b>驗血脂；開始或加量後 <b>3 個月內</b>檢查肝功能</td></tr>
+<tr><td><b>調整劑量或加藥</b></td><td><b>1～3 個月內</b>再驗，直到達標</td></tr>
+<tr><td>已達標，<b>高風險以上</b></td><td>每 <b>6 個月</b>追蹤</td></tr>
+<tr><td>已達標，低或中風險</td><td>依病況每 <b>6～12 個月</b>追蹤</td></tr>
+</table>
+</div>
+
+<div class="box warn">
+<span class="t">達標之後可以停藥嗎？</span>
+<p><b>通常不行。</b>這一點很多人誤會。血脂降下來，是<b>因為藥正在發揮作用</b>，不是體質變好了。停藥之後，LDL 多半在幾週內就回到原來的水準，血管的保護也跟著消失。</p>
+<p>是否減量或停用，<b>一律由醫師依您的風險分層與追蹤結果決定</b>，不要因為「數字漂亮了」就自行停。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s9"><span class="num">9</span>什麼時候要提早聯絡醫療團隊</h2>
+
+<div class="icons">
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="11" r="6" stroke="var(--red)" stroke-width="2.6"/><path d="M24 17v13M24 30l-7 12M24 30l7 12M24 21l-9 6M24 21l9 6" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/><path d="M38 10l4 4-4 4" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>明顯肌肉痠痛或無力</b><span>尤其是雙側大腿、上臂，或痛到影響日常活動</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6c7 8 12 14 12 20a12 12 0 0 1-24 0c0-6 5-12 12-20z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round" fill="#7a4a1a" fill-opacity=".45"/><path d="M14 42h20" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>尿液變深褐色</b><span>像可樂或濃茶，<b>合併肌肉痛時要立刻就醫</b></span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><ellipse cx="24" cy="24" rx="17" ry="11" stroke="var(--red)" stroke-width="2.6"/><circle cx="24" cy="24" r="6" fill="#d6a520"/><circle cx="24" cy="24" r="2.5" fill="#333"/></svg><b>皮膚或眼白變黃</b><span>可能是肝臟出問題的訊號</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="20" cy="12" r="6" stroke="var(--red)" stroke-width="2.6"/><path d="M20 18c7 0 12 5 12 12v12H8V30c0-7 5-12 12-12z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><circle cx="24" cy="32" r="5" stroke="var(--red)" stroke-width="2.2"/><path d="M38 14h6M41 11v6" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/></svg><b>懷孕或準備懷孕</b><span>Statin 一般應停用，<b>請先與醫師討論再停</b>，不要自行處理</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 40C15 34 9 28 9 21c0-5 4-9 9-9 2.6 0 4.9 1.2 6 3 1.1-1.8 3.4-3 6-3 5 0 9 4 9 9 0 7-6 13-15 19z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><path d="M17 22h4l2-4 3 8 2-4h5" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>胸痛、喘、單側無力</b><span>這是<b>心肌梗塞或中風</b>的警訊，直接撥 119</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="9" y="6" width="30" height="36" rx="4" stroke="var(--red)" stroke-width="2.6"/><path d="M16 16h16M16 24h16M16 32h10" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><path d="M34 34l4 4 6-8" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><b>要開始吃新的藥</b><span>包含感冒藥、抗生素與保健食品，先問過醫師或藥師</span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s10"><span class="num">10</span>常見問題</h2>
+
+<h3>我都不吃蛋、不吃內臟了，為什麼膽固醇還是高？</h3>
+<p>因為<b>身體裡的膽固醇，大部分是肝臟自己做的，不是吃進來的</b>。吃進去的膽固醇對血中數值的影響，比很多人想的小得多。真正需要控制的反而是<b>飽和脂肪</b>（肥肉、奶油、全脂乳、椰子油、棕櫚油）和<b>反式脂肪</b>。至於雞蛋，現在的指引已經不再訂出嚴格的每日顆數上限，一般人適量吃沒有問題。</p>
+
+<h3>吃紅麴、納豆、保健食品可以取代藥嗎？</h3>
+<p><b>不建議當作替代。</b>紅麴含有的成分與 statin 類似，理論上有降膽固醇作用，但<b>市售產品的含量差異很大、品質不一</b>，你無法知道自己實際吃進多少；而且它<b>同樣可能有肌肉與肝臟的副作用</b>，卻沒有處方藥那樣的劑量與監測。特別提醒：<b>紅麴不可以和 statin 一起吃</b>，會增加副作用風險。要吃任何保健食品，請先告訴醫師。</p>
+
+<h3>要吃一輩子嗎？</h3>
+<p>對大多數高風險的人來說，答案是<b>要長期吃</b>。這和高血壓一樣，是在控制風險而不是治癒疾病。但如果是低風險、靠減重與生活調整後數值明顯改善的人，醫師確實可能評估減量或停用。<b>關鍵是由醫師依追蹤結果決定，不是自己看數字決定。</b></p>
+
+<h3>三酸甘油脂很高，但 LDL 正常，需要治療嗎？</h3>
+<p>要看多高。輕到中度升高，<b>先從減重、減少含糖飲料與精製澱粉、戒酒、運動著手</b>，這幾項對三酸甘油脂的效果比對 LDL 好很多。但如果<b>超過 500</b>，就有<b>急性胰臟炎</b>的風險，需要優先用藥處理，不能只靠飲食慢慢來。</p>
+
+<h3>年紀很大了，還需要吃嗎？</h3>
+<p>要個別評估。已經有心血管疾病的長者，繼續用藥的好處通常仍然明確。至於<b>從來沒發生過心血管事件的高齡者</b>，好處與風險就比較接近，會把預期餘命、其他共病、同時服用的藥物數量一起考慮。這是需要和醫師好好談的題目，沒有一刀切的答案。</p>
+
+<h3>吃了藥還要控制飲食嗎？</h3>
+<p><b>要。</b>兩者做的是不同的事——藥主要降 LDL，飲食與運動同時改善三酸甘油脂、血糖、血壓和體重。而且飲食做得好，往往可以讓藥用比較低的劑量。</p>
+
+<h3>喝紅酒對血脂有幫助嗎？</h3>
+<p><b>不要為了血脂而開始喝酒。</b>酒精確實會讓 HDL 略升，但也會讓<b>三酸甘油脂明顯上升</b>，並增加血壓、肝病與癌症風險。目前的指引都不建議用飲酒作為心血管保健手段。</p>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s11"><span class="num">11</span>資料來源與使用說明</h2>
+
+<p>本頁內容依下列臨床指引與研究編寫，並針對台灣一般民眾的用語與就醫情境改寫（查核至 2026 年 9 月）：</p>
+<ul>
+<li>2025 台灣血脂管理臨床路徑共識</li>
+<li>2024 中華民國心臟學會 ASCVD 初級預防指引</li>
+<li>2026 ACC/AHA 血脂異常管理指引</li>
+<li>Cholesterol Treatment Trialists' (CTT) Collaboration 統合分析（肌肉症狀、糖尿病風險）</li>
+<li>SAMSON 與 StatinWISE 隨機交叉試驗（statin 肌肉症狀的安慰劑對照研究）</li>
+<li>IMPROVE-IT（ezetimibe）、FOURIER 與 ODYSSEY OUTCOMES（PCSK9 抑制劑）、CLEAR Outcomes（bempedoic acid）、REDUCE-IT（高純度 EPA）等大型試驗的安全性資料</li>
+</ul>
+
+<div class="box warn">
+<span class="t">重要聲明</span>
+<p>本頁為<b>一般衛教資訊，不能取代個別診療</b>。文中的副作用機率為<b>試驗族群的平均值</b>，不等於您個人的風險；每個人的年齡、肝腎功能、其他疾病與併用藥物都會影響。實際的診斷、用藥選擇、劑量與追蹤安排，請以您的主治醫師評估為準。</p>
+<p>本頁<b>不提供任何藥物劑量建議</b>。若出現嚴重肌肉疼痛合併深色尿、或黃疸，請立即停藥並就醫；若出現胸痛、嚴重呼吸困難或單側無力，請立即撥打 119。</p>
+</div>
+
+<div class="btns">
+<a href="lipid.pdf">下載 A5 單張（PDF）</a>
+<a class="ghost" href="../">回衛教專欄</a>
+</div>
+
+<div class="sheet">
+<img src="lipid.svg" alt="認識膽固醇 A5 病人衛教單張">
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<footer>
+<p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
+<p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>
+<p>內容依前述臨床指引與研究編寫，供衛教參考，不取代個別診療。</p>
+<!-- 瀏覽次數 begin -->
+<p class="views" id="pv" hidden>本頁已被瀏覽 <b id="pvn">—</b> 次</p>
+<script>
+(function(){
+  var API="https://he-counter.dissertlin.workers.dev", P="lipid";
+  var box=document.getElementById("pv"), num=document.getElementById("pvn");
+  if(!box||!num||!window.fetch) return;
+  fetch(API+"/hit?p="+P,{method:"POST",cache:"no-store",mode:"cors"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if(d && typeof d.n==="number"){
+        num.textContent=d.n.toLocaleString("zh-TW");
+        box.hidden=false;            /* 只有成功拿到數字才顯示 */
+      }
+    })
+    .catch(function(){});            /* 失敗就靜靜不顯示，不影響閱讀 */
+})();
+</script>
+<!-- 瀏覽次數 end -->
+</footer>
+
+</div>
+</body>
+</html>
