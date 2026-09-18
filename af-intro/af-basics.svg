@@ -12,7 +12,7 @@
     </style>
     <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#18364a" flood-opacity=".12"/></filter>
   </defs>
-  <rect width="559" height="794" fill="#f3f9fb"/>
+  <rect width="559" height="794" fill="#f2f9fa"/>
   <path d="M0 0h559v116H0z" fill="#dff3f5"/><circle cx="511" cy="25" r="58" fill="#bde7e8" opacity=".72"/>
 
   <!-- friendly heart with irregular rhythm -->

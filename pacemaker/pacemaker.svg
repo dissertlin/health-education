@@ -12,8 +12,8 @@
 .card{fill:#fff;stroke:#d5e6ea;stroke-width:1.4}
 .line{stroke-linecap:round;stroke-linejoin:round}
 </style><filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#153b48" flood-opacity=".12"/></filter></defs>
-<rect width="559" height="794" fill="#f4fafb"/>
-<path d="M0 0h559v112H0z" fill="#dff3f5"/><circle cx="516" cy="18" r="56" fill="#bde7e8" opacity=".65"/>
+<rect width="559" height="794" fill="#f3f7fc"/>
+<path d="M0 0h559v112H0z" fill="#dbe9f7"/><circle cx="516" cy="18" r="56" fill="#b7d4ef" opacity=".65"/>
 
 <g transform="translate(24 16)">
 <path d="M45 22C31 6 6 17 10 41c3 18 35 34 35 34s32-16 35-34C84 17 59 6 45 22z" fill="#ef6b73" stroke="#c94555" stroke-width="2"/>
