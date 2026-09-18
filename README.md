@@ -9,7 +9,7 @@
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 | 心房顫動的用藥指南 | `/af-meds/` | `af-meds/af-meds.svg` · `af-meds/af-meds.pdf` · `af-meds/index.html`（詳細版長文）|
 | 心房顫動｜心律不整電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` · `af/index.html`（詳細版長文，含台灣健保與自費費用）|
-| 認識上心室頻脈 | `/svt/` | `svt/svt.svg` · `svt/svt.pdf` · `svt/index.html`（詳細版長文）|
+| 認識心室上頻脈 | `/svt/` | `svt/svt.svg` · `svt/svt.pdf` · `svt/index.html`（詳細版長文）|
 | 心率過慢｜安心觀察指南 | `/brady/` | `brady/bradycardia.svg` · `brady/bradycardia.pdf` · `brady/index.html`（詳細版長文）|
 | 裝置心臟節律器 | `/pacemaker/` | `pacemaker/pacemaker.svg` · `pacemaker/pacemaker.pdf` · `pacemaker/index.html`（詳細版長文）|
 | 血壓控制 | `/bp/` | `bp/bp.svg` · `bp/bp.pdf` · `bp/index.html`（詳細版長文）|

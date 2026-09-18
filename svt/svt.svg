@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
-<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>認識上心室頻脈｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/svt/</dc:source></rdf:Description></rdf:RDF></metadata>
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>認識心室上頻脈｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/svt/</dc:source></rdf:Description></rdf:RDF></metadata>
 <defs><style>
 .t{font:700 23px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
 .st{font:600 11px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#ffeaf0}
@@ -25,14 +25,14 @@
 <path d="M26 38q7 5 14 0" fill="none" stroke="#3a1d47" stroke-width="1.8" class="line"/>
 <path d="M-2 22h6l2-7 3 15 3-9 2 4h5" fill="none" stroke="#ffd0dd" stroke-width="2.4" class="line"/>
 </g>
-<text x="110" y="47" class="t">認識上心室頻脈</text>
+<text x="110" y="47" class="t">認識心室上頻脈</text>
 <text x="110" y="70" class="st">心跳突然變快、又突然停止 —— 問題出在心室「上面」的電路</text>
 <rect x="110" y="81" width="332" height="19" rx="9.5" fill="#fff"/>
 <text x="122" y="94" class="s">多數<tspan style="font-weight:700;fill:#8c3a6a">不會立即危及生命</tspan>，而且<tspan style="font-weight:700;fill:#8c3a6a">電燒常可根治</tspan></text>
 
 <!-- ① 什麼是 + 四型 -->
 <rect x="20" y="118" width="253" height="134" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="140" class="h">① 什麼是上心室頻脈？</text>
+<text x="37" y="140" class="h">① 什麼是心室上頻脈？</text>
 <g transform="translate(38 146) scale(0.55)" class="line">
 <path d="M50 96 C22 74 8 54 8 36 C8 20 19 10 31 10 C39 10 46 14 50 21 C54 14 61 10 69 10 C81 10 92 20 92 36 C92 54 78 74 50 96 Z" fill="#fdf2f6" stroke="#a5346a" stroke-width="4"/>
 <path d="M27 17 L18 33 H25 L21 47 L34 29 H27 Z" fill="#e8a33d"/>
