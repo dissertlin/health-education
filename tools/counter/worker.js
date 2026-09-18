@@ -19,7 +19,7 @@ const SITE = "https://dissertlin.github.io/health-education";
 const PAGES = {
   "af-intro": "認識心房顫動",
   "af-meds": "心房顫動的用藥指南",
-  "af": "心房顫動｜電燒手術",
+  "af": "心房顫動電燒手術",
   "svt": "認識心室上頻脈",
   "brady": "心率過慢",
   "pacemaker": "裝置心臟節律器",
