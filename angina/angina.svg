@@ -68,91 +68,106 @@
 <g transform="translate(492 188)"><circle cx="7" cy="6" r="3" fill="none" stroke="#8a6a6a" stroke-width="1.7"/><circle cx="17" cy="6" r="3" fill="none" stroke="#8a6a6a" stroke-width="1.7"/><path d="M2 20v-4a5 5 0 0 1 10 0v4M12 20v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#8a6a6a" stroke-width="1.7" stroke-linejoin="round"/></g>
 <text x="504" y="221" class="xs" text-anchor="middle">年齡、家族史</text>
 
+<!-- 心絞痛→心肌梗塞 演變 -->
+<rect x="20" y="236" width="519" height="42" rx="12" fill="#fdf3f1" stroke="#e8bdb8" stroke-width="1.5"/>
+<text x="34" y="256" class="b" style="fill:#a8322c">心絞痛與心肌梗塞</text>
+<text x="34" y="269" class="xs">同一條血管的三階段</text>
+<rect x="130" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M133 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M148 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/>
+<text x="157" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">斑塊變窄</text>
+<text x="157" y="274" class="xs" text-anchor="middle" style="fill:#a8322c">＝心絞痛</text>
+<rect x="206" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M209 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M224 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/><path d="M227 243l2 4 3-3" fill="none" stroke="#8a2018" stroke-width="1.3" stroke-linecap="round"/><circle cx="240" cy="250" r="1.8" fill="#8a2018"/><circle cx="245" cy="248" r="1.4" fill="#8a2018"/>
+<text x="233" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#a06a14">表面破裂</text>
+<text x="233" y="274" class="xs" text-anchor="middle" style="fill:#a06a14">＝不穩定型</text>
+<rect x="282" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M285 243h16a4.5 4.5 0 0 1 0 9h-16a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M312 243h18a4.5 4.5 0 0 1 0 9h-18a4.5 4.5 0 0 1 0-9z" fill="#c9938f"/><rect x="303" y="241.5" width="12" height="12" rx="4" fill="#8a2018"/>
+<text x="309" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#b02418">血栓塞住</text>
+<text x="309" y="274" class="xs" text-anchor="middle" style="fill:#b02418">＝心肌梗塞</text>
+<path d="M190 247h8" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/><path d="M195 244l3 3-3 3" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M266 247h8" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/><path d="M271 244l3 3-3 3" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="350" y="254" class="s">心絞痛是警訊，也是提早處理的機會。</text>
+<text x="350" y="269" class="s" style="font-weight:700;fill:#a8322c">更痛、更久或休息時也發作 → 立刻就醫</text>
+
 <!-- ③ 症狀 -->
-<rect x="20" y="238" width="519" height="96" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="260" class="h">③ 有哪些症狀？</text>
-<text x="163" y="260" class="xs"><tspan style="font-weight:700;fill:#a8322c">左：典型</tspan>　<tspan style="font-weight:700;fill:#a06a14">右：不典型（容易被忽略）</tspan></text>
-<rect x="36" y="266" width="242" height="60" rx="9" fill="#fdeeec"/>
-<rect x="282" y="266" width="241" height="60" rx="9" fill="#fdf6ec"/>
-<g transform="translate(54 272)"><circle cx="14" cy="5" r="3.4" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M6 25v-8a8 8 0 0 1 16 0v8" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linejoin="round"/><path d="M16 13l-4.6 6h4.2l-1.4 5.4 5.2-7.2h-4.2z" fill="#a8322c"/></g>
-<text x="66" y="308" class="xs" text-anchor="middle" style="fill:#a8322c">胸口悶、壓、緊</text>
-<g transform="translate(115 272)"><circle cx="16" cy="5" r="3.4" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M9 26v-8a7 7 0 0 1 14 0v8" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 16L2 21" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round"/><path d="M5 10q-3 3 0 6M1.5 7.5q-4.5 5 0 11" fill="none" stroke="#d98a84" stroke-width="1.7" stroke-linecap="round"/></g>
-<text x="127" y="308" class="xs" text-anchor="middle" style="fill:#a8322c">傳到左肩、</text>
-<text x="127" y="318" class="xs" text-anchor="middle" style="fill:#a8322c">手臂、下巴</text>
-<g transform="translate(176 272)"><circle cx="8" cy="4.5" r="3.2" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M4 26l4-10 6-3 3 5 5 2" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 15l-5 4" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round"/><path d="M20 4l2 3-3 1" fill="none" stroke="#d98a84" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
-<text x="188" y="308" class="xs" text-anchor="middle" style="fill:#a8322c">用力時才發作</text>
-<g transform="translate(237 272)"><rect x="2" y="14" width="20" height="4" rx="2" fill="none" stroke="#a8322c" stroke-width="1.8"/><circle cx="8" cy="9" r="3.2" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M11.5 14v-2.5a3 3 0 0 1 3-3H20a2 2 0 0 1 2 2V14" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 18v4M20 18v4" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/></g>
-<text x="249" y="308" class="xs" text-anchor="middle" style="fill:#a8322c">休息幾分鐘</text>
-<text x="249" y="318" class="xs" text-anchor="middle" style="fill:#a8322c">就緩解</text>
-<g transform="translate(298 272)"><path d="M12 1v6M8.5 4h7" stroke="#a06a14" stroke-width="1.9" stroke-linecap="round"/><path d="M10.5 7c-4 .8-6.5 4.6-6.5 9.4 0 2.8 1.4 4.2 3.4 4.2S11 19.2 11 16.4V7z" fill="none" stroke="#a06a14" stroke-width="1.7" stroke-linejoin="round"/><path d="M13.5 7c4 .8 6.5 4.6 6.5 9.4 0 2.8-1.4 4.2-3.4 4.2S13 19.2 13 16.4V7z" fill="none" stroke="#a06a14" stroke-width="1.7" stroke-linejoin="round"/></g>
-<text x="310" y="308" class="xs" text-anchor="middle" style="fill:#a06a14">只覺得喘</text>
-<g transform="translate(359 272)"><circle cx="11" cy="11" r="6.6" fill="none" stroke="#a06a14" stroke-width="1.8"/><path d="M8 9.5h1.6M12.4 9.5H14M8 15c1.8-1.2 4.2-1.2 6 0" stroke="#a06a14" stroke-width="1.5" stroke-linecap="round"/><path d="M19 6c2 2.6 2 4.6 0 6.4-2-1.8-2-3.8 0-6.4z" fill="#7aa8cc"/><path d="M6 21h10" stroke="#c9a37a" stroke-width="1.6" stroke-linecap="round"/></g>
-<text x="371" y="308" class="xs" text-anchor="middle" style="fill:#a06a14">冒冷汗、疲倦</text>
-<g transform="translate(420 272)"><circle cx="12" cy="9" r="6.6" fill="none" stroke="#a06a14" stroke-width="1.8"/><path d="M9 7.5h1.6M13.4 7.5H15" stroke="#a06a14" stroke-width="1.5" stroke-linecap="round"/><path d="M9 13.5q3 2.6 6 0" fill="none" stroke="#a06a14" stroke-width="1.6" stroke-linecap="round"/><path d="M12 16c-1.4 2.6-.6 4.6 1.6 5.6" fill="none" stroke="#7aa8cc" stroke-width="1.7" stroke-linecap="round"/></g>
-<text x="432" y="308" class="xs" text-anchor="middle" style="fill:#a06a14">噁心、想吐</text>
-<g transform="translate(481 272)"><path d="M7 5c0-2.4 2-4 5-4s5 1.6 5 4c0 4-1.2 5.6-1.6 9.4-.3 2.8-.8 5.6-1.6 7.6-.5 1.2-2.1 1.2-2.6 0-.8-2-1.3-4.8-1.6-7.6C8.2 10.6 7 9 7 5z" fill="none" stroke="#a06a14" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 1v7" stroke="#d9bb8a" stroke-width="1.5"/></g>
-<text x="493" y="308" class="xs" text-anchor="middle" style="fill:#a06a14">像胃痛、牙痛</text>
-<text x="493" y="318" class="xs" text-anchor="middle" style="fill:#a06a14">或背痛</text>
-<text x="37" y="331" class="xs" style="fill:#a06a14">不典型症狀在女性、糖尿病與長者特別常見——判斷訣竅是看「情境」：只要每次都在出力時出現、休息就好，就要懷疑。</text>
+<rect x="20" y="284" width="519" height="96" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="306" class="h">③ 有哪些症狀？</text>
+<text x="163" y="306" class="xs"><tspan style="font-weight:700;fill:#a8322c">左：典型</tspan>　<tspan style="font-weight:700;fill:#a06a14">右：不典型（容易被忽略）</tspan></text>
+<rect x="36" y="312" width="242" height="60" rx="9" fill="#fdeeec"/>
+<rect x="282" y="312" width="241" height="60" rx="9" fill="#fdf6ec"/>
+<g transform="translate(54 318)"><circle cx="14" cy="51" r="3.4" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M6 25v-8a8 8 0 0 1 16 0v8" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linejoin="round"/><path d="M16 13l-4.6 6h4.2l-1.4 5.4 5.2-7.2h-4.2z" fill="#a8322c"/></g>
+<text x="66" y="354" class="xs" text-anchor="middle" style="fill:#a8322c">胸口悶、壓、緊</text>
+<g transform="translate(115 318)"><circle cx="16" cy="51" r="3.4" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M9 26v-8a7 7 0 0 1 14 0v8" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 16L2 21" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round"/><path d="M5 10q-3 3 0 6M1.5 7.5q-4.5 5 0 11" fill="none" stroke="#d98a84" stroke-width="1.7" stroke-linecap="round"/></g>
+<text x="127" y="354" class="xs" text-anchor="middle" style="fill:#a8322c">傳到左肩、</text>
+<text x="127" y="364" class="xs" text-anchor="middle" style="fill:#a8322c">手臂、下巴</text>
+<g transform="translate(176 318)"><circle cx="8" cy="50.5" r="3.2" fill="none" stroke="#a8322c" stroke-width="1.9"/><path d="M4 26l4-10 6-3 3 5 5 2" fill="none" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 15l-5 4" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round"/><path d="M20 4l2 3-3 1" fill="none" stroke="#d98a84" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="188" y="354" class="xs" text-anchor="middle" style="fill:#a8322c">用力時才發作</text>
+<g transform="translate(237 318)"><rect x="2" y="60" width="20" height="4" rx="2" fill="none" stroke="#a8322c" stroke-width="1.8"/><circle cx="8" cy="55" r="3.2" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M11.5 14v-2.5a3 3 0 0 1 3-3H20a2 2 0 0 1 2 2V14" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 18v4M20 18v4" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="249" y="354" class="xs" text-anchor="middle" style="fill:#a8322c">休息幾分鐘</text>
+<text x="249" y="364" class="xs" text-anchor="middle" style="fill:#a8322c">就緩解</text>
+<g transform="translate(298 318)"><path d="M12 1v6M8.5 4h7" stroke="#a06a14" stroke-width="1.9" stroke-linecap="round"/><path d="M10.5 7c-4 .8-6.5 4.6-6.5 9.4 0 2.8 1.4 4.2 3.4 4.2S11 19.2 11 16.4V7z" fill="none" stroke="#a06a14" stroke-width="1.7" stroke-linejoin="round"/><path d="M13.5 7c4 .8 6.5 4.6 6.5 9.4 0 2.8-1.4 4.2-3.4 4.2S13 19.2 13 16.4V7z" fill="none" stroke="#a06a14" stroke-width="1.7" stroke-linejoin="round"/></g>
+<text x="310" y="354" class="xs" text-anchor="middle" style="fill:#a06a14">只覺得喘</text>
+<g transform="translate(359 318)"><circle cx="11" cy="57" r="6.6" fill="none" stroke="#a06a14" stroke-width="1.8"/><path d="M8 9.5h1.6M12.4 9.5H14M8 15c1.8-1.2 4.2-1.2 6 0" stroke="#a06a14" stroke-width="1.5" stroke-linecap="round"/><path d="M19 6c2 2.6 2 4.6 0 6.4-2-1.8-2-3.8 0-6.4z" fill="#7aa8cc"/><path d="M6 21h10" stroke="#c9a37a" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="371" y="354" class="xs" text-anchor="middle" style="fill:#a06a14">冒冷汗、疲倦</text>
+<g transform="translate(420 318)"><circle cx="12" cy="55" r="6.6" fill="none" stroke="#a06a14" stroke-width="1.8"/><path d="M9 7.5h1.6M13.4 7.5H15" stroke="#a06a14" stroke-width="1.5" stroke-linecap="round"/><path d="M9 13.5q3 2.6 6 0" fill="none" stroke="#a06a14" stroke-width="1.6" stroke-linecap="round"/><path d="M12 16c-1.4 2.6-.6 4.6 1.6 5.6" fill="none" stroke="#7aa8cc" stroke-width="1.7" stroke-linecap="round"/></g>
+<text x="432" y="354" class="xs" text-anchor="middle" style="fill:#a06a14">噁心、想吐</text>
+<g transform="translate(481 318)"><path d="M7 5c0-2.4 2-4 5-4s5 1.6 5 4c0 4-1.2 5.6-1.6 9.4-.3 2.8-.8 5.6-1.6 7.6-.5 1.2-2.1 1.2-2.6 0-.8-2-1.3-4.8-1.6-7.6C8.2 10.6 7 9 7 5z" fill="none" stroke="#a06a14" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 1v7" stroke="#d9bb8a" stroke-width="1.5"/></g>
+<text x="493" y="354" class="xs" text-anchor="middle" style="fill:#a06a14">像胃痛、牙痛</text>
+<text x="493" y="364" class="xs" text-anchor="middle" style="fill:#a06a14">或背痛</text>
+<text x="37" y="377" class="xs" style="fill:#a06a14">不典型症狀在女性、糖尿病與長者特別常見——判斷訣竅是看「情境」：只要每次都在出力時出現、休息就好，就要懷疑。</text>
 
 <!-- ④ 怎麼確診 -->
-<rect x="20" y="342" width="519" height="74" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="364" class="h">④ 醫師會做什麼檢查？</text>
-<text x="215" y="364" class="xs">依症狀與風險高低選擇，不是每一項都要做</text>
-<text x="37" y="382" class="s"><tspan style="font-weight:700">基本</tspan>　心電圖、抽血（心肌酵素、血脂、血糖、腎功能）、心臟超音波</text>
-<text x="37" y="395" class="s"><tspan style="font-weight:700">看缺氧</tspan>　運動心電圖、核子醫學心肌灌注掃描、運動或藥物負荷心臟超音波</text>
-<text x="37" y="408" class="s"><tspan style="font-weight:700">看血管</tspan>　電腦斷層冠狀動脈攝影（非侵入性）；<tspan style="font-weight:700;fill:#a8322c">心導管冠狀動脈攝影是確診與治療的黃金標準</tspan></text>
+<rect x="20" y="388" width="519" height="74" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="410" class="h">④ 醫師會做什麼檢查？</text>
+<text x="215" y="410" class="xs">依症狀與風險高低選擇，不是每一項都要做</text>
+<text x="37" y="428" class="s"><tspan style="font-weight:700">基本</tspan>　心電圖、抽血（心肌酵素、血脂、血糖、腎功能）、心臟超音波</text>
+<text x="37" y="441" class="s"><tspan style="font-weight:700">看缺氧</tspan>　運動心電圖、核子醫學心肌灌注掃描、運動或藥物負荷心臟超音波</text>
+<text x="37" y="454" class="s"><tspan style="font-weight:700">看血管</tspan>　電腦斷層冠狀動脈攝影（非侵入性）；<tspan style="font-weight:700;fill:#a8322c">心導管冠狀動脈攝影是確診與治療的黃金標準</tspan></text>
 
 <!-- ⑤ 治療 -->
-<rect x="20" y="424" width="519" height="86" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="446" class="h">⑤ 有哪些治療？</text>
-<text x="175" y="446" class="xs">藥物是所有人的基礎；是否放支架或開刀，依血管狹窄程度與症狀決定</text>
-<rect x="36" y="454" width="158" height="48" rx="9" fill="#fdeeec"/>
-<text x="47" y="469" class="b" style="fill:#a8322c">藥物治療（基礎）</text>
-<text x="47" y="482" class="s">抗血小板藥、statin、</text>
-<text x="47" y="493" class="s">乙型阻斷劑、硝化甘油等</text>
-<rect x="200" y="454" width="158" height="48" rx="9" fill="#fdf6ec"/>
-<text x="211" y="469" class="b" style="fill:#a06a14">心導管介入（放支架）</text>
-<text x="211" y="482" class="s">從手腕或鼠蹊部放入導管，</text>
-<text x="211" y="493" class="s">撐開狹窄處並置放支架</text>
-<rect x="364" y="454" width="159" height="48" rx="9" fill="#f2eef6"/>
-<text x="375" y="469" class="b" style="fill:#6b3f8e">冠狀動脈繞道手術</text>
-<text x="375" y="482" class="s">多條或左主幹嚴重阻塞、</text>
-<text x="375" y="493" class="s">合併糖尿病者常優先考慮</text>
+<rect x="20" y="470" width="519" height="86" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="492" class="h">⑤ 有哪些治療？</text>
+<text x="175" y="492" class="xs">藥物是所有人的基礎；是否放支架或開刀，依血管狹窄程度與症狀決定</text>
+<rect x="36" y="500" width="158" height="48" rx="9" fill="#fdeeec"/>
+<text x="47" y="515" class="b" style="fill:#a8322c">藥物治療（基礎）</text>
+<text x="47" y="528" class="s">抗血小板藥、statin、</text>
+<text x="47" y="539" class="s">乙型阻斷劑、硝化甘油等</text>
+<rect x="200" y="500" width="158" height="48" rx="9" fill="#fdf6ec"/>
+<text x="211" y="515" class="b" style="fill:#a06a14">心導管介入（放支架）</text>
+<text x="211" y="528" class="s">從手腕或鼠蹊部放入導管，</text>
+<text x="211" y="539" class="s">撐開狹窄處並置放支架</text>
+<rect x="364" y="500" width="159" height="48" rx="9" fill="#f2eef6"/>
+<text x="375" y="515" class="b" style="fill:#6b3f8e">冠狀動脈繞道手術</text>
+<text x="375" y="528" class="s">多條或左主幹嚴重阻塞、</text>
+<text x="375" y="539" class="s">合併糖尿病者常優先考慮</text>
 
 <!-- ⑥ 要配合什麼 -->
-<rect x="20" y="518" width="519" height="100" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="540" class="h">⑥ 我要配合做什麼？</text>
-<text x="195" y="540" class="xs">目標值請以醫師為您設定的為準</text>
+<rect x="20" y="564" width="519" height="100" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="586" class="h">⑥ 我要配合做什麼？</text>
+<text x="195" y="586" class="xs">目標值請以醫師為您設定的為準</text>
 <g class="line">
-<rect x="36" y="548" width="118" height="26" rx="8" fill="#fdeeec"/>
-<text x="46" y="560" class="b" style="fill:#a8322c">壞膽固醇 LDL</text><text x="46" y="571" class="s" style="font-weight:700">&lt; 70 mg/dL</text>
-<rect x="160" y="548" width="118" height="26" rx="8" fill="#fdeeec"/>
-<text x="170" y="560" class="b" style="fill:#a8322c">居家血壓</text><text x="170" y="571" class="s" style="font-weight:700">&lt; 130 / 80 mmHg</text>
-<rect x="284" y="548" width="118" height="26" rx="8" fill="#fdeeec"/>
-<text x="294" y="560" class="b" style="fill:#a8322c">糖化血色素</text><text x="294" y="571" class="s" style="font-weight:700">一般 &lt; 7%</text>
-<rect x="408" y="548" width="115" height="26" rx="8" fill="#fdeeec"/>
-<text x="418" y="560" class="b" style="fill:#a8322c">身體質量指數</text><text x="418" y="571" class="s" style="font-weight:700">BMI 18.5～24</text>
+<rect x="36" y="594" width="118" height="26" rx="8" fill="#fdeeec"/>
+<text x="46" y="606" class="b" style="fill:#a8322c">壞膽固醇 LDL</text><text x="46" y="617" class="s" style="font-weight:700">&lt; 70 mg/dL</text>
+<rect x="160" y="594" width="118" height="26" rx="8" fill="#fdeeec"/>
+<text x="170" y="606" class="b" style="fill:#a8322c">居家血壓</text><text x="170" y="617" class="s" style="font-weight:700">&lt; 130 / 80 mmHg</text>
+<rect x="284" y="594" width="118" height="26" rx="8" fill="#fdeeec"/>
+<text x="294" y="606" class="b" style="fill:#a8322c">糖化血色素</text><text x="294" y="617" class="s" style="font-weight:700">一般 &lt; 7%</text>
+<rect x="408" y="594" width="115" height="26" rx="8" fill="#fdeeec"/>
+<text x="418" y="606" class="b" style="fill:#a8322c">身體質量指數</text><text x="418" y="617" class="s" style="font-weight:700">BMI 18.5～24</text>
 </g>
-<text x="37" y="590" class="s"><tspan style="font-weight:700">運動</tspan>　每週 150 分鐘中等強度（快走、騎車）；<tspan style="font-weight:700">先問醫師可以做到什麼程度</tspan></text>
-<text x="37" y="602" class="s"><tspan style="font-weight:700">飲食</tspan>　少油少鹽少糖、多蔬果全穀與魚；<tspan style="font-weight:700">戒菸是所有措施中效益最大的一項</tspan></text>
-<text x="37" y="612" class="s" style="fill:#a8322c">放過支架者的抗血小板藥，未經醫師同意絕對不可自行停用。</text>
+<text x="37" y="636" class="s"><tspan style="font-weight:700">運動</tspan>　每週 150 分鐘中等強度（快走、騎車）；<tspan style="font-weight:700">先問醫師可以做到什麼程度</tspan></text>
+<text x="37" y="648" class="s"><tspan style="font-weight:700">飲食</tspan>　少油少鹽少糖、多蔬果全穀與魚；<tspan style="font-weight:700">戒菸是所有措施中效益最大的一項</tspan></text>
+<text x="37" y="658" class="s" style="fill:#a8322c">放過支架者的抗血小板藥，未經醫師同意絕對不可自行停用。</text>
 
 <!-- ⑦ 立即就醫 -->
-<rect x="20" y="618" width="519" height="84" rx="13" fill="#fff0ee" stroke="#eda8a4" stroke-width="1.7"/>
-<circle cx="45" cy="641" r="12" fill="#c0392b"/><text x="45" y="646" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="637" class="b" style="fill:#a8322c">⑦ 出現這些情況，立即撥打 119</text>
-<text x="66" y="653" class="s" style="fill:#a8322c">胸痛持續超過 15～20 分鐘不緩解｜休息時也發作｜比平常更痛、更頻繁｜冒冷汗、喘、快昏倒</text>
-<text x="66" y="668" class="s"><tspan style="font-weight:700">舌下含片用法</tspan>　坐下含 1 錠；<tspan style="font-weight:700;fill:#a8322c">5 分鐘沒改善或更嚴重 → 立刻打 119</tspan>，不要等含滿三錠。</text>
-<text x="66" y="680" class="s">等救護車時，每 5 分鐘可再含 1 錠，最多共 3 錠。</text>
-<text x="66" y="694" class="s" style="fill:#a8322c"><tspan style="font-weight:700">切勿與壯陽藥（威而鋼等）併用</tspan>，可能造成嚴重低血壓。</text>
+<rect x="20" y="664" width="519" height="84" rx="13" fill="#fff0ee" stroke="#eda8a4" stroke-width="1.7"/>
+<circle cx="45" cy="687" r="12" fill="#c0392b"/><text x="45" y="692" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="683" class="b" style="fill:#a8322c">⑦ 出現這些情況，立即撥打 119</text>
+<text x="66" y="699" class="s" style="fill:#a8322c">胸痛持續超過 15～20 分鐘不緩解｜休息時也發作｜比平常更痛、更頻繁｜冒冷汗、喘、快昏倒</text>
+<text x="66" y="714" class="s"><tspan style="font-weight:700">舌下含片用法</tspan>　坐下含 1 錠；<tspan style="font-weight:700;fill:#a8322c">5 分鐘沒改善或更嚴重 → 立刻打 119</tspan>，不要等含滿三錠。</text>
+<text x="66" y="726" class="s">等救護車時，每 5 分鐘可再含 1 錠，最多共 3 錠。</text>
+<text x="66" y="740" class="s" style="fill:#a8322c"><tspan style="font-weight:700">切勿與壯陽藥（威而鋼等）併用</tspan>，可能造成嚴重低血壓。</text>
 
 <!-- 來源 -->
-<rect x="20" y="710" width="519" height="80" rx="10" fill="#3d2326"/>
-<text x="31" y="726" class="srh">提醒：心絞痛型態改變（更痛、更久、更頻繁，或休息時發作）代表病情可能惡化，請盡快就醫。</text>
-<text x="31" y="742" class="srh">資料來源（查核至 2026-09）：</text>
-<text x="31" y="754" class="src">2024 ESC 慢性冠心症候群指引；2023 AHA/ACC 慢性冠狀動脈疾病指引；</text>
-<text x="31" y="765" class="src">2024 中華民國心臟學會 ASCVD 初級預防指引；2025 台灣血脂管理臨床路徑共識；</text>
-<text x="31" y="776" class="src">2022 台灣高血壓治療指引；台灣糖尿病學會臨床照護指引。本單張供衛教使用，不取代個別診療。</text>
-<text x="31" y="786" class="src">© 2026 林祐賸醫師 編製　本單張僅供臨床衛教使用，未經同意請勿重製、改作或作商業用途。</text>
+<rect x="20" y="754" width="519" height="36" rx="9" fill="#3d2326"/>
+<text x="31" y="766" class="src">資料來源（查核至 2026-09）：2024 ESC 慢性冠心症候群指引；2023 AHA/ACC 慢性冠狀動脈疾病指引；2024 中華民國心臟學會 ASCVD 初級預防指引；</text>
+<text x="31" y="777" class="src">2025 台灣血脂管理臨床路徑共識；2022 台灣高血壓治療指引；中華民國糖尿病學會臨床照護指引。本單張供衛教使用，不取代個別診療。</text>
+<text x="31" y="788" class="src">© 2026 林祐賸醫師 編製　本單張僅供臨床衛教使用，未經同意請勿重製、改作或作商業用途。</text>
 <!--QR--><g id="qr"><rect x="463" y="18" width="72" height="82" rx="10" fill="#fff" stroke="#e8cfcf"/><g transform="translate(469 24) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM10 0h2v1h-2zM13 0h3v1h-3zM17 0h1v1h-1zM19 0h1v1h-1zM21 0h1v1h-1zM23 0h1v1h-1zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM10 1h1v1h-1zM12 1h4v1h-4zM18 1h1v1h-1zM20 1h1v1h-1zM23 1h2v1h-2zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM9 2h1v1h-1zM12 2h2v1h-2zM15 2h1v1h-1zM17 2h1v1h-1zM22 2h2v1h-2zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM9 3h1v1h-1zM13 3h2v1h-2zM16 3h2v1h-2zM23 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM9 4h4v1h-4zM14 4h1v1h-1zM18 4h1v1h-1zM20 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h9v1h-9zM18 5h2v1h-2zM24 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM10 7h1v1h-1zM12 7h1v1h-1zM15 7h3v1h-3zM21 7h2v1h-2zM24 7h1v1h-1zM0 8h1v1h-1zM3 8h1v1h-1zM5 8h2v1h-2zM8 8h1v1h-1zM13 8h2v1h-2zM16 8h1v1h-1zM21 8h1v1h-1zM24 8h2v1h-2zM27 8h1v1h-1zM0 9h1v1h-1zM2 9h4v1h-4zM8 9h6v1h-6zM17 9h1v1h-1zM20 9h1v1h-1zM22 9h1v1h-1zM24 9h4v1h-4zM32 9h1v1h-1zM0 10h1v1h-1zM3 10h4v1h-4zM13 10h2v1h-2zM16 10h1v1h-1zM18 10h2v1h-2zM21 10h2v1h-2zM26 10h3v1h-3zM30 10h1v1h-1zM32 10h1v1h-1zM5 11h1v1h-1zM7 11h1v1h-1zM9 11h2v1h-2zM12 11h2v1h-2zM16 11h1v1h-1zM21 11h3v1h-3zM26 11h1v1h-1zM28 11h2v1h-2zM31 11h2v1h-2zM1 12h1v1h-1zM3 12h1v1h-1zM6 12h1v1h-1zM8 12h1v1h-1zM10 12h2v1h-2zM14 12h3v1h-3zM18 12h1v1h-1zM20 12h2v1h-2zM24 12h4v1h-4zM29 12h1v1h-1zM31 12h1v1h-1zM1 13h1v1h-1zM5 13h1v1h-1zM8 13h3v1h-3zM12 13h1v1h-1zM14 13h2v1h-2zM19 13h4v1h-4zM24 13h1v1h-1zM26 13h1v1h-1zM28 13h1v1h-1zM31 13h2v1h-2zM0 14h4v1h-4zM5 14h3v1h-3zM9 14h10v1h-10zM23 14h1v1h-1zM25 14h2v1h-2zM28 14h4v1h-4zM1 15h2v1h-2zM4 15h1v1h-1zM7 15h2v1h-2zM10 15h2v1h-2zM16 15h2v1h-2zM20 15h2v1h-2zM23 15h1v1h-1zM26 15h1v1h-1zM31 15h1v1h-1zM2 16h1v1h-1zM6 16h2v1h-2zM12 16h1v1h-1zM14 16h2v1h-2zM17 16h1v1h-1zM20 16h4v1h-4zM26 16h1v1h-1zM28 16h1v1h-1zM31 16h1v1h-1zM0 17h2v1h-2zM4 17h1v1h-1zM7 17h1v1h-1zM11 17h1v1h-1zM13 17h1v1h-1zM16 17h3v1h-3zM21 17h1v1h-1zM23 17h3v1h-3zM27 17h1v1h-1zM29 17h1v1h-1zM31 17h1v1h-1zM0 18h1v1h-1zM2 18h1v1h-1zM5 18h4v1h-4zM10 18h2v1h-2zM14 18h1v1h-1zM17 18h1v1h-1zM20 18h1v1h-1zM22 18h1v1h-1zM26 18h1v1h-1zM30 18h3v1h-3zM0 19h2v1h-2zM3 19h2v1h-2zM9 19h2v1h-2zM14 19h3v1h-3zM19 19h3v1h-3zM25 19h3v1h-3zM31 19h1v1h-1zM2 20h1v1h-1zM5 20h4v1h-4zM11 20h1v1h-1zM13 20h1v1h-1zM15 20h1v1h-1zM17 20h1v1h-1zM19 20h1v1h-1zM21 20h1v1h-1zM23 20h3v1h-3zM3 21h3v1h-3zM11 21h5v1h-5zM17 21h1v1h-1zM20 21h1v1h-1zM24 21h3v1h-3zM29 21h4v1h-4zM0 22h3v1h-3zM6 22h1v1h-1zM9 22h1v1h-1zM11 22h1v1h-1zM16 22h1v1h-1zM19 22h1v1h-1zM22 22h1v1h-1zM24 22h1v1h-1zM26 22h2v1h-2zM30 22h1v1h-1zM32 22h1v1h-1zM1 23h2v1h-2zM4 23h1v1h-1zM7 23h1v1h-1zM9 23h1v1h-1zM12 23h1v1h-1zM15 23h1v1h-1zM18 23h4v1h-4zM24 23h3v1h-3zM32 23h1v1h-1zM0 24h1v1h-1zM3 24h2v1h-2zM6 24h1v1h-1zM8 24h5v1h-5zM14 24h1v1h-1zM16 24h2v1h-2zM19 24h3v1h-3zM24 24h5v1h-5zM31 24h2v1h-2zM8 25h4v1h-4zM17 25h1v1h-1zM19 25h1v1h-1zM22 25h1v1h-1zM24 25h1v1h-1zM28 25h2v1h-2zM32 25h1v1h-1zM0 26h7v1h-7zM9 26h1v1h-1zM11 26h1v1h-1zM13 26h2v1h-2zM16 26h3v1h-3zM21 26h1v1h-1zM24 26h1v1h-1zM26 26h1v1h-1zM28 26h4v1h-4zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h5v1h-5zM16 27h3v1h-3zM20 27h2v1h-2zM24 27h1v1h-1zM28 27h1v1h-1zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM9 28h1v1h-1zM11 28h2v1h-2zM15 28h1v1h-1zM18 28h1v1h-1zM20 28h3v1h-3zM24 28h6v1h-6zM32 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h1v1h-1zM10 29h1v1h-1zM14 29h3v1h-3zM18 29h1v1h-1zM23 29h1v1h-1zM26 29h1v1h-1zM28 29h3v1h-3zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM10 30h1v1h-1zM12 30h1v1h-1zM14 30h5v1h-5zM22 30h1v1h-1zM28 30h3v1h-3zM32 30h1v1h-1zM0 31h1v1h-1zM6 31h1v1h-1zM9 31h2v1h-2zM13 31h1v1h-1zM17 31h1v1h-1zM19 31h3v1h-3zM24 31h1v1h-1zM0 32h7v1h-7zM8 32h3v1h-3zM12 32h2v1h-2zM15 32h2v1h-2zM18 32h1v1h-1zM21 32h1v1h-1zM24 32h2v1h-2zM28 32h2v1h-2zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="95" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#a8322c">掃描看電子版</text></g><!--/QR--></svg>
