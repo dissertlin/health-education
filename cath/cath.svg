@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>心導管檢查與手術｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/cath/</dc:source></rdf:Description></rdf:RDF></metadata>
+<defs><style>
+.t{font:700 23px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 10.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fce7e7}
+.h{font:700 14.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#4a1f22}
+.b{font:700 10.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#5a2a2c}
+.s{font:500 8.7px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6b5052}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#836669}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#f0e2e2}
+.card{fill:#fff;stroke:#ecdcdc;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+.num{font:700 10.5px 'Microsoft JhengHei',sans-serif;fill:#fff}
+</style>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#b33a2b"/><stop offset="1" stop-color="#7a2440"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#4a1f22" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#fdf8f7"/>
+
+<rect x="18" y="14" width="523" height="93" rx="16" fill="url(#g)"/>
+<g transform="translate(34 30)">
+<path d="M6 46q14-24 34-30" fill="none" stroke="#f6d2cd" stroke-width="4" class="line"/>
+<circle cx="8" cy="48" r="5" fill="#f2c14e"/>
+<path d="M40 16C30 4 12 12 15 30c2 13 25 24 25 24s23-11 25-24c3-18-15-26-25-14z" fill="#ef7b74" stroke="#a8322c" stroke-width="2"/>
+</g>
+<text x="112" y="46" class="t">心導管檢查與手術</text>
+<text x="112" y="68" class="st">從手腕或鼠蹊部放入細導管，直接看清楚心臟的血管</text>
+<rect x="112" y="79" width="330" height="19" rx="9.5" fill="#fff"/>
+<text x="124" y="92" class="s"><tspan style="font-weight:700;fill:#a8322c">不需開刀、全程清醒</tspan>；必要時可同次放支架治療</text>
+<rect x="20" y="118" width="519" height="82" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="140" class="h">① 什麼人需要做？</text>
+<text x="168" y="140" class="xs">由醫師依症狀、檢查結果與風險評估決定</text>
+<g transform="translate(48 146)"><circle cx="12" cy="4" r="3" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M5 24v-8a7 7 0 0 1 14 0v8" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 12l-4 5.5h3.6l-1.2 4.6 4.6-6.4h-3.6z" fill="#a8322c"/></g>
+<text x="60" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">胸痛疑似</text>
+<text x="60" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">冠心病</text>
+<g transform="translate(132 146)"><path d="M2 14h4l2-6 3 12 2.5-8 1.5 3H22" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="1" y="3" width="22" height="18" rx="2.5" fill="none" stroke="#a8322c" stroke-width="1.5"/></g>
+<text x="144" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">檢查顯示</text>
+<text x="144" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">心肌缺氧</text>
+<g transform="translate(216 146)"><path d="M12 22C6 17 2 13 2 8.6 2 5.4 4.6 3 7.6 3c1.7 0 3.2.8 4.4 2.2C13.2 3.8 14.7 3 16.4 3 19.4 3 22 5.4 22 8.6 22 13 18 17 12 22z" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M13 7l-3.4 5H13l-1.4 4.6L16 11h-3.4z" fill="#a8322c"/></g>
+<text x="228" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">急性心肌</text>
+<text x="228" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">梗塞</text>
+<g transform="translate(300 146)"><path d="M12 21C7 17 3 13.6 3 9.6 3 6.6 5.4 4.4 8.2 4.4c1.6 0 3 .8 3.8 2 .8-1.2 2.2-2 3.8-2 2.8 0 5.2 2.2 5.2 5.2 0 4-4 7.4-9 11.4z" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 22q4 2 8 0" fill="none" stroke="#a8322c" stroke-width="1.5" stroke-linecap="round"/><path d="M9 10.5v4M15 10.5v4M9 12.5h6" stroke="#a8322c" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="312" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">不明原因</text>
+<text x="312" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">心衰竭</text>
+<g transform="translate(384 146)"><circle cx="12" cy="12" r="9" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M12 3v18M12 12L4.2 7.5M12 12l7.8-4.5" stroke="#a8322c" stroke-width="1.5"/></g>
+<text x="396" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">瓣膜手術</text>
+<text x="396" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">術前評估</text>
+<g transform="translate(468 146)"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M8.6 9.4c0-2 1.6-3.4 3.6-3.4s3.4 1.4 3.4 3.2c0 2.6-3.2 2.6-3.4 5" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="18" r="1.4" fill="#a8322c"/></g>
+<text x="480" y="180" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">其他經醫師</text>
+<text x="480" y="190" class="xs" text-anchor="middle" style="fill:#a8322c">評估需要</text>
+<rect x="20" y="208" width="253" height="108" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="230" class="h">② 診斷：看清楚問題</text>
+<g transform="translate(36 238)"><rect x="0" y="0" width="104" height="26" rx="13" fill="#fff" stroke="#8a6a6a" stroke-width="2"/><path d="M5 5h94a8 8 0 0 1 0 16H5a8 8 0 0 1 0-16z" fill="#e8746e"/><path d="M44 3q20-2 28 9-14 6-28 4z" fill="#f0c44e" stroke="#c99a2e" stroke-width="1.2"/><path d="M112 13h12" stroke="#a8322c" stroke-width="2" class="line"/><path d="M120 9l4 4-4 4" fill="none" stroke="#a8322c" stroke-width="2" class="line"/><circle cx="152" cy="13" r="13" fill="none" stroke="#a8322c" stroke-width="2"/><path d="M146 13h3l2-5 3 10 2-6 1.5 2h4" fill="none" stroke="#a8322c" stroke-width="1.6" class="line"/></g>
+<text x="37" y="284" class="s">打入顯影劑，用 X 光即時看出</text>
+<text x="37" y="296" class="s"><tspan style="font-weight:700;fill:#a8322c">哪一條血管、窄到什麼程度</tspan>，</text>
+<text x="37" y="308" class="s">必要時測量血流壓力來判斷嚴重度。</text>
+<rect x="287" y="208" width="252" height="108" rx="13" class="card" filter="url(#sh)"/>
+<text x="304" y="230" class="h">③ 治療：當場處理</text>
+<g transform="translate(303 238)"><rect x="0" y="0" width="100" height="26" rx="13" fill="#fff" stroke="#8a6a6a" stroke-width="2"/><rect x="5" y="5" width="90" height="16" rx="8" fill="#e8746e"/><g stroke="#7a7a8a" stroke-width="1.6" fill="none"><path d="M34 3v20M46 3v20M58 3v20"/><path d="M28 8h36M28 18h36"/></g><path d="M110 13h12" stroke="#a8322c" stroke-width="2" class="line"/><path d="M118 9l4 4-4 4" fill="none" stroke="#a8322c" stroke-width="2" class="line"/><text x="130" y="10" class="xs" style="font-weight:700;fill:#a8322c">血流</text><text x="130" y="21" class="xs" style="font-weight:700;fill:#a8322c">恢復</text></g>
+<text x="304" y="284" class="s">發現嚴重狹窄時，可<tspan style="font-weight:700;fill:#a8322c">同一次</tspan></text>
+<text x="304" y="296" class="s">用氣球撐開並置放支架（PCI），</text>
+<text x="304" y="308" class="s">不必再另外安排一次手術。</text>
+<rect x="20" y="324" width="519" height="124" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="346" class="h">④ 流程大概是這樣</text>
+<text x="163" y="346" class="xs">全程局部麻醉、意識清醒；一般約 30 分鐘～2 小時，依情況而定</text>
+<circle cx="46" cy="360" r="8" fill="#a8322c"/><text x="46" y="363" text-anchor="middle" class="num">1</text>
+<text x="60" y="363" class="b">消毒與局部麻醉</text><text x="172" y="363" class="s">手腕或鼠蹊部打麻藥，會有點脹</text>
+<circle cx="46" cy="377" r="8" fill="#a8322c"/><text x="46" y="380" text-anchor="middle" class="num">2</text>
+<text x="60" y="380" class="b">放入細導管</text><text x="172" y="380" class="s">沿血管送到心臟，血管內不會痛</text>
+<circle cx="46" cy="394" r="8" fill="#a8322c"/><text x="46" y="397" text-anchor="middle" class="num">3</text>
+<text x="60" y="397" class="b">打顯影劑照相</text><text x="172" y="397" class="s">全身會有一陣熱感，是正常的</text>
+<circle cx="46" cy="411" r="8" fill="#a8322c"/><text x="46" y="414" text-anchor="middle" class="num">4</text>
+<text x="60" y="414" class="b">需要時放支架</text><text x="172" y="414" class="s">氣球撐開狹窄處並置放支架</text>
+<circle cx="46" cy="428" r="8" fill="#a8322c"/><text x="46" y="431" text-anchor="middle" class="num">5</text>
+<text x="60" y="431" class="b">拔管與止血</text><text x="172" y="431" class="s">手腕用止血帶；鼠蹊部加壓臥床</text>
+<text x="37" y="442" class="xs" style="fill:#a8322c">現在多優先從<tspan style="font-weight:700">手腕（橈動脈）</tspan>進入：出血少、可以較早下床，但血管太細或曾做過繞道者仍可能走鼠蹊部。</text>
+<rect x="20" y="456" width="519" height="90" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="478" class="h">⑤ 術前要配合什麼？</text>
+<text x="185" y="478" class="xs">實際禁食時間與停藥方式，一律以院方指示為準</text>
+<g transform="translate(48 484)"><path d="M6 4h12l-1 5H7z" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 9l3 4 3-4M12 13v4M8 21h8" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 3l18 18" stroke="#a8322c" stroke-width="1.9" stroke-linecap="round"/></g>
+<text x="60" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">依指示禁食</text>
+<g transform="translate(132 484)"><rect x="2" y="8" width="11" height="8" rx="4" fill="none" stroke="#a8322c" stroke-width="1.7"/><path d="M7.5 8v8" stroke="#a8322c" stroke-width="1.5"/><circle cx="18" cy="12" r="4.6" fill="none" stroke="#a8322c" stroke-width="1.7"/><path d="M18 7.4v9.2M13.4 12h9.2" stroke="#a8322c" stroke-width="1.5"/></g>
+<text x="144" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">逐項確認</text>
+<text x="144" y="528" class="xs" text-anchor="middle" style="fill:#a8322c">哪些藥要停</text>
+<g transform="translate(216 484)"><path d="M12 2l10 19H2z" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 9v5" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17.6" r="1.2" fill="#a8322c"/></g>
+<text x="228" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">告知過敏</text>
+<text x="228" y="528" class="xs" text-anchor="middle" style="fill:#a8322c">尤其顯影劑</text>
+<g transform="translate(300 484)"><path d="M9 4c-4 0-6 3.4-6 7.6 0 4.6 2.6 8.4 6 8.4 2 0 2.4-2 2.4-4.4V8.4C11.4 6 11 4 9 4z" fill="none" stroke="#a8322c" stroke-width="1.6" stroke-linejoin="round"/><path d="M15 4c4 0 6 3.4 6 7.6 0 4.6-2.6 8.4-6 8.4-2 0-2.4-2-2.4-4.4V8.4C12.6 6 13 4 15 4z" fill="none" stroke="#a8322c" stroke-width="1.6" stroke-linejoin="round"/></g>
+<text x="312" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">告知腎功能</text>
+<text x="312" y="528" class="xs" text-anchor="middle" style="fill:#a8322c">與是否懷孕</text>
+<g transform="translate(384 484)"><circle cx="8" cy="14" r="5.4" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M14 10l7-7M18 3h3v3" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 21L21 3" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="396" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">拿掉飾品</text>
+<text x="396" y="528" class="xs" text-anchor="middle" style="fill:#a8322c">與指甲油</text>
+<g transform="translate(468 484)"><circle cx="7" cy="6" r="3" fill="none" stroke="#a8322c" stroke-width="1.7"/><circle cx="17" cy="6" r="3" fill="none" stroke="#a8322c" stroke-width="1.7"/><path d="M2 21v-4a5 5 0 0 1 10 0v4M12 21v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linejoin="round"/></g>
+<text x="480" y="518" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">安排家屬</text>
+<text x="480" y="528" class="xs" text-anchor="middle" style="fill:#a8322c">陪同</text>
+<rect x="20" y="554" width="519" height="106" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="576" class="h">⑥ 術後要注意什麼？</text>
+<text x="185" y="576" class="xs">下床與活動時間依穿刺部位、止血方式與用藥而不同</text>
+<g transform="translate(48 582)"><path d="M4 15a8 8 0 0 1 16 0" fill="none" stroke="#a8322c" stroke-width="1.8"/><rect x="2" y="15" width="20" height="5" rx="2.5" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M12 3v4M6 6l2 3M18 6l-2 3" stroke="#a8322c" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="60" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">壓迫止血</text>
+<text x="60" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">不可自行鬆開</text>
+<g transform="translate(132 582)"><path d="M12 2c5 6 8 9.6 8 13a8 8 0 1 1-16 0c0-3.4 3-7 8-13z" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 16a4 4 0 0 0 4 4" fill="none" stroke="#a8322c" stroke-width="1.5" stroke-linecap="round"/></g>
+<text x="144" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">多喝水</text>
+<text x="144" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">幫助排出顯影劑</text>
+<g transform="translate(216 582)"><circle cx="12" cy="12" r="5" fill="none" stroke="#a8322c" stroke-width="1.8"/><circle cx="12" cy="12" r="9.4" fill="none" stroke="#a8322c" stroke-width="1.4" stroke-dasharray="3 2.5"/><path d="M12 9.5v5M9.5 12h5" stroke="#a8322c" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="228" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">觀察穿刺處</text>
+<text x="228" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">腫脹、滲血</text>
+<g transform="translate(300 582)"><path d="M9 2h6v9l4 9a3 3 0 0 1-3 4h-8a3 3 0 0 1-3-4l4-9z" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 17h8" stroke="#a8322c" stroke-width="1.5"/></g>
+<text x="312" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">注意手腳</text>
+<text x="312" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">冰冷、麻木</text>
+<g transform="translate(384 582)"><rect x="3" y="9" width="13" height="7" rx="3.5" fill="none" stroke="#a8322c" stroke-width="1.7"/><path d="M9.5 9v7" stroke="#a8322c" stroke-width="1.5"/><path d="M18 5v9M18 18.4v1.6" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/></g>
+<text x="396" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">抗血小板藥</text>
+<text x="396" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">絕不可自行停</text>
+<g transform="translate(468 582)"><circle cx="12" cy="4" r="2.6" fill="none" stroke="#a8322c" stroke-width="1.7"/><path d="M12 7v7M12 14l-4 8M12 14l4 8M7 10h10" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linecap="round"/><path d="M2 20l20-16" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="480" y="616" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">暫避提重物</text>
+<text x="480" y="626" class="xs" text-anchor="middle" style="fill:#a8322c">與劇烈運動</text>
+<rect x="36" y="632" width="487" height="20" rx="8" fill="#fdf3f1"/>
+<text x="48" y="646" class="s" style="fill:#a8322c"><tspan style="font-weight:700">手腕穿刺</tspan>：術後戴止血帶數小時，該手不提重物、不彎折；<tspan style="font-weight:700">鼠蹊部穿刺</tspan>：需平躺、該側腿伸直不彎數小時。</text>
+<rect x="20" y="668" width="519" height="72" rx="13" fill="#fff0ee" stroke="#eda8a4" stroke-width="1.7"/>
+<circle cx="45" cy="691" r="12" fill="#c0392b"/><text x="45" y="696" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="687" class="b" style="fill:#a8322c">⑦ 出現這些情況，立即回醫院或撥打 119</text>
+<text x="66" y="702" class="s" style="fill:#a8322c">穿刺處持續滲血或快速腫大｜該側手腳冰冷、發白、麻木｜胸痛、嚴重喘｜發燒｜尿量明顯減少</text>
+<text x="66" y="716" class="s">返家後<tspan style="font-weight:700">按時服藥、按時回診</tspan>；心導管處理的是那一段血管，</text>
+<text x="66" y="730" class="s" style="font-weight:700;fill:#a8322c">控制血壓、血脂、血糖與戒菸，才是防止其他血管再出問題的關鍵。</text>
+<rect x="20" y="748" width="519" height="42" rx="9" fill="#3d2326"/>
+<text x="31" y="760" class="src">資料來源（查核至 2026-09）：2024 ESC 慢性冠心症候群指引；2023 ESC 急性冠心症候群指引；</text>
+<text x="31" y="771" class="src">2021 ACC/AHA/SCAI 冠狀動脈血管重建指引；中華民國心臟學會與台灣心血管介入治療學會相關臨床建議。</text>
+<text x="31" y="782" class="src">本單張供衛教使用，不取代個別診療。© 2026 林祐賸醫師 編製　未經同意請勿重製、改作或作商業用途。</text>
+<!--QR--><g id="qr"><rect x="463" y="18" width="72" height="82" rx="10" fill="#fff" stroke="#e8cfcf"/><g transform="translate(469 24) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM9 0h1v1h-1zM13 0h1v1h-1zM16 0h2v1h-2zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM9 1h1v1h-1zM13 1h5v1h-5zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h1v1h-1zM10 2h4v1h-4zM16 2h3v1h-3zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h2v1h-2zM11 3h2v1h-2zM14 3h1v1h-1zM16 3h1v1h-1zM19 3h1v1h-1zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h1v1h-1zM10 4h1v1h-1zM12 4h2v1h-2zM15 4h1v1h-1zM18 4h1v1h-1zM21 4h1v1h-1zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h1v1h-1zM11 5h1v1h-1zM15 5h2v1h-2zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h2v1h-2zM11 7h2v1h-2zM15 7h1v1h-1zM18 7h1v1h-1zM21 7h1v1h-1zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM11 8h5v1h-5zM17 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM2 9h2v1h-2zM7 9h1v1h-1zM10 9h1v1h-1zM18 9h3v1h-3zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM1 10h2v1h-2zM6 10h2v1h-2zM9 10h1v1h-1zM15 10h2v1h-2zM18 10h1v1h-1zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM0 11h2v1h-2zM4 11h2v1h-2zM7 11h1v1h-1zM10 11h2v1h-2zM14 11h1v1h-1zM16 11h1v1h-1zM19 11h7v1h-7zM28 11h3v1h-3zM1 12h1v1h-1zM4 12h4v1h-4zM10 12h1v1h-1zM12 12h1v1h-1zM18 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM5 13h1v1h-1zM14 13h4v1h-4zM21 13h1v1h-1zM23 13h1v1h-1zM26 13h1v1h-1zM29 13h4v1h-4zM0 14h2v1h-2zM3 14h1v1h-1zM6 14h2v1h-2zM9 14h1v1h-1zM11 14h2v1h-2zM18 14h1v1h-1zM20 14h3v1h-3zM25 14h3v1h-3zM30 14h2v1h-2zM0 15h1v1h-1zM3 15h3v1h-3zM8 15h1v1h-1zM13 15h1v1h-1zM16 15h1v1h-1zM18 15h4v1h-4zM24 15h3v1h-3zM29 15h2v1h-2zM3 16h1v1h-1zM5 16h3v1h-3zM10 16h1v1h-1zM12 16h3v1h-3zM17 16h1v1h-1zM19 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM0 17h1v1h-1zM2 17h4v1h-4zM8 17h2v1h-2zM11 17h1v1h-1zM13 17h2v1h-2zM16 17h2v1h-2zM19 17h3v1h-3zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM0 18h1v1h-1zM4 18h4v1h-4zM9 18h1v1h-1zM12 18h2v1h-2zM15 18h3v1h-3zM27 18h2v1h-2zM30 18h2v1h-2zM1 19h3v1h-3zM5 19h1v1h-1zM9 19h5v1h-5zM15 19h1v1h-1zM17 19h15v1h-15zM0 20h1v1h-1zM2 20h1v1h-1zM4 20h5v1h-5zM11 20h1v1h-1zM13 20h1v1h-1zM16 20h1v1h-1zM19 20h1v1h-1zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h3v1h-3zM5 21h1v1h-1zM7 21h3v1h-3zM15 21h1v1h-1zM18 21h2v1h-2zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM6 22h1v1h-1zM8 22h1v1h-1zM11 22h2v1h-2zM14 22h3v1h-3zM21 22h2v1h-2zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM4 23h1v1h-1zM9 23h2v1h-2zM12 23h2v1h-2zM15 23h1v1h-1zM21 23h1v1h-1zM30 23h3v1h-3zM0 24h1v1h-1zM6 24h1v1h-1zM9 24h2v1h-2zM13 24h3v1h-3zM17 24h1v1h-1zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM8 25h3v1h-3zM12 25h2v1h-2zM16 25h1v1h-1zM18 25h2v1h-2zM21 25h1v1h-1zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM10 26h2v1h-2zM14 26h2v1h-2zM18 26h1v1h-1zM21 26h1v1h-1zM23 26h2v1h-2zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h3v1h-3zM16 27h1v1h-1zM19 27h6v1h-6zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h1v1h-1zM10 28h4v1h-4zM18 28h2v1h-2zM22 28h1v1h-1zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h1v1h-1zM12 29h1v1h-1zM14 29h3v1h-3zM19 29h2v1h-2zM22 29h4v1h-4zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h1v1h-1zM11 30h1v1h-1zM14 30h1v1h-1zM17 30h2v1h-2zM21 30h1v1h-1zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM16 31h1v1h-1zM18 31h1v1h-1zM20 31h4v1h-4zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h1v1h-1zM10 32h3v1h-3zM14 32h1v1h-1zM17 32h2v1h-2zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="95" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#a8322c">掃描看電子版</text></g><!--/QR--></svg>

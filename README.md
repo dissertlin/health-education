@@ -16,6 +16,7 @@
 | 血壓控制 | `/bp/` | `bp/bp.svg` · `bp/bp.pdf` · `bp/index.html`（詳細版長文）|
 | 姿態性低血壓 | `/oh/` | `oh/oh.svg` · `oh/oh.pdf` · `oh/index.html`（詳細版長文）|
 | 認識心絞痛 | `/angina/` | `angina/angina.svg` · `angina/angina.pdf` · `angina/index.html`（詳細版長文）|
+| 心導管檢查與手術 | `/cath/` | `cath/cath.svg` · `cath/cath.pdf` · `cath/index.html`（詳細版長文）|
 | 認識膽固醇 | `/lipid/` | `lipid/lipid.svg` · `lipid/lipid.pdf` · `lipid/index.html`（詳細版長文）|
 | 認識心臟衰竭 | `/hf/` | `hf/hf.svg` · `hf/hf.pdf` · `hf/index.html`（詳細版長文）|
 | 痛風控制 | `/gout/` | `gout/gout.svg` · `gout/gout.pdf` · `gout/index.html`（詳細版長文）|
