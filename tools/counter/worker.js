@@ -8,7 +8,7 @@
  *
  * 路徑：
  *   POST /hit?p=<代號>   計數 +1（限 dissertlin.github.io 呼叫，爬蟲不計）
- *   GET  /stats          十份一覽表（純讀取，不會 +1）
+ *   GET  /stats          全部頁面一覽表（純讀取，不會 +1）
  *   GET  /stats.json     同上，JSON 格式
  */
 
@@ -80,7 +80,7 @@ tfoot td{font-weight:700;border-bottom:0}
 <p class="sub">依次數排序。開啟這一頁<b>不會</b>增加任何計數。</p>
 <table><thead><tr><th>頁面</th><th class="n">累計次數</th></tr></thead>
 <tbody>${tr}</tbody>
-<tfoot><tr><td>十份合計</td><td class="n">${total.toLocaleString("zh-TW")}</td></tr></tfoot>
+<tfoot><tr><td>${rows.length} 份合計</td><td class="n">${total.toLocaleString("zh-TW")}</td></tr></tfoot>
 </table>
 <p class="sub" style="margin-top:1.2em">資料只有數字本身，沒有儲存任何 IP、時間或裝置資訊。</p>
 </div></body></html>`;
