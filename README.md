@@ -6,6 +6,8 @@
 
 | 單張 | 網址 | 檔案 |
 | --- | --- | --- |
+| 認識心絞痛 | `/angina/` | `angina/angina.svg` · `angina/angina.pdf` · `angina/index.html`（詳細版長文）|
+| 心導管檢查與手術 | `/cath/` | `cath/cath.svg` · `cath/cath.pdf` · `cath/index.html`（詳細版長文）|
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 | 心房顫動的用藥指南 | `/af-meds/` | `af-meds/af-meds.svg` · `af-meds/af-meds.pdf` · `af-meds/index.html`（詳細版長文）|
 | 心房顫動電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` · `af/index.html`（詳細版長文，含台灣健保與自費費用）|
@@ -15,8 +17,6 @@
 | 裝置心臟節律器 | `/pacemaker/` | `pacemaker/pacemaker.svg` · `pacemaker/pacemaker.pdf` · `pacemaker/index.html`（詳細版長文）|
 | 血壓控制 | `/bp/` | `bp/bp.svg` · `bp/bp.pdf` · `bp/index.html`（詳細版長文）|
 | 姿態性低血壓 | `/oh/` | `oh/oh.svg` · `oh/oh.pdf` · `oh/index.html`（詳細版長文）|
-| 認識心絞痛 | `/angina/` | `angina/angina.svg` · `angina/angina.pdf` · `angina/index.html`（詳細版長文）|
-| 心導管檢查與手術 | `/cath/` | `cath/cath.svg` · `cath/cath.pdf` · `cath/index.html`（詳細版長文）|
 | 認識膽固醇 | `/lipid/` | `lipid/lipid.svg` · `lipid/lipid.pdf` · `lipid/index.html`（詳細版長文）|
 | 認識心臟衰竭 | `/hf/` | `hf/hf.svg` · `hf/hf.pdf` · `hf/index.html`（詳細版長文）|
 | 痛風控制 | `/gout/` | `gout/gout.svg` · `gout/gout.pdf` · `gout/index.html`（詳細版長文）|
