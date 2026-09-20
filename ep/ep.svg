@@ -31,7 +31,7 @@
 
 <!-- ① 這是什麼 -->
 <rect x="20" y="118" width="253" height="110" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="140" class="h">① 這是什麼檢查與治療？</text>
+<text x="37" y="140" class="h">這是什麼檢查與治療？</text>
 <rect x="34" y="148" width="225" height="32" rx="8" fill="#f4eefa"/>
 <text x="45" y="161" class="b" style="fill:#6b3f9e">電生理檢查（EPS）</text>
 <text x="45" y="174" class="s">放入細導管記錄電訊號，必要時短暫刺激</text>
@@ -42,7 +42,7 @@
 
 <!-- ② 哪些人需要評估 -->
 <rect x="287" y="118" width="252" height="110" rx="13" class="card" filter="url(#sh)"/>
-<text x="304" y="140" class="h">② 哪些人可能需要評估？</text>
+<text x="304" y="140" class="h">哪些人可能需要評估？</text>
 <text x="304" y="158" class="b">心室上頻脈（SVT）</text>
 <text x="304" y="170" class="s">反覆突發心悸、頭暈、昏厥；藥物無效、</text>
 <text x="304" y="181" class="s">不耐受或希望根治者可討論電燒</text>
@@ -52,7 +52,7 @@
 
 <!-- ③ 四個步驟 -->
 <rect x="20" y="236" width="519" height="116" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="258" class="h">③ 當天怎麼進行？</text>
+<text x="37" y="258" class="h">當天怎麼進行？</text>
 <text x="160" y="258" class="xs">檢查結果與安全性，決定是否同次電燒</text>
 <g>
 <circle cx="47" cy="277" r="9" fill="#a13b6e"/><text x="47" y="281" text-anchor="middle" class="num">1</text>
@@ -69,7 +69,7 @@
 
 <!-- ④ 三維定位 -->
 <rect x="20" y="360" width="519" height="104" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="382" class="h">④ 什麼時候會用到「三維立體定位」？</text>
+<text x="37" y="382" class="h">什麼時候會用到「三維立體定位」？</text>
 <text x="310" y="382" class="xs">依心律型態決定，不是每個人都需要</text>
 <rect x="36" y="390" width="240" height="62" rx="9" fill="#f4eefa"/>
 <text x="49" y="405" class="b" style="fill:#6b3f9e">常需要三維定位的情況</text>
@@ -84,7 +84,7 @@
 
 <!-- ⑤ 風險 -->
 <rect x="20" y="472" width="253" height="102" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="494" class="h">⑤ 風險與限制</text>
+<text x="37" y="494" class="h">風險與限制</text>
 <text x="37" y="511" class="b" style="fill:#a5346a">較常見</text>
 <text x="37" y="523" class="s">穿刺處疼痛、瘀青、出血或血腫；</text>
 <text x="37" y="534" class="s">心悸可能復發，少數需再次治療</text>
@@ -94,7 +94,7 @@
 
 <!-- ⑥ 術前術後 -->
 <rect x="287" y="472" width="252" height="102" rx="13" class="card" filter="url(#sh)"/>
-<text x="304" y="494" class="h">⑥ 術前術後重點</text>
+<text x="304" y="494" class="h">術前術後重點</text>
 <text x="304" y="511" class="s"><tspan style="font-weight:700">術前</tspan>　告知用藥與保健品、過敏、腎功能、</text>
 <text x="304" y="522" class="s">懷孕可能、是否裝有節律器／ICD</text>
 <text x="304" y="534" class="s" style="font-weight:700;fill:#b23b3b">抗心律不整藥與抗凝血藥一律依醫師指示，切勿自行停</text>
@@ -103,7 +103,7 @@
 
 <!-- ⑦ 成功率與風險比率 -->
 <rect x="20" y="582" width="519" height="86" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="601" class="h">⑦ 大約的成功率與風險</text>
+<text x="37" y="601" class="h">大約的成功率與風險</text>
 <text x="222" y="601" class="xs">依心律型態與個人狀況而異，請以醫師對「您的」情況評估為準</text>
 <text x="36" y="618" class="s">房室結迴旋 AVNRT</text>
 <rect x="146" y="612" width="110" height="7" rx="3.5" fill="#efe7f5"/>
@@ -125,7 +125,7 @@
 <!-- ⑧ 立即就醫 -->
 <rect x="20" y="670" width="519" height="44" rx="13" fill="#fff0f4" stroke="#eda8bf" stroke-width="1.7"/>
 <circle cx="45" cy="692" r="12" fill="#c9365f"/><text x="45" y="697" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="688" class="b" style="fill:#a5346a">⑧ 出現這些情況，就近就醫或立即撥打 119</text>
+<text x="66" y="688" class="b" style="fill:#a5346a">出現這些情況，就近就醫或立即撥打 119</text>
 <text x="66" y="704" class="s" style="fill:#a5346a">穿刺處持續出血或快速腫大｜腳冰冷麻木｜胸痛｜嚴重喘｜昏厥｜發燒｜單側無力或口齒不清</text>
 
 <!-- 來源 -->

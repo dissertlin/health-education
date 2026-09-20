@@ -32,7 +32,7 @@
 
 <!-- ① 什麼是 + 四型 -->
 <rect x="20" y="118" width="253" height="134" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="140" class="h">① 什麼是心室上頻脈？</text>
+<text x="37" y="140" class="h">什麼是心室上頻脈？</text>
 <g transform="translate(38 146) scale(0.55)" class="line">
 <path d="M50 96 C22 74 8 54 8 36 C8 20 19 10 31 10 C39 10 46 14 50 21 C54 14 61 10 69 10 C81 10 92 20 92 36 C92 54 78 74 50 96 Z" fill="#fdf2f6" stroke="#a5346a" stroke-width="4"/>
 <path d="M27 17 L18 33 H25 L21 47 L34 29 H27 Z" fill="#e8a33d"/>
@@ -59,7 +59,7 @@
 
 <!-- ② 症狀 -->
 <rect x="20" y="262" width="519" height="130" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="284" class="h">② 常見症狀</text>
+<text x="37" y="284" class="h">常見症狀</text>
 <text x="132" y="284" class="xs">每個人不一定相同；有些人只覺得「心臟在跳」</text>
 <g transform="translate(36 294)"><rect width="76" height="88" rx="10" fill="#fdf2f6"/>
 <circle cx="38" cy="22" r="13" fill="#ffd9bd"/><path d="M27 19q11-12 22 0" fill="#57718f"/>
@@ -108,7 +108,7 @@
 
 <!-- ③ 誘因 -->
 <rect x="20" y="402" width="519" height="76" rx="13" fill="#fff8f3" stroke="#eccdb5" stroke-width="1.5" filter="url(#sh)"/>
-<text x="37" y="424" class="h">③ 常見誘發因素</text>
+<text x="37" y="424" class="h">常見誘發因素</text>
 <text x="150" y="424" class="xs">任何年齡都可能發生；<tspan style="font-weight:700;fill:#a5533d">也可能完全找不到誘因</tspan></text>
 <g transform="translate(40 432)">
 <circle cx="14" cy="14" r="13" fill="#fceee2"/><path d="M8 18q6-8 12 0" fill="none" stroke="#b56b2a" stroke-width="2" class="line"/><path d="M14 7v4" stroke="#b56b2a" stroke-width="2" class="line"/>
@@ -134,7 +134,7 @@
 
 <!-- ④ 治療 -->
 <rect x="20" y="488" width="519" height="136" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="510" class="h">④ 有哪些治療？</text>
+<text x="37" y="510" class="h">有哪些治療？</text>
 <text x="150" y="510" class="xs">依心律型態、症狀與個人風險，由醫病共同決定</text>
 <rect x="36" y="518" width="240" height="92" rx="10" fill="#fdf2f6"/>
 <text x="49" y="535" class="b" style="fill:#a5346a">藥物治療</text>
@@ -154,7 +154,7 @@
 <!-- ⑤ 立即就醫 -->
 <rect x="20" y="638" width="519" height="62" rx="13" fill="#fff0f4" stroke="#eda8bf" stroke-width="1.7"/>
 <circle cx="45" cy="660" r="12" fill="#c9365f"/><text x="45" y="665" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="657" class="b" style="fill:#a5346a">⑤ 出現這些情況，就近醫療院所就醫或立即撥打 119</text>
+<text x="66" y="657" class="b" style="fill:#a5346a">出現這些情況，就近醫療院所就醫或立即撥打 119</text>
 <text x="66" y="672" class="s" style="fill:#a5346a">持續胸痛｜嚴重呼吸困難｜昏倒｜冒冷汗或意識改變</text>
 <text x="66" y="688" class="s" style="fill:#a5346a">術後：穿刺處持續出血或快速腫大｜單側無力、口齒不清</text>
 

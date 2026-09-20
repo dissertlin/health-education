@@ -33,7 +33,7 @@
 
 <!-- ① 什麼是高血脂 -->
 <rect x="20" y="118" width="253" height="104" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="140" class="h">① 什麼是高血脂？</text>
+<text x="37" y="140" class="h">什麼是高血脂？</text>
 <text x="37" y="158" class="s">LDL（壞膽固醇）過高、三酸甘</text>
 <text x="37" y="170" class="s">油脂過高，或 HDL（好的）過低。</text>
 <text x="37" y="186" class="s"><tspan style="font-weight:700;fill:#c0632a">通常完全沒有症狀</tspan>，卻會讓脂肪</text>
@@ -42,7 +42,7 @@
 
 <!-- ③ 怎麼治療 -->
 <rect x="287" y="118" width="252" height="104" rx="13" class="card" filter="url(#sh)"/>
-<text x="304" y="140" class="h">③ 怎麼治療？</text>
+<text x="304" y="140" class="h">怎麼治療？</text>
 <rect x="298" y="148" width="230" height="32" rx="8" fill="#eef6f2"/>
 <text x="309" y="161" class="b" style="fill:#2f7a63">生活調整（基礎，人人都要做）</text>
 <text x="309" y="174" class="s">飲食、運動、體重、戒菸 → 降 LDL 約 5～15%</text>
@@ -52,7 +52,7 @@
 
 <!-- ② LDL 目標 -->
 <rect x="20" y="230" width="519" height="170" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="252" class="h">② 我的 LDL 目標是多少？</text>
+<text x="37" y="252" class="h">我的 LDL 目標是多少？</text>
 <text x="223" y="252" class="xs">依 2025 台灣血脂管理臨床路徑簡化整理，實際分層請由醫師判定</text>
 <rect x="36" y="260" width="487" height="20" rx="5" fill="#eef6f2"/>
 <text x="46" y="274" class="th">風險分層</text><text x="130" y="274" class="th">常見情況</text><text x="452" y="274" class="th">LDL 目標 (mg/dL)</text>
@@ -69,7 +69,7 @@
 
 <!-- ④ 副作用與機率 -->
 <rect x="20" y="408" width="519" height="156" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="430" class="h">④ 用藥常見副作用與機率</text>
+<text x="37" y="430" class="h">用藥常見副作用與機率</text>
 <text x="215" y="430" class="xs">數字取自隨機對照試驗的統合分析，為大略估計值</text>
 <rect x="36" y="438" width="240" height="90" rx="9" fill="#fdf5e8"/>
 <text x="49" y="454" class="b" style="fill:#b5762a">Statin（史他汀，第一線）</text>
@@ -90,7 +90,7 @@
 
 <!-- ⑤ 追蹤 -->
 <rect x="20" y="572" width="253" height="90" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="594" class="h">⑤ 多久追蹤一次？</text>
+<text x="37" y="594" class="h">多久追蹤一次？</text>
 <text x="37" y="612" class="s"><tspan style="font-weight:700">先做生活調整</tspan>　3～6 個月後驗血脂</text>
 <text x="37" y="626" class="s"><tspan style="font-weight:700">開始 statin</tspan>　6～8 週後驗血脂</text>
 <text x="37" y="640" class="s"><tspan style="font-weight:700">開始或加量</tspan>　3 個月內驗肝功能</text>
@@ -98,7 +98,7 @@
 
 <!-- ⑥ 飲食 -->
 <rect x="287" y="572" width="252" height="90" rx="13" class="card" filter="url(#sh)"/>
-<text x="304" y="594" class="h">⑥ 飲食怎麼選？</text>
+<text x="304" y="594" class="h">飲食怎麼選？</text>
 <text x="304" y="612" class="b" style="fill:#2f7a63">多選</text>
 <text x="334" y="612" class="s">蔬菜水果、全穀、燕麥、大麥</text>
 <text x="304" y="625" class="s">豆類與豆製品、魚、無調味堅果、橄欖油</text>
@@ -109,7 +109,7 @@
 <!-- ⑦ 提早聯絡 -->
 <rect x="20" y="670" width="519" height="42" rx="13" fill="#fff0ef" stroke="#eda8a4" stroke-width="1.7"/>
 <circle cx="45" cy="691" r="12" fill="#c04a45"/><text x="45" y="696" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="687" class="b" style="fill:#b23b3b">⑦ 出現這些情況，請提早聯絡醫療團隊</text>
+<text x="66" y="687" class="b" style="fill:#b23b3b">出現這些情況，請提早聯絡醫療團隊</text>
 <text x="66" y="702" class="s" style="fill:#b23b3b">明顯肌肉痠痛或無力｜深色尿｜皮膚或眼白變黃｜懷孕或準備懷孕</text>
 
 <!-- 來源 -->

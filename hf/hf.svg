@@ -33,7 +33,7 @@
 
 <!-- 1 什麼是心臟衰竭 + 原因 -->
 <rect x="20" y="120" width="253" height="130" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="142" class="h">① 什麼是心臟衰竭？</text>
+<text x="37" y="142" class="h">什麼是心臟衰竭？</text>
 <g transform="translate(38 150)">
 <rect x="0" y="6" width="34" height="26" rx="6" fill="#dce9fb" stroke="#8fb4e2" stroke-width="1.6"/>
 <path d="M9 19h7l3-6 4 12 3-6h5" fill="none" stroke="#d9535f" stroke-width="2" class="line"/>
@@ -60,7 +60,7 @@
 
 <!-- 2 症狀 -->
 <rect x="20" y="262" width="519" height="128" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="284" class="h">② 有哪些症狀？</text>
+<text x="37" y="284" class="h">有哪些症狀？</text>
 <text x="150" y="284" class="xs">記住三個字：<tspan style="font-weight:700;fill:#c4453f">喘、腫、累</tspan></text>
 <g transform="translate(36 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><circle cx="30" cy="17" r="9" fill="#ffd9bd"/><path d="M22 15q8-10 16 0" fill="#57718f"/><path d="M30 26v13" stroke="#6fa8c9" stroke-width="6" class="line"/><path d="M43 21q6 4 0 8" fill="none" stroke="#cf554b" stroke-width="2.2" class="line"/><path d="M49 18q9 7 0 14" fill="none" stroke="#cf554b" stroke-width="1.8" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">走路就喘</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">爬樓梯特別明顯</text></g>
 <g transform="translate(118 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><rect x="12" y="31" width="52" height="8" rx="4" fill="#cfe0f2"/><path d="M14 31l11-9h13" fill="none" stroke="#8fb4e2" stroke-width="3" class="line"/><circle cx="27" cy="20" r="7" fill="#ffd9bd"/><path d="M21 19q6-8 12 0" fill="#57718f"/><path d="M36 25h22" stroke="#8fb4e2" stroke-width="3.5" class="line"/><path d="M46 12q6 4 0 8" fill="none" stroke="#cf554b" stroke-width="2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">躺不平</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">要墊高枕頭</text></g>
@@ -70,7 +70,7 @@
 <g transform="translate(446 294)"><rect width="76" height="88" rx="10" fill="#f4f8fd"/><path d="M45 9a12.5 12.5 0 109 16 10.5 10.5 0 01-9-16z" fill="#5b6fa8"/><path d="M15 23q5-4 10 0M13 31q6-4 12 0M17 39q4-3 8 0" fill="none" stroke="#8fb4e2" stroke-width="2.2" class="line"/><text x="38" y="68" text-anchor="middle" class="cap" style="fill:#2b3f57">夜咳、肚子脹</text><text x="38" y="80" text-anchor="middle" class="xs" style="fill:#6a7b8e">食慾也變差</text></g>
 <!-- 3 治療 -->
 <rect x="20" y="402" width="519" height="106" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="424" class="h">③ 有哪些治療？</text>
+<text x="37" y="424" class="h">有哪些治療？</text>
 <text x="150" y="424" class="xs">現在的心臟衰竭<tspan style="font-weight:700;fill:#3157a0">治療效果很好</tspan>，關鍵是規律用藥</text>
 <rect x="36" y="432" width="240" height="66" rx="10" fill="#eef4fd"/>
 <text x="49" y="449" class="b" style="fill:#3157a0">藥物「四大支柱」</text>
@@ -87,7 +87,7 @@
 
 <!-- 4 你要配合的事 -->
 <rect x="20" y="520" width="519" height="146" rx="13" fill="#fffaef" stroke="#eccf86" stroke-width="1.6" filter="url(#sh)"/>
-<text x="37" y="542" class="h">④ 你要配合的事</text>
+<text x="37" y="542" class="h">你要配合的事</text>
 <g transform="translate(36 550)"><rect width="118" height="50" rx="10" fill="#fff"/>
 <g transform="translate(11 9)"><circle cx="11" cy="11" r="11" fill="#fde3e0"/><path d="M11 11V5M11 11l4 3" stroke="#cf554b" stroke-width="2" class="line"/><path d="M5 1h12" stroke="#cf554b" stroke-width="2.2" class="line"/></g>
 <text x="40" y="21" class="b">每天量體重</text><text x="14" y="38" class="s">起床上完廁所、空腹</text><text x="14" y="47" class="xs">同一台秤、穿類似衣服</text></g>
@@ -108,7 +108,7 @@
 <!-- 5 提早回院 -->
 <rect x="20" y="678" width="519" height="60" rx="13" fill="#fff2f0" stroke="#eda79f" stroke-width="1.7"/>
 <circle cx="45" cy="700" r="12" fill="#d9453f"/><text x="45" y="705" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="697" class="b" style="fill:#a5322d">⑤ 這些情況要提早回醫院，不要等下次回診</text>
+<text x="66" y="697" class="b" style="fill:#a5322d">這些情況要提早回醫院，不要等下次回診</text>
 <text x="66" y="712" class="s" style="fill:#a5322d">三天內體重增加 2 公斤以上｜喘變嚴重、躺不平｜腳腫變厲害｜頭暈、快昏倒</text>
 <text x="66" y="727" class="s" style="fill:#a5322d"><tspan style="font-weight:700">立即打 119：</tspan>胸痛、休息也喘不過氣、昏倒、咳出粉紅色泡沫痰</text>
 

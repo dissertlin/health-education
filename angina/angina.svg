@@ -31,7 +31,7 @@
 
 <!-- ① 什麼是心絞痛 -->
 <rect x="20" y="118" width="253" height="112" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="140" class="h">① 什麼是心絞痛？</text>
+<text x="37" y="140" class="h">什麼是心絞痛？</text>
 <g transform="translate(36 146)">
 <rect x="0" y="6" width="96" height="30" rx="15" fill="#fff" stroke="#8a6a6a" stroke-width="2.2"/>
 <rect x="5" y="11" width="86" height="20" rx="10" fill="#e8746e"/>
@@ -49,7 +49,7 @@
 
 <!-- ② 危險因子 -->
 <rect x="287" y="118" width="252" height="112" rx="13" class="card" filter="url(#sh)"/>
-<text x="304" y="140" class="h">② 危險因子有哪些？</text>
+<text x="304" y="140" class="h">危險因子有哪些？</text>
 <text x="440" y="140" class="xs">紅＝可改變　灰＝不可改變</text>
 <g transform="translate(315 150)"><rect x="1" y="12" width="15" height="5" rx="1.6" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M19 12h3v5h-3" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M13 8c0-2-3-2-3-4M18 8c0-1.6-2-1.6-2-3" fill="none" stroke="#c98a8a" stroke-width="1.6"/><path d="M2 20L21 3" stroke="#a8322c" stroke-width="2" stroke-linecap="round"/></g>
 <text x="327" y="183" class="xs" text-anchor="middle">抽菸</text>
@@ -88,7 +88,7 @@
 
 <!-- ③ 症狀 -->
 <rect x="20" y="284" width="519" height="96" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="306" class="h">③ 有哪些症狀？</text>
+<text x="37" y="306" class="h">有哪些症狀？</text>
 <text x="163" y="306" class="xs"><tspan style="font-weight:700;fill:#a8322c">左：典型</tspan>　<tspan style="font-weight:700;fill:#a06a14">右：不典型（容易被忽略）</tspan></text>
 <rect x="36" y="312" width="242" height="60" rx="9" fill="#fdeeec"/>
 <rect x="282" y="312" width="241" height="60" rx="9" fill="#fdf6ec"/>
@@ -115,7 +115,7 @@
 
 <!-- ④ 怎麼確診 -->
 <rect x="20" y="388" width="519" height="74" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="410" class="h">④ 醫師會做什麼檢查？</text>
+<text x="37" y="410" class="h">醫師會做什麼檢查？</text>
 <text x="215" y="410" class="xs">依症狀與風險高低選擇，不是每一項都要做</text>
 <text x="37" y="428" class="s"><tspan style="font-weight:700">基本</tspan>　心電圖、抽血（心肌酵素、血脂、血糖、腎功能）、心臟超音波</text>
 <text x="37" y="441" class="s"><tspan style="font-weight:700">看缺氧</tspan>　運動心電圖、核子醫學心肌灌注掃描、運動或藥物負荷心臟超音波</text>
@@ -123,7 +123,7 @@
 
 <!-- ⑤ 治療 -->
 <rect x="20" y="470" width="519" height="86" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="492" class="h">⑤ 有哪些治療？</text>
+<text x="37" y="492" class="h">有哪些治療？</text>
 <text x="175" y="492" class="xs">藥物是所有人的基礎；是否放支架或開刀，依血管狹窄程度與症狀決定</text>
 <rect x="36" y="500" width="158" height="48" rx="9" fill="#fdeeec"/>
 <text x="47" y="515" class="b" style="fill:#a8322c">藥物治療（基礎）</text>
@@ -140,7 +140,7 @@
 
 <!-- ⑥ 要配合什麼 -->
 <rect x="20" y="564" width="519" height="100" rx="13" class="card" filter="url(#sh)"/>
-<text x="37" y="586" class="h">⑥ 我要配合做什麼？</text>
+<text x="37" y="586" class="h">我要配合做什麼？</text>
 <text x="195" y="586" class="xs">目標值請以醫師為您設定的為準</text>
 <g class="line">
 <rect x="36" y="594" width="118" height="26" rx="8" fill="#fdeeec"/>
@@ -159,7 +159,7 @@
 <!-- ⑦ 立即就醫 -->
 <rect x="20" y="664" width="519" height="84" rx="13" fill="#fff0ee" stroke="#eda8a4" stroke-width="1.7"/>
 <circle cx="45" cy="687" r="12" fill="#c0392b"/><text x="45" y="692" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
-<text x="66" y="683" class="b" style="fill:#a8322c">⑦ 出現這些情況，立即撥打 119</text>
+<text x="66" y="683" class="b" style="fill:#a8322c">出現這些情況，立即撥打 119</text>
 <text x="66" y="699" class="s" style="fill:#a8322c">胸痛持續超過 15～20 分鐘不緩解｜休息時也發作｜比平常更痛、更頻繁｜冒冷汗、喘、快昏倒</text>
 <text x="66" y="714" class="s"><tspan style="font-weight:700">舌下含片用法</tspan>　坐下含 1 錠；<tspan style="font-weight:700;fill:#a8322c">5 分鐘沒改善或更嚴重 → 立刻打 119</tspan>，不要等含滿三錠。</text>
 <text x="66" y="726" class="s">等救護車時，每 5 分鐘可再含 1 錠，最多共 3 錠。</text>
