@@ -50,7 +50,7 @@
 <!-- ② 危險因子 -->
 <rect x="287" y="118" width="252" height="112" rx="13" class="card" filter="url(#sh)"/>
 <text x="304" y="140" class="h">危險因子有哪些？</text>
-<text x="440" y="140" class="xs">紅＝可改變　灰＝不可改變</text>
+<text x="424" y="140" class="xs"><tspan style="font-weight:700;fill:#a8322c">紅＝可改變</tspan>　<tspan style="font-weight:700;fill:#7d94a8">藍灰＝不可改變</tspan></text>
 <g transform="translate(315 150)"><rect x="1" y="12" width="15" height="5" rx="1.6" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M19 12h3v5h-3" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M13 8c0-2-3-2-3-4M18 8c0-1.6-2-1.6-2-3" fill="none" stroke="#c98a8a" stroke-width="1.6"/><path d="M2 20L21 3" stroke="#a8322c" stroke-width="2" stroke-linecap="round"/></g>
 <text x="327" y="183" class="xs" text-anchor="middle">抽菸</text>
 <g transform="translate(374 150)"><circle cx="12" cy="12" r="8.5" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M6 12h2.5l1.5-3.5 2 7.5 1.5-4.5 1 2H18" fill="none" stroke="#a8322c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 5l3-3M5 5L2 2" stroke="#c98a8a" stroke-width="1.6" stroke-linecap="round"/></g>
@@ -65,20 +65,20 @@
 <text x="386" y="221" class="xs" text-anchor="middle">久坐不動</text>
 <g transform="translate(433 188)"><circle cx="12" cy="14" r="6.6" fill="none" stroke="#a8322c" stroke-width="1.8"/><path d="M8.6 12.4l2.4 1.2M15.4 12.4l-2.4 1.2M9 18c1.8-1.2 4.2-1.2 6 0" stroke="#a8322c" stroke-width="1.5" stroke-linecap="round"/><path d="M11.4 0.5L8 6.5h4.2L9.4 11" fill="none" stroke="#a8322c" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></g>
 <text x="445" y="221" class="xs" text-anchor="middle">壓力、睡不好</text>
-<g transform="translate(492 188)"><circle cx="7" cy="6" r="3" fill="none" stroke="#8a6a6a" stroke-width="1.7"/><circle cx="17" cy="6" r="3" fill="none" stroke="#8a6a6a" stroke-width="1.7"/><path d="M2 20v-4a5 5 0 0 1 10 0v4M12 20v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#8a6a6a" stroke-width="1.7" stroke-linejoin="round"/></g>
+<g transform="translate(492 188)"><circle cx="7" cy="6" r="3" fill="none" stroke="#7d94a8" stroke-width="1.7"/><circle cx="17" cy="6" r="3" fill="none" stroke="#7d94a8" stroke-width="1.7"/><path d="M2 20v-4a5 5 0 0 1 10 0v4M12 20v-4a5 5 0 0 1 10 0v4" fill="none" stroke="#7d94a8" stroke-width="1.7" stroke-linejoin="round"/></g>
 <text x="504" y="221" class="xs" text-anchor="middle">年齡、家族史</text>
 
 <!-- 心絞痛→心肌梗塞 演變 -->
 <rect x="20" y="236" width="519" height="42" rx="12" fill="#fdf3f1" stroke="#e8bdb8" stroke-width="1.5"/>
 <text x="34" y="256" class="b" style="fill:#a8322c">心絞痛與心肌梗塞</text>
 <text x="34" y="269" class="xs">同一條血管的三階段</text>
-<rect x="130" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M133 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M148 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/>
+<rect x="130" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#7d94a8" stroke-width="1.6"/><path d="M133 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M148 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/>
 <text x="157" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#a8322c">斑塊變窄</text>
 <text x="157" y="274" class="xs" text-anchor="middle" style="fill:#a8322c">＝心絞痛</text>
-<rect x="206" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M209 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M224 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/><path d="M227 243l2 4 3-3" fill="none" stroke="#8a2018" stroke-width="1.3" stroke-linecap="round"/><circle cx="240" cy="250" r="1.8" fill="#8a2018"/><circle cx="245" cy="248" r="1.4" fill="#8a2018"/>
+<rect x="206" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#7d94a8" stroke-width="1.6"/><path d="M209 243h44a4.5 4.5 0 0 1 0 9h-44a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M224 242q9-1 12 4-6 3-12 2z" fill="#f0c44e" stroke="#c99a2e" stroke-width=".8"/><path d="M227 243l2 4 3-3" fill="none" stroke="#8a2018" stroke-width="1.3" stroke-linecap="round"/><circle cx="240" cy="250" r="1.8" fill="#8a2018"/><circle cx="245" cy="248" r="1.4" fill="#8a2018"/>
 <text x="233" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#a06a14">表面破裂</text>
 <text x="233" y="274" class="xs" text-anchor="middle" style="fill:#a06a14">＝不穩定型</text>
-<rect x="282" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#8a6a6a" stroke-width="1.6"/><path d="M285 243h16a4.5 4.5 0 0 1 0 9h-16a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M312 243h18a4.5 4.5 0 0 1 0 9h-18a4.5 4.5 0 0 1 0-9z" fill="#c9938f"/><rect x="303" y="241.5" width="12" height="12" rx="4" fill="#8a2018"/>
+<rect x="282" y="240" width="54" height="15" rx="7.5" fill="#fff" stroke="#7d94a8" stroke-width="1.6"/><path d="M285 243h16a4.5 4.5 0 0 1 0 9h-16a4.5 4.5 0 0 1 0-9z" fill="#e8746e"/><path d="M312 243h18a4.5 4.5 0 0 1 0 9h-18a4.5 4.5 0 0 1 0-9z" fill="#c9938f"/><rect x="303" y="241.5" width="12" height="12" rx="4" fill="#8a2018"/>
 <text x="309" y="264" class="xs" text-anchor="middle" style="font-weight:700;fill:#b02418">血栓塞住</text>
 <text x="309" y="274" class="xs" text-anchor="middle" style="fill:#b02418">＝心肌梗塞</text>
 <path d="M190 247h8" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round"/><path d="M195 244l3 3-3 3" fill="none" stroke="#a8322c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -117,7 +117,7 @@
 <rect x="20" y="388" width="519" height="74" rx="13" class="card" filter="url(#sh)"/>
 <text x="37" y="410" class="h">醫師會做什麼檢查？</text>
 <text x="215" y="410" class="xs">依症狀與風險高低選擇，不是每一項都要做</text>
-<text x="37" y="428" class="s"><tspan style="font-weight:700">基本</tspan>　心電圖、抽血（心肌酵素、血脂、血糖、腎功能）、心臟超音波</text>
+<text x="37" y="428" class="s"><tspan style="font-weight:700">基本</tspan>　心電圖、抽血、心臟超音波</text>
 <text x="37" y="441" class="s"><tspan style="font-weight:700">看缺氧</tspan>　運動心電圖、核子醫學心肌灌注掃描、運動或藥物負荷心臟超音波</text>
 <text x="37" y="454" class="s"><tspan style="font-weight:700">看血管</tspan>　電腦斷層冠狀動脈攝影（非侵入性）；<tspan style="font-weight:700;fill:#a8322c">心導管冠狀動脈攝影是確診與治療的黃金標準</tspan></text>
 
