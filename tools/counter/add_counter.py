@@ -12,7 +12,7 @@
 import io, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-PAGES = ["af", "af-intro", "af-meds", "angina", "bp", "brady", "cath",
+PAGES = ["af", "af-intro", "af-meds", "angina", "bp", "brady", "cath", "dm",
          "ep", "gout", "hf", "lipid", "oh", "pacemaker", "svt"]
 
 CSS_BEGIN = "  /* 瀏覽次數 begin */"

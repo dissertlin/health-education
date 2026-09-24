@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 559 794">
+<metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:title>認識第二型糖尿病｜A5 病人衛教單張</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 編製。本單張僅供臨床衛教使用，未經同意不得重製、改作或作商業用途。</dc:rights><dc:source>https://dissertlin.github.io/health-education/dm/</dc:source></rdf:Description></rdf:RDF></metadata>
+<defs><style>
+.t{font:700 22px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 10.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#dce9f5}
+.h{font:700 14.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#12324e}
+.b{font:700 10.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1c3f5e}
+.s{font:500 8.7px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#4e6173}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6a7c8c}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#dfe9f2}
+.th{font:700 8.6px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#12324e}
+.card{fill:#fff;stroke:#d8e3ec;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+</style>
+<linearGradient id="g" x1="0" x2="1"><stop stop-color="#14427a"/><stop offset="1" stop-color="#1f7aa8"/></linearGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#12324e" flood-opacity=".12"/></filter></defs>
+<rect width="559" height="794" fill="#f6fafd"/>
+<rect x="18" y="14" width="523" height="93" rx="16" fill="url(#g)"/>
+<g transform="translate(36 30)">
+<circle cx="28" cy="28" r="24" fill="none" stroke="#7fc4e8" stroke-width="7"/>
+<circle cx="28" cy="28" r="10" fill="#bde3f5"/>
+</g>
+<text x="112" y="46" class="t">認識糖尿病</text>
+<text x="238" y="46" class="st">第二型</text>
+<text x="112" y="68" class="st">控制好血糖，是為了保護眼睛、腎臟、神經與心血管</text>
+<rect x="112" y="79" width="330" height="19" rx="9.5" fill="#fff"/>
+<text x="124" y="92" class="s">目標<tspan style="font-weight:700;fill:#1a5a96">因人而異</tspan>；請以醫師為您設定的數字為準</text>
+<rect x="20" y="118" width="519" height="132" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="140" class="h">我的糖化血色素（HbA1c）目標是多少？</text>
+<text x="310" y="140" class="xs">不是只看年齡，更看共病與低血糖風險</text>
+<rect x="36" y="148" width="487" height="18" rx="5" fill="#eaf3fa"/>
+<text x="46" y="161" class="th">您的情況</text><text x="330" y="161" class="th">HbA1c 目標</text><text x="424" y="161" class="th">為什麼</text>
+<text x="46" y="178" class="s">一般成年人</text><text x="330" y="178" class="s" style="font-weight:700;fill:#1a5a96">&lt; 7%</text><text x="424" y="178" class="xs">兼顧併發症預防與低血糖風險</text>
+<line x1="36" y1="183" x2="523" y2="183" stroke="#eef4f9"/>
+<text x="46" y="194" class="s">年輕、病程短、沒有併發症</text><text x="330" y="194" class="s" style="font-weight:700;fill:#1a5a96">可更嚴格 &lt; 6.5%</text><text x="424" y="194" class="xs">越早控制好，長期保護越明顯</text>
+<line x1="36" y1="199" x2="523" y2="199" stroke="#eef4f9"/>
+<text x="46" y="210" class="s">健康、功能良好的長者</text><text x="330" y="210" class="s" style="font-weight:700;fill:#1a5a96">&lt; 7.5%</text><text x="424" y="210" class="xs">稍微放寬，避免低血糖</text>
+<line x1="36" y1="215" x2="523" y2="215" stroke="#eef4f9"/>
+<text x="46" y="226" class="s">共病多、曾有低血糖、預期餘命有限</text><text x="330" y="226" class="s" style="font-weight:700;fill:#1a5a96">放寬 7.5～8.5%</text><text x="424" y="226" class="xs">過度嚴格反而增加跌倒與危險</text>
+<rect x="36" y="232" width="487" height="16" rx="7" fill="#fdf0ee"/>
+<text x="48" y="243" class="xs" style="fill:#b5382b"><tspan style="font-weight:700">注意：</tspan>貧血、地中海型貧血帶原、慢性腎病、洗腎或近期輸血時，HbA1c 可能失真，需搭配其他指標判讀。</text>
+<rect x="20" y="258" width="519" height="82" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="280" class="h">要怎麼吃？</text>
+<text x="115" y="280" class="xs">沒有「糖尿病專用食物」，重點是<tspan style="font-weight:700">總量、種類與時間</tspan></text>
+<g transform="translate(48 286)"><path d="M12 3c2.6 3 2.6 6 0 9-2.6-3-2.6-6 0-9z" fill="none" stroke="#1a5a96" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 11c2.6 3 2.6 6 0 9-2.6-3-2.6-6 0-9z" fill="none" stroke="#1a5a96" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 13v9M5 22h14" stroke="#1a5a96" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="60" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#1a5a96">全穀根莖</text>
+<text x="60" y="330" class="xs" text-anchor="middle" style="fill:#1a5a96">定量不過量</text>
+<g transform="translate(132 286)"><path d="M12 22c-5 0-8.5-3.6-8.5-8.4 0-3.6 2.6-6.8 5.8-7.8 1-.4 2 0 2.6 1 .6-1 1.6-1.4 2.6-1 3.2 1 5.5 4.2 5.5 7.8 0 4.8-3.4 8.4-8 8.4z" fill="none" stroke="#2e7d5b" stroke-width="1.8"/><path d="M12 5.5c0-2 1.6-3.5 3.6-3.5 0 2-1.6 3.5-3.6 3.5z" fill="#2e7d5b"/></g>
+<text x="144" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#2e7d5b">蔬菜佔一半</text>
+<g transform="translate(216 286)"><path d="M3 13c4-5 11-6 16-2 1 1 2 1.5 2 2s-1 1-2 2c-5 4-12 3-16-2z" fill="none" stroke="#2e7d5b" stroke-width="1.7" stroke-linejoin="round"/><circle cx="8" cy="12" r="1.3" fill="#2e7d5b"/><path d="M19 10l3-3v10l-3-3" fill="none" stroke="#2e7d5b" stroke-width="1.7" stroke-linejoin="round"/></g>
+<text x="228" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#2e7d5b">優質蛋白</text>
+<text x="228" y="330" class="xs" text-anchor="middle" style="fill:#2e7d5b">魚、豆、蛋</text>
+<g transform="translate(300 286)"><path d="M7 5h10l-1.5 15a2.2 2.2 0 0 1-2.2 2h-2.6a2.2 2.2 0 0 1-2.2-2z" fill="none" stroke="#c0392b" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 10h8" stroke="#c0392b" stroke-width="1.4"/><path d="M11 1.5h2v3.5h-2z" fill="none" stroke="#c0392b" stroke-width="1.4"/><path d="M3 21L21 3" stroke="#c0392b" stroke-width="1.9" stroke-linecap="round"/></g>
+<text x="312" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#c0392b">戒含糖飲</text>
+<text x="312" y="330" class="xs" text-anchor="middle" style="fill:#c0392b">影響最大</text>
+<g transform="translate(384 286)"><path d="M3 13h18c0 5-4 8-9 8s-9-3-9-8z" fill="none" stroke="#c0392b" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 10c0-2 2-2 2-4M14 10c0-2 2-2 2-4" stroke="#c0392b" stroke-width="1.4" stroke-linecap="round"/><path d="M3 21L21 3" stroke="#c0392b" stroke-width="1.9" stroke-linecap="round"/></g>
+<text x="396" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#c0392b">少精製澱粉</text>
+<text x="396" y="330" class="xs" text-anchor="middle" style="fill:#c0392b">白飯麵包少量</text>
+<g transform="translate(468 286)"><circle cx="12" cy="12" r="9" fill="none" stroke="#1a5a96" stroke-width="1.8"/><path d="M12 6.5V12l4 2.6" stroke="#1a5a96" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="480" y="320" class="xs" text-anchor="middle" style="font-weight:700;fill:#1a5a96">定時定量</text>
+<text x="480" y="330" class="xs" text-anchor="middle" style="fill:#1a5a96">不要跳過正餐</text>
+<rect x="20" y="348" width="519" height="82" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="370" class="h">藥物與胰島素</text>
+<text x="150" y="370" class="xs">用哪一種、用幾種，依血糖、腎功能、心血管狀況與體重由醫師決定</text>
+<rect x="36" y="378" width="240" height="46" rx="9" fill="#eaf3fa"/>
+<text x="49" y="393" class="b" style="fill:#1a5a96">常用的口服與針劑</text>
+<text x="49" y="406" class="s">Metformin 多為第一線；</text>
+<text x="49" y="418" class="s">SGLT2 抑制劑、GLP-1 另有心腎保護</text>
+<rect x="283" y="378" width="240" height="46" rx="9" fill="#eef6f1"/>
+<text x="296" y="393" class="b" style="fill:#2e7d5b">什麼時候會用胰島素</text>
+<text x="296" y="406" class="s">血糖很高、口服藥已用足仍未達標、</text>
+<text x="296" y="418" class="s" style="font-weight:700">懷孕、感染、手術時——不代表病情無救</text>
+<rect x="20" y="438" width="519" height="72" rx="13" fill="#fff6e8" stroke="#e8c187" stroke-width="1.7"/>
+<text x="37" y="458" class="h" style="fill:#9a6410">低血糖怎麼辦？記住「15–15」</text>
+<text x="265" y="458" class="xs" style="fill:#9a6410">冒冷汗、發抖、心悸、飢餓、頭暈、注意力渙散</text>
+<text x="37" y="475" class="s"><tspan style="font-weight:700;fill:#9a6410">① 吃 15 公克快速醣類</tspan>　含糖飲料 120～150 mL｜方糖 3 顆｜蜂蜜 1 大匙</text>
+<text x="37" y="488" class="s"><tspan style="font-weight:700;fill:#9a6410">② 等 15 分鐘再測</tspan>　沒改善就再吃一次；改善後若離下一餐還久，補充一份點心</text>
+<text x="37" y="502" class="s" style="fill:#b5382b"><tspan style="font-weight:700">不要用巧克力、牛奶、蛋糕</tspan>（脂肪延緩吸收）；<tspan style="font-weight:700">意識不清時不可餵食，立即送醫</tspan>。開車前先測血糖。</text>
+<rect x="20" y="518" width="519" height="82" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="540" class="h">生活上要注意什麼？</text>
+<text x="180" y="540" class="xs">血糖以外，血壓、血脂與戒菸同樣影響併發症</text>
+<g transform="translate(48 546)"><circle cx="13" cy="3.6" r="2.6" fill="none" stroke="#2e7d5b" stroke-width="1.7"/><path d="M9 22l3-8 4-2 2 4 4 1" fill="none" stroke="#2e7d5b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14l-5 4" stroke="#2e7d5b" stroke-width="1.7" stroke-linecap="round"/></g>
+<text x="60" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#2e7d5b">每週 150 分鐘</text>
+<text x="60" y="590" class="xs" text-anchor="middle" style="fill:#2e7d5b">中等強度</text>
+<g transform="translate(132 546)"><rect x="5" y="2" width="14" height="20" rx="2.4" fill="none" stroke="#1a5a96" stroke-width="1.7"/><rect x="8" y="5" width="8" height="5" rx="1" fill="none" stroke="#1a5a96" stroke-width="1.4"/><circle cx="9.5" cy="14" r="1.2" fill="#1a5a96"/><circle cx="14.5" cy="14" r="1.2" fill="#1a5a96"/><circle cx="9.5" cy="18" r="1.2" fill="#1a5a96"/><circle cx="14.5" cy="18" r="1.2" fill="#1a5a96"/></g>
+<text x="144" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#1a5a96">自我監測</text>
+<text x="144" y="590" class="xs" text-anchor="middle" style="fill:#1a5a96">並記錄下來</text>
+<g transform="translate(216 546)"><path d="M8 3c2.6 0 4.4 2 4.4 5 0 3.4-1.2 5.6-1.2 8.6 0 2.6-1.2 4.4-3.4 4.4S4.4 19.2 4.4 16.6c0-3-1.2-5.2-1.2-8.6C3.2 5 5.4 3 8 3z" fill="none" stroke="#1a5a96" stroke-width="1.6" stroke-linejoin="round"/><circle cx="15" cy="5" r="1.5" fill="#1a5a96"/><circle cx="18.4" cy="7" r="1.4" fill="#1a5a96"/><circle cx="20.6" cy="10" r="1.3" fill="#1a5a96"/></g>
+<text x="228" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#1a5a96">每天檢查腳</text>
+<text x="228" y="590" class="xs" text-anchor="middle" style="fill:#1a5a96">不赤腳、不自剪</text>
+<g transform="translate(300 546)"><circle cx="12" cy="12" r="8.6" fill="none" stroke="#1a5a96" stroke-width="1.8"/><path d="M6.5 12H9l1.6-4 2.4 8 1.6-4.6 1 1.6h2.4" fill="none" stroke="#1a5a96" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="312" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#1a5a96">血壓 &lt;130/80</text>
+<text x="312" y="590" class="xs" text-anchor="middle" style="fill:#1a5a96">LDL 依風險</text>
+<g transform="translate(384 546)"><rect x="2" y="12" width="14" height="6" rx="2" fill="none" stroke="#c0392b" stroke-width="1.7"/><path d="M19 12h3v6h-3" fill="none" stroke="#c0392b" stroke-width="1.7"/><path d="M12 9c0-3-4-3-4-6" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/><path d="M2 21L21 3" stroke="#c0392b" stroke-width="1.9" stroke-linecap="round"/></g>
+<text x="396" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#c0392b">戒菸</text>
+<text x="396" y="590" class="xs" text-anchor="middle" style="fill:#c0392b">效益最大</text>
+<g transform="translate(468 546)"><path d="M9 2h6v2.6l5 4.6v11a1.8 1.8 0 0 1-1.8 1.8H5.8A1.8 1.8 0 0 1 4 20.2v-11l5-4.6z" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-linejoin="round"/><path d="M12 12v6M9 15h6" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/></g>
+<text x="480" y="580" class="xs" text-anchor="middle" style="font-weight:700;fill:#c0392b">生病時</text>
+<text x="480" y="590" class="xs" text-anchor="middle" style="fill:#c0392b">不可自行停藥</text>
+<rect x="20" y="608" width="519" height="64" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="628" class="h">定期要做哪些檢查？</text>
+<text x="175" y="628" class="xs">併發症要及早發現才有機會處理，請主動追蹤，不要等有症狀</text>
+<g transform="translate(36 636)"><path d="M2 12s3.6-6.4 10-6.4S22 12 22 12s-3.6 6.4-10 6.4S2 12 2 12z" fill="none" stroke="#1a5a96" stroke-width="1.7"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="#1a5a96" stroke-width="1.7"/></g>
+<text x="66" y="656" class="xs" style="font-weight:700;fill:#1a5a96">眼底檢查</text>
+<text x="66" y="666" class="xs">每年</text>
+<g transform="translate(117 636)"><path d="M9 4c-3.6 0-5.6 3.2-5.6 7.2 0 4.4 2.4 8 5.6 8 1.9 0 2.3-1.9 2.3-4.2V8.2C11.3 5.9 10.9 4 9 4z" fill="none" stroke="#1a5a96" stroke-width="1.5" stroke-linejoin="round"/><path d="M15 4c3.6 0 5.6 3.2 5.6 7.2 0 4.4-2.4 8-5.6 8-1.9 0-2.3-1.9-2.3-4.2V8.2C12.7 5.9 13.1 4 15 4z" fill="none" stroke="#1a5a96" stroke-width="1.5" stroke-linejoin="round"/></g>
+<text x="147" y="656" class="xs" style="font-weight:700;fill:#1a5a96">腎功能與尿蛋白</text>
+<text x="147" y="666" class="xs">每年</text>
+<g transform="translate(198 636)"><path d="M8 3c2.6 0 4.4 2 4.4 5 0 3.4-1.2 5.6-1.2 8.6 0 2.6-1.2 4.4-3.4 4.4S4.4 19.2 4.4 16.6c0-3-1.2-5.2-1.2-8.6C3.2 5 5.4 3 8 3z" fill="none" stroke="#1a5a96" stroke-width="1.6" stroke-linejoin="round"/><circle cx="15" cy="5" r="1.5" fill="#1a5a96"/><circle cx="18.4" cy="7" r="1.4" fill="#1a5a96"/><circle cx="20.6" cy="10" r="1.3" fill="#1a5a96"/></g>
+<text x="228" y="656" class="xs" style="font-weight:700;fill:#1a5a96">足部檢查</text>
+<text x="228" y="666" class="xs">每年</text>
+<g transform="translate(279 636)"><rect x="3" y="9" width="18" height="7" rx="3.5" fill="none" stroke="#1a5a96" stroke-width="1.7"/><path d="M9 8q8-1 11 4-7 2.6-11 2z" fill="#e8c05a" stroke="#1a5a96" stroke-width="1.1"/></g>
+<text x="309" y="656" class="xs" style="font-weight:700;fill:#1a5a96">血脂</text>
+<text x="309" y="666" class="xs">每年</text>
+<g transform="translate(360 636)"><path d="M7 4c0-2 2-3.4 5-3.4S17 2 17 4c0 4-1.2 5.6-1.6 9.4-.3 2.8-.8 5.6-1.6 7.6-.5 1.2-2.1 1.2-2.6 0-.8-2-1.3-4.8-1.6-7.6C8.2 9.6 7 8 7 4z" fill="none" stroke="#1a5a96" stroke-width="1.6" stroke-linejoin="round"/></g>
+<text x="390" y="656" class="xs" style="font-weight:700;fill:#1a5a96">牙科</text>
+<text x="390" y="666" class="xs">每半年</text>
+<g transform="translate(441 636)"><path d="M14 3l7 7M18.5 5.5l-11 11L4 21l.8-4.2 11-11z" fill="none" stroke="#1a5a96" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 10l3 3M13 7l3 3" stroke="#1a5a96" stroke-width="1.4"/></g>
+<text x="471" y="656" class="xs" style="font-weight:700;fill:#1a5a96">疫苗</text>
+<text x="471" y="666" class="xs">流感、肺炎鏈球菌</text>
+<rect x="20" y="680" width="519" height="64" rx="13" fill="#fdefed" stroke="#eda8a0" stroke-width="1.7"/>
+<circle cx="45" cy="702" r="12" fill="#c0392b"/><text x="45" y="707" text-anchor="middle" style="font:700 15px sans-serif;fill:#fff">!</text>
+<text x="66" y="698" class="b" style="fill:#b5382b">出現這些情況，提早回診或立即就醫</text>
+<text x="66" y="713" class="s" style="fill:#b5382b">反覆低血糖或曾昏迷｜血糖持續過高合併口渴、多尿、體重下降｜想吐、喘、腹痛（可能酮酸中毒）</text>
+<text x="66" y="728" class="s">腳有傷口、發紅或不癒合｜視力突然改變｜發燒或感染｜胸痛、單側無力 → <tspan style="font-weight:700;fill:#b5382b">立即撥 119</tspan></text>
+<rect x="20" y="752" width="519" height="38" rx="9" fill="#12324e"/>
+<text x="31" y="764" class="src">資料來源（查核至 2026-09）：中華民國糖尿病學會《第 2 型糖尿病臨床照護指引》；ADA Standards of Care；</text>
+<text x="31" y="775" class="src">2024 中華民國心臟學會 ASCVD 初級預防指引；2025 台灣血脂管理臨床路徑共識。本單張針對第二型糖尿病，供衛教使用，不取代個別診療。</text>
+<text x="31" y="786" class="src">© 2026 林祐賸醫師 編製　未經同意請勿重製、改作或作商業用途。</text>
+<!--QR--><g id="qr"><rect x="463" y="18" width="72" height="82" rx="10" fill="#fff" stroke="#cfe0ee"/><g transform="translate(469 24) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM8 0h1v1h-1zM11 0h3v1h-3zM16 0h2v1h-2zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM8 1h6v1h-6zM16 1h1v1h-1zM18 1h1v1h-1zM21 1h4v1h-4zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM11 2h1v1h-1zM15 2h1v1h-1zM17 2h1v1h-1zM19 2h1v1h-1zM22 2h1v1h-1zM24 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h4v1h-4zM14 3h1v1h-1zM16 3h1v1h-1zM19 3h2v1h-2zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM12 4h3v1h-3zM17 4h1v1h-1zM20 4h1v1h-1zM24 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM9 5h1v1h-1zM12 5h2v1h-2zM18 5h5v1h-5zM24 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h1v1h-1zM10 7h1v1h-1zM14 7h1v1h-1zM17 7h1v1h-1zM20 7h1v1h-1zM24 7h1v1h-1zM0 8h1v1h-1zM2 8h2v1h-2zM5 8h3v1h-3zM9 8h3v1h-3zM14 8h1v1h-1zM16 8h4v1h-4zM21 8h1v1h-1zM23 8h1v1h-1zM26 8h1v1h-1zM29 8h1v1h-1zM31 8h2v1h-2zM0 9h1v1h-1zM2 9h1v1h-1zM5 9h1v1h-1zM8 9h1v1h-1zM12 9h1v1h-1zM18 9h3v1h-3zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM0 10h2v1h-2zM6 10h4v1h-4zM11 10h1v1h-1zM14 10h1v1h-1zM16 10h2v1h-2zM21 10h9v1h-9zM31 10h2v1h-2zM0 11h2v1h-2zM3 11h2v1h-2zM7 11h1v1h-1zM9 11h1v1h-1zM11 11h5v1h-5zM18 11h1v1h-1zM20 11h1v1h-1zM23 11h1v1h-1zM27 11h1v1h-1zM29 11h1v1h-1zM31 11h1v1h-1zM2 12h1v1h-1zM6 12h1v1h-1zM11 12h2v1h-2zM18 12h1v1h-1zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM0 13h1v1h-1zM2 13h1v1h-1zM5 13h1v1h-1zM7 13h1v1h-1zM13 13h1v1h-1zM16 13h1v1h-1zM18 13h1v1h-1zM24 13h1v1h-1zM27 13h1v1h-1zM31 13h1v1h-1zM0 14h2v1h-2zM3 14h1v1h-1zM5 14h4v1h-4zM10 14h1v1h-1zM12 14h5v1h-5zM24 14h1v1h-1zM26 14h1v1h-1zM28 14h1v1h-1zM1 15h5v1h-5zM7 15h5v1h-5zM13 15h2v1h-2zM16 15h1v1h-1zM18 15h4v1h-4zM24 15h3v1h-3zM29 15h2v1h-2zM0 16h2v1h-2zM3 16h2v1h-2zM6 16h1v1h-1zM8 16h3v1h-3zM14 16h2v1h-2zM18 16h5v1h-5zM24 16h3v1h-3zM28 16h3v1h-3zM0 17h2v1h-2zM3 17h1v1h-1zM7 17h1v1h-1zM11 17h1v1h-1zM15 17h1v1h-1zM17 17h2v1h-2zM20 17h1v1h-1zM22 17h5v1h-5zM28 17h2v1h-2zM31 17h2v1h-2zM5 18h6v1h-6zM13 18h1v1h-1zM15 18h3v1h-3zM21 18h2v1h-2zM27 18h2v1h-2zM30 18h2v1h-2zM2 19h2v1h-2zM7 19h1v1h-1zM9 19h1v1h-1zM11 19h3v1h-3zM19 19h1v1h-1zM25 19h1v1h-1zM28 19h1v1h-1zM31 19h2v1h-2zM0 20h1v1h-1zM5 20h4v1h-4zM11 20h5v1h-5zM18 20h1v1h-1zM21 20h1v1h-1zM29 20h3v1h-3zM0 21h1v1h-1zM4 21h2v1h-2zM7 21h1v1h-1zM14 21h2v1h-2zM18 21h1v1h-1zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM5 22h5v1h-5zM11 22h2v1h-2zM16 22h3v1h-3zM20 22h1v1h-1zM22 22h2v1h-2zM25 22h3v1h-3zM29 22h1v1h-1zM31 22h2v1h-2zM1 23h2v1h-2zM4 23h1v1h-1zM12 23h1v1h-1zM14 23h1v1h-1zM16 23h1v1h-1zM18 23h2v1h-2zM22 23h1v1h-1zM24 23h2v1h-2zM27 23h2v1h-2zM0 24h1v1h-1zM2 24h3v1h-3zM6 24h3v1h-3zM12 24h1v1h-1zM14 24h2v1h-2zM17 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM8 25h1v1h-1zM10 25h1v1h-1zM12 25h6v1h-6zM19 25h3v1h-3zM24 25h1v1h-1zM28 25h2v1h-2zM0 26h7v1h-7zM8 26h1v1h-1zM11 26h3v1h-3zM16 26h1v1h-1zM19 26h1v1h-1zM23 26h2v1h-2zM26 26h1v1h-1zM28 26h1v1h-1zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h2v1h-2zM12 27h2v1h-2zM16 27h1v1h-1zM19 27h6v1h-6zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM9 28h1v1h-1zM12 28h2v1h-2zM15 28h1v1h-1zM17 28h1v1h-1zM19 28h3v1h-3zM23 28h6v1h-6zM30 28h3v1h-3zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h1v1h-1zM10 29h1v1h-1zM12 29h1v1h-1zM18 29h2v1h-2zM21 29h3v1h-3zM27 29h1v1h-1zM29 29h2v1h-2zM32 29h1v1h-1zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h4v1h-4zM13 30h2v1h-2zM17 30h2v1h-2zM20 30h2v1h-2zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM11 31h2v1h-2zM15 31h3v1h-3zM19 31h1v1h-1zM22 31h1v1h-1zM24 31h1v1h-1zM26 31h3v1h-3zM32 31h1v1h-1zM0 32h7v1h-7zM8 32h1v1h-1zM10 32h1v1h-1zM12 32h6v1h-6zM21 32h1v1h-1zM23 32h1v1h-1zM28 32h1v1h-1zM30 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="95" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1a5a96">掃描看電子版</text></g><!--/QR--></svg>

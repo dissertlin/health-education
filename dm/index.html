@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>認識第二型糖尿病｜病人衛教詳細版</title>
+<meta name="description" content="第二型糖尿病的 HbA1c 目標分層、怎麼吃、自我監測與 CGM、各類藥物與胰島素時機、低血糖處理、生病時怎麼辦、併發症篩檢與足部照護，以及何時提早就醫。寫給台灣一般民眾。">
+<meta name="author" content="林祐賸醫師">
+<meta name="copyright" content="© 2026 林祐賸醫師 編製">
+<style>
+  :root{--bg:#f6fafd;--card:#fff;--line:#d8e3ec;--ink:#12324e;--sub:#5b7285;--brand:#1a5a96;
+        --teal:#14427a;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fff6e8;--warnline:#e8c187;--okbg:#eaf3fa;--oktext:#14548c;
+        --bluebg:#edf7f1;--blueline:#bfe0cd;--bluetext:#2e7d5b}
+  @media (prefers-color-scheme:dark){:root{--bg:#0d1620;--card:#141f2b;--line:#27374a;--ink:#e7f0f8;--sub:#9db0c2;--brand:#6fb4e0;
+        --teal:#8fcdec;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#272015;--warnline:#5c4a29;--okbg:#132434;--oktext:#8fcdec;
+        --bluebg:#152620;--blueline:#2e4a3a;--bluetext:#7fcea5}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.06rem;margin:1.6em 0 .4em;color:var(--brand)}
+  h4{font-size:.98rem;margin:1.25em 0 .3em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .totop{margin:1.4em 0 .2em;text-align:right;line-height:1}
+  .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
+  .totop a:hover{color:var(--teal);border-color:var(--teal)}
+  .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  @media (prefers-color-scheme:dark){body::before{opacity:.20}}
+  .wrap{position:relative;z-index:1}
+  @media print{body::before{opacity:.16}}
+  .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
+  .tocnote b{color:var(--teal)}
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  .tw table.nw td:first-child,.tw table.nw th:first-child{white-space:normal}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps div>b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+  /* 瀏覽次數 begin */
+  .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
+  .views b{color:var(--brand);font-weight:700}
+  /* 瀏覽次數 end */
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+
+<a class="back" href="../">← 回衛教專欄</a>
+
+<h1>認識第二型糖尿病</h1>
+<p class="lead">控制血糖不是為了讓報告好看，<b>而是為了保住眼睛、腎臟、神經、心臟與雙腳</b>。<br>
+這一頁說明您的目標數字怎麼訂、怎麼吃、藥在做什麼、低血糖怎麼處理，以及<b>什麼時候不能等</b>。</p>
+
+<div class="box warn">
+<span class="t">本頁適用對象</span>
+<p>本頁針對<b>第二型糖尿病</b>撰寫。<b>第一型糖尿病</b>在用藥順序、胰島素依賴程度與酮酸中毒風險上都不同，請以您的主治醫師說明為準。</p>
+</div>
+
+<div class="toc">
+  <h2>本頁內容</h2>
+  <ol>
+    <li><a href="#s1">第二型糖尿病是什麼？</a></li>
+    <li><a href="#s2">我的 HbA1c 目標是多少？</a></li>
+    <li><a href="#s3">血糖要怎麼自己測？</a></li>
+    <li><a href="#s4">要怎麼吃？</a></li>
+    <li><a href="#s5">運動與體重</a></li>
+    <li><a href="#s6">有哪些藥？每一種在做什麼？</a></li>
+    <li><a href="#s7">什麼時候會用到胰島素？</a></li>
+    <li><a href="#s8">低血糖怎麼辦？</a></li>
+    <li><a href="#s9">生病、手術、做檢查時怎麼辦？</a></li>
+    <li><a href="#s10">血壓、血脂與戒菸</a></li>
+    <li><a href="#s11">併發症篩檢與足部照護</a></li>
+    <li><a href="#s12">什麼時候要提早回診或急診？</a></li>
+    <li><a href="#s13">常見問題</a></li>
+    <li><a href="#s14">資料來源與使用說明</a></li>
+  </ol>
+  <p class="tocnote">本頁有<b>表格</b>，在手機上若看不到完整欄位，請用手指在表格區域<b>左右滑動</b>即可看到全部內容。</p>
+</div>
+
+<h2 id="s1"><span class="num">1</span>第二型糖尿病是什麼？</h2>
+
+<p>吃進去的食物會變成<b>葡萄糖</b>進入血液，而要讓葡萄糖進到細胞裡被利用，需要一把鑰匙——<b>胰島素</b>。</p>
+
+<p>第二型糖尿病的問題出在兩個地方，而且通常同時存在：</p>
+
+<figure class="fig">
+<svg viewBox="0 0 700 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="胰島素阻抗與胰島素分泌不足的示意圖">
+  <rect x="6" y="6" width="336" height="238" rx="14" fill="var(--okbg)" stroke="var(--brand)"/>
+  <rect x="358" y="6" width="336" height="238" rx="14" fill="var(--warnbg)" stroke="var(--warnline)"/>
+  <text x="174" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="var(--oktext)">問題一　胰島素阻抗</text>
+  <text x="526" y="36" text-anchor="middle" font-size="16" font-weight="700" fill="#9a6410">問題二　分泌變少</text>
+  <rect x="60" y="66" width="80" height="80" rx="14" fill="var(--card)" stroke="var(--sub)" stroke-width="2.4"/>
+  <text x="100" y="112" text-anchor="middle" font-size="13" fill="var(--sub)">細胞</text>
+  <rect x="86" y="132" width="28" height="22" rx="4" fill="none" stroke="var(--sub)" stroke-width="2.4"/>
+  <circle cx="100" cy="142" r="3.4" fill="var(--sub)"/>
+  <path d="M196 120h-40" stroke="var(--brand)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="212" cy="120" r="12" fill="none" stroke="var(--brand)" stroke-width="3"/>
+  <path d="M224 120h22M240 114v12M232 114v12" stroke="var(--brand)" stroke-width="3" stroke-linecap="round"/>
+  <text x="212" y="152" text-anchor="middle" font-size="12" font-weight="700" fill="var(--brand)">胰島素</text>
+  <path d="M150 104l28 28M178 104l-28 28" stroke="#c0392b" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="174" y="188" text-anchor="middle" font-size="12.5" fill="var(--ink)">鑰匙還在，但<tspan font-weight="700">鎖變鈍了</tspan></text>
+  <text x="174" y="208" text-anchor="middle" font-size="12.5" fill="var(--ink)">葡萄糖進不去細胞，</text>
+  <text x="174" y="228" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--oktext)">只好留在血液裡 → 血糖高</text>
+  <path d="M526 74c-30 0-48 20-48 44 0 22 18 36 48 36s48-14 48-36c0-24-18-44-48-44z" fill="var(--card)" stroke="var(--sub)" stroke-width="2.4"/>
+  <text x="526" y="122" text-anchor="middle" font-size="13" fill="var(--sub)">胰臟</text>
+  <circle cx="494" cy="140" r="5" fill="#c9a34a"/><circle cx="512" cy="146" r="5" fill="#c9a34a"/>
+  <circle cx="540" cy="144" r="5" fill="#ddd2b8"/><circle cx="558" cy="138" r="5" fill="#ddd2b8"/>
+  <text x="526" y="188" text-anchor="middle" font-size="12.5" fill="var(--ink)">胰臟長期加班，</text>
+  <text x="526" y="208" text-anchor="middle" font-size="12.5" fill="var(--ink)"><tspan font-weight="700">製造胰島素的能力慢慢下降</tspan></text>
+  <text x="526" y="228" text-anchor="middle" font-size="12.5" font-weight="700" fill="#9a6410">鑰匙也越做越少</text>
+</svg>
+<figcaption>一邊是「鎖變鈍」（阻抗），一邊是「鑰匙變少」（分泌不足）。這也解釋了為什麼治療會隨時間調整。</figcaption>
+</figure>
+
+<div class="box key">
+<span class="t">兩個常被誤會的觀念</span>
+<ul>
+<li><b>「藥越吃越多」不代表你不聽話。</b>胰島素分泌能力會隨時間自然下降，治療需要跟著調整，這是疾病本身的進程。</li>
+<li><b>血糖高本身通常不痛不癢。</b>等到出現口渴、多尿、體重下降時，往往已經相當高；而眼睛、腎臟、神經的傷害更是安靜地累積好幾年。<b>這就是為什麼要定期抽血與篩檢，而不是等有症狀。</b></li>
+</ul>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s2"><span class="num">2</span>我的 HbA1c 目標是多少？</h2>
+
+<p><b>糖化血色素（HbA1c）</b>反映的是<b>最近 2～3 個月的平均血糖</b>，所以單次血糖高低不會立刻反映在上面。一般建議每 3 個月追蹤一次，穩定後可延長。</p>
+
+<div class="box alert">
+<span class="t">沒有一個數字適合所有人</span>
+<p>目標不是只看年齡，更要看<b>預期餘命、共病嚴重度、低血糖風險、病程長短、有沒有血管併發症，以及您的自我照顧能力與家人支持</b>。</p>
+</div>
+
+<div class="tw">
+<table class="nw">
+<tr><th>您的情況</th><th>一般目標</th><th>為什麼這樣訂</th></tr>
+<tr><td><b>一般成年人</b></td><td><b>&lt; 7%</b></td><td>兼顧併發症預防與低血糖風險，是最常見的起點</td></tr>
+<tr><td><b>年輕、病程短、沒有併發症、低血糖風險低</b></td><td>可更嚴格 <b>&lt; 6.5%</b></td><td>越早把血糖控制好，長期對眼睛腎臟的保護越明顯（所謂「代謝記憶」）</td></tr>
+<tr><td><b>健康、功能良好的長者</b></td><td><b>&lt; 7.5%</b></td><td>稍微放寬，降低低血糖與跌倒的機會</td></tr>
+<tr><td><b>共病多、功能受限、曾有嚴重低血糖、預期餘命有限</b></td><td>放寬至 <b>7.5～8.5%</b></td><td><b>過度嚴格反而有害</b>：低血糖造成的跌倒、心律不整風險，可能大於血糖稍高的長期傷害</td></tr>
+<tr><td><b>懷孕或計畫懷孕</b></td><td>另有更嚴格的標準</td><td>需由婦產科與新陳代謝科共同管理，部分藥物要更換</td></tr>
+</table>
+</div>
+
+<div class="box warn">
+<span class="t">很重要：HbA1c 有時候不準</span>
+<p>HbA1c 測的是「糖分黏在紅血球上的比例」，所以<b>只要紅血球的壽命或數量不正常，數值就會失真</b>：</p>
+<ul>
+<li><b>地中海型貧血帶原</b>——台灣帶原率約 5～6%，並不罕見</li>
+<li><b>缺鐵性貧血、溶血、近期輸血或出血</b></li>
+<li><b>慢性腎臟病、洗腎</b>（常會<b>低估</b>真實血糖）</li>
+</ul>
+<p>這些情況下，醫師會搭配<b>自我血糖紀錄、空腹與飯後血糖，或糖化白蛋白</b>等其他指標一起判讀。<b>如果您有上述情況，不要只看 HbA1c 這個數字自我評價。</b></p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s3"><span class="num">3</span>血糖要怎麼自己測？</h2>
+
+<div class="tw">
+<table class="nw">
+<tr><th>時間點</th><th>一般目標</th><th>看什麼</th></tr>
+<tr><td><b>空腹（早餐前）</b></td><td>約 <b>80～130 mg/dL</b></td><td>反映基礎血糖與睡眠中的控制</td></tr>
+<tr><td><b>飯後 1～2 小時</b></td><td>約 <b>&lt; 180 mg/dL</b></td><td>反映這一餐吃的份量與種類是否合適</td></tr>
+<tr><td><b>睡前</b></td><td>依醫師設定</td><td>用胰島素或磺醯脲類者，用來避免夜間低血糖</td></tr>
+</table>
+</div>
+
+<div class="box key">
+<span class="t">測血糖最有用的方法：成對測量</span>
+<p>與其隨便測，不如<b>測「同一餐的飯前與飯後兩小時」</b>——這樣才知道<b>是哪一餐、哪一種食物</b>讓血糖跑上去。把結果記下來（紙本或手機都行），回診時帶給醫師看，比單一個 HbA1c 數字有用得多。</p>
+<p><b>用胰島素或磺醯脲類的人</b>，還要在<b>開車前、運動前、覺得不舒服時</b>加測。</p>
+</div>
+
+<h3>連續血糖監測（CGM）</h3>
+<p>貼片式的感測器可以<b>每幾分鐘記錄一次組織間液的糖值</b>，看得到趨勢與夜間變化，是傳統指尖血糖看不到的。常用的指標是<b>「達標時間（TIR）」——血糖落在 70～180 mg/dL 的時間比例，一般建議超過 70%</b>。</p>
+<p>CGM 對<b>使用胰島素、血糖波動大、或有無感覺低血糖</b>的人幫助最大。<b>健保給付有條件限制，多數情況需自費</b>，實際請向醫療團隊確認。</p>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s4"><span class="num">4</span>要怎麼吃？</h2>
+
+<div class="box key">
+<span class="t">先破除一個迷思</span>
+<p><b>沒有「糖尿病專用食物」，也沒有哪一樣東西絕對不能吃。</b>真正決定血糖的是<b>總量、種類與時間</b>。標示「無糖」「健康」的食品，澱粉和熱量一樣會讓血糖上升。</p>
+</div>
+
+<h3>最實用的方法：餐盤法</h3>
+<figure class="fig">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="糖尿病餐盤分配示意圖">
+  <rect x="6" y="6" width="688" height="248" rx="14" fill="var(--card)" stroke="var(--line)"/>
+  <circle cx="200" cy="130" r="98" fill="#fff" stroke="var(--sub)" stroke-width="3"/>
+  <path d="M200 32a98 98 0 0 0 0 196z" fill="#dff0e4"/>
+  <path d="M200 130V32a98 98 0 0 1 98 98z" fill="#e7eefa"/>
+  <path d="M200 130h98a98 98 0 0 1-98 98z" fill="#fdf0e2"/>
+  <line x1="200" y1="32" x2="200" y2="228" stroke="var(--sub)" stroke-width="2.4"/>
+  <line x1="200" y1="130" x2="298" y2="130" stroke="var(--sub)" stroke-width="2.4"/>
+  <text x="140" y="126" text-anchor="middle" font-size="15" font-weight="700" fill="#2e7d5b">蔬菜</text>
+  <text x="140" y="148" text-anchor="middle" font-size="14" font-weight="700" fill="#2e7d5b">一半</text>
+  <text x="250" y="88" text-anchor="middle" font-size="14" font-weight="700" fill="var(--brand)">蛋白質</text>
+  <text x="250" y="106" text-anchor="middle" font-size="13" font-weight="700" fill="var(--brand)">四分之一</text>
+  <text x="250" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#9a6410">全穀根莖</text>
+  <text x="250" y="194" text-anchor="middle" font-size="13" font-weight="700" fill="#9a6410">四分之一</text>
+  <g font-size="13.5">
+  <circle cx="340" cy="70" r="6" fill="#2e7d5b"/>
+  <text x="358" y="66" font-weight="700" fill="#2e7d5b">蔬菜佔一半</text>
+  <text x="358" y="86" fill="var(--sub)">深綠色與各色蔬菜；菇類、海帶也算</text>
+  <circle cx="340" cy="120" r="6" fill="var(--brand)"/>
+  <text x="358" y="116" font-weight="700" fill="var(--brand)">蛋白質佔四分之一</text>
+  <text x="358" y="136" fill="var(--sub)">魚、豆製品、蛋、去皮雞肉；少紅肉與加工肉</text>
+  <circle cx="340" cy="170" r="6" fill="#9a6410"/>
+  <text x="358" y="166" font-weight="700" fill="#9a6410">全穀根莖佔四分之一</text>
+  <text x="358" y="186" fill="var(--sub)">糙米、地瓜、玉米、南瓜也算主食，要一起算份量</text>
+  <circle cx="340" cy="220" r="6" fill="#c0392b"/>
+  <text x="358" y="216" font-weight="700" fill="#c0392b">水果與飲料另外算</text>
+  <text x="358" y="236" fill="var(--sub)">水果每天約 2 份、分開吃；<tspan font-weight="700">含糖飲料要戒掉</tspan></text>
+  </g>
+</svg>
+<figcaption>不用秤、不用算卡路里，用一個盤子就能估。外食時同樣的比例概念也適用。</figcaption>
+</figure>
+
+<h3>台灣人特別要注意的幾樣</h3>
+<div class="tw">
+<table class="nw">
+<tr><th>常見狀況</th><th>為什麼要留意</th><th>可以怎麼做</th></tr>
+<tr><td><b>含糖手搖飲</b></td><td><b>對血糖影響最直接、最大</b>。半糖、微糖仍然是糖</td><td>改喝無糖茶或白開水。這一項改掉，效果常常比多吃一顆藥明顯</td></tr>
+<tr><td><b>白飯、麵、粥、吐司</b></td><td>精製澱粉吸收快，飯後血糖衝得高</td><td>換成<b>糙米、五穀飯</b>；份量固定；<b>粥比乾飯更容易升糖</b></td></tr>
+<tr><td><b>水果當「健康的」吃到飽</b></td><td>水果有果糖，一樣算醣類</td><td>每天約 <b>2 份</b>（1 份約一個拳頭大）；<b>整顆吃，不要打成果汁</b></td></tr>
+<tr><td><b>地瓜、南瓜、玉米、芋頭</b></td><td>很多人當「菜」吃，其實是<b>主食</b></td><td>吃了這些，白飯就要減量</td></tr>
+<tr><td><b>勾芡、羹湯、醬料</b></td><td>藏有大量澱粉與糖</td><td>湯少喝，醬料另外放</td></tr>
+<tr><td><b>不吃早餐或跳過正餐</b></td><td>容易低血糖，也容易下一餐吃過量</td><td><b>定時定量</b>比少吃一餐更重要</td></tr>
+</table>
+</div>
+
+<div class="box blue">
+<span class="t">進食順序也有幫助</span>
+<p>同樣一份餐點，<b>先吃菜與蛋白質、最後吃主食</b>，飯後血糖的上升幅度通常會比較平緩。這是零成本、不用改變食物內容就能做的調整。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s5"><span class="num">5</span>運動與體重</h2>
+
+<div class="steps">
+<div><b>有氧運動</b><span>每週累積 <b>150 分鐘中等強度</b>（快走、騎車、游泳）。判斷標準：<b>會喘會流汗，但還能講話</b>。</span></div>
+<div><b>阻力訓練</b><span>每週 <b>2～3 次</b>。肌肉是消耗血糖的主要場所，<b>增加肌肉量對第二型糖尿病特別有幫助</b>。</span></div>
+<div><b>不要久坐</b><span>每坐 30 分鐘起來動一動。<b>飯後散步 10～15 分鐘</b>對降低飯後血糖效果明顯。</span></div>
+<div><b>體重減 5～10%</b><span>就能明顯改善血糖、血壓與血脂。不需要瘦到標準體重才有效果。</span></div>
+<div><b>運動前後測血糖</b><span>用胰島素或磺醯脲類者尤其要測，並<b>隨身帶含糖食物</b>。</span></div>
+<div><b>什麼時候先別運動</b><span>血糖過高（例如 &gt; 300 mg/dL）合併不舒服、或有酮體時，先聯絡醫療團隊。腳有傷口時避免負重運動。</span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s6"><span class="num">6</span>有哪些藥？每一種在做什麼？</h2>
+
+<p>糖尿病用藥近年變化很大。<b>現在選藥不只看血糖，還要看您的心臟、腎臟與體重</b>——有些藥被證實能減少心血管事件與腎病惡化，即使血糖差不多也會優先使用。</p>
+
+<div class="tw">
+<table class="nw">
+<tr><th>藥物類別</th><th>它在做什麼</th><th>要注意的地方</th></tr>
+<tr><td><b>Metformin</b><br>（雙胍類）</td><td>減少肝臟製造葡萄糖、改善胰島素敏感度。<b>多數人的第一線用藥</b></td><td>腸胃不適（可隨餐、由低劑量慢慢加）；長期使用可能影響<b>維生素 B12</b>；<b>腎功能不好要調整或停用</b>；<b>做顯影劑檢查前後依指示暫停</b></td></tr>
+<tr><td><b>SGLT2 抑制劑</b></td><td>讓多餘的糖從尿液排出。<b>另有明確的心臟與腎臟保護效果</b>，也能減輕體重與血壓</td><td><b>泌尿道與生殖器黴菌感染</b>（多喝水、注意清潔）；脫水與姿勢性低血壓；<b>生病、禁食、手術前需暫停</b>（見<a href="#s9">第 9 節</a>）</td></tr>
+<tr><td><b>GLP-1 受體促效劑</b><br>（多為針劑，部分口服）</td><td>促進進食後的胰島素分泌、延緩胃排空、抑制食慾。<b>有心血管保護效果，減重效果明顯</b></td><td><b>噁心、嘔吐、腹瀉</b>（從低劑量慢慢加會改善）；少見但需注意胰臟炎；<b>健保給付有條件</b></td></tr>
+<tr><td><b>DPP-4 抑制劑</b></td><td>延長體內腸泌素作用，溫和促進胰島素分泌</td><td>耐受性好、<b>單獨使用低血糖風險低</b>；對體重影響中性</td></tr>
+<tr><td><b>磺醯脲類</b><br>（Sulfonylurea）</td><td>直接刺激胰臟分泌胰島素，降糖效果快</td><td><b>低血糖風險最高的口服藥</b>，長者與腎功能不佳者尤其要小心；可能增加體重。<b>不吃飯就不要自行服用，請先問醫師</b></td></tr>
+<tr><td><b>Pioglitazone</b><br>（TZD）</td><td>改善胰島素阻抗</td><td>可能<b>水腫、體重增加</b>；<b>心衰竭者不建議</b>；長期使用注意骨折風險</td></tr>
+<tr><td><b>α-葡萄糖苷酶抑制劑</b></td><td>延緩腸道吸收醣類，主要降飯後血糖</td><td>脹氣、排氣多。<b>合併此藥發生低血糖時，要用葡萄糖而不是蔗糖</b></td></tr>
+</table>
+</div>
+
+<div class="box key">
+<span class="t">為什麼別人吃的藥跟我不一樣？</span>
+<p>因為選藥要同時考慮：<b>有沒有心血管疾病或心衰竭、腎功能如何、體重、低血糖風險、會不會影響工作或開車、以及健保給付條件</b>。同樣是第二型糖尿病，兩個人的處方可以完全不同。<b>不要自行比照親友的藥。</b></p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s7"><span class="num">7</span>什麼時候會用到胰島素？</h2>
+
+<div class="box alert">
+<span class="t">先講最重要的一句話</span>
+<p><b>需要打胰島素，不代表你的病「沒救了」，也不代表你之前做得不好。</b></p>
+<p>第二型糖尿病的胰島素分泌能力會隨時間自然下降，這是疾病本身的進程。而且<b>有些情況是暫時的</b>——例如感染、手術期間用胰島素控制，之後可以改回口服藥。</p>
+</div>
+
+<h3>常見的使用時機</h3>
+<ul>
+<li><b>剛診斷時血糖就很高</b>（例如 HbA1c 很高、合併口渴多尿體重下降）。此時<b>短期使用胰島素讓胰臟休息</b>，之後常常可以改回口服藥。</li>
+<li><b>口服藥已經用到足夠劑量與種類，血糖仍未達標。</b></li>
+<li><b>懷孕。</b>多數口服藥不適用。</li>
+<li><b>嚴重感染、重大手術、住院期間。</b></li>
+<li><b>肝腎功能不好</b>，許多口服藥受限時。</li>
+</ul>
+
+<h3>注射的實務重點</h3>
+<div class="steps">
+<div><b>部位要輪替</b><span>腹部、大腿、上臂外側。<b>同一個點反覆打會造成脂肪增生（硬塊）</b>，打在硬塊上吸收會不穩定，血糖忽高忽低。</span></div>
+<div><b>針頭一次性使用</b><span>重複使用會變鈍、增加疼痛與脂肪增生。</span></div>
+<div><b>保存方式</b><span>未開封放<b>冷藏</b>（不可冷凍）；開封後依說明可室溫保存一段時間。<b>不要放車上或陽光直射處。</b></span></div>
+<div><b>出門要帶</b><span>外出、旅行時隨身攜帶，<b>搭飛機放隨身行李不要託運</b>（貨艙溫度會破壞藥效）。</span></div>
+<div><b>絕對不要自行停用</b><span>即使食慾不好、生病，也要先聯絡醫療團隊調整，<b>不可自行停打</b>。</span></div>
+<div><b>學會處理低血糖</b><span>使用胰島素者低血糖風險較高，請確實熟讀<a href="#s8">第 8 節</a>，並讓家人也知道。</span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s8"><span class="num">8</span>低血糖怎麼辦？</h2>
+
+<p>這是糖尿病治療<b>最常見也最危險的急性問題</b>。處理方式必須您自己會，而且<b>家人也要知道</b>。</p>
+
+<div class="box alert">
+<span class="t">認得出來：血糖 &lt; 70 mg/dL，或出現這些症狀</span>
+<p><b>冒冷汗、發抖、心悸、突然很餓、頭暈、無力、嘴唇發麻、視線模糊、注意力渙散、講話含糊、情緒變得暴躁。</b></p>
+<p><b>特別注意</b>：病程長的人、長者、或反覆低血糖的人，<b>警告症狀可能變鈍甚至完全消失</b>（無感覺低血糖），等發現時已經意識不清。這類病人更需要規律監測，血糖目標也要放寬。</p>
+</div>
+
+<h3>處理方式：15–15 法則</h3>
+<figure class="fig">
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="低血糖的 15-15 處理步驟">
+  <rect x="6" y="6" width="222" height="208" rx="14" fill="var(--card)" stroke="var(--line)"/>
+  <rect x="239" y="6" width="222" height="208" rx="14" fill="var(--card)" stroke="var(--line)"/>
+  <rect x="472" y="6" width="222" height="208" rx="14" fill="var(--card)" stroke="var(--line)"/>
+  <text x="34" y="36" font-size="14.5" font-weight="700" fill="var(--brand)">步驟 1</text>
+  <text x="267" y="36" font-size="14.5" font-weight="700" fill="var(--brand)">步驟 2</text>
+  <text x="500" y="36" font-size="14.5" font-weight="700" fill="var(--brand)">步驟 3</text>
+  <rect x="86" y="56" width="62" height="70" rx="8" fill="#fff" stroke="var(--brand)" stroke-width="2.4"/>
+  <path d="M92 76h50M92 96h50" stroke="var(--brand)" stroke-width="2"/>
+  <text x="117" y="146" text-anchor="middle" font-size="19" font-weight="700" fill="var(--brand)">15 g</text>
+  <text x="117" y="172" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">立刻吃 15 公克</text>
+  <text x="117" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">快速吸收的醣類</text>
+  <circle cx="350" cy="96" r="34" fill="none" stroke="var(--brand)" stroke-width="3.4"/>
+  <path d="M350 72v24l16 10" stroke="var(--brand)" stroke-width="3.4" stroke-linecap="round"/>
+  <text x="350" y="154" text-anchor="middle" font-size="13" font-weight="700" fill="var(--ink)">等 15 分鐘，再測一次</text>
+  <text x="350" y="176" text-anchor="middle" font-size="12.5" fill="var(--sub)">不要一直吃，容易過度矯正</text>
+  <text x="350" y="196" text-anchor="middle" font-size="12.5" fill="var(--sub)">變成血糖太高</text>
+  <path d="M556 96h28" stroke="#2e7d5b" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M576 86l10 10-10 10" fill="none" stroke="#2e7d5b" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="530" y="74" font-size="13" font-weight="700" fill="#2e7d5b">好了</text>
+  <text x="530" y="124" font-size="13" font-weight="700" fill="#c0392b">還沒好</text>
+  <path d="M556 118h28" stroke="#c0392b" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M576 108l10 10-10 10" fill="none" stroke="#c0392b" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="640" y="74" text-anchor="middle" font-size="12.5" font-weight="700" fill="#2e7d5b">離下一餐還久</text>
+  <text x="640" y="92" text-anchor="middle" font-size="12.5" fill="var(--sub)">補一份點心</text>
+  <text x="640" y="124" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c0392b">再吃 15 公克</text>
+  <text x="640" y="142" text-anchor="middle" font-size="12.5" fill="var(--sub)">重複同樣步驟</text>
+  <text x="583" y="180" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c0392b">兩次仍未改善 → 就醫</text>
+</svg>
+<figcaption>15 公克、15 分鐘、再測一次。重點是「吃了要等、等了要測」，不要憑感覺一直吃。</figcaption>
+</figure>
+
+<div class="tw">
+<table class="nw">
+<tr><th></th><th>可以用</th><th>不要用</th></tr>
+<tr><td><b>15 公克快速醣類</b></td><td><b>含糖飲料 120～150 mL</b>（一般養樂多、果汁、汽水）<br><b>方糖 3 顆</b>或<b>砂糖 1 大匙</b>泡水<br><b>蜂蜜 1 大匙</b><br>市售<b>葡萄糖片</b></td><td><b>巧克力、牛奶、蛋糕、餅乾</b><br>——含脂肪會<b>延緩糖分吸收</b>，救不了急<br><br><b>無糖或代糖的飲料</b>完全沒有用</td></tr>
+</table>
+</div>
+
+<div class="box alert">
+<span class="t">意識不清時：不可餵食</span>
+<p>如果人已經<b>意識不清、叫不醒或抽搐</b>，<b>絕對不要餵食物或灌水</b>——會嗆到、造成吸入性肺炎。<b>立即撥打 119。</b></p>
+<p>若醫師有開立<b>升糖素（glucagon）</b>，請家人事先學會怎麼用，並確認放置位置與效期。</p>
+</div>
+
+<div class="box warn">
+<span class="t">發生低血糖之後，一定要找出原因</span>
+<p>不要只是「吃糖解決就算了」。常見原因：<b>忘記吃飯或延誤用餐、藥量太多、運動量突然增加、喝酒、腎功能變差</b>。<b>反覆低血糖代表治療需要調整</b>，請把發生的時間、當時在做什麼、血糖數值記下來，回診時告訴醫師。</p>
+<p>特別提醒：<b>使用 α-葡萄糖苷酶抑制劑</b>的人發生低血糖時，要用<b>葡萄糖</b>（不能用蔗糖、方糖），因為這類藥會延緩蔗糖的分解吸收。</p>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s9"><span class="num">9</span>生病、手術、做檢查時怎麼辦？</h2>
+
+<p>這一節很多衛教資料會漏掉，但<b>臨床上出事常常就在這些時候</b>。</p>
+
+<div class="box alert">
+<span class="t">最重要的三件事</span>
+<ul>
+<li><b>生病、食慾不好時，不可以自行停掉胰島素。</b>生病時身體處於壓力狀態，血糖常常反而更高；停掉胰島素可能引發<b>酮酸中毒</b>。劑量調整請聯絡醫療團隊。</li>
+<li><b>SGLT2 抑制劑</b>在<b>嚴重感染、脫水、嘔吐腹瀉、禁食、手術前</b>需要暫停。因為它可能造成<b>血糖看起來正常、卻已經酮酸中毒</b>的情況，非常容易被忽略。</li>
+<li><b>Metformin</b> 在<b>脫水、嚴重感染、腎功能惡化、以及顯影劑檢查前後</b>依醫師指示暫停。</li>
+</ul>
+</div>
+
+<h3>生病時的自我照顧</h3>
+<div class="steps">
+<div><b>多喝水</b><span>發燒、嘔吐、腹瀉時容易脫水，而脫水會讓血糖與腎功能都惡化。</span></div>
+<div><b>加測血糖</b><span>生病期間<b>每 4 小時測一次</b>；若血糖持續偏高且不舒服，聯絡醫療團隊。</span></div>
+<div><b>不要完全不吃</b><span>吃不下固體時，可用<b>含醣的流質</b>（稀飯湯、運動飲料）維持基本醣類攝取，避免低血糖。</span></div>
+<div><b>認得酮酸中毒的警訊</b><span><b>想吐、嘔吐、腹痛、呼吸又深又快、嘴裡有水果味、意識變差</b>——<b>立即就醫</b>。</span></div>
+</div>
+
+<h3>要開刀、做檢查、拔牙前</h3>
+<ul>
+<li><b>主動告知您有糖尿病與所有用藥</b>，包含每一種降血糖藥與胰島素。</li>
+<li><b>禁食期間的藥怎麼調整</b>，一定要事先問清楚——這是最容易發生低血糖的時候。</li>
+<li>要打<b>顯影劑</b>的檢查（電腦斷層、心導管），請提醒醫療團隊您在吃 Metformin。</li>
+<li>牙科治療前也要說明，<b>血糖控制不良會影響傷口癒合與感染風險</b>。</li>
+</ul>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s10"><span class="num">10</span>血壓、血脂與戒菸</h2>
+
+<div class="box key">
+<span class="t">只顧血糖是不夠的</span>
+<p>糖尿病人最常見的死因<b>不是血糖本身，而是心肌梗塞與中風</b>。研究一再顯示，<b>同時控制血糖、血壓、血脂並戒菸</b>，對減少併發症的效果遠大於只把血糖壓低。</p>
+</div>
+
+<div class="tw">
+<table class="nw">
+<tr><th>項目</th><th>一般目標</th><th>備註</th></tr>
+<tr><td><b>血壓</b></td><td>一般 <b>&lt; 130 / 80 mmHg</b></td><td>在家量並記錄；長者或姿態性低血壓者由醫師個別設定</td></tr>
+<tr><td><b>壞膽固醇 LDL</b></td><td>高風險 <b>&lt; 100</b>；<br>已有心血管疾病等極高風險者 <b>&lt; 70</b> 或更低</td><td>糖尿病本身就屬心血管高風險族群，詳見<a href="../lipid/">認識膽固醇</a></td></tr>
+<tr><td><b>體重</b></td><td>先以<b>減少 5～10%</b> 為目標</td><td>不必一步到位，減下來就有效果</td></tr>
+<tr><td><b>抽菸</b></td><td><b>完全戒除</b></td><td>抽菸會加速腎病變、神經病變與血管阻塞；各院都有戒菸門診，健保有補助</td></tr>
+</table>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s11"><span class="num">11</span>併發症篩檢與足部照護</h2>
+
+<p>糖尿病的併發症<b>在造成症狀之前，就已經默默進行好幾年</b>。定期篩檢的目的，是在還可以處理的階段抓到它。</p>
+
+<div class="tw">
+<table class="nw">
+<tr><th>檢查項目</th><th>頻率</th><th>為什麼</th></tr>
+<tr><td><b>眼底檢查</b></td><td><b>每年</b>（已有病變者更頻繁）</td><td>糖尿病視網膜病變<b>早期完全沒有症狀</b>，等到看不清楚常常已經較嚴重。及早治療可以保住視力</td></tr>
+<tr><td><b>腎功能</b><br>尿液白蛋白／肌酸酐比值（UACR）＋ eGFR</td><td><b>每年</b></td><td>早期腎病變<b>只能靠驗尿發現</b>。及早用藥可以延緩惡化，避免走到洗腎</td></tr>
+<tr><td><b>足部檢查</b></td><td><b>每年</b>；高風險者每次回診</td><td>檢查感覺神經、血流與皮膚。<b>神經病變會讓你感覺不到受傷</b></td></tr>
+<tr><td><b>血脂</b></td><td><b>每年</b></td><td>評估心血管風險與用藥調整</td></tr>
+<tr><td><b>牙科</b></td><td><b>每半年</b></td><td>牙周病與血糖是<b>互相惡化</b>的關係；牙周治療後血糖常會改善</td></tr>
+<tr><td><b>疫苗</b></td><td>依建議接種</td><td><b>流感、肺炎鏈球菌、COVID-19</b>。糖尿病人感染後的併發症風險較高</td></tr>
+</table>
+</div>
+
+<h3>足部照護：台灣截肢最常見的可預防原因</h3>
+
+<div class="box alert">
+<span class="t">為什麼一個小傷口會變成大問題</span>
+<p>三件事同時發生：<b>神經病變</b>讓你感覺不到痛、<b>血流變差</b>讓傷口不易癒合、<b>血糖高</b>讓細菌容易滋生。結果就是——<b>一個自己沒注意到的小傷口，可能在幾週內演變成需要截肢的感染。</b></p>
+<p>好消息是：<b>這是可以預防的</b>，而且方法很簡單。</p>
+</div>
+
+<div class="icons">
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M16 6c5 0 9 4 9 10 0 7-2.4 11-2.4 17 0 5-2.4 9-7 9s-7-4-7-9c0-6-2.4-10-2.4-17C6.2 10 11 6 16 6z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="31" cy="10" r="3" fill="var(--brand)"/><circle cx="38" cy="14" r="2.8" fill="var(--brand)"/><circle cx="42" cy="20" r="2.6" fill="var(--brand)"/></svg><b>每天檢查雙腳</b><span>包含<b>腳趾縫與腳底</b>；看不到可以用鏡子，或請家人幫忙看</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M12 30c0-10 5-16 12-16s12 6 12 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="30" width="32" height="10" rx="5" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 8v6M16 12l3 4M32 12l-3 4" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>洗腳先測水溫</b><span>用<b>手肘或溫度計</b>，不要用腳試——神經鈍了會燙傷卻不覺得</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M10 36c4-8 10-12 14-12s10 4 14 12" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M6 40h36" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M8 8l32 32" stroke="var(--red)" stroke-width="2.8" stroke-linecap="round"/></svg><b>不要赤腳</b><span>室內也要穿鞋或襪；<b>穿鞋前先摸鞋內有沒有異物</b></span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M14 6l20 20M20 6L8 18l8 8" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="34" r="8" stroke="var(--red)" stroke-width="2.4"/><path d="M29 39l10-10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>不要自己處理</b><span><b>雞眼、厚繭、嵌甲不要自行修剪或貼藥布</b>，交給醫療人員</span></div>
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M8 32c0-9 7-16 16-16s16 7 16 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="6" y="32" width="36" height="8" rx="4" stroke="var(--brand)" stroke-width="2.4"/><path d="M18 20v-6h12v6" stroke="var(--brand)" stroke-width="2.2"/></svg><b>選對鞋襪</b><span>包覆、合腳、不擠壓；<b>新鞋先穿短時間</b>；襪子淺色好發現滲液</span></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="var(--red)" stroke-width="2.4"/><circle cx="24" cy="24" r="17" stroke="var(--red)" stroke-width="2" stroke-dasharray="5 4"/><path d="M24 19v10M19 24h10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>有傷口就回診</b><span><b>不要等它自己好。</b>紅、腫、熱、有分泌物或不癒合，儘快就醫</span></div>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s12"><span class="num">12</span>什麼時候要提早回診或急診？</h2>
+
+<div class="box alert">
+<span class="t">立即就醫或撥打 119</span>
+<ul>
+<li><b>低血糖導致意識不清、抽搐</b>，或吃了兩次糖仍未改善</li>
+<li><b>想吐、嘔吐、腹痛、呼吸又深又快、嘴裡有水果味、意識變差</b>——可能是<b>酮酸中毒</b></li>
+<li><b>血糖非常高</b>（例如持續 &gt; 300 mg/dL）合併脫水、意識改變</li>
+<li><b>胸痛、嚴重呼吸困難、單側無力或口齒不清</b>——糖尿病人的心肌梗塞<b>症狀常常不典型</b>，只覺得喘或疲倦也要警覺</li>
+<li><b>腳部傷口快速紅腫、發黑、有惡臭或合併發燒</b></li>
+</ul>
+</div>
+
+<div class="box warn">
+<span class="t">盡快回診（不必掛急診，但不要拖到下次約診）</span>
+<ul>
+<li><b>反覆低血糖</b>，或低血糖的警告症狀變得不明顯</li>
+<li><b>血糖持續偏高</b>，或出現口渴、多尿、體重莫名下降</li>
+<li><b>腳有傷口、水泡、厚繭變色，或感覺變得遲鈍、刺痛、麻木</b></li>
+<li><b>視力改變</b>（模糊、飛蚊突然變多、視野缺損）</li>
+<li><b>水腫、尿液起泡變多</b></li>
+<li>開始<b>生病、要手術、要做顯影劑檢查</b>——先問藥物怎麼調整</li>
+<li><b>準備懷孕</b>——需要調整藥物並加強控制</li>
+<li>藥物副作用：嚴重腸胃不適、反覆泌尿道或生殖器感染、明顯水腫</li>
+</ul>
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s13"><span class="num">13</span>常見問題</h2>
+
+<h3>糖尿病會好嗎？可以停藥嗎？</h3>
+<p>第二型糖尿病目前<b>無法根治，但可以控制得很好</b>。有一部分人——特別是<b>診斷初期、體重明顯減輕</b>的人——血糖能回到正常範圍而暫時不需要用藥，這稱為<b>緩解</b>。但這不等於痊癒，<b>仍然需要定期追蹤</b>，因為血糖可能再度上升。<b>任何停藥都必須由醫師評估。</b></p>
+
+<h3>吃藥會不會傷腎？</h3>
+<p><b>這是最常見的誤解之一。</b>真正傷腎的是<b>長期控制不好的高血糖</b>，不是降血糖藥。事實上<b>SGLT2 抑制劑等藥物反而被證實可以保護腎臟、延緩腎病惡化</b>。醫師會依您的腎功能選擇與調整劑量。<b>因為怕傷腎而自行停藥，才是真正傷腎的做法。</b></p>
+
+<h3>可以吃水果嗎？可以吃甜的嗎？</h3>
+<p>可以，但要<b>算進當天的醣類總量</b>。水果每天約 2 份、分開吃、<b>整顆吃不要打汁</b>。真的想吃甜食，建議<b>放在正餐後而不是單獨吃</b>，血糖波動會小一些。<b>真正該戒的是含糖飲料。</b></p>
+
+<h3>可以喝酒嗎？</h3>
+<p>建議限制。酒精會<b>抑制肝臟釋放葡萄糖</b>，可能造成<b>延遲性低血糖</b>——有時是喝完幾小時後、睡著時才發生，而且症狀容易被誤認為喝醉。如果要喝，<b>務必配著食物、不要空腹，並在睡前測血糖</b>。</p>
+
+<h3>我沒有症狀，血糖也還好，為什麼要一直吃藥？</h3>
+<p>因為<b>血糖好，正是藥在作用的結果</b>。這和高血壓一樣，停藥之後數值通常會回去，而血管、腎臟與眼睛的傷害是<b>累積的、不可逆的</b>。控制的目的是防止十年後的併發症，不是讓現在舒服。</p>
+
+<h3>家人可以幫我做什麼？</h3>
+<ul>
+<li><b>知道低血糖怎麼處理</b>，以及<b>意識不清時不可餵食、要打 119</b>。</li>
+<li><b>一起調整飲食</b>——全家一起減糖減鹽，比病人一個人努力有效得多。</li>
+<li>幫忙<b>檢查看不到的腳底與腳趾縫</b>。</li>
+<li>陪同回診，幫忙記下醫師交代的事。</li>
+</ul>
+
+<h3>要不要買血糖機？怎麼選？</h3>
+<p><b>使用胰島素或磺醯脲類的人建議要有。</b>選購時注意是否通過認證、試紙是否容易取得且價格合理。<b>重點不是機器多貴，而是有沒有規律地測、有沒有記錄下來、有沒有帶去給醫師看。</b></p>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s14"><span class="num">14</span>資料來源與使用說明</h2>
+
+<p>本頁內容依下列臨床指引編寫，並針對台灣一般民眾的用語與就醫情境改寫（查核至 2026 年 9 月）：</p>
+<ul>
+<li>中華民國糖尿病學會《第 2 型糖尿病臨床照護指引》</li>
+<li>American Diabetes Association《Standards of Care in Diabetes》</li>
+<li>2024 中華民國心臟學會 ASCVD 初級預防指引</li>
+<li>2025 台灣血脂管理臨床路徑共識</li>
+<li>2022 台灣高血壓治療指引（中華民國心臟學會／台灣高血壓學會）</li>
+</ul>
+
+<div class="box warn">
+<span class="t">重要聲明</span>
+<p>本頁為<b>一般衛教資訊，不能取代個別診療</b>，且<b>僅適用於第二型糖尿病</b>。文中的目標數字為<b>一般建議值</b>；您的年齡、共病、腎功能、低血糖風險與用藥都會影響實際目標，請以主治醫師的評估為準。</p>
+<p>本頁<b>不提供任何藥物劑量建議</b>，也不可據以自行調整或停用任何藥物（包含胰島素）。</p>
+<p>若出現<b>意識不清、抽搐、嘔吐合併腹痛與呼吸急促、胸痛或單側無力</b>，請<b>立即就醫或撥打 119</b>。</p>
+</div>
+
+<div class="btns">
+<a href="dm.pdf">下載 A5 單張（PDF）</a>
+<a class="ghost" href="../">回衛教專欄</a>
+</div>
+
+<div class="sheet">
+<img src="dm.svg" alt="認識第二型糖尿病 A5 病人衛教單張">
+</div>
+
+<div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<footer>
+<p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
+<p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>
+<p>內容依前述臨床指引編寫，供衛教參考，不取代個別診療。</p>
+<!-- 瀏覽次數 begin -->
+<p class="views" id="pv" hidden>本頁已被瀏覽 <b id="pvn">—</b> 次</p>
+<script>
+(function(){
+  var API="https://he-counter.dissertlin.workers.dev", P="dm";
+  var box=document.getElementById("pv"), num=document.getElementById("pvn");
+  if(!box||!num||!window.fetch) return;
+  fetch(API+"/hit?p="+P,{method:"POST",cache:"no-store",mode:"cors"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if(d && typeof d.n==="number"){
+        num.textContent=d.n.toLocaleString("zh-TW");
+        box.hidden=false;            /* 只有成功拿到數字才顯示 */
+      }
+    })
+    .catch(function(){});            /* 失敗就靜靜不顯示，不影響閱讀 */
+})();
+</script>
+<!-- 瀏覽次數 end -->
+</footer>
+
+</div>
+</body>
+</html>
