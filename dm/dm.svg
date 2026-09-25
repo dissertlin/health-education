@@ -27,7 +27,7 @@
 <text x="124" y="92" class="s">目標<tspan style="font-weight:700;fill:#1a5a96">因人而異</tspan>；請以醫師為您設定的數字為準</text>
 <rect x="20" y="118" width="519" height="132" rx="13" class="card" filter="url(#sh)"/>
 <text x="37" y="140" class="h">我的糖化血色素（HbA1c）目標是多少？</text>
-<text x="310" y="140" class="xs">不是只看年齡，更看共病與低血糖風險</text>
+<text x="312" y="141" class="s" style="fill:#1a5a96">與醫師討論後的目標</text><rect x="398" y="125" width="92" height="21" rx="5" fill="#f7fbfe" stroke="#9cc0dc" stroke-width="1.1" stroke-dasharray="3.2 2.2"/><text x="496" y="141" class="b" style="fill:#1a5a96">%</text>
 <rect x="36" y="148" width="487" height="18" rx="5" fill="#eaf3fa"/>
 <text x="46" y="161" class="th">您的情況</text><text x="330" y="161" class="th">HbA1c 目標</text><text x="424" y="161" class="th">為什麼</text>
 <text x="46" y="178" class="s">一般成年人</text><text x="330" y="178" class="s" style="font-weight:700;fill:#1a5a96">&lt; 7%</text><text x="424" y="178" class="xs">兼顧併發症預防與低血糖風險</text>
@@ -36,7 +36,7 @@
 <line x1="36" y1="199" x2="523" y2="199" stroke="#eef4f9"/>
 <text x="46" y="210" class="s">健康、功能良好的長者</text><text x="330" y="210" class="s" style="font-weight:700;fill:#1a5a96">&lt; 7.5%</text><text x="424" y="210" class="xs">稍微放寬，避免低血糖</text>
 <line x1="36" y1="215" x2="523" y2="215" stroke="#eef4f9"/>
-<text x="46" y="226" class="s">共病多、曾有低血糖、預期餘命有限</text><text x="330" y="226" class="s" style="font-weight:700;fill:#1a5a96">放寬 7.5～8.5%</text><text x="424" y="226" class="xs">過度嚴格反而增加跌倒與危險</text>
+<text x="46" y="226" class="s">共病多、曾有低血糖、預期餘命有限</text><text x="330" y="226" class="s" style="font-weight:700;fill:#1a5a96">放寬，約 8%</text><text x="424" y="226" class="xs">避免低血糖比追數字更重要</text>
 <rect x="36" y="232" width="487" height="16" rx="7" fill="#fdf0ee"/>
 <text x="48" y="243" class="xs" style="fill:#b5382b"><tspan style="font-weight:700">注意：</tspan>貧血、地中海型貧血帶原、慢性腎病、洗腎或近期輸血時，HbA1c 可能失真，需搭配其他指標判讀。</text>
 <rect x="20" y="258" width="519" height="94" rx="13" class="card" filter="url(#sh)"/>
