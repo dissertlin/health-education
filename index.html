@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <title>病人衛教資訊圖表</title>
 <meta name="description" content="心臟科 A5 病人衛教資訊圖表，可線上檢視或下載列印。">
@@ -17,12 +18,12 @@
   a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:10px}
   h1{font-size:1.35rem;margin:.2em 0 .1em}
   /* 網站標誌 begin */
-  .brand{display:flex;align-items:center;gap:15px;margin:2px 0 10px}
-  .brand .mark{width:66px;height:66px;flex:0 0 66px}
-  .brand h1{margin:0;line-height:1.2}
-  .brand .sub{margin:3px 0 0;font-size:.64rem;letter-spacing:.17em;color:var(--sub);line-height:1}
-  .brand .who{margin:5px 0 0;font-size:.82rem;color:var(--sub);line-height:1}
-  @media (max-width:420px){.brand .mark{width:54px;height:54px;flex:0 0 54px}}
+  .brand{text-align:center;margin:6px 0 18px}
+  .brand img{display:block;width:150px;height:150px;margin:0 auto}
+  .brand .who{margin:6px 0 0;font-size:.9rem;color:var(--sub);line-height:1.3}
+  .sronly{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+          clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  @media (max-width:420px){.brand img{width:124px;height:124px}}
   /* 網站標誌 end */
   p.lead{color:var(--sub);margin:.2em 0 1.2em;font-size:.95rem}
   .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;
@@ -62,17 +63,9 @@
 <div class="wrap">
 <!-- 網站標誌 begin -->
 <header class="brand">
-<svg class="mark" viewBox="0 0 120 120" aria-hidden="true">
-<defs><clipPath id="bub"><path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z"/></clipPath></defs>
-<path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z" fill="#d9f0fd"/>
-<image href="assets/doctor.png" x="9" y="4" width="102" height="102" clip-path="url(#bub)"/>
-<path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z" fill="none" stroke="var(--brand)" stroke-width="5" stroke-linejoin="round"/>
-</svg>
-<div>
-<h1>病人衛教資訊圖表</h1>
-<p class="sub">PATIENT EDUCATION</p>
+<img src="assets/logo-badge.png" width="512" height="512" alt="病人衛教資訊圖表 Patient Education">
+<h1 class="sronly">病人衛教資訊圖表</h1>
 <p class="who">林祐賸 醫師</p>
-</div>
 </header>
 <!-- 網站標誌 end -->
 <p class="lead">心臟科與代謝相關的 A5 衛教單張，可放大檢視或下載列印。每一張都有展開說明的詳細版。每張單張右上角的 QR code 會連到這裡的對應頁面。</p>
