@@ -17,10 +17,12 @@
   a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:10px}
   h1{font-size:1.35rem;margin:.2em 0 .1em}
   /* 網站標誌 begin */
-  .brand{display:flex;align-items:center;gap:13px;margin:2px 0 8px}
-  .brand .mark{width:46px;height:46px;flex:0 0 46px;color:var(--brand)}
-  .brand h1{margin:0;line-height:1.22}
+  .brand{display:flex;align-items:center;gap:15px;margin:2px 0 10px}
+  .brand .mark{width:66px;height:66px;flex:0 0 66px}
+  .brand h1{margin:0;line-height:1.2}
   .brand .sub{margin:3px 0 0;font-size:.64rem;letter-spacing:.17em;color:var(--sub);line-height:1}
+  .brand .who{margin:5px 0 0;font-size:.82rem;color:var(--sub);line-height:1}
+  @media (max-width:420px){.brand .mark{width:54px;height:54px;flex:0 0 54px}}
   /* 網站標誌 end */
   p.lead{color:var(--sub);margin:.2em 0 1.2em;font-size:.95rem}
   .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;
@@ -60,11 +62,17 @@
 <div class="wrap">
 <!-- 網站標誌 begin -->
 <header class="brand">
-<svg class="mark" viewBox="0 0 64 64" aria-hidden="true">
-<path d="M18 10H46a12 12 0 0 1 12 12v13a12 12 0 0 1-12 12H32l-11 9v-9h-3A12 12 0 0 1 6 35V22A12 12 0 0 1 18 10Z" fill="currentColor"/>
-<path d="M14 28.5h7l4-10 6.5 19 4.5-9h14" fill="none" stroke="var(--bg)" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<svg class="mark" viewBox="0 0 120 120" aria-hidden="true">
+<defs><clipPath id="bub"><path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z"/></clipPath></defs>
+<path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z" fill="#d9f0fd"/>
+<image href="assets/doctor.png" x="9" y="4" width="102" height="102" clip-path="url(#bub)"/>
+<path d="M30 9H90a21 21 0 0 1 21 21v38a21 21 0 0 1-21 21H63l-19 15V89H30A21 21 0 0 1 9 68V30A21 21 0 0 1 30 9Z" fill="none" stroke="var(--brand)" stroke-width="5" stroke-linejoin="round"/>
 </svg>
-<div><h1>病人衛教資訊圖表</h1><p class="sub">PATIENT EDUCATION</p></div>
+<div>
+<h1>病人衛教資訊圖表</h1>
+<p class="sub">PATIENT EDUCATION</p>
+<p class="who">林祐賸 醫師</p>
+</div>
 </header>
 <!-- 網站標誌 end -->
 <p class="lead">心臟科與代謝相關的 A5 衛教單張，可放大檢視或下載列印。每一張都有展開說明的詳細版。每張單張右上角的 QR code 會連到這裡的對應頁面。</p>
