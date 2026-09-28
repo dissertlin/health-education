@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" role="img" aria-label="病人衛教資訊圖表">
+<title>病人衛教資訊圖表</title>
+<path d="M18 10H46a12 12 0 0 1 12 12v13a12 12 0 0 1-12 12H32l-11 9v-9h-3A12 12 0 0 1 6 35V22A12 12 0 0 1 18 10Z" fill="#15a99d"/>
+<path d="M14 28.5h7l4-10 6.5 19 4.5-9h14" fill="none" stroke="#fff" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="31" font-family="PingFang TC,Noto Sans TC,Microsoft JhengHei,sans-serif" font-size="21" font-weight="700" fill="#18334d">病人衛教資訊圖表</text>
+<text x="75" y="47" font-family="Helvetica Neue,Arial,sans-serif" font-size="10.5" letter-spacing="2.6" fill="#5b6e80">PATIENT EDUCATION</text>
+</svg>
