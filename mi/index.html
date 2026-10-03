@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="../favicon-192.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<title>認識心肌梗塞｜病人衛教詳細版</title>
+<meta name="description" content="心肌梗塞是什麼、典型與不典型症狀、誰的風險高、為什麼要立刻打119、緊急心導管與支架治療、出院後的藥為什麼不能停、多久能開車上班、心臟復健怎麼做，以及何時要提早回診。寫給台灣一般民眾。">
+<meta name="author" content="林祐賸醫師">
+<meta name="copyright" content="© 2026 林祐賸醫師 編製">
+<style>
+  :root{--bg:#fdf8f7;--card:#fff;--line:#ecdcdc;--ink:#3d2326;--sub:#75595c;--brand:#a8322c;
+        --teal:#7a2440;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
+        --warnbg:#fdf6ec;--warnline:#e8cb96;--okbg:#fdeeec;--oktext:#96291f;
+        --bluebg:#f4eff7;--blueline:#d8c6e4;--bluetext:#6b3f8e}
+  @media (prefers-color-scheme:dark){:root{--bg:#17100f;--card:#211817;--line:#3a2a2a;--ink:#f3e9e8;--sub:#b9a3a3;--brand:#e8867c;
+        --teal:#f0a79c;--red:#f09a93;--redbg:#2a1a19;--redline:#6b3b37;
+        --warnbg:#272015;--warnline:#5c4a29;--okbg:#2a1715;--oktext:#f0a79c;
+        --bluebg:#221a28;--blueline:#463753;--bluetext:#c9a8e0}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font:16px/1.75 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:22px 18px 64px}
+  a{color:var(--teal)}
+  a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:12px}
+  h1{font-size:1.55rem;line-height:1.35;margin:.1em 0 .15em}
+  .lead{color:var(--sub);font-size:.97rem;margin:.3em 0 0}
+  h2{font-size:1.18rem;margin:2.2em 0 .5em;padding-top:.5em;border-top:1px solid var(--line)}
+  h2 .num{display:inline-block;min-width:1.7em;color:var(--brand)}
+  h3{font-size:1.06rem;margin:1.6em 0 .4em;color:var(--brand)}
+  h4{font-size:.98rem;margin:1.25em 0 .3em}
+  p,li{font-size:.97rem}
+  ul,ol{padding-left:1.3em}
+  li{margin:.3em 0}
+  .toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin-top:22px}
+  .toc h2{border:0;margin:0 0 .4em;padding:0;font-size:1rem}
+  .toc ol{margin:0;padding-left:1.4em;columns:2;column-gap:26px}
+  .toc li{margin:.18em 0;font-size:.9rem;break-inside:avoid}
+  .toc a{text-decoration:none}
+  .totop{margin:1.4em 0 .2em;text-align:right;line-height:1}
+  .totop a{display:inline-flex;align-items:center;gap:.35em;padding:.32em .85em;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--sub);text-decoration:none;font-size:.8rem}
+  .totop a:hover{color:var(--teal);border-color:var(--teal)}
+  .totop span{font-size:.95rem;line-height:1}
+  .fig{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:1.2em 0}
+  .fig svg{display:block;width:100%;height:auto}
+  .fig figcaption{margin-top:.7em;font-size:.85rem;color:var(--sub);text-align:center;line-height:1.6}
+  .icons{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:1.1em 0}
+  .icons div{border-radius:12px;padding:12px 10px;text-align:center}
+  .icons svg{display:block;width:36px;height:36px;margin:0 auto .5em}
+  .icons b{display:block;font-size:.88rem;line-height:1.4}
+  .icons span{display:block;font-size:.78rem;color:var(--sub);line-height:1.5;margin-top:.2em}
+  .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .icons .nt{background:var(--card);border:1px solid var(--line)}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  @media (prefers-color-scheme:dark){body::before{opacity:.20}}
+  .wrap{position:relative;z-index:1}
+  @media print{body::before{opacity:.16}}
+  .tocnote{margin:.75em 0 0;padding-top:.6em;border-top:1px dashed var(--line);font-size:.85rem;color:var(--sub);line-height:1.6}
+  .tocnote b{color:var(--teal)}
+  /* 圖左文右 begin */
+  .ico2{display:grid;grid-template-columns:repeat(auto-fit,minmax(296px,1fr));gap:11px;margin:1.15em 0}
+  .ico2>div{display:flex;gap:13px;align-items:flex-start;border-radius:12px;padding:13px 15px}
+  .ico2 svg{flex:0 0 40px;width:40px;height:40px;margin-top:3px}
+  .ico2 b{display:block;font-size:.94rem;line-height:1.45}
+  .ico2 span{display:block;font-size:.86rem;color:var(--sub);line-height:1.65;margin-top:.2em}
+  .ico2 .ok{background:var(--okbg);border:1.5px solid var(--brand)}
+  .ico2 .no{background:var(--redbg);border:1.5px solid var(--redline)}
+  .ico2 .nt{background:var(--card);border:1px solid var(--line)}
+  .ico2 .wn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  /* 圖左文右 end */
+  .box{border-radius:12px;padding:13px 16px;margin:1.1em 0;font-size:.94rem}
+  .box p:first-child,.box ul:first-child,.box ol:first-child{margin-top:0}
+  .box p:last-child,.box ul:last-child,.box ol:last-child{margin-bottom:0}
+  .box .t{font-weight:700;display:block;margin-bottom:.25em}
+  .alert{background:var(--redbg);border:1.5px solid var(--redline)}
+  .alert .t{color:var(--red)}
+  .warn{background:var(--warnbg);border:1.5px solid var(--warnline)}
+  .key{background:var(--okbg);border:1.5px solid var(--brand)}
+  .key .t{color:var(--oktext)}
+  .blue{background:var(--bluebg);border:1.5px solid var(--blueline)}
+  .blue .t{color:var(--bluetext)}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.1em 0}
+  table{width:100%;min-width:500px;border-collapse:collapse;margin:0;font-size:.9rem}
+  .tw td:first-child,.tw th:first-child{white-space:nowrap}
+  .tw table.nw td:first-child,.tw table.nw th:first-child{white-space:normal}
+  th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
+  .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
+  .steps div>b{display:block;color:var(--teal);margin-bottom:.2em}
+  .steps span{font-size:.9rem;color:var(--sub)}
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px;margin-top:14px}
+  .sheet img{display:block;width:100%;height:auto;border-radius:6px}
+  .btns{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 4px}
+  .btns a{flex:1 1 200px;text-align:center;text-decoration:none;padding:12px 16px;border-radius:10px;
+          background:var(--brand);color:#fff;font-weight:700}
+  .btns a.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--brand)}
+  footer{margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px;color:var(--sub);font-size:.8rem}
+  footer li{font-size:.8rem}
+  /* 瀏覽次數 begin */
+  .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
+  .views b{color:var(--brand);font-weight:700}
+  /* 瀏覽次數 end */
+</style>
+</head>
+<body>
+<div class="wrap" id="top">
+<a class="back" href="../">← 回衛教專欄</a>
+<h1>認識心肌梗塞</h1>
+<p class="lead">血管突然被血栓塞住，心肌正在壞死。這一頁說明怎麼認出它、為什麼要立刻打 119、醫師會怎麼治療，以及出院之後怎麼把生活走回來。</p>
+<div class="toc"><h2>本頁內容</h2><ol>
+<li><a href="#s1">什麼是心肌梗塞？</a></li>
+<li><a href="#s2">有哪些症狀？</a></li>
+<li><a href="#s3">誰的風險高？</a></li>
+<li><a href="#s4">有多危險？時間就是心肌</a></li>
+<li><a href="#s5">醫師會怎麼治療？</a></li>
+<li><a href="#s6">出院後的藥為什麼不能自己停？</a></li>
+<li><a href="#s7">什麼時候能回到原本的生活？</a></li>
+<li><a href="#s8">心臟復健怎麼做？</a></li>
+<li><a href="#s9">什麼時候要提早回診或去急診</a></li>
+<li><a href="#s10">常見問題</a></li>
+<li><a href="#s11">資料來源與使用說明</a></li>
+</ol>
+<p class="tocnote">本頁為 A5 衛教單張的詳細版。<b>如果您或身邊的人正在胸痛，請停止閱讀，立刻撥打 119。</b></p></div>
+<h2 id="s1"><span class="num">1</span>什麼是心肌梗塞？</h2>
+
+<p>心臟自己也需要血液供應，負責供應的血管叫做<b>冠狀動脈</b>。心肌梗塞指的是：<b>冠狀動脈被血栓「完全」堵住，血流中斷，那一塊心肌開始壞死。</b></p>
+
+<figure class="fig">
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="冠狀動脈從正常到斑塊變窄、再到血栓完全堵塞的示意圖">
+<rect x="6" y="6" width="214" height="150" rx="14" fill="var(--card)" stroke="var(--line)"/>
+<rect x="243" y="6" width="214" height="150" rx="14" fill="var(--warnbg)" stroke="var(--warnline)"/>
+<rect x="480" y="6" width="214" height="150" rx="14" fill="var(--redbg)" stroke="var(--redline)"/>
+<text x="113" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="var(--sub)">正常</text>
+<text x="350" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#9a6410">斑塊讓血管變窄</text>
+<text x="587" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="var(--brand)">斑塊破裂、血栓塞住</text>
+<path d="M28 90h170M265 90h170M502 90h170" stroke="var(--line)" stroke-width="26" stroke-linecap="round"/>
+<path d="M36 90h154" stroke="#f3a9a0" stroke-width="16" stroke-linecap="round"/>
+<path d="M273 90h154" stroke="#f3a9a0" stroke-width="16" stroke-linecap="round"/>
+<path d="M322 80q28-9 56 0" stroke="#d6a93f" stroke-width="11" stroke-linecap="round" fill="none"/>
+<path d="M510 90h30M625 90h39" stroke="#f3a9a0" stroke-width="16" stroke-linecap="round"/>
+<circle cx="583" cy="90" r="24" fill="#8f2a24"/>
+<text x="113" y="130" text-anchor="middle" font-size="13" fill="var(--ink)">血流順暢</text>
+<text x="350" y="130" text-anchor="middle" font-size="13" fill="var(--ink)">運動時可能胸悶＝心絞痛</text>
+<text x="587" y="130" text-anchor="middle" font-size="13" font-weight="700" fill="var(--brand)">血流中斷＝心肌梗塞</text>
+<text x="350" y="186" text-anchor="middle" font-size="14" fill="var(--sub)">斑塊不一定要很大才會出事——<tspan font-weight="700" fill="var(--brand)">會不會破裂，比有多窄更關鍵</tspan></text>
+<text x="350" y="208" text-anchor="middle" font-size="13" fill="var(--sub)">這也是為什麼有人前一天還好好的，隔天就心肌梗塞</text>
+</svg>
+<figcaption>心絞痛是「血管窄，血不夠用」；心肌梗塞是「血管塞住，血完全過不去」。差別在於後者<b>心肌真的會死掉，而且不會長回來</b>。</figcaption>
+</figure>
+
+<div class="box key">
+<span class="t">和心絞痛的關係</span>
+<p>兩者是<b>同一條路上的不同階段</b>。穩定型心絞痛是斑塊讓血管變窄，活動時供血不夠；心肌梗塞則是斑塊表面破裂，身體以為受傷而形成血栓，把血管整個塞死。</p>
+<p>所以<b>心絞痛是警訊</b>——如果您的胸悶變得更頻繁、更容易發作、休息也不會好，那是斑塊可能不穩定的徵象，<b>要盡快就醫，不要等</b>。更詳細的說明請見 <a href="../angina/">認識心絞痛</a>。</p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s2"><span class="num">2</span>有哪些症狀？</h2>
+
+<p>最具代表性的一句話是：<b>胸口壓迫感持續超過 5 分鐘，而且休息也不會自己好。</b></p>
+
+<div class="ico2">
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 41S7 30 7 19.5A8.5 8.5 0 0 1 24 15a8.5 8.5 0 0 1 17 4.5C41 30 24 41 24 41z" stroke="#a8322c" stroke-width="2.4" stroke-linejoin="round"/><path d="M11 24h6l3-7 4 14 3-7h8" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>胸口壓迫、悶痛</b><span>像被重物壓住、被勒緊，不是針刺般的點狀痛。<b>範圍通常是一個手掌大，不是一個指尖</b></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="17" r="11" stroke="#a8322c" stroke-width="2.4"/><path d="M19 15h.01M29 15h.01" stroke="#a8322c" stroke-width="3.2" stroke-linecap="round"/><path d="M19 22q5 3 10 0" stroke="#a8322c" stroke-width="2.2" stroke-linecap="round"/><path d="M12 33c2.5 3.6 2.5 6.4 0 8.4M24 33c2.5 3.6 2.5 6.4 0 8.4M36 33c2.5 3.6 2.5 6.4 0 8.4" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>冒冷汗</b><span>整身濕透的那種冷汗。<b>這一項很有意義——單純肌肉痛不會這樣</b></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 5v16" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/><path d="M16 21c-7 0-12 5-12 12s4 13 9 13 7-5 7-12V21zM32 21c7 0 12 5 12 12s-4 13-9 13-7-5-7-12V21z" stroke="#a8322c" stroke-width="2.4" stroke-linejoin="round"/></svg><div><b>喘不過氣</b><span>平常走得動的距離突然走不動，或躺著也覺得吸不到氣</span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="20" r="13" stroke="#a8322c" stroke-width="2.4"/><path d="M19 17h.01M29 17h.01" stroke="#a8322c" stroke-width="3.2" stroke-linecap="round"/><path d="M18 27q6-5 12 0" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/><path d="M19 37c2.5 4 7.5 4 10 0" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/></svg><div><b>噁心、想吐、上腹悶</b><span>常被當成胃病。<b>如果同時合併冒冷汗，要高度懷疑</b></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="19" cy="10" r="6.5" stroke="#a8322c" stroke-width="2.4"/><path d="M19 17v15M19 22l-10 7M19 22l10 6M19 32l-6 13M19 32l6 13" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/><path d="M34 15l9-4M34 23l10 1M34 31l9 5" stroke="#a8322c" stroke-width="2.2" stroke-linecap="round"/></svg><div><b>痛會轉移</b><span>傳到下巴、脖子、左肩、左手臂內側或背部。<b>單獨的牙痛、下巴痛也可能是</b></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="18" r="12" stroke="#a8322c" stroke-width="2.4"/><path d="M17 14l6 6M23 14l-6 6M26 14l6 6M32 14l-6 6" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/><path d="M18 27q6 5 12 0" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/><path d="M5 40l7-5M43 40l-7-5" stroke="#a8322c" stroke-width="2.2" stroke-linecap="round"/></svg><div><b>頭暈、快要昏倒</b><span>血壓掉下來或心律不整的表現，屬於危險徵象</span></div></div>
+</div>
+
+<div class="box alert">
+<span class="t">很多人不會胸痛——這是最常延誤的原因</span>
+<p><b>女性、長輩（尤其 75 歲以上）、糖尿病人</b>特別容易出現「不典型症狀」。糖尿病若合併神經病變，痛覺本身就會變鈍。</p>
+<p>這些人可能<b>完全不痛</b>，只表現為：突然很喘、莫名的疲倦虛弱、噁心想吐、上腹不適、冒冷汗，或單純覺得「很不對勁」。</p>
+<p><b>判斷原則：如果您本來沒有這樣，而現在突然出現上述情形，尤其同時冒冷汗，就當成心臟問題處理，先打 119。</b>判斷錯了頂多白跑一趟；判斷漏了可能來不及。</p>
+</div>
+
+<div class="box warn">
+<span class="t">怎麼和其他胸痛區分？</span>
+<p>以下特徵<b>比較不像</b>心肌梗塞，但<b>都不能單靠自己排除</b>：</p>
+<ul>
+<li>用手指可以精準指出「就是這一點痛」</li>
+<li>按壓那個位置會更痛</li>
+<li>只有特定姿勢或深呼吸時才痛</li>
+<li>痛只有幾秒鐘，一下就過去</li>
+</ul>
+<p><b>但只要同時有冒冷汗、喘、噁心或快昏倒，就不要再推理，直接打 119。</b></p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s3"><span class="num">3</span>誰的風險高？</h2>
+
+<p>紅色的是<b>可以改變</b>的，灰色的是不能改變、但正因如此更要把其他項目控制好。</p>
+
+<div class="ico2">
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="26" width="28" height="8" rx="2" stroke="#a8322c" stroke-width="2.6"/><path d="M38 26h4v8h-4" stroke="#a8322c" stroke-width="2.6"/><path d="M28 20c0-4-5-4-5-8s4-4 4-4M35 20c0-3-4-3-4-6" stroke="#7d94a8" stroke-width="2.2" stroke-linecap="round"/><path d="M8 40L40 8" stroke="#a8322c" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>抽菸</b><span>戒菸的效益大過任何一種藥，心血管風險在戒菸後數年內可大幅下降。<b>這是最重要的一項</b></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="15" stroke="#a8322c" stroke-width="2.6"/><path d="M13 24h5l3-7 4 15 3-9 2 4h5" stroke="#a8322c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 12l5-5" stroke="#7d94a8" stroke-width="2.2" stroke-linecap="round"/></svg><div><b>高血壓</b><span>長期讓血管壁承受壓力、加速硬化與斑塊形成</span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="8" y="18" width="32" height="12" rx="6" stroke="#a8322c" stroke-width="2.6"/><path d="M20 17q14-2 20 6-12 5-20 3z" fill="#e8c05a" stroke="#a8322c" stroke-width="1.6"/><path d="M8 40h32" stroke="#7d94a8" stroke-width="2.2" stroke-linecap="round"/></svg><div><b>高血脂（LDL 偏高）</b><span>LDL 是堆成斑塊的主要原料。詳見 <a href="../lipid/">認識膽固醇</a></span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 5c7 9 12 15 12 20a12 12 0 1 1-24 0C12 20 17 14 24 5z" stroke="#a8322c" stroke-width="2.5" stroke-linejoin="round"/><path d="M17 40h14" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/></svg><div><b>糖尿病</b><span>血糖長期偏高會傷害血管內皮，而且常讓症狀變得不典型</span></div></div>
+<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="9" r="6" stroke="#a8322c" stroke-width="2.5"/><ellipse cx="24" cy="26" rx="13" ry="11" stroke="#a8322c" stroke-width="2.5"/><path d="M17 36l-3 8M31 36l3 8" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>肥胖與久坐</b><span>同時牽動血壓、血糖與血脂三項</span></div></div>
+<div class="nt"><svg viewBox="0 0 48 48" fill="none"><circle cx="12" cy="10" r="6" stroke="#7d94a8" stroke-width="2.4"/><circle cx="36" cy="10" r="6" stroke="#7d94a8" stroke-width="2.4"/><circle cx="24" cy="36" r="6" stroke="#7d94a8" stroke-width="2.4"/><path d="M12 17v8h24v-8M24 25v4" stroke="#7d94a8" stroke-width="2.2" stroke-linecap="round"/></svg><div><b>早發性冠心病家族史</b><span>男性一等親 55 歲前、女性一等親 65 歲前發病</span></div></div>
+<div class="nt"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="#7d94a8" stroke-width="2.5"/><path d="M24 13v12l8 5" stroke="#7d94a8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>年齡與性別</b><span>男性 ≥ 45 歲、女性 ≥ 55 歲（或停經後）風險上升</span></div></div>
+</div>
+
+<div class="box key">
+<span class="t">年輕不代表安全</span>
+<p>台灣近年<b>中壯年心肌梗塞並不少見</b>。年輕族群的心肌梗塞常與<b>抽菸（含電子煙）、熬夜、極端壓力、未診斷的高血脂（特別是家族性高膽固醇血症）</b>有關。</p>
+<p>如果您有早發性冠心病家族史，<b>不要等到健檢年齡才開始驗血脂</b>。</p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s4"><span class="num">4</span>有多危險？時間就是心肌</h2>
+
+<p>心肌梗塞的危險分成兩個層面，而且兩個都和<b>時間</b>直接相關。</p>
+
+<h3>第一：最初幾小時最可能猝死</h3>
+<p>血流中斷後的前幾個小時，心肌處於極不穩定的狀態，<b>最容易出現致命的心室顫動</b>——心臟不再有效跳動，數分鐘內就會失去意識。</p>
+<p>這也是為什麼<b>很多人是在到醫院之前就過世的</b>。縮短「從發作到抵達醫院」這段時間，是最能救命的一件事。</p>
+
+<div class="box alert">
+<span class="t">所以：打 119，不要自己開車</span>
+<p>自己開車去醫院有三個問題：</p>
+<ul>
+<li><b>路上失去意識</b>會造成車禍，而且沒有人能立刻急救</li>
+<li>救護車上就能<b>先做心電圖</b>，並<b>事先通知醫院準備心導管室</b>——你抵達時團隊已經就位</li>
+<li>救護人員可以在途中開始處置與監測</li>
+</ul>
+<p><b>叫家人開車載你，和自己開車一樣有這些問題。</b></p>
+</div>
+
+<h3>第二：越晚打通，心肌死得越多</h3>
+<p>心肌一旦壞死就<b>不會再長回來</b>，會變成疤痕組織。壞死的範圍越大，日後心臟功能越差，發生<b>心臟衰竭</b>與<b>惡性心律不整</b>的機會越高。</p>
+
+<div class="tw">
+<table>
+<tr><th>時間</th><th>意義</th></tr>
+<tr><td><b>發作後越早打通</b></td><td>能救回的心肌越多，長期心臟功能越好</td></tr>
+<tr><td><b>到院後 90 分鐘內</b></td><td>急性 ST 段上升型心肌梗塞打通血管的<b>目標時間</b>，也是台灣的醫療品質指標之一</td></tr>
+<tr><td><b>從接觸醫療到打通 ≤ 90 分鐘</b></td><td>2025 年美國心臟學會急性冠心症指引的系統目標；若需轉院，放寬至 120 分鐘內</td></tr>
+</table>
+</div>
+
+<p>這些數字聽起來是醫院的事，但<b>其中最長、也最可控的一段，是「從你開始不舒服到你決定求救」</b>。這一段完全掌握在病人與家屬手上。</p>
+
+<div class="box warn">
+<span class="t">最常見的致命延誤：再觀察一下</span>
+<p>「可能是胃痛」「休息一下就好」「不想麻煩別人」「等天亮再說」——這些是臨床上最常聽到的理由，也是最可惜的。</p>
+<p><b>心肌梗塞不會因為你忍耐而好轉，只會讓更多心肌死掉。</b></p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s5"><span class="num">5</span>醫師會怎麼治療？</h2>
+
+<h3>到急診之後的流程</h3>
+<div class="steps">
+<div><b>1　立刻做心電圖</b><span>目標是到院 10 分鐘內完成，用來判斷是哪一型的心肌梗塞</span></div>
+<div><b>2　抽血驗心肌酵素</b><span>心肌壞死會釋放特定蛋白到血液中</span></div>
+<div><b>3　給藥</b><span>抗血小板藥、抗凝血劑等，先讓血栓不再擴大</span></div>
+<div><b>4　緊急心導管</b><span>直接把塞住的血管打通，這是最主要的治療</span></div>
+</div>
+
+<h3>緊急心導管（主要做法）</h3>
+<p>從<b>手腕的橈動脈</b>或<b>鼠蹊部的股動脈</b>放入一條細導管，送到心臟的冠狀動脈，打顯影劑找出塞住的位置，然後：</p>
+<ul>
+<li><b>把血栓抽出或推開</b></li>
+<li><b>用氣球把狹窄處撐開</b></li>
+<li><b>多數情況會放支架</b>把血管撐住，避免再度塌陷</li>
+</ul>
+<p>全程多數在<b>清醒狀態</b>下進行，只做局部麻醉。更完整的流程、風險與術後照顧，請見 <a href="../cath/">心導管檢查與手術</a>。</p>
+
+<div class="box blue">
+<span class="t">支架的健保與自費</span>
+<p><b>傳統金屬支架</b>健保全額給付。<b>塗藥支架</b>健保給付一部分，<b>差額需自付</b>，金額依廠牌與院所而異。</p>
+<p>兩者的選擇要看<b>血管的粗細、病灶的長度與複雜度、以及您能不能穩定服用抗血小板藥</b>，不是越貴越適合。<b>術前請直接問清楚費用與理由。</b></p>
+</div>
+
+<div class="box warn">
+<span class="t">如果當地醫院沒有心導管室呢？</span>
+<p>當預期無法在時限內轉送到可做心導管的醫院時，醫師可能先給<b>血栓溶解劑</b>（用藥物把血栓溶掉），穩定後再轉院處理。</p>
+<p>這是<b>次於心導管的選擇</b>，但在時間就是心肌的前提下，先打通比等待更重要。</p>
+</div>
+
+<h3>住院期間</h3>
+<p>打通血管後通常會在<b>加護病房或心臟照護病房觀察一到數天</b>，監測心律與心臟功能，並開始調整長期用藥。順利的話，<b>多數人住院約 3～5 天</b>。</p><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s6"><span class="num">6</span>出院後的藥為什麼不能自己停？</h2>
+
+<div class="box alert">
+<span class="t">這是出院後最危險的一件事</span>
+<p>放了支架之後，血管內皮還沒長好之前，<b>支架表面是會吸引血栓的</b>。抗血小板藥就是在這段期間防止血栓形成。</p>
+<p><b>自行停藥可能造成「支架內急性血栓」——血管在數小時內再次完全塞住，死亡率比第一次心肌梗塞還高。</b></p>
+</div>
+
+<h3>兩種抗血小板藥（雙抗）</h3>
+<p>通常是<b>阿斯匹靈</b>加上另一種（如 clopidogrel、ticagrelor、prasugrel）。目前指引建議<b>在沒有高出血風險的情況下至少服用一年</b>，之後由醫師決定是否調整為單一用藥。</p>
+<p>部分出血風險較高的人，醫師可能會提早調整組合——<b>但那是醫師評估後的決定，不是自己停</b>。</p>
+
+<div class="box key">
+<span class="t">要看牙、做胃鏡、開刀怎麼辦？</span>
+<p><b>請務必告訴那位醫師或牙醫：您有放支架、正在吃抗血小板藥，並說出藥名。</b></p>
+<p>多數牙科處置<b>不需要停藥</b>。真的需要調整時，應由<b>心臟科醫師與執行處置的醫師一起決定</b>，不要自行停。</p>
+</div>
+
+<h3>其他長期用藥</h3>
+<div class="tw">
+<table>
+<tr><th>藥物</th><th>在做什麼</th></tr>
+<tr><td><b>高強度降血脂藥</b></td><td>穩定斑塊、降低再發。心肌梗塞後 LDL 目標會訂得很低（詳見 <a href="../lipid/">認識膽固醇</a>）</td></tr>
+<tr><td><b>乙型阻斷劑</b></td><td>減少心臟耗氧、降低惡性心律不整</td></tr>
+<tr><td><b>ACEI／ARB</b></td><td>保護心室、減少心臟重塑與心衰竭</td></tr>
+<tr><td><b>硝化甘油舌下含片</b></td><td>備用。胸痛發作時使用，<b>含第 1 錠後 5 分鐘沒改善就打 119</b></td></tr>
+</table>
+</div>
+
+<p class="tocnote">血壓、血糖、血脂的控制目標，以及戒菸，<b>和吃藥一樣重要</b>——這些才是決定會不會有第二次的關鍵。</p><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+
+<h2 id="s7"><span class="num">7</span>什麼時候能回到原本的生活？</h2>
+
+<p>這是出院時最常被問、卻最少被好好回答的問題。下面是<b>沒有併發症、心臟功能恢復良好</b>的一般情況。</p>
+
+<div class="ico2">
+<div class="ok"><svg viewBox="0 0 48 48" fill="none"><circle cx="26" cy="9" r="4.4" stroke="#a8322c" stroke-width="2.4"/><path d="M26 14v11M26 18l-8 5M26 18l8 4M26 25l-6 14M26 25l5 14" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>走路　出院後就開始</b><span>從平地慢走開始，每天一點一點增加。<b>不動反而讓體能與心情一起變差</b></span></div></div>
+<div class="nt"><svg viewBox="0 0 48 48" fill="none"><path d="M8 30l3-11a4 4 0 0 1 4-3h18a4 4 0 0 1 4 3l3 11" stroke="#a8322c" stroke-width="2.4" stroke-linejoin="round"/><rect x="5" y="30" width="38" height="10" rx="3" stroke="#a8322c" stroke-width="2.4"/><circle cx="14" cy="40" r="3" stroke="#a8322c" stroke-width="2.2"/><circle cx="34" cy="40" r="3" stroke="#a8322c" stroke-width="2.2"/></svg><div><b>開車　約 1～2 週</b><span>需醫師評估；若裝有植入式去顫器，限制更嚴格。<b>職業駕駛另有規定</b></span></div></div>
+<div class="nt"><svg viewBox="0 0 48 48" fill="none"><path d="M5 34V18M5 26h38a0 0 0 0 1 0 0v8M43 34V26" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/><circle cx="15" cy="20" r="4" stroke="#a8322c" stroke-width="2.3"/><path d="M21 26h16" stroke="#a8322c" stroke-width="2.3" stroke-linecap="round"/><path d="M5 34h38" stroke="#a8322c" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>性生活　約 3 週</b><span>一般以「能不喘地爬完兩層樓」作為體能參考。若有服用硝酸鹽類藥物，<b>壯陽藥絕對不可同時使用，務必先問醫師</b></span></div></div>
+<div class="nt"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="16" width="36" height="24" rx="3" stroke="#a8322c" stroke-width="2.4"/><path d="M18 16v-4a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v4" stroke="#a8322c" stroke-width="2.4" stroke-linejoin="round"/><path d="M6 26h36" stroke="#a8322c" stroke-width="2.2"/></svg><div><b>回去上班　多數 1～3 個月</b><span>辦公室工作通常較早；實際依心臟功能與工作型態決定</span></div></div>
+<div class="wn"><svg viewBox="0 0 48 48" fill="none"><path d="M10 24h28M8 18v12M40 18v12M4 21v6M44 21v6" stroke="#a8322c" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>搬重物、勞力工作　需個別評估</b><span>若經手腕穿刺，該側手臂短期內避免用力；勞力工作建議先完成心臟復健評估</span></div></div>
+</div>
+
+<div class="box warn">
+<span class="t">上面的時間都只是起點，不是保證</span>
+<p>如果您有<b>心臟功能明顯下降、心衰竭、惡性心律不整、裝了去顫器，或心導管後仍有未處理的病灶</b>，上述每一項都會不一樣。</p>
+<p><b>請在出院前或第一次回診時，直接把您的生活需求講出來</b>——「我的工作要搬東西」「我每天要騎機車通勤」「我想恢復爬山」。醫師才能給您具體的答案，而不是一句「慢慢來」。</p>
+</div>
+
+<div class="box key">
+<span class="t">心情的部分也要講</span>
+<p>心肌梗塞之後出現<b>焦慮、失眠、對運動產生恐懼、情緒低落</b>非常常見，而且會直接影響復原——怕喘就不敢動，不動則體能更差，形成惡性循環。</p>
+<p>這不是軟弱，是<b>心臟事件後可預期的反應</b>。回診時請說出來；心臟復健的團隊通常也能提供協助。</p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s8"><span class="num">8</span>心臟復健怎麼做？</h2>
+
+<div class="box key">
+<span class="t">心肌梗塞後不是「要多休息」</span>
+<p>以前認為心臟受過傷就要靜養，<b>現在完全相反</b>。有醫療監測的規律運動訓練，能改善體能、減少症狀、改善情緒，<b>並降低再次梗塞與死亡的機會</b>。</p>
+<p>長期不動反而讓肌肉流失、體能更差、更喘，也更容易焦慮。</p>
+</div>
+
+<h3>三個階段</h3>
+<div class="steps">
+<div><b>第一期　住院中</b><span>病況穩定後就開始下床、坐起、走動，減少臥床造成的併發症，並學會自我監測</span></div>
+<div><b>第二期　出院後</b><span>在醫院、有心電圖與血壓監測下進行運動訓練，同時調整危險因子。這是最關鍵的階段</span></div>
+<div><b>第三期　長期維持</b><span>把運動變成生活習慣，自己或在社區持續，維持前兩期的成果</span></div>
+</div>
+
+<div class="box blue">
+<span class="t">台灣的健保與實務</span>
+<p>心臟復健在台灣<b>是健保給付的醫療項目</b>，急性心肌梗塞後有一定期間的療程（實務上常見為出院後數個月內）。開始前通常會安排<b>運動心肺功能測試</b>，據以開立個人化的運動處方。</p>
+<p><b>各醫院是否設有心臟復健中心、療程安排與部分負擔並不一致。</b>這是一項<b>要主動開口才會啟動</b>的資源——出院前或回診時請直接問：<b>「我可以做心臟復健嗎？」</b></p>
+</div>
+
+<h3>自己可以先做的</h3>
+<ul>
+<li><b>從散步開始</b>，一次 10～15 分鐘也可以，慢慢增加到<b>每週累積 150 分鐘中等強度</b></li>
+<li><b>強度抓法</b>：運動時<b>還可以講話、但不能唱歌</b></li>
+<li><b>要停下來的訊號</b>：胸痛、頭暈、冒冷汗、喘到說不出話、心跳非常不規則</li>
+<li>剛出院、症狀不穩定或體重快速上升的期間，<b>先不要增加運動量</b></li>
+</ul><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s9"><span class="num">9</span>什麼時候要提早回診或去急診</h2>
+
+<div class="box alert">
+<span class="t">立刻撥打 119</span>
+<ul>
+<li><b>胸口壓迫或悶痛超過 5 分鐘不緩解</b>，或含了硝化甘油第 1 錠後 5 分鐘沒有改善</li>
+<li>胸痛合併<b>冒冷汗、喘不過氣、噁心嘔吐、快要昏倒</b></li>
+<li><b>突然失去意識</b>、或旁人發現叫不醒且呼吸不正常（請同時開始 CPR）</li>
+<li>突然單側無力、口齒不清、臉歪（中風徵象）</li>
+</ul>
+<p><b>不要自己開車，也不要讓家人載。</b></p>
+</div>
+
+<div class="box warn">
+<span class="t">盡快回診或到急診（不一定要 119，但不要拖）</span>
+<ul>
+<li>胸悶發作<b>變得更頻繁、更容易發作，或休息也不會好</b></li>
+<li><b>傷口</b>（手腕或鼠蹊部）腫脹、劇痛、持續滲血，或出現搏動性腫塊</li>
+<li><b>解黑便、血便、吐血、嚴重瘀青或牙齦大量出血</b>——抗血小板藥的出血併發症</li>
+<li>走路變得比之前更喘、<b>腳水腫、夜間躺平會喘</b>、<b>三天內體重增加超過 2 公斤</b>（心衰竭徵象）</li>
+<li>心跳非常慢、非常快或明顯不規則，合併頭暈</li>
+<li>發燒、傷口紅熱有分泌物</li>
+</ul>
+</div>
+
+<div class="box key">
+<span class="t">請家人一起學 CPR 與 AED</span>
+<p>心肌梗塞最致命的時刻往往發生在院外。<b>身邊的人會不會急救，是能否撐到醫院的關鍵。</b></p>
+<p>撥打 119 時，<b>接線人員會在電話中一步步教你做 CPR</b>，請照著做、不要掛斷。公共場所的 AED 可以直接取用，機器會語音指示，<b>不會用也不會做錯</b>。</p>
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s10"><span class="num">10</span>常見問題</h2>
+
+<h3>放了支架，是不是就「好了」？</h3>
+<p><b>不是。</b>支架處理的是<b>當下塞住的那一段</b>，但造成斑塊的原因（血脂、血壓、血糖、抽菸）還在，<b>其他血管仍可能長出新的斑塊</b>。支架是急救，長期靠的是藥物與生活型態。</p>
+
+<h3>心肌真的不會長回來嗎？</h3>
+<p>壞死的心肌會變成疤痕，<b>確實不會再生</b>。但沒有壞死的部分可以代償，<b>越早打通，保留下來的越多</b>。這也是為什麼時間這麼重要。</p>
+
+<h3>以後還能運動嗎？會不會又發作？</h3>
+<p><b>能，而且應該要。</b>經過評估後的規律運動是降低再發的有效方法之一。真正危險的是<b>沒有評估就突然做高強度運動</b>，以及完全不動。</p>
+
+<h3>可以搭飛機嗎？</h3>
+<p>單純、恢復順利的心肌梗塞，一般在<b>穩定數週後</b>多可搭機，但<b>務必先與醫師確認</b>，並隨身攜帶藥物與病歷摘要。心臟功能較差或近期仍有症狀者不在此限。</p>
+
+<h3>家人需要做檢查嗎？</h3>
+<p>如果您是<b>早發性</b>（男性 55 歲前、女性 65 歲前）心肌梗塞，建議<b>直系親屬提早檢驗血脂與血壓</b>，並評估是否有家族性高膽固醇血症。</p>
+
+<h3>硝化甘油含片要隨身帶嗎？</h3>
+<p>醫師若有開立，<b>請隨身攜帶並注意有效期限</b>。使用方式是<b>坐下</b>後含於舌下；<b>含第 1 錠後 5 分鐘沒改善或更嚴重，立刻打 119</b>，等救護車時每 5 分鐘可再含 1 錠，最多 3 錠。</p><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<h2 id="s11"><span class="num">11</span>資料來源與使用說明</h2>
+
+<p>本頁內容依下列臨床指引與官方資料編寫，並針對台灣一般民眾的用語與就醫情境改寫（查核至 2026 年 10 月）：</p>
+<ul>
+<li>2025 ACC/AHA/ACEP/NAEMSP/SCAI 急性冠心症處置指引</li>
+<li>2023 ESC 急性冠心症處置指引</li>
+<li>中華民國心臟學會急性冠心症相關指引與共識</li>
+<li>衛生福利部中央健康保險署　急性心肌梗塞醫療品質資訊公開資料</li>
+<li>衛生福利部國民健康署　心血管疾病防治與死因統計資料</li>
+<li>2025 台灣血脂管理臨床路徑共識（出院後血脂目標）</li>
+</ul>
+
+<div class="box warn">
+<span class="t">重要聲明</span>
+<p>本頁為<b>一般衛教資訊，不能取代個別診療</b>。文中的時間（開車、上班、性生活、搭機）與治療方式均為<b>一般情況下的原則</b>；您的心臟功能、併發症、合併疾病與職業型態都會改變這些建議，<b>請以主治醫師的評估為準</b>。</p>
+<p>本頁<b>不提供任何藥物劑量建議</b>，<b>絕不可據以自行停用抗血小板藥或任何心臟用藥</b>。</p>
+<p><b>若正在發生胸痛、冒冷汗、喘不過氣或意識改變，請立即撥打 119，不要停留在這個頁面。</b></p>
+</div>
+
+<div class="btns">
+<a href="mi.pdf">下載 A5 單張（PDF）</a>
+<a class="ghost" href="../">回衛教專欄</a>
+</div>
+
+<div class="sheet">
+<img src="mi.svg" alt="認識心肌梗塞 A5 病人衛教單張">
+</div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<footer>
+<p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
+<p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>
+<p>內容依前述臨床指引編寫，供衛教參考，不取代個別診療。</p>
+<!-- 瀏覽次數 begin -->
+<p class="views" id="pv" hidden>本頁已被瀏覽 <b id="pvn">—</b> 次</p>
+<script>
+(function(){
+  var API="https://he-counter.dissertlin.workers.dev", P="mi";
+  var box=document.getElementById("pv"), num=document.getElementById("pvn");
+  if(!box||!num||!window.fetch) return;
+  fetch(API+"/hit?p="+P,{method:"POST",cache:"no-store",mode:"cors"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if(d && typeof d.n==="number"){
+        num.textContent=d.n.toLocaleString("zh-TW");
+        box.hidden=false;            /* 只有成功拿到數字才顯示 */
+      }
+    })
+    .catch(function(){});            /* 失敗就靜靜不顯示，不影響閱讀 */
+})();
+</script>
+<!-- 瀏覽次數 end -->
+</footer>
+</div>
+</body>
+</html>
