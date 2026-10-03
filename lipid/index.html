@@ -11,7 +11,7 @@
 <meta name="author" content="林祐賸醫師">
 <meta name="copyright" content="© 2026 林祐賸醫師 編製">
 <style>
-  :root{--bg:#f7faf8;--card:#fff;--line:#dbe7e0;--ink:#1f3a30;--sub:#5b6e6a;--brand:#2f7a63;
+  :root{color-scheme:light dark;--bg:#f7faf8;--card:#fff;--line:#dbe7e0;--ink:#1f3a30;--sub:#5b6e6a;--brand:#2f7a63;
         --teal:#1f6b56;--red:#c0504a;--redbg:#fff4f2;--redline:#f2aaa3;
         --warnbg:#fdf5e8;--warnline:#e7c489;--okbg:#eef6f2;--oktext:#20614f;
         --bluebg:#fdf3ea;--blueline:#e6c9a8;--bluetext:#a3641c}
@@ -78,6 +78,32 @@
   .tw table.nw td:first-child,.tw table.nw th:first-child{white-space:normal}
   th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
   th{background:var(--okbg);font-weight:700;white-space:nowrap}
+  /* 風險分層小工具 begin */
+  .calc{background:var(--card);border:1.5px solid var(--brand);border-radius:14px;padding:16px 18px;margin:1.3em 0}
+  .calc h4{margin:0 0 .15em;font-size:1.03rem;color:var(--oktext)}
+  .calc .priv{margin:0 0 1em;font-size:.8rem;color:var(--sub);line-height:1.6}
+  .calc fieldset{border:0;border-top:1px solid var(--line);margin:0;padding:1em 0 .2em}
+  .calc fieldset:first-of-type{border-top:0;padding-top:.2em}
+  .calc legend{padding:0;font-weight:700;font-size:.96rem;line-height:1.5}
+  .calc .hint{margin:.25em 0 .6em;font-size:.85rem;color:var(--sub);line-height:1.6}
+  .calc .opts{display:flex;flex-wrap:wrap;gap:8px}
+  .calc label{display:inline-flex;align-items:center;gap:7px;border:1.4px solid var(--line);
+    border-radius:9px;padding:7px 13px;font-size:.92rem;cursor:pointer;background:var(--bg);line-height:1.4}
+  .calc label:hover{border-color:var(--brand)}
+  .calc label:has(input:checked){border-color:var(--brand);background:var(--okbg);font-weight:700}
+  .calc input{accent-color:var(--brand);margin:0;width:1.05em;height:1.05em;flex:0 0 auto}
+  .calc .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:8px}
+  .calc .grid label{display:flex}
+  .res{margin-top:1.1em;padding:14px 16px;border-radius:12px;background:var(--okbg);border:1.5px solid var(--brand)}
+  .res .lvl{font-size:.88rem;color:var(--sub);margin:0}
+  .res .tgt{font-size:1.5rem;font-weight:700;color:var(--oktext);margin:.1em 0 .3em;line-height:1.25}
+  .res p{margin:.45em 0;font-size:.92rem;line-height:1.7}
+  .res .sub2{font-size:.86rem;color:var(--sub)}
+  .calc .act{margin-top:1em;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .calc button{border:1.4px solid var(--line);background:var(--bg);color:var(--sub);
+    border-radius:9px;padding:7px 15px;font:inherit;font-size:.88rem;cursor:pointer}
+  .calc button:hover{border-color:var(--brand);color:var(--brand)}
+  /* 風險分層小工具 end */
   .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:1.1em 0}
   .steps div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 15px}
   .steps div>b{display:block;color:var(--teal);margin-bottom:.2em}
@@ -243,6 +269,87 @@
 </div>
 
 <p><b>危險因子</b>常包括：高血壓、抽菸、年齡（男性 ≥ 45 歲、女性 ≥ 55 歲）、早發性冠心病家族史、HDL 偏低、代謝症候群。</p>
+
+<!-- 風險分層小工具 begin -->
+<div class="calc" id="calc">
+<h4>看看自己屬於哪一層</h4>
+<p class="priv">依<b>台灣 2025 血脂管理臨床路徑</b>的分層方式。所有選擇<b>只在您的瀏覽器裡計算，不會傳送、也不會儲存</b>。<b>結果僅供參考，實際分層請由醫師判定。</b></p>
+
+<fieldset id="f1">
+<legend>一、您曾被診斷過下列任何一項嗎？</legend>
+<p class="hint">心肌梗塞、心絞痛放過支架、冠狀動脈繞道手術、缺血性腦中風、周邊動脈疾病</p>
+<div class="opts">
+<label><input type="radio" name="q1" value="y">有</label>
+<label><input type="radio" name="q1" value="n">沒有</label>
+</div>
+</fieldset>
+
+<fieldset id="f2">
+<legend>二、您有下列任何一項嗎？</legend>
+<p class="hint">糖尿病、慢性腎臟病、LDL 本身就 ≥ 190 mg/dL、冠狀動脈鈣化分數 ≥ 400</p>
+<div class="opts">
+<label><input type="radio" name="q2" value="y">有</label>
+<label><input type="radio" name="q2" value="n">沒有</label>
+</div>
+</fieldset>
+
+<fieldset id="f3">
+<legend>三、下列危險因子，您有哪幾項？</legend>
+<p class="hint">可複選</p>
+<div class="grid">
+<label><input type="checkbox" class="rf">高血壓</label>
+<label><input type="checkbox" class="rf">目前抽菸</label>
+<label><input type="checkbox" class="rf">男性 ≥ 45 歲／女性 ≥ 55 歲</label>
+<label><input type="checkbox" class="rf">早發性冠心病家族史</label>
+<label><input type="checkbox" class="rf">HDL 偏低（男 &lt; 40、女 &lt; 50）</label>
+<label><input type="checkbox" class="rf">代謝症候群</label>
+</div>
+</fieldset>
+
+<div class="res" id="res" hidden></div>
+<div class="act"><button type="button" id="rst">重新選擇</button></div>
+</div>
+
+<script>
+(function(){
+  var box=document.getElementById("calc"); if(!box) return;
+  var f2=document.getElementById("f2"), f3=document.getElementById("f3"), res=document.getElementById("res");
+  function v(n){var e=box.querySelector('input[name="'+n+'"]:checked');return e?e.value:null;}
+  function show(el,on){el.hidden=!on;}
+  function render(){
+    var a=v("q1"), b=v("q2");
+    show(f2, a==="n"); show(f3, a==="n" && b==="n");
+    var r=null;
+    if(a==="y"){
+      r={lvl:"非常高風險（已確診動脈粥樣硬化心血管疾病）",tgt:"LDL &lt; 70 mg/dL",nh:"非 HDL &lt; 100 mg/dL",
+         msg:"若醫師判定屬於<b>極高風險</b>（例如嚴重或反覆發生的事件），目標會再往下訂到 <b>LDL &lt; 55、非 HDL &lt; 85 mg/dL</b>。這一層通常需要高強度藥物治療。"};
+    }else if(a==="n" && b==="y"){
+      r={lvl:"高風險",tgt:"LDL &lt; 100 mg/dL",nh:"非 HDL &lt; 130 mg/dL",
+         msg:"這一層建議<b>及早開始藥物治療並同時改變生活型態</b>，不必先觀察幾個月。"};
+    }else if(a==="n" && b==="n"){
+      var n=box.querySelectorAll(".rf:checked").length;
+      if(n>=2) r={lvl:"中風險（2 項以上危險因子）",tgt:"LDL &lt; 115 mg/dL",nh:"非 HDL &lt; 145 mg/dL",
+         msg:"建議先進行 <b>3～6 個月</b>的飲食、運動、戒菸與體重控制；若仍未達標，再與醫師討論是否用藥。"};
+      else r={lvl:(n===1?"低風險（1 項危險因子）":"低風險（沒有勾選的危險因子）"),tgt:"LDL &lt; 130 mg/dL",nh:"非 HDL &lt; 160 mg/dL",
+         msg:"以<b>維持生活型態</b>為主，並依醫師建議定期追蹤血脂。"};
+    }
+    if(!r){ res.hidden=true; res.innerHTML=""; return; }
+    res.innerHTML='<p class="lvl">您可能屬於　<b>'+r.lvl+'</b></p>'+
+      '<p class="tgt">'+r.tgt+'</p>'+
+      '<p class="sub2">同時建議　'+r.nh+'　（非 HDL ＝ 總膽固醇 − HDL）</p>'+
+      '<p>'+r.msg+'</p>'+
+      '<p class="sub2">此結果依台灣 2025 臨床路徑的分層規則推得，<b>不是診斷</b>。您的實際目標請以主治醫師的評估為準。</p>';
+    res.hidden=false;
+  }
+  box.addEventListener("change", render);
+  document.getElementById("rst").addEventListener("click", function(){
+    box.querySelectorAll("input").forEach(function(i){i.checked=false;});
+    render();
+  });
+  render();   /* 初始：收起第二、三題 */
+})();
+</script>
+<!-- 風險分層小工具 end -->
 
 <div class="box key">
 <span class="t">不是只看「降到多少」，還要看「降了幾成」</span>
