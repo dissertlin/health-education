@@ -3,8 +3,9 @@ name = "he-counter"
 main = "worker.js"
 compatibility_date = "2025-09-01"
 
-# 執行 npx wrangler kv namespace create COUNTER 之後，
-# 把它印出來的 id 填到下面這行
+# KV 儲存空間（後台名稱：health-education-counter）
+# 這個 id 只是識別碼，不是金鑰；沒有帳號授權無法存取。
+# 一定要寫在這裡，wrangler 部署時才會保留這個綁定。
 [[kv_namespaces]]
 binding = "COUNTER"
-# id = "（用後台建立，未使用 wrangler）"
+id = "e9a2616ccd8a4b1c94e1c3aeaf3801e8"
