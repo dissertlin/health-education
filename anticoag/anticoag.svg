@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" viewBox="0 0 559 794" width="148mm" height="210mm">
+<metadata><rdf:RDF><rdf:Description rdf:about=""><dc:title>抗凝血藥與抗血小板藥</dc:title><dc:creator>林祐賸醫師</dc:creator><dc:rights>© 2026 林祐賸醫師 保留所有權利</dc:rights><dc:source>https://dissertlin.github.io/health-education/anticoag/</dc:source></rdf:Description></rdf:RDF></metadata>
+<defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2d6a4f"/><stop offset="1" stop-color="#1b4332"/></linearGradient><filter id="sh" x="-6%" y="-6%" width="112%" height="118%"><feDropShadow dx="0" dy="1.1" stdDeviation="1.5" flood-color="#17352a" flood-opacity=".10"/></filter><style>
+.t{font:700 22px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#fff}
+.st{font:600 10.3px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#d8ece0}
+.h{font:700 14.5px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#17352a}
+.b{font:700 10.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#245341}
+.s{font:500 8.7px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#51665c}
+.xs{font:500 7.2px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#6b7f74}
+.th{font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#17352a}
+.src{font:500 6.4px 'Microsoft JhengHei',sans-serif;fill:#dcebe3}
+.srh{font:700 6.8px 'Microsoft JhengHei',sans-serif;fill:#fff}
+.card{fill:#fff;stroke:#dbe8e1;stroke-width:1.3}
+.line{stroke-linecap:round;stroke-linejoin:round}
+</style></defs>
+<rect width="559" height="794" fill="#f7fbf9"/>
+<rect x="14" y="14" width="531" height="92" rx="16" fill="url(#hg)"/>
+<text x="36" y="50" class="t">抗凝血藥與抗血小板藥</text>
+<text x="36" y="73" class="st">俗稱「血路藥」。<tspan style="font-weight:700;fill:#fff">它在防中風、防心肌梗塞，但也會比較容易流血</tspan></text>
+<text x="36" y="92" class="st">最重要的一句：要開刀、拔牙或做檢查前，一定要先讓醫師知道你在吃</text>
+<rect x="20" y="114" width="519" height="116" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="136" class="h">我為什麼要吃？兩類藥差在哪？</text>
+<text x="268" y="136" class="xs">血塊的成因不同，用的藥就不同，<tspan style="font-weight:700">不能互相取代</tspan></text>
+<rect x="36" y="144" width="238" height="78" rx="9" fill="#eef7f2" stroke="#c8e2d5"/>
+<text x="48" y="159" class="b" style="fill:#1f7a5a">抗凝血藥　對付「血流太慢」結的血塊</text>
+<text x="48" y="173" class="s">心房顫動 —— 預防中風（最常見）</text>
+<text x="48" y="187" class="s">深部靜脈血栓、肺栓塞</text>
+<text x="48" y="201" class="s">裝過機械瓣膜</text>
+<text x="48" y="216" class="xs">血在心房或靜脈裡流太慢而凝結</text>
+<rect x="285" y="144" width="238" height="78" rx="9" fill="#fdf5e9" stroke="#e8d3ad"/>
+<text x="297" y="159" class="b" style="fill:#b5762a">抗血小板藥　對付「斑塊破掉」結的血塊</text>
+<text x="297" y="173" class="s">心肌梗塞、放過支架</text>
+<text x="297" y="187" class="s">缺血性腦中風、小中風</text>
+<text x="297" y="201" class="s">周邊動脈疾病</text>
+<text x="297" y="216" class="xs">動脈硬化斑塊破裂，血小板立刻聚集</text>
+<rect x="20" y="238" width="519" height="132" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="260" class="h">台灣常見的藥有哪些？</text>
+<text x="200" y="260" class="xs">認自己的藥名，比記藥袋顏色可靠</text>
+<rect x="36" y="268" width="487" height="17" rx="5" fill="#eef7f2"/>
+<text x="46" y="280" class="th" style="fill:#1f7a5a">抗凝血藥</text><text x="300" y="280" class="th" style="fill:#b5762a">抗血小板藥</text>
+<text x="46" y="298" class="s" style="font-weight:700">Warfarin</text><text x="140" y="298" class="xs">可邁丁</text>
+<text x="46" y="310" class="s" style="font-weight:700">Dabigatran</text><text x="140" y="310" class="xs">普栓達 Pradaxa</text>
+<text x="46" y="322" class="s" style="font-weight:700">Rivaroxaban</text><text x="140" y="322" class="xs">拜瑞妥 Xarelto</text>
+<text x="46" y="334" class="s" style="font-weight:700">Apixaban</text><text x="140" y="334" class="xs">艾必克凝 Eliquis</text>
+<text x="46" y="346" class="s" style="font-weight:700">Edoxaban</text><text x="140" y="346" class="xs">里先安 Lixiana</text>
+<text x="300" y="298" class="s" style="font-weight:700">Aspirin</text><text x="394" y="298" class="xs">阿斯匹靈（如伯基）</text>
+<text x="300" y="310" class="s" style="font-weight:700">Clopidogrel</text><text x="394" y="310" class="xs">保栓通 Plavix</text>
+<text x="300" y="322" class="s" style="font-weight:700">Ticagrelor</text><text x="394" y="322" class="xs">百無凝 Brilinta</text>
+<text x="300" y="334" class="s" style="font-weight:700">Prasugrel</text><text x="394" y="334" class="xs">Effient</text>
+<text x="300" y="346" class="s" style="font-weight:700">Cilostazol</text><text x="394" y="346" class="xs">Pletaal</text>
+<rect x="36" y="350" width="487" height="16" rx="7" fill="#eef7f2"/>
+<text x="48" y="361" class="xs" style="fill:#1f7a5a"><tspan style="font-weight:700">只有 Warfarin（可邁丁）要定期抽血驗 INR</tspan>；其餘四種新型抗凝血藥不用常規驗，但<tspan style="font-weight:700">要固定時間吃、不能漏</tspan>。</text>
+<rect x="20" y="378" width="519" height="96" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="400" class="h">平常要注意什麼？</text>
+<text x="178" y="400" class="xs">目標是「不漏吃，也不要多流血」</text>
+<g transform="translate(44 408)"><rect x="2" y="4" width="24" height="22" rx="4" fill="none" stroke="#2d6a4f" stroke-width="2"/><path d="M2 11h24M9 1v6M19 1v6" stroke="#2d6a4f" stroke-width="2" class="line"/><path d="M8 19l4 4 8-9" stroke="#2d6a4f" stroke-width="2.4" fill="none" class="line"/></g>
+<text x="58" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">定時吃不要漏</text>
+<g transform="translate(124 408)"><g transform="rotate(-25 14 14)"><rect x="2" y="9" width="24" height="10" rx="5" fill="none" stroke="#b5392e" stroke-width="2"/><path d="M14 9v10" stroke="#b5392e" stroke-width="2"/></g><path d="M4 24L24 4" stroke="#b5392e" stroke-width="2.2" class="line"/></g>
+<text x="138" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">止痛藥先問</text>
+<g transform="translate(204 408)"><path d="M14 25c0-9 5-14 12-15 0 9-5 14-12 15z" fill="none" stroke="#b5392e" stroke-width="2" class="line"/><path d="M14 25c0-7-4-11-10-12 0 7 4 11 10 12z" fill="none" stroke="#b5392e" stroke-width="2" class="line"/><path d="M14 25v3" stroke="#b5392e" stroke-width="2" class="line"/></g>
+<text x="218" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">中草藥先問</text>
+<g transform="translate(284 408)"><path d="M4 20l12-12 3 3-12 12z" fill="none" stroke="#2d6a4f" stroke-width="2" class="line"/><path d="M17 7l5-5 4 4-5 5z" fill="none" stroke="#2d6a4f" stroke-width="2" class="line"/><path d="M3 23h8" stroke="#2d6a4f" stroke-width="2" class="line"/></g>
+<text x="298" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">軟毛牙刷</text>
+<g transform="translate(364 408)"><circle cx="8" cy="5" r="3.6" fill="none" stroke="#b5392e" stroke-width="2"/><path d="M8 9l3 7-5 6M11 16l7 2M4 22l-2 4" stroke="#b5392e" stroke-width="2" fill="none" class="line"/><path d="M20 24h6M22 20l4 4" stroke="#b5392e" stroke-width="2" class="line"/></g>
+<text x="378" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">小心跌倒</text>
+<g transform="translate(444 408)"><rect x="2" y="6" width="24" height="17" rx="3" fill="none" stroke="#2d6a4f" stroke-width="2"/><path d="M6 12h8M6 17h12" stroke="#2d6a4f" stroke-width="2" class="line"/><path d="M19 9v5M16.5 11.5h5" stroke="#2d6a4f" stroke-width="2" class="line"/></g>
+<text x="458" y="446" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">帶用藥卡</text>
+<rect x="36" y="452" width="487" height="16" rx="7" fill="#fdf5e9"/>
+<text x="48" y="463" class="xs" style="fill:#b5762a"><tspan style="font-weight:700">吃 Warfarin（可邁丁）的人：</tspan>深綠色蔬菜、納豆含維生素 K，<tspan style="font-weight:700">重點是「吃得穩定」，不是完全不吃</tspan>。</text>
+<rect x="20" y="482" width="519" height="118" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="504" class="h">要開刀、拔牙或做檢查怎麼辦？</text>
+<text x="268" y="504" class="xs" style="fill:#b5392e;font-weight:700">不要自己停，也不要自己繼續吃</text>
+<rect x="36" y="512" width="238" height="46" rx="9" fill="#eef7f2" stroke="#c8e2d5"/>
+<text x="48" y="526" class="b" style="fill:#1f7a5a">這些通常不用停</text>
+<text x="48" y="539" class="xs">洗牙、補牙、單純拔一兩顆牙</text>
+<text x="48" y="551" class="xs">白內障手術、皮膚小手術、不切片的內視鏡</text>
+<rect x="285" y="512" width="238" height="46" rx="9" fill="#fdf5e9" stroke="#e8d3ad"/>
+<text x="297" y="526" class="b" style="fill:#b5762a">要停的話，常見天數</text>
+<text x="297" y="539" class="xs">新型抗凝血藥 1～2 天（腎功能差要更久）</text>
+<text x="297" y="551" class="xs">可邁丁約 5 天　保栓通約 5 天　百無凝 3～5 天</text>
+<rect x="36" y="564" width="487" height="28" rx="8" fill="#fdeeec" stroke="#e8b6ae"/>
+<circle cx="52" cy="578" r="8" fill="#b5392e"/><text x="52" y="582" class="b" text-anchor="middle" style="fill:#fff">!</text>
+<text x="67" y="575" class="s" style="fill:#b5392e;font-weight:700">一年內放過心臟支架的人，絕對不可以自己停抗血小板藥</text>
+<text x="67" y="587" class="xs" style="fill:#b5392e">可能造成支架內血栓，死亡率比第一次心肌梗塞還高。停與不停由心臟科醫師決定。</text>
+<rect x="20" y="608" width="519" height="56" rx="13" class="card" filter="url(#sh)"/>
+<text x="37" y="630" class="h">手術後什麼時候吃回去？</text>
+<text x="222" y="630" class="xs">由開刀的醫師確認止血穩定後決定</text>
+<rect x="36" y="638" width="159" height="22" rx="7" fill="#eef7f2" stroke="#c8e2d5"/>
+<text x="115" y="648" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">小處置、出血風險低</text>
+<text x="115" y="657" class="xs" text-anchor="middle">約 24 小時後</text>
+<rect x="200" y="638" width="159" height="22" rx="7" fill="#eef7f2" stroke="#c8e2d5"/>
+<text x="279" y="648" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">大手術、出血風險高</text>
+<text x="279" y="657" class="xs" text-anchor="middle">約 48～72 小時後</text>
+<rect x="364" y="638" width="159" height="22" rx="7" fill="#eef7f2" stroke="#c8e2d5"/>
+<text x="443" y="648" class="xs" text-anchor="middle" style="font-weight:700;fill:#245341">不要自己拖延</text>
+<text x="443" y="657" class="xs" text-anchor="middle">停太久反而會中風或梗塞</text>
+<rect x="20" y="672" width="519" height="68" rx="13" fill="#fdeeec" stroke="#e8b6ae" stroke-width="1.4"/>
+<circle cx="44" cy="692" r="9" fill="#b5392e"/><text x="44" y="696" class="b" text-anchor="middle" style="fill:#fff">!</text>
+<text x="60" y="695" class="h" style="fill:#b5392e">出現這些情況，立刻就醫</text>
+<text x="60" y="710" class="s" style="fill:#8f3228">解<tspan style="font-weight:700">黑便、血便</tspan>　‧　<tspan style="font-weight:700">吐血</tspan>或咖啡色嘔吐物　‧　血尿、咳血　‧　牙齦或鼻子流血止不住</text>
+<text x="60" y="723" class="s" style="fill:#8f3228">突然<tspan style="font-weight:700">劇烈頭痛</tspan>、單側無力、口齒不清、意識改變　‧　不明瘀青一直擴大、頭暈臉色蒼白</text>
+<text x="60" y="735" class="xs" style="fill:#b5392e"><tspan style="font-weight:700">頭部撞到一定要就醫</tspan>——即使當下看起來沒事，顱內出血可能幾小時到幾天後才出現。</text>
+<rect x="20" y="748" width="519" height="36" rx="11" fill="url(#hg)"/>
+<text x="34" y="763" class="srh">資料來源（查核至 2026 年 10 月）</text>
+<text x="34" y="775" class="src">2024 ESC 心房顫動指引　‧　EHRA 新型口服抗凝血劑臨床實用指引　‧　2025 ACC/AHA 急性冠心症指引　‧　中華民國心臟學會相關指引　‧　美國牙醫學會抗凝血／抗血小板與牙科處置建議　‧　© 2026 林祐賸醫師　未經同意請勿重製</text>
+<!--QR--><g id="qr"><rect x="463" y="17" width="72" height="82" rx="10" fill="#fff" stroke="none"/><g transform="translate(469 23) scale(1.818182)" shape-rendering="crispEdges"><path d="M0 0h7v1h-7zM9 0h1v1h-1zM12 0h2v1h-2zM16 0h1v1h-1zM19 0h2v1h-2zM22 0h2v1h-2zM26 0h7v1h-7zM0 1h1v1h-1zM6 1h1v1h-1zM11 1h1v1h-1zM13 1h4v1h-4zM18 1h1v1h-1zM20 1h1v1h-1zM22 1h1v1h-1zM26 1h1v1h-1zM32 1h1v1h-1zM0 2h1v1h-1zM2 2h3v1h-3zM6 2h1v1h-1zM8 2h2v1h-2zM11 2h3v1h-3zM16 2h1v1h-1zM21 2h1v1h-1zM26 2h1v1h-1zM28 2h3v1h-3zM32 2h1v1h-1zM0 3h1v1h-1zM2 3h3v1h-3zM6 3h1v1h-1zM8 3h4v1h-4zM14 3h1v1h-1zM16 3h2v1h-2zM19 3h1v1h-1zM24 3h1v1h-1zM26 3h1v1h-1zM28 3h3v1h-3zM32 3h1v1h-1zM0 4h1v1h-1zM2 4h3v1h-3zM6 4h1v1h-1zM8 4h6v1h-6zM15 4h1v1h-1zM18 4h4v1h-4zM23 4h1v1h-1zM26 4h1v1h-1zM28 4h3v1h-3zM32 4h1v1h-1zM0 5h1v1h-1zM6 5h1v1h-1zM8 5h2v1h-2zM12 5h1v1h-1zM15 5h2v1h-2zM20 5h1v1h-1zM26 5h1v1h-1zM32 5h1v1h-1zM0 6h7v1h-7zM8 6h1v1h-1zM10 6h1v1h-1zM12 6h1v1h-1zM14 6h1v1h-1zM16 6h1v1h-1zM18 6h1v1h-1zM20 6h1v1h-1zM22 6h1v1h-1zM24 6h1v1h-1zM26 6h7v1h-7zM8 7h1v1h-1zM10 7h1v1h-1zM15 7h1v1h-1zM18 7h4v1h-4zM23 7h1v1h-1zM0 8h1v1h-1zM2 8h5v1h-5zM9 8h3v1h-3zM13 8h3v1h-3zM17 8h1v1h-1zM19 8h1v1h-1zM22 8h3v1h-3zM26 8h5v1h-5zM0 9h3v1h-3zM4 9h2v1h-2zM12 9h1v1h-1zM18 9h3v1h-3zM22 9h2v1h-2zM26 9h2v1h-2zM29 9h4v1h-4zM1 10h4v1h-4zM6 10h5v1h-5zM12 10h1v1h-1zM15 10h3v1h-3zM20 10h1v1h-1zM22 10h1v1h-1zM25 10h1v1h-1zM28 10h1v1h-1zM30 10h2v1h-2zM1 11h2v1h-2zM4 11h1v1h-1zM7 11h4v1h-4zM14 11h1v1h-1zM16 11h1v1h-1zM19 11h7v1h-7zM28 11h3v1h-3zM1 12h1v1h-1zM3 12h5v1h-5zM10 12h1v1h-1zM17 12h2v1h-2zM22 12h1v1h-1zM24 12h2v1h-2zM28 12h2v1h-2zM31 12h2v1h-2zM0 13h1v1h-1zM3 13h3v1h-3zM8 13h1v1h-1zM11 13h1v1h-1zM13 13h9v1h-9zM23 13h1v1h-1zM26 13h1v1h-1zM29 13h4v1h-4zM2 14h2v1h-2zM5 14h2v1h-2zM8 14h1v1h-1zM11 14h3v1h-3zM18 14h1v1h-1zM20 14h3v1h-3zM25 14h3v1h-3zM30 14h2v1h-2zM1 15h1v1h-1zM3 15h3v1h-3zM7 15h3v1h-3zM11 15h4v1h-4zM16 15h1v1h-1zM18 15h2v1h-2zM21 15h1v1h-1zM24 15h3v1h-3zM29 15h2v1h-2zM4 16h1v1h-1zM6 16h1v1h-1zM8 16h2v1h-2zM12 16h1v1h-1zM14 16h1v1h-1zM17 16h1v1h-1zM22 16h2v1h-2zM25 16h1v1h-1zM27 16h2v1h-2zM32 16h1v1h-1zM3 17h1v1h-1zM5 17h1v1h-1zM10 17h2v1h-2zM16 17h2v1h-2zM19 17h3v1h-3zM23 17h1v1h-1zM26 17h2v1h-2zM29 17h2v1h-2zM32 17h1v1h-1zM1 18h1v1h-1zM3 18h2v1h-2zM6 18h12v1h-12zM21 18h1v1h-1zM27 18h2v1h-2zM30 18h2v1h-2zM0 19h3v1h-3zM4 19h2v1h-2zM7 19h2v1h-2zM14 19h2v1h-2zM19 19h13v1h-13zM1 20h1v1h-1zM3 20h1v1h-1zM6 20h1v1h-1zM9 20h1v1h-1zM14 20h1v1h-1zM16 20h1v1h-1zM18 20h2v1h-2zM22 20h1v1h-1zM24 20h2v1h-2zM27 20h3v1h-3zM0 21h2v1h-2zM3 21h1v1h-1zM5 21h1v1h-1zM8 21h3v1h-3zM14 21h2v1h-2zM18 21h3v1h-3zM23 21h1v1h-1zM26 21h1v1h-1zM32 21h1v1h-1zM0 22h1v1h-1zM3 22h1v1h-1zM6 22h3v1h-3zM11 22h6v1h-6zM20 22h3v1h-3zM24 22h2v1h-2zM30 22h2v1h-2zM0 23h1v1h-1zM2 23h1v1h-1zM7 23h3v1h-3zM11 23h1v1h-1zM13 23h1v1h-1zM15 23h1v1h-1zM21 23h1v1h-1zM30 23h3v1h-3zM0 24h1v1h-1zM2 24h3v1h-3zM6 24h5v1h-5zM13 24h1v1h-1zM15 24h1v1h-1zM17 24h1v1h-1zM19 24h1v1h-1zM22 24h1v1h-1zM24 24h5v1h-5zM31 24h1v1h-1zM8 25h1v1h-1zM11 25h1v1h-1zM13 25h1v1h-1zM16 25h1v1h-1zM18 25h2v1h-2zM23 25h2v1h-2zM28 25h1v1h-1zM30 25h1v1h-1zM32 25h1v1h-1zM0 26h7v1h-7zM15 26h1v1h-1zM18 26h1v1h-1zM22 26h3v1h-3zM26 26h1v1h-1zM28 26h1v1h-1zM30 26h2v1h-2zM0 27h1v1h-1zM6 27h1v1h-1zM8 27h1v1h-1zM10 27h2v1h-2zM13 27h2v1h-2zM16 27h1v1h-1zM18 27h4v1h-4zM23 27h2v1h-2zM28 27h4v1h-4zM0 28h1v1h-1zM2 28h3v1h-3zM6 28h1v1h-1zM8 28h1v1h-1zM10 28h2v1h-2zM13 28h1v1h-1zM18 28h2v1h-2zM22 28h1v1h-1zM24 28h6v1h-6zM31 28h1v1h-1zM0 29h1v1h-1zM2 29h3v1h-3zM6 29h1v1h-1zM8 29h3v1h-3zM15 29h2v1h-2zM18 29h3v1h-3zM22 29h4v1h-4zM28 29h2v1h-2zM31 29h2v1h-2zM0 30h1v1h-1zM2 30h3v1h-3zM6 30h1v1h-1zM8 30h1v1h-1zM10 30h2v1h-2zM13 30h1v1h-1zM17 30h2v1h-2zM21 30h1v1h-1zM26 30h2v1h-2zM29 30h2v1h-2zM0 31h1v1h-1zM6 31h1v1h-1zM13 31h2v1h-2zM16 31h1v1h-1zM18 31h1v1h-1zM20 31h4v1h-4zM28 31h3v1h-3zM0 32h7v1h-7zM8 32h4v1h-4zM13 32h1v1h-1zM17 32h2v1h-2zM22 32h4v1h-4zM27 32h1v1h-1zM31 32h1v1h-1z" fill="#10283a"/></g><text x="499" y="94" text-anchor="middle" style="font:700 8.4px 'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1b4332">掃描看電子版</text></g><!--/QR--></svg>
