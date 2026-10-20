@@ -40,11 +40,15 @@ def extract(slug, extra=None):
     items = []
     for i, m in enumerate(secs):
         title = plain(m.group(2))
-        body = s[m.end(): secs[i+1].start() if i+1 < len(secs) else len(s)]
+        end = secs[i+1].start() if i+1 < len(secs) else len(s)
+        stop = re.search(r'<h2\b|<footer\b', s[m.end():end])   # 無 id 的 <h2>單張下載</h2>、頁尾都要擋掉
+        if stop: end = m.end() + stop.start()
+        body = s[m.end():end]
+        body = re.sub(r'<(p|div) class="totop">.*?</\1>', '', body, flags=re.S)  # 濾掉「↑ 回目錄」錨點
         if "資料來源" in title:
             continue
         if "常見問題" in title:                      # 逐題拆成問答
-            for q in re.finditer(r'<h3>(.*?)</h3>(.*?)(?=<h3>|<div class="totop"|$)', body, re.S):
+            for q in re.finditer(r'<h3>(.*?)</h3>(.*?)(?=<h3>|<\w+ class="totop"|$)', body, re.S):
                 qt, ans = plain(q.group(1)), plain(q.group(2))
                 if qt and ans:
                     items.append({"q": qt, "a": ans, "k": keywords(qt, ans),
@@ -53,9 +57,11 @@ def extract(slug, extra=None):
             lead = plain(body)
             if lead:
                 ex = extra.get(title, [])
+                kx = keywords(" ".join(ex)) if ex else []
+                # 同義詞也要併進主關鍵詞，否則覆蓋率算不到，加權那關過不了
                 items.append({"q": title, "a": lead[:700],
-                              "k": keywords(title, lead[:400]),
-                              "kx": keywords(" ".join(ex)) if ex else [], "src": title})
+                              "k": sorted(set(keywords(title, lead[:400])) | set(kx)),
+                              "kx": kx, "src": title})
     return items
 
 PAGE = """<!doctype html>
@@ -155,13 +161,15 @@ function ask(text){{
       for(const gi of g.list){{ if(kxs.has(gi.w)){{ kxHit = true; break; }} }}
     }}
     let score = covered.size / g.len;
+    // 至少要蓋到提問的 4 個字（短提問就看它自己的長度），人工同義詞也一樣要過這關
+    if(covered.size < Math.min(4, g.len)) score = 0;
     // 命中太零碎就不算；但命中人工同義詞時豁免，並給予加權
     if(!kxHit && bestRun < 3 && score < 0.4) score = 0;
     if(kxHit && score > 0) score += 0.4;
     if(item.src === "常見問題") score *= 1.12;
     if(score > bestScore){{ bestScore = score; best = item; }}
   }}
-  if(!best || bestScore < 0.33){{
+  if(!best || bestScore < 0.45){{
     box.className = "answer none";
     box.innerHTML = "<h3>這個問題專欄裡沒有</h3><p>" + NONE + "</p>";
   }} else {{
