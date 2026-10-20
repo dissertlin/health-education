@@ -47,13 +47,15 @@ def extract(slug, extra=None):
             for q in re.finditer(r'<h3>(.*?)</h3>(.*?)(?=<h3>|<div class="totop"|$)', body, re.S):
                 qt, ans = plain(q.group(1)), plain(q.group(2))
                 if qt and ans:
-                    items.append({"q": qt, "a": ans, "k": keywords(qt, ans), "src": "常見問題"})
+                    items.append({"q": qt, "a": ans, "k": keywords(qt, ans),
+                                  "kx": keywords(qt), "src": "常見問題"})
         else:                                        # 整節做為一則可回答的內容
             lead = plain(body)
             if lead:
-                ex = " ".join(extra.get(title, []))
+                ex = extra.get(title, [])
                 items.append({"q": title, "a": lead[:700],
-                              "k": keywords(title, lead[:400], ex), "src": title})
+                              "k": keywords(title, lead[:400]),
+                              "kx": keywords(" ".join(ex)) if ex else [], "src": title})
     return items
 
 PAGE = """<!doctype html>
@@ -146,8 +148,16 @@ function ask(text){{
       if(covered.has("c"+k) || covered.has("e"+k)){{ run++; if(run>bestRun) bestRun=run; }}
       else run = 0;
     }}
+    // 是否命中人工指定的同義詞（刻意指向該節，屬強訊號）
+    let kxHit = false;
+    if(item.kx && item.kx.length){{
+      const kxs = new Set(item.kx);
+      for(const gi of g.list){{ if(kxs.has(gi.w)){{ kxHit = true; break; }} }}
+    }}
     let score = covered.size / g.len;
-    if(bestRun < 3 && score < 0.4) score = 0;          // 命中太零碎就不算
+    // 命中太零碎就不算；但命中人工同義詞時豁免，並給予加權
+    if(!kxHit && bestRun < 3 && score < 0.4) score = 0;
+    if(kxHit && score > 0) score += 0.4;
     if(item.src === "常見問題") score *= 1.12;
     if(score > bestScore){{ bestScore = score; best = item; }}
   }}
