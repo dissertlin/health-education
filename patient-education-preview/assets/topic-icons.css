@@ -11,3 +11,6 @@
 .topic-art-8{background-position:50.47489824% 81.26064736%}
 .topic-art-9{background-position:74.21981004% 81.26064736%}
 .topic-art-10{background-position:97.96472185% 81.26064736%}
+
+/* 尚未製作插畫的新主題：沿用網站圓徽 */
+.tile .topic-art-new{background-image:url("topic-art-new.png");background-size:cover;background-position:center}
