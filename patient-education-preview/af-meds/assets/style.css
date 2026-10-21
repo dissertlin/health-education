@@ -34,3 +34,7 @@ main{padding:15px 15px 92px}.hero{text-align:center;padding:16px 8px 7px;backgro
 @media print{.topbar,.navbar,.audio-wrap,.pager{display:none!important}.app{box-shadow:none}main{padding-bottom:20px}}
 
 .navbar::-webkit-scrollbar{display:none}.navbar a svg{display:block;width:23px;height:23px}@media(max-width:420px){.navbar a svg{width:21px;height:21px}}
+
+.topbar .tohome{display:grid;place-items:center;width:40px;height:40px;margin-left:auto;border-radius:11px;color:#123f73;text-decoration:none;flex:0 0 auto}
+.topbar .tohome svg{display:block}
+.topbar .tohome:active{background:#e8f3ff}

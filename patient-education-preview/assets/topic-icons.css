@@ -12,5 +12,11 @@
 .topic-art-9{background-position:74.21981004% 81.26064736%}
 .topic-art-10{background-position:97.96472185% 81.26064736%}
 
-/* 尚未製作插畫的新主題：沿用網站圓徽 */
-.tile .topic-art-new{background-image:url("topic-art-new.png");background-size:cover;background-position:center}
+/* 新增 7 個主題的圓徽插畫 */
+.tile .topic-art-angina{background-image:url("art/angina.svg");background-size:cover;background-position:center}
+.tile .topic-art-anticoag{background-image:url("art/anticoag.svg");background-size:cover;background-position:center}
+.tile .topic-art-cath{background-image:url("art/cath.svg");background-size:cover;background-position:center}
+.tile .topic-art-dm{background-image:url("art/dm.svg");background-size:cover;background-position:center}
+.tile .topic-art-ep{background-image:url("art/ep.svg");background-size:cover;background-position:center}
+.tile .topic-art-lipid{background-image:url("art/lipid.svg");background-size:cover;background-position:center}
+.tile .topic-art-mi{background-image:url("art/mi.svg");background-size:cover;background-position:center}

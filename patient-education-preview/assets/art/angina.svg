@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 132" width="132" height="132" role="img" aria-label="心絞痛：心臟被束緊的感覺"><defs>
+<radialGradient id="h" cx="38%" cy="30%" r="78%">
+  <stop offset="0" stop-color="#ffc0c4"/><stop offset="55%" stop-color="#f98f90"/>
+  <stop offset="1" stop-color="#e96b70"/></radialGradient>
+<linearGradient id="v" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#8fb0e2"/><stop offset="1" stop-color="#5c82c3"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#dde6f0"/></linearGradient>
+<filter id="s" x="-25%" y="-25%" width="150%" height="150%">
+  <feDropShadow dx="0" dy="2.2" stdDeviation="2.4" flood-color="#8a5b60" flood-opacity=".26"/></filter>
+</defs><circle cx="66" cy="66" r="66" fill="#fdedee"/><g filter="url(#s)">
+<path d="M44 30c13-5 27-4 37 4 11 9 15 23 12 37-3 15-13 27-26 33-9 4-19 3-27-3C29 93 22 79 23 64c1-15 8-28 21-34z" fill="url(#h)"/>
+<path d="M52 44c-7 5-11 13-11 22" stroke="#ffffff" stroke-opacity=".45" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M47 33c-6-9-5-18 2-23" stroke="url(#v)" stroke-width="9" stroke-linecap="round" fill="none"/>
+<path d="M62 27c-1-9 2-16 9-19" stroke="url(#v)" stroke-width="8" stroke-linecap="round" fill="none"/>
+<path d="M76 32c3-8 9-13 16-13" stroke="url(#v)" stroke-width="7" stroke-linecap="round" fill="none"/>
+</g>
+<g filter="url(#s)">
+<path d="M16 64q50-7 100 0v6q-50 7-100 0z" fill="#e08a7a"/>
+<path d="M16 64q50-7 100 0" stroke="#fff" stroke-opacity=".4" stroke-width="2" fill="none"/>
+<rect x="57" y="56" width="19" height="20" rx="6" fill="#f0a24a" stroke="#cf8438" stroke-width="2.2"/>
+<circle cx="66.5" cy="66" r="3" fill="#cf8438"/>
+</g>
+<g stroke="#e0603f" stroke-width="4.2" stroke-linecap="round" opacity=".85">
+<path d="M14 50l-7-5"/><path d="M118 50l7-5"/><path d="M14 82l-7 5"/><path d="M118 82l7 5"/></g></svg>

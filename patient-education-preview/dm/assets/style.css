@@ -51,3 +51,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:4px solid #98
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .navbar::-webkit-scrollbar{display:none}.navbar a svg{display:block;width:23px;height:23px}@media(max-width:420px){.navbar a svg{width:21px;height:21px}}
+
+.topbar .tohome{display:grid;place-items:center;width:40px;height:40px;margin-left:auto;border-radius:11px;color:#123f73;text-decoration:none;flex:0 0 auto}
+.topbar .tohome svg{display:block}
+.topbar .tohome:active{background:#e8f3ff}

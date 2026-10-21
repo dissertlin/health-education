@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 132" width="132" height="132" role="img" aria-label="糖尿病：血糖機與血滴"><defs>
+<radialGradient id="h" cx="38%" cy="30%" r="78%">
+  <stop offset="0" stop-color="#ffc0c4"/><stop offset="55%" stop-color="#f98f90"/>
+  <stop offset="1" stop-color="#e96b70"/></radialGradient>
+<linearGradient id="v" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#8fb0e2"/><stop offset="1" stop-color="#5c82c3"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#dde6f0"/></linearGradient>
+<filter id="s" x="-25%" y="-25%" width="150%" height="150%">
+  <feDropShadow dx="0" dy="2.2" stdDeviation="2.4" flood-color="#8a5b60" flood-opacity=".26"/></filter>
+</defs><circle cx="66" cy="66" r="66" fill="#fdf6e6"/>
+<g filter="url(#s)">
+<rect x="26" y="24" width="56" height="84" rx="14" fill="url(#g)" stroke="#c3cfdd" stroke-width="2.4"/>
+<rect x="36" y="36" width="36" height="26" rx="6" fill="#dceaf7" stroke="#aec4da" stroke-width="2"/>
+<path d="M43 54l6-9 5 7 4-11 5 13" stroke="#4f7ab5" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="45" cy="78" r="7" fill="#eaf1f8" stroke="#aec4da" stroke-width="2"/>
+<circle cx="64" cy="78" r="7" fill="#eaf1f8" stroke="#aec4da" stroke-width="2"/>
+<rect x="36" y="92" width="36" height="8" rx="4" fill="#dfe9f3"/>
+</g>
+<g filter="url(#s)">
+<path d="M100 48c9 12 14 20 14 27a14 14 0 0 1-28 0c0-7 5-15 14-27z" fill="url(#h)"/>
+<path d="M94 74a8 8 0 0 0 5 8" stroke="#fff" stroke-opacity=".55" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+</g></svg>
