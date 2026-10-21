@@ -124,3 +124,9 @@ main{padding:15px 15px 92px}.hero{text-align:center;padding:16px 8px 7px;backgro
 .topbar .tohome{display:grid;place-items:center;width:40px;height:40px;margin-left:auto;border-radius:11px;color:#123f73;text-decoration:none;flex:0 0 auto}
 .topbar .tohome svg{display:block}
 .topbar .tohome:active{background:#e8f3ff}
+
+.topbar .toback{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;color:#123f73;text-decoration:none;flex:0 0 auto;margin-right:2px}
+.topbar .todetail{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;color:#123f73;text-decoration:none;flex:0 0 auto;margin-left:auto}
+.topbar .todetail + .tohome{margin-left:0}
+.topbar .toback svg,.topbar .todetail svg{display:block}
+.topbar .toback:active,.topbar .todetail:active{background:#e8f3ff}
