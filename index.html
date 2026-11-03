@@ -58,19 +58,25 @@
   .statlink a:hover{color:var(--brand);opacity:1;text-decoration:underline}
   /* 統計連結 end */
   footer{color:var(--sub);font-size:.82rem;margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
+  .skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .skip:focus{top:8px}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 <div class="wrap">
+<a class="skip" href="#main">跳到主要內容</a>
 <!-- 網站標誌 begin -->
 <header class="brand">
-<img src="assets/logo-badge.png" width="512" height="512" alt="病人衛教資訊專欄 Patient Education">
+<img src="assets/logo-badge.png" width="512" height="512" decoding="async" alt="病人衛教資訊專欄 Patient Education">
 <div class="txt">
 <h1 class="sronly">病人衛教資訊專欄</h1>
 <p class="lead">心臟科與代謝相關的 A5 衛教單張，可放大檢視或下載列印。每一張都有展開說明的詳細版。每張單張右上角的 QR code 會連到這裡的對應頁面。</p>
 </div>
 </header>
 <!-- 網站標誌 end -->
+<main id="main">
 <!-- 語音版入口 begin -->
 <a class="voice" href="patient-education-preview/">
   <span class="ico" aria-hidden="true">🔊</span>
@@ -82,24 +88,25 @@
 </a>
 <!-- 語音版入口 end -->
 <div class="cards">
-<a href="mi/"><img src="mi/mi.svg" alt="認識心肌梗塞縮圖"><h2>認識心肌梗塞</h2><p>症狀怎麼認、為什麼要立刻打 119、緊急心導管與支架、出院後的藥、多久能開車上班、心臟復健（附詳細版）</p></a>
-<a href="angina/"><img src="angina/angina.svg" alt="認識心絞痛縮圖"><h2>認識心絞痛</h2><p>為什麼會胸悶、要做哪些檢查、藥物與支架、舌下含片用法、目標數字（附詳細版）</p></a>
-<a href="cath/"><img src="cath/cath.svg" alt="心導管檢查與手術縮圖"><h2>心導管檢查與手術</h2><p>什麼人需要做、目的是什麼、術前配合、當天流程、術後照顧與何時回診（附詳細版）</p></a>
-<a href="af-intro/"><img src="af-intro/af-basics.svg" alt="認識心房顫動衛教單縮圖"><h2>認識心房顫動</h2><p>什麼是心房顫動、為什麼會中風、抗凝血藥怎麼吃（附詳細版）</p></a>
-<a href="af-meds/"><img src="af-meds/af-meds.svg" alt="心房顫動用藥指南衛教單縮圖"><h2>心房顫動的用藥指南</h2><p>為什麼要吃兩種藥、抗凝血藥怎麼吃、亞洲人的用藥考量（附詳細版）</p></a>
-<a href="anticoag/"><img src="anticoag/anticoag.svg" alt="抗凝血藥與抗血小板藥縮圖"><h2>抗凝血藥與抗血小板藥</h2><p>俗稱血路藥。誰要吃、台灣常見藥名、飲食與生活注意、<b>開刀拔牙要不要停藥、停多久</b>、何時吃回去（附詳細版）</p></a>
-<a href="af/"><img src="af/af-ablation.svg" alt="心房顫動電燒手術衛教單縮圖"><h2>心房顫動電燒手術</h2><p>適合對象、成功率、兩種技術比較、健保與自費費用（附詳細版）</p></a>
-<a href="svt/"><img src="svt/svt.svg" alt="認識心室上頻脈縮圖"><h2>認識心室上頻脈</h2><p>什麼是 SVT、四種型態、症狀與誘因、發作當下怎麼辦、藥物與電燒治療（附詳細版）</p></a>
-<a href="ep/"><img src="ep/ep.svg" alt="電生理檢查與電燒手術縮圖"><h2>電生理檢查與電燒手術</h2><p>檢查與電燒怎麼進行、何時需要三維定位與高密度標測、風險與費用（附詳細版）</p></a>
-<a href="brady/"><img src="brady/bradycardia.svg" alt="心率過慢衛教單縮圖"><h2>心率過慢｜安心觀察指南</h2><p>病竇症候群／房室傳導阻滯，未裝節律器的自我照顧（附詳細版）</p></a>
-<a href="pacemaker/"><img src="pacemaker/pacemaker.svg" alt="裝置心臟節律器｜生活注意事項縮圖"><h2>裝置心臟節律器｜生活注意事項</h2><p>傷口照顧、手臂活動、電器與安檢、核磁共振、電池（附詳細版）</p></a>
-<a href="bp/"><img src="bp/bp.svg" alt="血壓控制｜生活大小事縮圖"><h2>血壓控制｜生活大小事</h2><p>居家 722 怎麼量、血壓目標是多少、為什麼血壓正常還要吃藥（附詳細版）</p></a>
-<a href="oh/"><img src="oh/oh.svg" alt="姿態性低血壓｜起身不暈縮圖"><h2>姿態性低血壓｜起身不暈</h2><p>為什麼一站起來就暈、藥物的影響、起身不暈的小動作（附詳細版）</p></a>
-<a href="dm/"><img src="dm/dm.svg" alt="認識第二型糖尿病縮圖"><h2>認識第二型糖尿病</h2><p>HbA1c 目標分層、怎麼吃、藥物與胰島素、低血糖處理、篩檢時程（附詳細版）</p></a>
-<a href="lipid/"><img src="lipid/lipid.svg" alt="認識膽固醇縮圖"><h2>認識膽固醇</h2><p>看懂血脂報告、我的 LDL 目標、飲食能降多少、用藥副作用與機率（附詳細版）</p></a>
-<a href="hf/"><img src="hf/hf.svg" alt="認識心臟衰竭縮圖"><h2>認識心臟衰竭</h2><p>什麼是心臟衰竭、症狀與原因、四大支柱治療、每天要量什麼（附詳細版）</p></a>
-<a href="gout/"><img src="gout/gout.svg" alt="痛風控制｜生活大小事縮圖"><h2>痛風控制｜生活大小事</h2><p>尿酸要降到多少、發作怎麼辦、華人的 HLA-B*58:01 檢查（附詳細版）</p></a>
+<a href="mi/"><img width="559" height="794" loading="lazy" decoding="async" src="mi/mi.svg" alt="認識心肌梗塞縮圖"><h2>認識心肌梗塞</h2><p>症狀怎麼認、為什麼要立刻打 119、緊急心導管與支架、出院後的藥、多久能開車上班、心臟復健（附詳細版）</p></a>
+<a href="angina/"><img width="559" height="794" loading="lazy" decoding="async" src="angina/angina.svg" alt="認識心絞痛縮圖"><h2>認識心絞痛</h2><p>為什麼會胸悶、要做哪些檢查、藥物與支架、舌下含片用法、目標數字（附詳細版）</p></a>
+<a href="cath/"><img width="559" height="794" loading="lazy" decoding="async" src="cath/cath.svg" alt="心導管檢查與手術縮圖"><h2>心導管檢查與手術</h2><p>什麼人需要做、目的是什麼、術前配合、當天流程、術後照顧與何時回診（附詳細版）</p></a>
+<a href="af-intro/"><img width="559" height="794" loading="lazy" decoding="async" src="af-intro/af-basics.svg" alt="認識心房顫動衛教單縮圖"><h2>認識心房顫動</h2><p>什麼是心房顫動、為什麼會中風、抗凝血藥怎麼吃（附詳細版）</p></a>
+<a href="af-meds/"><img width="559" height="794" loading="lazy" decoding="async" src="af-meds/af-meds.svg" alt="心房顫動用藥指南衛教單縮圖"><h2>心房顫動的用藥指南</h2><p>為什麼要吃兩種藥、抗凝血藥怎麼吃、亞洲人的用藥考量（附詳細版）</p></a>
+<a href="anticoag/"><img width="559" height="794" loading="lazy" decoding="async" src="anticoag/anticoag.svg" alt="抗凝血藥與抗血小板藥縮圖"><h2>抗凝血藥與抗血小板藥</h2><p>俗稱血路藥。誰要吃、台灣常見藥名、飲食與生活注意、<b>開刀拔牙要不要停藥、停多久</b>、何時吃回去（附詳細版）</p></a>
+<a href="af/"><img width="559" height="794" loading="lazy" decoding="async" src="af/af-ablation.svg" alt="心房顫動電燒手術衛教單縮圖"><h2>心房顫動電燒手術</h2><p>適合對象、成功率、兩種技術比較、健保與自費費用（附詳細版）</p></a>
+<a href="svt/"><img width="559" height="794" loading="lazy" decoding="async" src="svt/svt.svg" alt="認識心室上頻脈縮圖"><h2>認識心室上頻脈</h2><p>什麼是 SVT、四種型態、症狀與誘因、發作當下怎麼辦、藥物與電燒治療（附詳細版）</p></a>
+<a href="ep/"><img width="559" height="794" loading="lazy" decoding="async" src="ep/ep.svg" alt="電生理檢查與電燒手術縮圖"><h2>電生理檢查與電燒手術</h2><p>檢查與電燒怎麼進行、何時需要三維定位與高密度標測、風險與費用（附詳細版）</p></a>
+<a href="brady/"><img width="559" height="794" loading="lazy" decoding="async" src="brady/bradycardia.svg" alt="心率過慢衛教單縮圖"><h2>心率過慢｜安心觀察指南</h2><p>病竇症候群／房室傳導阻滯，未裝節律器的自我照顧（附詳細版）</p></a>
+<a href="pacemaker/"><img width="559" height="794" loading="lazy" decoding="async" src="pacemaker/pacemaker.svg" alt="裝置心臟節律器｜生活注意事項縮圖"><h2>裝置心臟節律器｜生活注意事項</h2><p>傷口照顧、手臂活動、電器與安檢、核磁共振、電池（附詳細版）</p></a>
+<a href="bp/"><img width="559" height="794" loading="lazy" decoding="async" src="bp/bp.svg" alt="血壓控制｜生活大小事縮圖"><h2>血壓控制｜生活大小事</h2><p>居家 722 怎麼量、血壓目標是多少、為什麼血壓正常還要吃藥（附詳細版）</p></a>
+<a href="oh/"><img width="559" height="794" loading="lazy" decoding="async" src="oh/oh.svg" alt="姿態性低血壓｜起身不暈縮圖"><h2>姿態性低血壓｜起身不暈</h2><p>為什麼一站起來就暈、藥物的影響、起身不暈的小動作（附詳細版）</p></a>
+<a href="dm/"><img width="559" height="794" loading="lazy" decoding="async" src="dm/dm.svg" alt="認識第二型糖尿病縮圖"><h2>認識第二型糖尿病</h2><p>HbA1c 目標分層、怎麼吃、藥物與胰島素、低血糖處理、篩檢時程（附詳細版）</p></a>
+<a href="lipid/"><img width="559" height="794" loading="lazy" decoding="async" src="lipid/lipid.svg" alt="認識膽固醇縮圖"><h2>認識膽固醇</h2><p>看懂血脂報告、我的 LDL 目標、飲食能降多少、用藥副作用與機率（附詳細版）</p></a>
+<a href="hf/"><img width="559" height="794" loading="lazy" decoding="async" src="hf/hf.svg" alt="認識心臟衰竭縮圖"><h2>認識心臟衰竭</h2><p>什麼是心臟衰竭、症狀與原因、四大支柱治療、每天要量什麼（附詳細版）</p></a>
+<a href="gout/"><img width="559" height="794" loading="lazy" decoding="async" src="gout/gout.svg" alt="痛風控制｜生活大小事縮圖"><h2>痛風控制｜生活大小事</h2><p>尿酸要降到多少、發作怎麼辦、華人的 HLA-B*58:01 檢查（附詳細版）</p></a>
 </div>
+</main>
 <footer>本衛教資訊供醫病共同決策參考，<strong>不取代個別診療</strong>；實際治療方式請與您的心臟科／電生理醫師討論。
 <!-- 統計連結 begin -->
 <p class="statlink"><a href="https://he-counter.dissertlin.workers.dev/stats" rel="nofollow noopener" target="_blank">各篇衛教瀏覽次數統計</a></p>

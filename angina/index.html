@@ -58,7 +58,7 @@
   .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
   .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
   .icons .nt{background:var(--card);border:1px solid var(--line)}
-  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false"%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
   @media (prefers-color-scheme:dark){body::before{opacity:.20}}
   .wrap{position:relative;z-index:1}
   @media print{body::before{opacity:.16}}
@@ -97,13 +97,29 @@
   .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
   .views b{color:var(--brand);font-weight:700}
   /* 瀏覽次數 end */
+  /* 導覽與無障礙補強 begin */
+  .skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .skip:focus{top:8px}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id]{scroll-margin-top:12px}
+  .topicnav{display:flex;flex-wrap:wrap;gap:10px;margin:2.2em 0 0}
+  .topicnav a{flex:1 1 220px;display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.5}
+  .topicnav a small{display:block;color:var(--sub);font-size:.76rem}
+  .topicnav a[rel=next]{text-align:right}
+  .topicnav a:hover{border-color:var(--brand)}
+  @media (max-width:560px){.toc ol{columns:1}.wrap{padding-left:16px;padding-right:16px}.ico2{grid-template-columns:1fr}}
+  /* 導覽與無障礙補強 end */
 </style>
 </head>
 <body>
 <div class="wrap" id="top">
 
+<a class="skip" href="#main">跳到主要內容</a>
 <a class="back" href="../">← 回衛教專欄</a>
 
+<main id="main">
 <h1>認識心絞痛</h1>
 <p class="lead">胸口悶、像被壓住，走快一點就發作、休息一下又好了——這是心臟在跟你說：<b>它的血不夠用了</b>。<br>
 這一頁說明心絞痛是怎麼來的、要做哪些檢查、有哪些治療，以及<b>你自己每天要配合做什麼</b>。</p>
@@ -269,13 +285,13 @@
 
 <h3>可以改變的——治療的主戰場</h3>
 <div class="icons">
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="26" width="28" height="8" rx="2" stroke="var(--red)" stroke-width="2.6"/><path d="M38 26h4v8h-4" stroke="var(--red)" stroke-width="2.6"/><path d="M28 20c0-4-5-4-5-8s4-4 4-4M35 20c0-3-4-3-4-6" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><path d="M8 40l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>抽菸</b><span>最重要的一項。<b>戒菸的效益大過任何一種藥</b></span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="15" stroke="var(--red)" stroke-width="2.6"/><path d="M13 24h5l3-7 4 15 3-9 2 4h5" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 12l5-5M10 12L5 7" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>高血壓</b><span>長期讓血管壁受壓、加速硬化</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="26" fill="none"/><rect x="8" y="18" width="32" height="12" rx="6" stroke="var(--red)" stroke-width="2.6"/><path d="M20 17q14-2 20 6-12 5-20 3z" fill="#e8c05a" stroke="var(--red)" stroke-width="1.6"/><path d="M8 40h32" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>高血脂</b><span>LDL 是堆成斑塊的主要原料</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M20 6h8v18a8 8 0 1 1-8 0z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><circle cx="24" cy="32" r="4" fill="var(--red)"/><path d="M34 14h8M34 22h6M34 30h8" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>糖尿病</b><span>血糖高會傷害血管內皮；<b>症狀也常不典型</b></span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="12" r="6" stroke="var(--red)" stroke-width="2.6"/><path d="M14 42V30a10 10 0 0 1 20 0v12" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><ellipse cx="24" cy="30" rx="11" ry="7" stroke="var(--red)" stroke-width="2.2"/></svg><b>肥胖、腰圍過大</b><span>男性腰圍 ≥ 90、女性 ≥ 80 公分要留意</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="8" y="14" width="24" height="18" rx="3" stroke="var(--red)" stroke-width="2.6"/><path d="M14 32v8M26 32v8M10 40h20" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><circle cx="38" cy="12" r="5" stroke="var(--sub)" stroke-width="2.2"/><path d="M38 9v3l2 2" stroke="var(--sub)" stroke-width="2"/></svg><b>久坐不動</b><span>每週運動不足，血管與代謝都會變差</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="28" r="11" stroke="var(--red)" stroke-width="2.6"/><path d="M18 25l4 2M30 25l-4 2M19 35c3-2 7-2 10 0" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/><path d="M23 3l-6 10h7l-5 8" stroke="var(--red)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><b>壓力大、睡眠差</b><span>含睡眠呼吸中止症，值得檢查</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="6" y="26" width="28" height="8" rx="2" stroke="var(--red)" stroke-width="2.6"/><path d="M38 26h4v8h-4" stroke="var(--red)" stroke-width="2.6"/><path d="M28 20c0-4-5-4-5-8s4-4 4-4M35 20c0-3-4-3-4-6" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><path d="M8 40l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>抽菸</b><span>最重要的一項。<b>戒菸的效益大過任何一種藥</b></span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="15" stroke="var(--red)" stroke-width="2.6"/><path d="M13 24h5l3-7 4 15 3-9 2 4h5" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M38 12l5-5M10 12L5 7" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>高血壓</b><span>長期讓血管壁受壓、加速硬化</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="26" fill="none"/><rect x="8" y="18" width="32" height="12" rx="6" stroke="var(--red)" stroke-width="2.6"/><path d="M20 17q14-2 20 6-12 5-20 3z" fill="#e8c05a" stroke="var(--red)" stroke-width="1.6"/><path d="M8 40h32" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>高血脂</b><span>LDL 是堆成斑塊的主要原料</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M20 6h8v18a8 8 0 1 1-8 0z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><circle cx="24" cy="32" r="4" fill="var(--red)"/><path d="M34 14h8M34 22h6M34 30h8" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>糖尿病</b><span>血糖高會傷害血管內皮；<b>症狀也常不典型</b></span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="12" r="6" stroke="var(--red)" stroke-width="2.6"/><path d="M14 42V30a10 10 0 0 1 20 0v12" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><ellipse cx="24" cy="30" rx="11" ry="7" stroke="var(--red)" stroke-width="2.2"/></svg><b>肥胖、腰圍過大</b><span>男性腰圍 ≥ 90、女性 ≥ 80 公分要留意</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="8" y="14" width="24" height="18" rx="3" stroke="var(--red)" stroke-width="2.6"/><path d="M14 32v8M26 32v8M10 40h20" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><circle cx="38" cy="12" r="5" stroke="var(--sub)" stroke-width="2.2"/><path d="M38 9v3l2 2" stroke="var(--sub)" stroke-width="2"/></svg><b>久坐不動</b><span>每週運動不足，血管與代謝都會變差</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="28" r="11" stroke="var(--red)" stroke-width="2.6"/><path d="M18 25l4 2M30 25l-4 2M19 35c3-2 7-2 10 0" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/><path d="M23 3l-6 10h7l-5 8" stroke="var(--red)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><b>壓力大、睡眠差</b><span>含睡眠呼吸中止症，值得檢查</span></div>
 </div>
 
 <h3>不能改變的——但要更警覺</h3>
@@ -541,12 +557,12 @@
 
 <h3>飲食</h3>
 <div class="icons">
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 42c-9 0-16-7-16-16 0-7 5-13 11-15 2-1 4 0 5 2 1-2 3-3 5-2 6 2 11 8 11 15 0 9-7 16-16 16z" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 11c0-4 3-7 7-7 0 4-3 7-7 7z" fill="var(--brand)"/></svg><b>多蔬果、全穀、豆類</b><span>每餐一半以上放蔬菜；燕麥等可溶性纖維有助降 LDL</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M6 26c8-10 22-12 32-4 2 2 4 3 4 4s-2 2-4 4c-10 8-24 6-32-4z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="16" cy="24" r="2.4" fill="var(--brand)"/><path d="M38 20l6-6v20l-6-6" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/></svg><b>每週 2 次以上魚類</b><span>取代部分紅肉；鯖魚、秋刀魚等含 omega-3</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M14 18h20l-2 22a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 18V9a6 6 0 0 1 12 0v9" stroke="var(--red)" stroke-width="2.4"/><path d="M8 40l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>減鹽</b><span>每天鈉 &lt; 2000 毫克（約 5 公克鹽）；湯、醬料、醃漬品是大宗</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M10 30c0-8 6-14 14-14s14 6 14 14z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M6 30h36v4a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/></svg><b>少飽和與反式脂肪</b><span>肥肉、加工肉、奶油、油炸、酥皮、椰子油與棕櫚油</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M14 10h20l-3 30a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M22 4h4v6h-4z" stroke="var(--red)" stroke-width="2"/><path d="M8 42l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>少含糖飲料</b><span>對三酸甘油脂與體重影響特別大</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M13 8h22l-9 13v14" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 35h16" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><circle cx="36" cy="34" r="8" stroke="var(--red)" stroke-width="2.2"/><path d="M31 39l10-10" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/></svg><b>限制酒精</b><span>不要為了「保養」而喝酒；會升高血壓與三酸甘油脂</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 42c-9 0-16-7-16-16 0-7 5-13 11-15 2-1 4 0 5 2 1-2 3-3 5-2 6 2 11 8 11 15 0 9-7 16-16 16z" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 11c0-4 3-7 7-7 0 4-3 7-7 7z" fill="var(--brand)"/></svg><b>多蔬果、全穀、豆類</b><span>每餐一半以上放蔬菜；燕麥等可溶性纖維有助降 LDL</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M6 26c8-10 22-12 32-4 2 2 4 3 4 4s-2 2-4 4c-10 8-24 6-32-4z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="16" cy="24" r="2.4" fill="var(--brand)"/><path d="M38 20l6-6v20l-6-6" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/></svg><b>每週 2 次以上魚類</b><span>取代部分紅肉；鯖魚、秋刀魚等含 omega-3</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M14 18h20l-2 22a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 18V9a6 6 0 0 1 12 0v9" stroke="var(--red)" stroke-width="2.4"/><path d="M8 40l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>減鹽</b><span>每天鈉 &lt; 2000 毫克（約 5 公克鹽）；湯、醬料、醃漬品是大宗</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M10 30c0-8 6-14 14-14s14 6 14 14z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M6 30h36v4a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/></svg><b>少飽和與反式脂肪</b><span>肥肉、加工肉、奶油、油炸、酥皮、椰子油與棕櫚油</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M14 10h20l-3 30a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4z" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M22 4h4v6h-4z" stroke="var(--red)" stroke-width="2"/><path d="M8 42l32-32" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>少含糖飲料</b><span>對三酸甘油脂與體重影響特別大</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M13 8h22l-9 13v14" stroke="var(--red)" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 35h16" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><circle cx="36" cy="34" r="8" stroke="var(--red)" stroke-width="2.2"/><path d="M31 39l10-10" stroke="var(--red)" stroke-width="2.2" stroke-linecap="round"/></svg><b>限制酒精</b><span>不要為了「保養」而喝酒；會升高血壓與三酸甘油脂</span></div>
 </div>
 
 <div class="box blue">
@@ -692,11 +708,13 @@
 </div>
 
 <div class="sheet">
-<img src="angina.svg" alt="認識心絞痛 A5 病人衛教單張">
+<img loading="lazy" decoding="async" width="559" height="794" src="angina.svg" alt="認識心絞痛 A5 病人衛教單張">
 </div>
 
 <div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
 
+<nav class="topicnav" aria-label="其他衛教主題"><a rel="prev" href="../mi/"><small>← 上一個主題</small>認識心肌梗塞</a><a rel="next" href="../cath/"><small>下一個主題 →</small>心導管檢查與手術</a></nav>
+</main>
 <footer>
 <p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
 <p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>

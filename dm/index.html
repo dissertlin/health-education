@@ -58,7 +58,7 @@
   .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
   .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
   .icons .nt{background:var(--card);border:1px solid var(--line)}
-  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false"%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
   @media (prefers-color-scheme:dark){body::before{opacity:.20}}
   .wrap{position:relative;z-index:1}
   @media print{body::before{opacity:.16}}
@@ -97,13 +97,29 @@
   .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
   .views b{color:var(--brand);font-weight:700}
   /* 瀏覽次數 end */
+  /* 導覽與無障礙補強 begin */
+  .skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .skip:focus{top:8px}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id]{scroll-margin-top:12px}
+  .topicnav{display:flex;flex-wrap:wrap;gap:10px;margin:2.2em 0 0}
+  .topicnav a{flex:1 1 220px;display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.5}
+  .topicnav a small{display:block;color:var(--sub);font-size:.76rem}
+  .topicnav a[rel=next]{text-align:right}
+  .topicnav a:hover{border-color:var(--brand)}
+  @media (max-width:560px){.toc ol{columns:1}.wrap{padding-left:16px;padding-right:16px}.ico2{grid-template-columns:1fr}}
+  /* 導覽與無障礙補強 end */
 </style>
 </head>
 <body>
 <div class="wrap" id="top">
 
+<a class="skip" href="#main">跳到主要內容</a>
 <a class="back" href="../">← 回衛教專欄</a>
 
+<main id="main">
 <h1>認識第二型糖尿病</h1>
 <p class="lead">控制血糖不是為了讓報告好看，<b>而是為了保住眼睛、腎臟、神經、心臟與雙腳</b>。<br>
 這一頁說明您的目標數字怎麼訂、怎麼吃、藥在做什麼、低血糖怎麼處理，以及<b>什麼時候不能等</b>。</p>
@@ -612,12 +628,12 @@
 </div>
 
 <div class="icons">
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M16 6c5 0 9 4 9 10 0 7-2.4 11-2.4 17 0 5-2.4 9-7 9s-7-4-7-9c0-6-2.4-10-2.4-17C6.2 10 11 6 16 6z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="31" cy="10" r="3" fill="var(--brand)"/><circle cx="38" cy="14" r="2.8" fill="var(--brand)"/><circle cx="42" cy="20" r="2.6" fill="var(--brand)"/></svg><b>每天檢查雙腳</b><span>包含<b>腳趾縫與腳底</b>；看不到可以用鏡子，或請家人幫忙看</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M12 30c0-10 5-16 12-16s12 6 12 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="30" width="32" height="10" rx="5" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 8v6M16 12l3 4M32 12l-3 4" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>洗腳先測水溫</b><span>用<b>手肘或溫度計</b>，不要用腳試——神經鈍了會燙傷卻不覺得</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M10 36c4-8 10-12 14-12s10 4 14 12" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M6 40h36" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M8 8l32 32" stroke="var(--red)" stroke-width="2.8" stroke-linecap="round"/></svg><b>不要赤腳</b><span>室內也要穿鞋或襪；<b>穿鞋前先摸鞋內有沒有異物</b></span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M14 6l20 20M20 6L8 18l8 8" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="34" r="8" stroke="var(--red)" stroke-width="2.4"/><path d="M29 39l10-10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>不要自己處理</b><span><b>雞眼、厚繭、嵌甲不要自行修剪或貼藥布</b>，交給醫療人員</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M8 32c0-9 7-16 16-16s16 7 16 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="6" y="32" width="36" height="8" rx="4" stroke="var(--brand)" stroke-width="2.4"/><path d="M18 20v-6h12v6" stroke="var(--brand)" stroke-width="2.2"/></svg><b>選對鞋襪</b><span>包覆、合腳、不擠壓；<b>新鞋先穿短時間</b>；襪子淺色好發現滲液</span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="var(--red)" stroke-width="2.4"/><circle cx="24" cy="24" r="17" stroke="var(--red)" stroke-width="2" stroke-dasharray="5 4"/><path d="M24 19v10M19 24h10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>有傷口就回診</b><span><b>不要等它自己好。</b>紅、腫、熱、有分泌物或不癒合，儘快就醫</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M16 6c5 0 9 4 9 10 0 7-2.4 11-2.4 17 0 5-2.4 9-7 9s-7-4-7-9c0-6-2.4-10-2.4-17C6.2 10 11 6 16 6z" stroke="var(--brand)" stroke-width="2.4" stroke-linejoin="round"/><circle cx="31" cy="10" r="3" fill="var(--brand)"/><circle cx="38" cy="14" r="2.8" fill="var(--brand)"/><circle cx="42" cy="20" r="2.6" fill="var(--brand)"/></svg><b>每天檢查雙腳</b><span>包含<b>腳趾縫與腳底</b>；看不到可以用鏡子，或請家人幫忙看</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M12 30c0-10 5-16 12-16s12 6 12 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="30" width="32" height="10" rx="5" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 8v6M16 12l3 4M32 12l-3 4" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/></svg><b>洗腳先測水溫</b><span>用<b>手肘或溫度計</b>，不要用腳試——神經鈍了會燙傷卻不覺得</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M10 36c4-8 10-12 14-12s10 4 14 12" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M6 40h36" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/><path d="M8 8l32 32" stroke="var(--red)" stroke-width="2.8" stroke-linecap="round"/></svg><b>不要赤腳</b><span>室內也要穿鞋或襪；<b>穿鞋前先摸鞋內有沒有異物</b></span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M14 6l20 20M20 6L8 18l8 8" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="34" r="8" stroke="var(--red)" stroke-width="2.4"/><path d="M29 39l10-10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>不要自己處理</b><span><b>雞眼、厚繭、嵌甲不要自行修剪或貼藥布</b>，交給醫療人員</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M8 32c0-9 7-16 16-16s16 7 16 16" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><rect x="6" y="32" width="36" height="8" rx="4" stroke="var(--brand)" stroke-width="2.4"/><path d="M18 20v-6h12v6" stroke="var(--brand)" stroke-width="2.2"/></svg><b>選對鞋襪</b><span>包覆、合腳、不擠壓；<b>新鞋先穿短時間</b>；襪子淺色好發現滲液</span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="var(--red)" stroke-width="2.4"/><circle cx="24" cy="24" r="17" stroke="var(--red)" stroke-width="2" stroke-dasharray="5 4"/><path d="M24 19v10M19 24h10" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round"/></svg><b>有傷口就回診</b><span><b>不要等它自己好。</b>紅、腫、熱、有分泌物或不癒合，儘快就醫</span></div>
 </div>
 
 <div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
@@ -707,11 +723,13 @@
 </div>
 
 <div class="sheet">
-<img src="dm.svg" alt="認識第二型糖尿病 A5 病人衛教單張">
+<img loading="lazy" decoding="async" width="559" height="794" src="dm.svg" alt="認識第二型糖尿病 A5 病人衛教單張">
 </div>
 
 <div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
 
+<nav class="topicnav" aria-label="其他衛教主題"><a rel="prev" href="../oh/"><small>← 上一個主題</small>姿態性低血壓｜起身不暈</a><a rel="next" href="../lipid/"><small>下一個主題 →</small>認識膽固醇</a></nav>
+</main>
 <footer>
 <p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
 <p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>

@@ -58,7 +58,7 @@
   .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
   .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
   .icons .nt{background:var(--card);border:1px solid var(--line)}
-  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false"%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
   @media (prefers-color-scheme:dark){body::before{opacity:.20}}
   .wrap{position:relative;z-index:1}
   @media print{body::before{opacity:.16}}
@@ -97,13 +97,29 @@
   .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
   .views b{color:var(--brand);font-weight:700}
   /* 瀏覽次數 end */
+  /* 導覽與無障礙補強 begin */
+  .skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .skip:focus{top:8px}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id]{scroll-margin-top:12px}
+  .topicnav{display:flex;flex-wrap:wrap;gap:10px;margin:2.2em 0 0}
+  .topicnav a{flex:1 1 220px;display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.5}
+  .topicnav a small{display:block;color:var(--sub);font-size:.76rem}
+  .topicnav a[rel=next]{text-align:right}
+  .topicnav a:hover{border-color:var(--brand)}
+  @media (max-width:560px){.toc ol{columns:1}.wrap{padding-left:16px;padding-right:16px}.ico2{grid-template-columns:1fr}}
+  /* 導覽與無障礙補強 end */
 </style>
 </head>
 <body>
 <div class="wrap" id="top">
 
+<a class="skip" href="#main">跳到主要內容</a>
 <a class="back" href="../">← 回衛教專欄</a>
 
+<main id="main">
 <h1>心導管檢查與手術</h1>
 <p class="lead">聽到「心導管」很多人第一個反應是「要開刀了嗎？」<b>不是。</b>它不需要開胸、不用全身麻醉，過程中你是清醒的，身上只會留下一個針孔大小的穿刺點。<br>
 這一頁說明什麼人需要做、做了能得到什麼、當天會發生什麼事，以及<b>回家之後要注意什麼</b>。</p>
@@ -134,12 +150,12 @@
 <p>心導管不是健康檢查項目，<b>不會因為「想看看血管」就安排</b>。醫師會先用非侵入性的方式評估，當結果顯示風險夠高、或症狀用藥物控制不住時，才會建議做。</p>
 
 <div class="icons">
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="9" r="6" stroke="var(--brand)" stroke-width="2.6"/><path d="M11 44V30a13 13 0 0 1 26 0v14" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M28 23l-8 11h7l-2.5 9 10-13h-7z" fill="var(--red)"/></svg><b>胸痛懷疑冠心病</b><span>典型的心絞痛，且<b>藥物控制效果不佳</b></span></div>
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><rect x="3" y="8" width="42" height="32" rx="4" stroke="var(--brand)" stroke-width="2.4"/><path d="M8 26h7l4-11 5 21 4-14 3 4h9" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><b>檢查顯示心肌缺氧</b><span>運動心電圖、核子醫學掃描或負荷超音波結果<b>顯示高風險</b></span></div>
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><path d="M24 42C13 33 5 26 5 17.5 5 11.5 9.8 7 15.5 7c3.2 0 6 1.5 8.5 4.2C26.5 8.5 29.3 7 32.5 7 38.2 7 43 11.5 43 17.5 43 26 35 33 24 42z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><path d="M26 15l-7 10h6l-2.5 9 9-12h-6z" fill="var(--red)"/></svg><b>急性心肌梗塞</b><span><b>急症</b>：越早打通血管，保住的心肌越多</span></div>
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><path d="M24 40C14 33 7 27 7 19.5 7 14 11.3 10 16 10c3 0 5.9 1.5 8 4 2.1-2.5 5-4 8-4 4.7 0 9 4 9 9.5C41 27 34 33 24 40z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M18 22v6M30 22v6M18 25h12" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/></svg><b>不明原因心衰竭</b><span>用來釐清<b>是不是冠狀動脈阻塞造成</b>的</span></div>
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17" stroke="var(--brand)" stroke-width="2.6"/><path d="M24 7v34M24 24L9 15M24 24l15-9" stroke="var(--brand)" stroke-width="2.2"/></svg><b>瓣膜手術前評估</b><span>開刀前先確認冠狀動脈有沒有需要一併處理</span></div>
-<div class="nt"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="var(--brand)" stroke-width="2.6"/><path d="M17 19c0-4 3.2-6.5 7-6.5s6.8 2.7 6.8 6.2c0 5-6.4 5-6.8 10" stroke="var(--brand)" stroke-width="2.6" stroke-linecap="round"/><circle cx="24" cy="35" r="2.6" fill="var(--brand)"/></svg><b>其他經評估需要</b><span>例如心臟移植後追蹤、部分先天性心臟病</span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="9" r="6" stroke="var(--brand)" stroke-width="2.6"/><path d="M11 44V30a13 13 0 0 1 26 0v14" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M28 23l-8 11h7l-2.5 9 10-13h-7z" fill="var(--red)"/></svg><b>胸痛懷疑冠心病</b><span>典型的心絞痛，且<b>藥物控制效果不佳</b></span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="3" y="8" width="42" height="32" rx="4" stroke="var(--brand)" stroke-width="2.4"/><path d="M8 26h7l4-11 5 21 4-14 3 4h9" stroke="var(--red)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><b>檢查顯示心肌缺氧</b><span>運動心電圖、核子醫學掃描或負荷超音波結果<b>顯示高風險</b></span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 42C13 33 5 26 5 17.5 5 11.5 9.8 7 15.5 7c3.2 0 6 1.5 8.5 4.2C26.5 8.5 29.3 7 32.5 7 38.2 7 43 11.5 43 17.5 43 26 35 33 24 42z" stroke="var(--red)" stroke-width="2.6" stroke-linejoin="round"/><path d="M26 15l-7 10h6l-2.5 9 9-12h-6z" fill="var(--red)"/></svg><b>急性心肌梗塞</b><span><b>急症</b>：越早打通血管，保住的心肌越多</span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 40C14 33 7 27 7 19.5 7 14 11.3 10 16 10c3 0 5.9 1.5 8 4 2.1-2.5 5-4 8-4 4.7 0 9 4 9 9.5C41 27 34 33 24 40z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M18 22v6M30 22v6M18 25h12" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/></svg><b>不明原因心衰竭</b><span>用來釐清<b>是不是冠狀動脈阻塞造成</b>的</span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="17" stroke="var(--brand)" stroke-width="2.6"/><path d="M24 7v34M24 24L9 15M24 24l15-9" stroke="var(--brand)" stroke-width="2.2"/></svg><b>瓣膜手術前評估</b><span>開刀前先確認冠狀動脈有沒有需要一併處理</span></div>
+<div class="nt"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="var(--brand)" stroke-width="2.6"/><path d="M17 19c0-4 3.2-6.5 7-6.5s6.8 2.7 6.8 6.2c0 5-6.4 5-6.8 10" stroke="var(--brand)" stroke-width="2.6" stroke-linecap="round"/><circle cx="24" cy="35" r="2.6" fill="var(--brand)"/></svg><b>其他經評估需要</b><span>例如心臟移植後追蹤、部分先天性心臟病</span></div>
 </div>
 
 <div class="box key">
@@ -481,12 +497,12 @@
 <h2 id="s10"><span class="num">10</span>回家之後怎麼照顧？</h2>
 
 <div class="icons">
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="var(--brand)" stroke-width="2.6"/><circle cx="24" cy="24" r="18" stroke="var(--brand)" stroke-width="2" stroke-dasharray="5 4"/><path d="M24 19v10M19 24h10" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/></svg><b>每天看傷口</b><span>保持<b>清潔乾燥</b>；何時可以碰水、何時拆敷料，依院方指示</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4c10 12 16 19 16 26a16 16 0 1 1-32 0c0-7 6-14 16-26z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M16 32a8 8 0 0 0 8 8" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round"/></svg><b>多喝水</b><span>幫助排出顯影劑；<b>除非醫師限制水分</b></span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="10" r="5" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 15v12M24 27l-7 15M24 27l7 15M14 20h20" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><path d="M6 42L42 8" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>約一週避免</b><span>提重物、劇烈運動、用力蹲起；<b>手腕路徑者該手不要提重物</b></span></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><rect x="5" y="17" width="26" height="14" rx="7" stroke="var(--red)" stroke-width="2.6"/><path d="M18 17v14" stroke="var(--red)" stroke-width="2.2"/><path d="M39 10v18M39 35v4" stroke="var(--red)" stroke-width="3.4" stroke-linecap="round"/></svg><b>抗血小板藥絕不可自行停</b><span>放過支架的人，停藥可能造成<b>支架內血栓</b>，會致命</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><rect x="9" y="6" width="30" height="36" rx="4" stroke="var(--brand)" stroke-width="2.6"/><path d="M16 16h16M16 24h16M16 32h10" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><circle cx="36" cy="36" r="8" fill="var(--okbg)" stroke="var(--brand)" stroke-width="2.2"/><path d="M32 36l3 3 5-6" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>按時回診</b><span>了解檢查結果、調整用藥、安排後續追蹤</span></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M24 40C15 34 9 28 9 21c0-5 4-9 9-9 2.6 0 4.9 1.2 6 3 1.1-1.8 3.4-3 6-3 5 0 9 4 9 9 0 7-6 13-15 19z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M14 22h5l2-4 3 8 2-4h8" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>繼續控制危險因子</b><span>血壓、血脂、血糖、體重與<b>戒菸</b>——這才是保護其他血管的關鍵</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="var(--brand)" stroke-width="2.6"/><circle cx="24" cy="24" r="18" stroke="var(--brand)" stroke-width="2" stroke-dasharray="5 4"/><path d="M24 19v10M19 24h10" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/></svg><b>每天看傷口</b><span>保持<b>清潔乾燥</b>；何時可以碰水、何時拆敷料，依院方指示</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 4c10 12 16 19 16 26a16 16 0 1 1-32 0c0-7 6-14 16-26z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M16 32a8 8 0 0 0 8 8" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round"/></svg><b>多喝水</b><span>幫助排出顯影劑；<b>除非醫師限制水分</b></span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="10" r="5" stroke="var(--brand)" stroke-width="2.4"/><path d="M24 15v12M24 27l-7 15M24 27l7 15M14 20h20" stroke="var(--brand)" stroke-width="2.4" stroke-linecap="round"/><path d="M6 42L42 8" stroke="var(--red)" stroke-width="2.6" stroke-linecap="round"/></svg><b>約一週避免</b><span>提重物、劇烈運動、用力蹲起；<b>手腕路徑者該手不要提重物</b></span></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="5" y="17" width="26" height="14" rx="7" stroke="var(--red)" stroke-width="2.6"/><path d="M18 17v14" stroke="var(--red)" stroke-width="2.2"/><path d="M39 10v18M39 35v4" stroke="var(--red)" stroke-width="3.4" stroke-linecap="round"/></svg><b>抗血小板藥絕不可自行停</b><span>放過支架的人，停藥可能造成<b>支架內血栓</b>，會致命</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="9" y="6" width="30" height="36" rx="4" stroke="var(--brand)" stroke-width="2.6"/><path d="M16 16h16M16 24h16M16 32h10" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round"/><circle cx="36" cy="36" r="8" fill="var(--okbg)" stroke="var(--brand)" stroke-width="2.2"/><path d="M32 36l3 3 5-6" stroke="var(--brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>按時回診</b><span>了解檢查結果、調整用藥、安排後續追蹤</span></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 40C15 34 9 28 9 21c0-5 4-9 9-9 2.6 0 4.9 1.2 6 3 1.1-1.8 3.4-3 6-3 5 0 9 4 9 9 0 7-6 13-15 19z" stroke="var(--brand)" stroke-width="2.6" stroke-linejoin="round"/><path d="M14 22h5l2-4 3 8 2-4h8" stroke="var(--sub)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><b>繼續控制危險因子</b><span>血壓、血脂、血糖、體重與<b>戒菸</b>——這才是保護其他血管的關鍵</span></div>
 </div>
 
 <div class="box alert">
@@ -590,11 +606,13 @@
 </div>
 
 <div class="sheet">
-<img src="cath.svg" alt="心導管檢查與手術 A5 病人衛教單張">
+<img loading="lazy" decoding="async" width="559" height="794" src="cath.svg" alt="心導管檢查與手術 A5 病人衛教單張">
 </div>
 
 <div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
 
+<nav class="topicnav" aria-label="其他衛教主題"><a rel="prev" href="../angina/"><small>← 上一個主題</small>認識心絞痛</a><a rel="next" href="../af-intro/"><small>下一個主題 →</small>認識心房顫動</a></nav>
+</main>
 <footer>
 <p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
 <p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>

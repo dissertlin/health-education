@@ -44,3 +44,6 @@ main{padding:15px 15px 92px}.hero{text-align:center;padding:16px 8px 7px;backgro
 .topbar .todetail + .tohome{margin-left:0}
 .topbar .toback svg,.topbar .todetail svg{display:block}
 .topbar .toback:active,.topbar .todetail:active{background:#e8f3ff}
+.skip{position:absolute;left:10px;top:-100px;z-index:100;background:#fff;color:#123f73;padding:12px;border-radius:8px}
+.skip:focus{top:10px}
+:focus-visible{outline:3px solid #123f73;outline-offset:2px}

@@ -58,7 +58,7 @@
   .icons .ok{background:var(--okbg);border:1.5px solid var(--brand)}
   .icons .no{background:var(--redbg);border:1.5px solid var(--redline)}
   .icons .nt{background:var(--card);border:1px solid var(--line)}
-  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
+  body::before{content:"";position:fixed;inset:0;z-index:5;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg aria-hidden="true" focusable="false"%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22340%22%20height=%22215%22><text%20x=%22170%22%20y=%22108%22%20font-family=%22PingFang%20TC,Noto%20Sans%20TC,Microsoft%20JhengHei,sans-serif%22%20font-size=%2219%22%20fill=%22%235b6e80%22%20text-anchor=%22middle%22%20transform=%22rotate(-28%20170%20108)%22>%E6%9C%AA%E7%B6%93%E5%90%8C%E6%84%8F%E8%AB%8B%E5%8B%BF%E9%87%8D%E8%A3%BD</text></svg>");background-repeat:repeat;opacity:.18}
   @media (prefers-color-scheme:dark){body::before{opacity:.20}}
   .wrap{position:relative;z-index:1}
   @media print{body::before{opacity:.16}}
@@ -108,11 +108,27 @@
   .views{margin:.9em 0 0;font-size:.78rem;color:var(--sub)}
   .views b{color:var(--brand);font-weight:700}
   /* 瀏覽次數 end */
+  /* 導覽與無障礙補強 begin */
+  .skip{position:absolute;left:8px;top:-80px;z-index:20;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:700}
+  .skip:focus{top:8px}
+  :focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  h2[id]{scroll-margin-top:12px}
+  .topicnav{display:flex;flex-wrap:wrap;gap:10px;margin:2.2em 0 0}
+  .topicnav a{flex:1 1 220px;display:block;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);text-decoration:none;font-size:.92rem;line-height:1.5}
+  .topicnav a small{display:block;color:var(--sub);font-size:.76rem}
+  .topicnav a[rel=next]{text-align:right}
+  .topicnav a:hover{border-color:var(--brand)}
+  @media (max-width:560px){.toc ol{columns:1}.wrap{padding-left:16px;padding-right:16px}.ico2{grid-template-columns:1fr}}
+  /* 導覽與無障礙補強 end */
 </style>
 </head>
 <body>
 <div class="wrap" id="top">
+<a class="skip" href="#main">跳到主要內容</a>
 <a class="back" href="../">← 回衛教專欄</a>
+<main id="main">
 <h1>抗凝血藥與抗血小板藥</h1>
 <p class="lead">很多人叫它「血路藥」。它在幫你<b>防中風、防心肌梗塞</b>，代價是<b>比較容易流血</b>。這一頁說明怎麼吃、什麼時候要停、什麼時候該衝急診。</p>
 <a class="tovoice" href="../patient-education-preview/anticoag/"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6.5 9H3v6h3.5L11 19z"/><path d="M15.4 8.6a4.8 4.8 0 0 1 0 6.8"/><path d="M18.2 5.8a8.8 8.8 0 0 1 0 12.4"/></svg>聽語音版</a>
@@ -213,12 +229,12 @@
 <p>目標只有一句：<b>不漏吃，也不要多流血。</b></p>
 
 <div class="ico2">
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><rect x="5" y="9" width="38" height="34" rx="4" stroke="#2d6a4f" stroke-width="2.4"/><path d="M5 19h38M16 4v10M32 4v10" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/><path d="M15 30l6 6 13-13" stroke="#2d6a4f" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>固定時間吃，不要漏</b><span>設鬧鐘或用藥盒。想起來時若已接近下一次就跳過，<b>不要自己補兩倍</b></span></div></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><g transform="rotate(-25 24 24)"><rect x="6" y="17" width="36" height="14" rx="7" stroke="#b5392e" stroke-width="2.4"/><path d="M24 17v14" stroke="#b5392e" stroke-width="2.3"/></g><path d="M8 40L40 8" stroke="#b5392e" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>止痛藥要先問</b><span>非類固醇消炎止痛藥（多數痠痛藥、感冒藥含有）會增加腸胃出血，一般可用的是普拿疼類。<b>買成藥前先問藥師</b></span></div></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><path d="M24 42c0-15 8-23 19-25 0 15-8 23-19 25z" stroke="#b5392e" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 42c0-12-7-18-18-20 0 12 7 18 18 20z" stroke="#b5392e" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 42v4" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>中草藥與保健食品先問</b><span>銀杏、丹參、當歸、大蒜、薑黃、高劑量魚油都可能增加出血。<b>開始吃之前先告訴醫師</b></span></div></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><path d="M6 34l20-20 5 5-20 20z" stroke="#2d6a4f" stroke-width="2.4" stroke-linejoin="round"/><path d="M28 12l8-8 6 6-8 8z" stroke="#2d6a4f" stroke-width="2.4" stroke-linejoin="round"/><path d="M5 40h14" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>用軟毛牙刷、電動刮鬍刀</b><span>減少牙齦與皮膚的小出血。<b>定期看牙醫、把牙齒顧好，反而比不敢刷牙安全</b></span></div></div>
-<div class="no"><svg viewBox="0 0 48 48" fill="none"><circle cx="13" cy="9" r="6" stroke="#b5392e" stroke-width="2.4"/><path d="M13 15l5 12-8 10M18 27l12 3M7 37l-3 7" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/><path d="M34 41h10M37 35l7 6" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>小心跌倒</b><span>這是長輩最重要的一項。浴室防滑、夜間留小燈、家中不要有門檻與電線。<b>頭部撞到一定要就醫</b></span></div></div>
-<div class="ok"><svg viewBox="0 0 48 48" fill="none"><rect x="4" y="12" width="40" height="27" rx="4" stroke="#2d6a4f" stroke-width="2.4"/><path d="M10 22h13M10 31h20" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/><path d="M32 17v9M27.5 21.5h9" stroke="#2d6a4f" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>隨身帶用藥卡</b><span>寫上藥名、劑量與開藥醫院。<b>發生意外或臨時就醫時，這張卡可能救你一命</b></span></div></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="5" y="9" width="38" height="34" rx="4" stroke="#2d6a4f" stroke-width="2.4"/><path d="M5 19h38M16 4v10M32 4v10" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/><path d="M15 30l6 6 13-13" stroke="#2d6a4f" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>固定時間吃，不要漏</b><span>設鬧鐘或用藥盒。想起來時若已接近下一次就跳過，<b>不要自己補兩倍</b></span></div></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><g transform="rotate(-25 24 24)"><rect x="6" y="17" width="36" height="14" rx="7" stroke="#b5392e" stroke-width="2.4"/><path d="M24 17v14" stroke="#b5392e" stroke-width="2.3"/></g><path d="M8 40L40 8" stroke="#b5392e" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>止痛藥要先問</b><span>非類固醇消炎止痛藥（多數痠痛藥、感冒藥含有）會增加腸胃出血，一般可用的是普拿疼類。<b>買成藥前先問藥師</b></span></div></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M24 42c0-15 8-23 19-25 0 15-8 23-19 25z" stroke="#b5392e" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 42c0-12-7-18-18-20 0 12 7 18 18 20z" stroke="#b5392e" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 42v4" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>中草藥與保健食品先問</b><span>銀杏、丹參、當歸、大蒜、薑黃、高劑量魚油都可能增加出血。<b>開始吃之前先告訴醫師</b></span></div></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><path d="M6 34l20-20 5 5-20 20z" stroke="#2d6a4f" stroke-width="2.4" stroke-linejoin="round"/><path d="M28 12l8-8 6 6-8 8z" stroke="#2d6a4f" stroke-width="2.4" stroke-linejoin="round"/><path d="M5 40h14" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>用軟毛牙刷、電動刮鬍刀</b><span>減少牙齦與皮膚的小出血。<b>定期看牙醫、把牙齒顧好，反而比不敢刷牙安全</b></span></div></div>
+<div class="no"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><circle cx="13" cy="9" r="6" stroke="#b5392e" stroke-width="2.4"/><path d="M13 15l5 12-8 10M18 27l12 3M7 37l-3 7" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/><path d="M34 41h10M37 35l7 6" stroke="#b5392e" stroke-width="2.4" stroke-linecap="round"/></svg><div><b>小心跌倒</b><span>這是長輩最重要的一項。浴室防滑、夜間留小燈、家中不要有門檻與電線。<b>頭部撞到一定要就醫</b></span></div></div>
+<div class="ok"><svg aria-hidden="true" focusable="false" viewBox="0 0 48 48" fill="none"><rect x="4" y="12" width="40" height="27" rx="4" stroke="#2d6a4f" stroke-width="2.4"/><path d="M10 22h13M10 31h20" stroke="#2d6a4f" stroke-width="2.4" stroke-linecap="round"/><path d="M32 17v9M27.5 21.5h9" stroke="#2d6a4f" stroke-width="2.6" stroke-linecap="round"/></svg><div><b>隨身帶用藥卡</b><span>寫上藥名、劑量與開藥醫院。<b>發生意外或臨時就醫時，這張卡可能救你一命</b></span></div></div>
 </div>
 
 <div class="box warn">
@@ -394,8 +410,10 @@
 </div>
 
 <div class="sheet">
-<img src="anticoag.svg" alt="抗凝血藥與抗血小板藥 A5 病人衛教單張">
+<img loading="lazy" decoding="async" width="559" height="794" src="anticoag.svg" alt="抗凝血藥與抗血小板藥 A5 病人衛教單張">
 </div><div class="totop"><a href="#top"><span>&#8593;</span>回目錄</a></div>
+<nav class="topicnav" aria-label="其他衛教主題"><a rel="prev" href="../af-meds/"><small>← 上一個主題</small>心房顫動的用藥指南</a><a rel="next" href="../af/"><small>下一個主題 →</small>心房顫動電燒手術</a></nav>
+</main>
 <footer>
 <p>© 2026 林祐賸醫師 編製　本衛教內容之文字、圖表與版面設計均受著作權保護。</p>
 <p>僅授權個人閱讀及臨床衛教非營利使用；<b>未經著作人同意，請勿重製、改作、散布或作商業用途</b>。</p>
