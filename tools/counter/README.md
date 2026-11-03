@@ -1,11 +1,11 @@
 # 瀏覽次數計數器（自建，不經第三方）
 
-十份衛教詳細版**各自獨立計數**，資料存在您自己的 Cloudflare 帳號裡。
+各份衛教詳細版（目前 17 份，代號見 `worker.js` 的 `PAGES`）**各自獨立計數**，資料存在您自己的 Cloudflare 帳號裡。
 
 ## 隱私設計
 
 `worker.js` 整支程式只讀寫一個整數。沒有任何一行寫入 IP、時間、
-User-Agent、Referer 或 cookie —— 資料庫裡就只有這十筆：
+User-Agent、Referer 或 cookie —— 資料庫裡就只有每個頁面一筆整數：
 
 ```
 views:af         -> 123

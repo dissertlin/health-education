@@ -6,10 +6,12 @@
 
 | 單張 | 網址 | 檔案 |
 | --- | --- | --- |
+| 認識心肌梗塞 | `/mi/` | `mi/mi.svg` · `mi/mi.pdf` · `mi/index.html`（詳細版長文）|
 | 認識心絞痛 | `/angina/` | `angina/angina.svg` · `angina/angina.pdf` · `angina/index.html`（詳細版長文）|
 | 心導管檢查與手術 | `/cath/` | `cath/cath.svg` · `cath/cath.pdf` · `cath/index.html`（詳細版長文）|
 | 認識心房顫動 | `/af-intro/` | `af-intro/af-basics.svg` · `af-intro/af-basics.pdf` · `af-intro/index.html`（詳細版長文）|
 | 心房顫動的用藥指南 | `/af-meds/` | `af-meds/af-meds.svg` · `af-meds/af-meds.pdf` · `af-meds/index.html`（詳細版長文）|
+| 抗凝血藥與抗血小板藥 | `/anticoag/` | `anticoag/anticoag.svg` · `anticoag/anticoag.pdf` · `anticoag/index.html`（詳細版長文）|
 | 心房顫動電燒手術 | `/af/` | `af/af-ablation.svg` · `af/af-ablation.pdf` · `af/index.html`（詳細版長文，含台灣健保與自費費用）|
 | 認識心室上頻脈 | `/svt/` | `svt/svt.svg` · `svt/svt.pdf` · `svt/index.html`（詳細版長文）|
 | 電生理檢查與電燒手術 | `/ep/` | `ep/ep.svg` · `ep/ep.pdf` · `ep/index.html`（詳細版長文）|
@@ -28,6 +30,18 @@
 
 `/af-intro/` 除了單張本身，另有一份依單張各重點展開的**網路詳細版長文**（12 個章節，含 CHA₂DS₂-VA、亞洲人 NOAC 建議、自我測脈搏、常見問題）。
 
+## 語音版
+
+`/patient-education-preview/` 是同 17 個主題的**語音版**（逐段朗讀、字體較大、可互動問答），每個主題資料夾含 `index.html`、`topic-N.html`、`faq.html`、`audio/`、`handout.pdf`。詳細版與語音版互相連結。產生方式見 `tools/voice_gen.py`。
+
+## 維護
+
+日常維護、新增主題的完整清單、自動檢查腳本與待人工確認事項，請看：
+
+- [MAINTENANCE.md](MAINTENANCE.md) — 維護指南
+- [REVIEW-NOTES.md](REVIEW-NOTES.md) — 待人工確認事項（只標註，未更動內容）
+- [CHANGES.md](CHANGES.md) — 變更紀錄
+
 ## 新增一張衛教單
 
 1. 建立 `<slug>/` 資料夾，放入 `<name>.svg`
@@ -43,6 +57,7 @@ python3 tools/add_qr.py <slug>/<name>.svg <slug>/<name>.svg \
 腳本可重複執行，會自動覆蓋舊的 QR。
 
 3. 產生 A5 PDF、複製一份 `index.html` 改標題，並在首頁 `index.html` 加一張卡片。
+4. 其餘必要步驟（計數器代號、上／下一個主題導覽、語音版、檢查腳本）見 [MAINTENANCE.md](MAINTENANCE.md)。
 
 ## 版權與授權
 
