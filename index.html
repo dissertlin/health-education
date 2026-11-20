@@ -6,7 +6,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<title>病人衛教資訊專欄</title>
+<title>病人衛教資訊專欄｜林祐賸醫師</title>
 <meta name="description" content="心臟科 A5 病人衛教資訊專欄，可線上檢視或下載列印。">
 <style>
   :root{--bg:#f4f9fa;--card:#fff;--line:#d9e5ea;--ink:#18334d;--sub:#5b6e80;--brand:#15a99d}
@@ -18,10 +18,12 @@
   a.back{display:inline-block;color:var(--sub);text-decoration:none;font-size:.9rem;margin-bottom:10px}
   h1{font-size:1.35rem;margin:.2em 0 .1em}
   /* 網站標誌 begin */
-  .brand{display:flex;align-items:center;gap:16px;margin:4px 0 16px}
+  .brand{display:flex;align-items:flex-start;gap:16px;margin:4px 0 16px}
   .brand img{flex:0 0 84px;width:84px;height:84px}
   .brand .txt{flex:1 1 0;min-width:0}
   .brand .lead{margin:0;color:var(--sub);font-size:.95rem;line-height:1.7}
+  .brand .byline{margin:0 0 5px;color:var(--brand);font-size:1rem;font-weight:700;letter-spacing:.02em;white-space:nowrap}
+  .brand .byline b{font-size:1.1rem}
   .sronly{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
           clip:rect(0 0 0 0);white-space:nowrap;border:0}
   @media (max-width:520px){.brand{gap:13px}.brand img{flex:0 0 80px;width:80px;height:80px}}
@@ -58,6 +60,7 @@
   .statlink a:hover{color:var(--brand);opacity:1;text-decoration:underline}
   /* 統計連結 end */
   footer{color:var(--sub);font-size:.82rem;margin-top:26px;border-top:1px solid var(--line);padding-top:14px}
+  footer .credit{margin:0 0 8px;color:var(--ink);font-size:.88rem}
 </style>
 </head>
 <body>
@@ -67,7 +70,8 @@
 <img src="assets/logo-badge.png" width="512" height="512" alt="病人衛教資訊專欄 Patient Education">
 <div class="txt">
 <h1 class="sronly">病人衛教資訊專欄</h1>
-<p class="lead">心臟科與代謝相關的 A5 衛教單張，可放大檢視或下載列印。每一張都有展開說明的詳細版。每張單張右上角的 QR code 會連到這裡的對應頁面。</p>
+<p class="byline">心臟內科　<b>林祐賸醫師</b></p>
+<p class="lead">門診常被問到的心臟與代謝問題，我整理成一張張 A5 衛教單，可以放大看或下載列印；每一張都有展開說明的詳細版，單張右上角的 QR code 會連到這裡。</p>
 </div>
 </header>
 <!-- 網站標誌 end -->
@@ -100,7 +104,7 @@
 <a href="hf/"><img src="hf/hf.svg" alt="認識心臟衰竭縮圖"><h2>認識心臟衰竭</h2><p>什麼是心臟衰竭、症狀與原因、四大支柱治療、每天要量什麼（附詳細版）</p></a>
 <a href="gout/"><img src="gout/gout.svg" alt="痛風控制｜生活大小事縮圖"><h2>痛風控制｜生活大小事</h2><p>尿酸要降到多少、發作怎麼辦、華人的 HLA-B*58:01 檢查（附詳細版）</p></a>
 </div>
-<footer>本衛教資訊供醫病共同決策參考，<strong>不取代個別診療</strong>；實際治療方式請與您的心臟科／電生理醫師討論。
+<footer><p class="credit">© 2026 <b>林祐賸醫師</b> 編製　本專欄內容未經同意請勿重製、改作或作商業用途。</p>本衛教資訊供醫病共同決策參考，<strong>不取代個別診療</strong>；實際治療方式請與您的心臟科／電生理醫師討論。
 <!-- 統計連結 begin -->
 <p class="statlink"><a href="https://he-counter.dissertlin.workers.dev/stats" rel="nofollow noopener" target="_blank">各篇衛教瀏覽次數統計</a></p>
 <!-- 統計連結 end -->
